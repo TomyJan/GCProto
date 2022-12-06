@@ -1,0 +1,11 @@
+// Proto has been converted from Sorapointa to Grasscutter format
+// Proto has been converted from Sorapointa to Grasscutter format
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "MusicBeatmapNote.proto";
+
+message MusicBeatmapList {
+	repeated MusicBeatmapNote beatmap_note_list = 1;
+}
