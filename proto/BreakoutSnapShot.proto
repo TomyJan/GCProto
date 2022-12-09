@@ -1,5 +1,3 @@
-// Proto has been converted from Sorapointa to Grasscutter format
-// Proto has been converted from Sorapointa to Grasscutter format
 // Sorapointa - A server software re-implementation for a certain anime game, and avoid sorapointa.
 // Copyright (C) 2022  Sorapointa Team
 //
@@ -24,7 +22,7 @@ import "BreakoutPhysicalObject.proto";
 import "BreakoutSpawnPoint.proto";
 import "BreakoutSyncConnectUidInfo.proto";
 
-option java_package = "emu.grasscutter.net.proto";
+option java_package = "org.sorapointa.proto";
 
 message BreakoutSnapShot {
   uint64 client_game_time = 1;

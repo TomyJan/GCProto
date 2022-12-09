@@ -1,5 +1,3 @@
-// Proto has been converted from Sorapointa to Grasscutter format
-// Proto has been converted from Sorapointa to Grasscutter format
 // Sorapointa - A server software re-implementation for a certain anime game, and avoid sorapointa.
 // Copyright (C) 2022  Sorapointa Team
 //
@@ -21,13 +19,13 @@ syntax = "proto3";
 import "AnchorPointData.proto";
 import "ClientCollectorData.proto";
 import "LunchBoxData.proto";
-import "OneofGatherPointDetectorData.proto";
+import "OneoffGatherPointDetectorData.proto";
 import "SkyCrystalDetectorData.proto";
 import "WeatherWizardData.proto";
 import "WidgetCoolDownData.proto";
 import "WidgetSlotData.proto";
 
-option java_package = "emu.grasscutter.net.proto";
+option java_package = "org.sorapointa.proto";
 
 message AllWidgetDataNotify {
   // enum CmdId {
@@ -40,7 +38,7 @@ message AllWidgetDataNotify {
 
   uint32 next_anchor_point_usable_time = 5;
   LunchBoxData lunch_box_data = 1;
-  repeated OneofGatherPointDetectorData oneof_gather_point_detector_data_list = 14;
+  repeated OneoffGatherPointDetectorData oneoff_gather_point_detector_data_list = 14;
   repeated WidgetSlotData slot_list = 6;
   repeated uint32 background_active_widget_list = 9;
   repeated WidgetCoolDownData cool_down_group_data_list = 3;

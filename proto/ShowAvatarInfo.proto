@@ -1,5 +1,3 @@
-// Proto has been converted from Sorapointa to Grasscutter format
-// Proto has been converted from Sorapointa to Grasscutter format
 // Sorapointa - A server software re-implementation for a certain anime game, and avoid sorapointa.
 // Copyright (C) 2022  Sorapointa Team
 //
@@ -23,7 +21,7 @@ import "AvatarFetterInfo.proto";
 import "PropValue.proto";
 import "ShowEquip.proto";
 
-option java_package = "emu.grasscutter.net.proto";
+option java_package = "org.sorapointa.proto";
 
 message ShowAvatarInfo {
   uint32 avatar_id = 1;

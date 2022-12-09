@@ -1,5 +1,3 @@
-// Proto has been converted from Sorapointa to Grasscutter format
-// Proto has been converted from Sorapointa to Grasscutter format
 // Sorapointa - A server software re-implementation for a certain anime game, and avoid sorapointa.
 // Copyright (C) 2022  Sorapointa Team
 //
@@ -22,7 +20,7 @@ import "AvatarInfo.proto";
 import "AvatarRenameInfo.proto";
 import "AvatarTeam.proto";
 
-option java_package = "emu.grasscutter.net.proto";
+option java_package = "org.sorapointa.proto";
 
 message AvatarDataNotify {
   // enum CmdId {
@@ -36,10 +34,10 @@ message AvatarDataNotify {
   repeated AvatarInfo avatar_list = 14;
   repeated AvatarRenameInfo avatar_rename_list = 8;
   uint32 cur_avatar_team_id = 7;
-  repeated uint32 Unk3300_HHKJBGKHIEJ = 6;
+  repeated uint32 owned_flycloak_list = 6;
   repeated uint64 temp_avatar_guid_list = 15;
   uint64 choose_avatar_guid = 1;
   map<uint32, AvatarTeam> avatar_team_map = 11;
-  repeated uint32 Unk3300_MDNLGGMGHAF = 5;
+  repeated uint32 owned_costume_list = 5;
   repeated uint32 backup_avatar_team_order_list = 3;
 }

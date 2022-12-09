@@ -1,5 +1,3 @@
-// Proto has been converted from Sorapointa to Grasscutter format
-// Proto has been converted from Sorapointa to Grasscutter format
 // Sorapointa - A server software re-implementation for a certain anime game, and avoid sorapointa.
 // Copyright (C) 2022  Sorapointa Team
 //
@@ -23,7 +21,7 @@ import "FungusPlotStageDetail.proto";
 import "FungusTrainingDungeonDetail.proto";
 import "FungusTrainingProgressDetail.proto";
 
-option java_package = "emu.grasscutter.net.proto";
+option java_package = "org.sorapointa.proto";
 
 message FungusFighterDetailInfo {
   repeated FungusDetail fungus_detail_list = 6;
