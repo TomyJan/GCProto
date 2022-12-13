@@ -1,3 +1,4 @@
+// Proto has been converted from Sorapointa to Grasscutter format
 // Sorapointa - A server software re-implementation for a certain anime game, and avoid sorapointa.
 // Copyright (C) 2022  Sorapointa Team
 //
@@ -16,9 +17,9 @@
 
 syntax = "proto3";
 
-option java_package = "org.sorapointa.proto";
+option java_package = "emu.grasscutter.net.proto";
 
 message AbilityMetaModifierDurabilityChange {
-  float Unk3300_LDHNFNOGOGF = 13;
-  float Unk3300_IFHFHEHDOIO = 1;
+  float remain_durability = 13;
+  float reduce_durability = 1;
 }

@@ -1,0 +1,8490 @@
+[
+    {
+        "name": "AbilityChangeNotify",
+        "id": 1127
+    },
+    {
+        "name": "AbilityInvocationFailNotify",
+        "id": 1200
+    },
+    {
+        "name": "AbilityInvocationFixedNotify",
+        "id": 1179
+    },
+    {
+        "name": "AbilityInvocationsNotify",
+        "id": 1130
+    },
+    {
+        "name": "AcceptCityReputationRequestReq",
+        "id": 2847
+    },
+    {
+        "name": "AcceptCityReputationRequestRsp",
+        "id": 2878
+    },
+    {
+        "name": "AchievementAllDataNotify",
+        "id": 2692
+    },
+    {
+        "name": "AchievementUpdateNotify",
+        "id": 2691
+    },
+    {
+        "name": "ActivityAcceptAllGiveGiftReq",
+        "id": 8900
+    },
+    {
+        "name": "ActivityAcceptAllGiveGiftRsp",
+        "id": 8771
+    },
+    {
+        "name": "ActivityAcceptGiveGiftReq",
+        "id": 8827
+    },
+    {
+        "name": "ActivityAcceptGiveGiftRsp",
+        "id": 8047
+    },
+    {
+        "name": "ActivityBannerClearReq",
+        "id": 2147
+    },
+    {
+        "name": "ActivityBannerClearRsp",
+        "id": 2198
+    },
+    {
+        "name": "ActivityBannerNotify",
+        "id": 2160
+    },
+    {
+        "name": "ActivityCoinInfoNotify",
+        "id": 2018
+    },
+    {
+        "name": "ActivityCondStateChangeNotify",
+        "id": 2194
+    },
+    {
+        "name": "ActivityDisableTransferPointInteractionNotify",
+        "id": 8029
+    },
+    {
+        "name": "ActivityGetCanGiveFriendGiftReq",
+        "id": 8330
+    },
+    {
+        "name": "ActivityGetCanGiveFriendGiftRsp",
+        "id": 8374
+    },
+    {
+        "name": "ActivityGetFriendGiftWishListReq",
+        "id": 8642
+    },
+    {
+        "name": "ActivityGetFriendGiftWishListRsp",
+        "id": 8355
+    },
+    {
+        "name": "ActivityGetRecvGiftListReq",
+        "id": 8995
+    },
+    {
+        "name": "ActivityGetRecvGiftListRsp",
+        "id": 8844
+    },
+    {
+        "name": "ActivityGiveFriendGiftReq",
+        "id": 8178
+    },
+    {
+        "name": "ActivityGiveFriendGiftRsp",
+        "id": 8373
+    },
+    {
+        "name": "ActivityHaveRecvGiftNotify",
+        "id": 8118
+    },
+    {
+        "name": "ActivityInfoNotify",
+        "id": 2119
+    },
+    {
+        "name": "ActivityPlayOpenAnimNotify",
+        "id": 2059
+    },
+    {
+        "name": "ActivityPushTipsInfoNotify",
+        "id": 8418
+    },
+    {
+        "name": "ActivityReadPushTipsReq",
+        "id": 8007
+    },
+    {
+        "name": "ActivityReadPushTipsRsp",
+        "id": 8499
+    },
+    {
+        "name": "ActivitySaleChangeNotify",
+        "id": 2012
+    },
+    {
+        "name": "ActivityScheduleInfoNotify",
+        "id": 2124
+    },
+    {
+        "name": "ActivitySelectAvatarCardReq",
+        "id": 2052
+    },
+    {
+        "name": "ActivitySelectAvatarCardRsp",
+        "id": 2154
+    },
+    {
+        "name": "ActivitySetGiftWishReq",
+        "id": 8329
+    },
+    {
+        "name": "ActivitySetGiftWishRsp",
+        "id": 8757
+    },
+    {
+        "name": "ActivityTakeAllScoreRewardReq",
+        "id": 8162
+    },
+    {
+        "name": "ActivityTakeAllScoreRewardRsp",
+        "id": 8043
+    },
+    {
+        "name": "ActivityTakeScoreRewardReq",
+        "id": 8127
+    },
+    {
+        "name": "ActivityTakeScoreRewardRsp",
+        "id": 8527
+    },
+    {
+        "name": "ActivityTakeWatcherRewardBatchReq",
+        "id": 2184
+    },
+    {
+        "name": "ActivityTakeWatcherRewardBatchRsp",
+        "id": 2090
+    },
+    {
+        "name": "ActivityTakeWatcherRewardReq",
+        "id": 2073
+    },
+    {
+        "name": "ActivityTakeWatcherRewardRsp",
+        "id": 2109
+    },
+    {
+        "name": "ActivityUpdateWatcherNotify",
+        "id": 2103
+    },
+    {
+        "name": "AddAranaraCollectionNotify",
+        "id": 6391
+    },
+    {
+        "name": "AddBackupAvatarTeamReq",
+        "id": 1616
+    },
+    {
+        "name": "AddBackupAvatarTeamRsp",
+        "id": 1782
+    },
+    {
+        "name": "AddBlacklistReq",
+        "id": 4094
+    },
+    {
+        "name": "AddBlacklistRsp",
+        "id": 4072
+    },
+    {
+        "name": "AddFriendNotify",
+        "id": 4037
+    },
+    {
+        "name": "AddNoGachaAvatarCardNotify",
+        "id": 1610
+    },
+    {
+        "name": "AddQuestContentProgressReq",
+        "id": 443
+    },
+    {
+        "name": "AddQuestContentProgressRsp",
+        "id": 461
+    },
+    {
+        "name": "AddRandTaskInfoNotify",
+        "id": 154
+    },
+    {
+        "name": "AddSeenMonsterNotify",
+        "id": 213
+    },
+    {
+        "name": "AdjustWorldLevelReq",
+        "id": 112
+    },
+    {
+        "name": "AdjustWorldLevelRsp",
+        "id": 131
+    },
+    {
+        "name": "AllCoopInfoNotify",
+        "id": 1992
+    },
+    {
+        "name": "AllMarkPointNotify",
+        "id": 3322
+    },
+    {
+        "name": "AllSeenMonsterNotify",
+        "id": 228
+    },
+    {
+        "name": "AllShareCDDataNotify",
+        "id": 9079
+    },
+    {
+        "name": "AllWidgetBackgroundActiveStateNotify",
+        "id": 5932
+    },
+    {
+        "name": "AllWidgetDataNotify",
+        "id": 4286
+    },
+    {
+        "name": "AnchorPointDataNotify",
+        "id": 4292
+    },
+    {
+        "name": "AnchorPointOpReq",
+        "id": 4285
+    },
+    {
+        "name": "AnchorPointOpRsp",
+        "id": 4277
+    },
+    {
+        "name": "AnimatorForceSetAirMoveNotify",
+        "id": 334
+    },
+    {
+        "name": "AntiAddictNotify",
+        "id": 174
+    },
+    {
+        "name": "AranaraCollectionDataNotify",
+        "id": 6392
+    },
+    {
+        "name": "AreaPlayInfoNotify",
+        "id": 3274
+    },
+    {
+        "name": "ArenaChallengeFinishNotify",
+        "id": 2164
+    },
+    {
+        "name": "AskAddFriendNotify",
+        "id": 4089
+    },
+    {
+        "name": "AskAddFriendReq",
+        "id": 4100
+    },
+    {
+        "name": "AskAddFriendRsp",
+        "id": 4043
+    },
+    {
+        "name": "AssociateInferenceWordReq",
+        "id": 420
+    },
+    {
+        "name": "AssociateInferenceWordRsp",
+        "id": 463
+    },
+    {
+        "name": "AsterLargeInfoNotify",
+        "id": 2023
+    },
+    {
+        "name": "AsterLittleInfoNotify",
+        "id": 2121
+    },
+    {
+        "name": "AsterMidCampInfoNotify",
+        "id": 2195
+    },
+    {
+        "name": "AsterMidInfoNotify",
+        "id": 2055
+    },
+    {
+        "name": "AsterMiscInfoNotify",
+        "id": 2140
+    },
+    {
+        "name": "AsterProgressInfoNotify",
+        "id": 2091
+    },
+    {
+        "name": "AvatarAddNotify",
+        "id": 1757
+    },
+    {
+        "name": "AvatarBuffAddNotify",
+        "id": 394
+    },
+    {
+        "name": "AvatarBuffDelNotify",
+        "id": 372
+    },
+    {
+        "name": "AvatarCardChangeReq",
+        "id": 694
+    },
+    {
+        "name": "AvatarCardChangeRsp",
+        "id": 672
+    },
+    {
+        "name": "AvatarChangeAnimHashReq",
+        "id": 1767
+    },
+    {
+        "name": "AvatarChangeAnimHashRsp",
+        "id": 1620
+    },
+    {
+        "name": "AvatarChangeCostumeNotify",
+        "id": 1665
+    },
+    {
+        "name": "AvatarChangeCostumeReq",
+        "id": 1707
+    },
+    {
+        "name": "AvatarChangeCostumeRsp",
+        "id": 1609
+    },
+    {
+        "name": "AvatarChangeElementTypeReq",
+        "id": 1779
+    },
+    {
+        "name": "AvatarChangeElementTypeRsp",
+        "id": 1717
+    },
+    {
+        "name": "AvatarDataNotify",
+        "id": 1607
+    },
+    {
+        "name": "AvatarDelNotify",
+        "id": 1769
+    },
+    {
+        "name": "AvatarDieAnimationEndReq",
+        "id": 1695
+    },
+    {
+        "name": "AvatarDieAnimationEndRsp",
+        "id": 1604
+    },
+    {
+        "name": "AvatarEnterElementViewNotify",
+        "id": 380
+    },
+    {
+        "name": "AvatarEquipAffixStartNotify",
+        "id": 1708
+    },
+    {
+        "name": "AvatarEquipChangeNotify",
+        "id": 676
+    },
+    {
+        "name": "AvatarExpeditionAllDataReq",
+        "id": 1685
+    },
+    {
+        "name": "AvatarExpeditionAllDataRsp",
+        "id": 1621
+    },
+    {
+        "name": "AvatarExpeditionCallBackReq",
+        "id": 1777
+    },
+    {
+        "name": "AvatarExpeditionCallBackRsp",
+        "id": 1702
+    },
+    {
+        "name": "AvatarExpeditionDataNotify",
+        "id": 1632
+    },
+    {
+        "name": "AvatarExpeditionGetRewardReq",
+        "id": 1640
+    },
+    {
+        "name": "AvatarExpeditionGetRewardRsp",
+        "id": 1715
+    },
+    {
+        "name": "AvatarExpeditionStartReq",
+        "id": 1697
+    },
+    {
+        "name": "AvatarExpeditionStartRsp",
+        "id": 1646
+    },
+    {
+        "name": "AvatarFetterDataNotify",
+        "id": 1617
+    },
+    {
+        "name": "AvatarFetterLevelRewardReq",
+        "id": 1642
+    },
+    {
+        "name": "AvatarFetterLevelRewardRsp",
+        "id": 1753
+    },
+    {
+        "name": "AvatarFightPropNotify",
+        "id": 1300
+    },
+    {
+        "name": "AvatarFightPropUpdateNotify",
+        "id": 1243
+    },
+    {
+        "name": "AvatarFlycloakChangeNotify",
+        "id": 1790
+    },
+    {
+        "name": "AvatarFollowRouteNotify",
+        "id": 3256
+    },
+    {
+        "name": "AvatarGainCostumeNotify",
+        "id": 1625
+    },
+    {
+        "name": "AvatarGainFlycloakNotify",
+        "id": 1676
+    },
+    {
+        "name": "AvatarLifeStateChangeNotify",
+        "id": 1247
+    },
+    {
+        "name": "AvatarPromoteGetRewardReq",
+        "id": 1684
+    },
+    {
+        "name": "AvatarPromoteGetRewardRsp",
+        "id": 1658
+    },
+    {
+        "name": "AvatarPromoteReq",
+        "id": 1731
+    },
+    {
+        "name": "AvatarPromoteRsp",
+        "id": 1710
+    },
+    {
+        "name": "AvatarPropChangeReasonNotify",
+        "id": 1278
+    },
+    {
+        "name": "AvatarPropNotify",
+        "id": 1227
+    },
+    {
+        "name": "AvatarRenameInfoNotify",
+        "id": 1797
+    },
+    {
+        "name": "AvatarSatiationDataNotify",
+        "id": 1766
+    },
+    {
+        "name": "AvatarSkillChangeNotify",
+        "id": 1099
+    },
+    {
+        "name": "AvatarSkillDepotChangeNotify",
+        "id": 1019
+    },
+    {
+        "name": "AvatarSkillInfoNotify",
+        "id": 1047
+    },
+    {
+        "name": "AvatarSkillMaxChargeCountNotify",
+        "id": 1061
+    },
+    {
+        "name": "AvatarSkillUpgradeReq",
+        "id": 1039
+    },
+    {
+        "name": "AvatarSkillUpgradeRsp",
+        "id": 1048
+    },
+    {
+        "name": "AvatarTeamAllDataNotify",
+        "id": 1615
+    },
+    {
+        "name": "AvatarTeamUpdateNotify",
+        "id": 1739
+    },
+    {
+        "name": "AvatarUnlockTalentNotify",
+        "id": 1056
+    },
+    {
+        "name": "AvatarUpgradeReq",
+        "id": 1653
+    },
+    {
+        "name": "AvatarUpgradeRsp",
+        "id": 1792
+    },
+    {
+        "name": "AvatarWearFlycloakReq",
+        "id": 1636
+    },
+    {
+        "name": "AvatarWearFlycloakRsp",
+        "id": 1613
+    },
+    {
+        "name": "BackMyWorldReq",
+        "id": 269
+    },
+    {
+        "name": "BackMyWorldRsp",
+        "id": 218
+    },
+    {
+        "name": "BackPlayCustomDungeonOfficialReq",
+        "id": 6224
+    },
+    {
+        "name": "BackPlayCustomDungeonOfficialRsp",
+        "id": 6220
+    },
+    {
+        "name": "BackRebornGalleryReq",
+        "id": 5507
+    },
+    {
+        "name": "BackRebornGalleryRsp",
+        "id": 5517
+    },
+    {
+        "name": "BargainOfferPriceReq",
+        "id": 407
+    },
+    {
+        "name": "BargainOfferPriceRsp",
+        "id": 417
+    },
+    {
+        "name": "BargainStartNotify",
+        "id": 444
+    },
+    {
+        "name": "BargainTerminateNotify",
+        "id": 405
+    },
+    {
+        "name": "BartenderCancelLevelReq",
+        "id": 8446
+    },
+    {
+        "name": "BartenderCancelLevelRsp",
+        "id": 8698
+    },
+    {
+        "name": "BartenderCancelOrderReq",
+        "id": 8249
+    },
+    {
+        "name": "BartenderCancelOrderRsp",
+        "id": 8254
+    },
+    {
+        "name": "BartenderCompleteOrderReq",
+        "id": 8880
+    },
+    {
+        "name": "BartenderCompleteOrderRsp",
+        "id": 8870
+    },
+    {
+        "name": "BartenderFinishLevelReq",
+        "id": 8122
+    },
+    {
+        "name": "BartenderFinishLevelRsp",
+        "id": 8250
+    },
+    {
+        "name": "BartenderGetFormulaReq",
+        "id": 8230
+    },
+    {
+        "name": "BartenderGetFormulaRsp",
+        "id": 8975
+    },
+    {
+        "name": "BartenderLevelProgressNotify",
+        "id": 8415
+    },
+    {
+        "name": "BartenderStartLevelReq",
+        "id": 8590
+    },
+    {
+        "name": "BartenderStartLevelRsp",
+        "id": 8142
+    },
+    {
+        "name": "BatchBuyGoodsReq",
+        "id": 778
+    },
+    {
+        "name": "BatchBuyGoodsRsp",
+        "id": 757
+    },
+    {
+        "name": "BattlePassAllDataNotify",
+        "id": 2642
+    },
+    {
+        "name": "BattlePassBuySuccNotify",
+        "id": 2602
+    },
+    {
+        "name": "BattlePassCurScheduleUpdateNotify",
+        "id": 2635
+    },
+    {
+        "name": "BattlePassMissionDelNotify",
+        "id": 2622
+    },
+    {
+        "name": "BattlePassMissionUpdateNotify",
+        "id": 2641
+    },
+    {
+        "name": "BeginCameraSceneLookNotify",
+        "id": 249
+    },
+    {
+        "name": "BeginCameraSceneLookWithTemplateNotify",
+        "id": 3342
+    },
+    {
+        "name": "BigTalentPointConvertReq",
+        "id": 1100
+    },
+    {
+        "name": "BigTalentPointConvertRsp",
+        "id": 1043
+    },
+    {
+        "name": "BlessingAcceptAllGivePicReq",
+        "id": 2009
+    },
+    {
+        "name": "BlessingAcceptAllGivePicRsp",
+        "id": 2065
+    },
+    {
+        "name": "BlessingAcceptGivePicReq",
+        "id": 2153
+    },
+    {
+        "name": "BlessingAcceptGivePicRsp",
+        "id": 2010
+    },
+    {
+        "name": "BlessingGetAllRecvPicRecordListReq",
+        "id": 2084
+    },
+    {
+        "name": "BlessingGetAllRecvPicRecordListRsp",
+        "id": 2058
+    },
+    {
+        "name": "BlessingGetFriendPicListReq",
+        "id": 2190
+    },
+    {
+        "name": "BlessingGetFriendPicListRsp",
+        "id": 2076
+    },
+    {
+        "name": "BlessingGiveFriendPicReq",
+        "id": 2108
+    },
+    {
+        "name": "BlessingGiveFriendPicRsp",
+        "id": 2042
+    },
+    {
+        "name": "BlessingRecvFriendPicNotify",
+        "id": 2107
+    },
+    {
+        "name": "BlessingRedeemRewardReq",
+        "id": 2036
+    },
+    {
+        "name": "BlessingRedeemRewardRsp",
+        "id": 2013
+    },
+    {
+        "name": "BlessingScanReq",
+        "id": 2186
+    },
+    {
+        "name": "BlessingScanRsp",
+        "id": 2166
+    },
+    {
+        "name": "BlitzRushParkourRestartReq",
+        "id": 8986
+    },
+    {
+        "name": "BlitzRushParkourRestartRsp",
+        "id": 8453
+    },
+    {
+        "name": "BlossomBriefInfoNotify",
+        "id": 2756
+    },
+    {
+        "name": "BlossomChestCreateNotify",
+        "id": 2743
+    },
+    {
+        "name": "BlossomChestInfoNotify",
+        "id": 847
+    },
+    {
+        "name": "BonusActivityInfoReq",
+        "id": 2548
+    },
+    {
+        "name": "BonusActivityInfoRsp",
+        "id": 2599
+    },
+    {
+        "name": "BonusActivityUpdateNotify",
+        "id": 2539
+    },
+    {
+        "name": "BossChestActivateNotify",
+        "id": 861
+    },
+    {
+        "name": "BounceConjuringSettleNotify",
+        "id": 8653
+    },
+    {
+        "name": "BrickBreakerPlayerReadyNotify",
+        "id": 5396
+    },
+    {
+        "name": "BrickBreakerPlayerSetAvatarNotify",
+        "id": 5362
+    },
+    {
+        "name": "BrickBreakerPlayerSetChangingNotify",
+        "id": 5370
+    },
+    {
+        "name": "BrickBreakerPlayerSetSkillNotify",
+        "id": 5351
+    },
+    {
+        "name": "BrickBreakerQuitReq",
+        "id": 24991
+    },
+    {
+        "name": "BrickBreakerQuitRsp",
+        "id": 24959
+    },
+    {
+        "name": "BrickBreakerSelectAvatarReq",
+        "id": 5368
+    },
+    {
+        "name": "BrickBreakerSelectAvatarRsp",
+        "id": 5359
+    },
+    {
+        "name": "BrickBreakerSelectSkillReq",
+        "id": 5329
+    },
+    {
+        "name": "BrickBreakerSelectSkillRsp",
+        "id": 5386
+    },
+    {
+        "name": "BrickBreakerSetChangingReq",
+        "id": 5358
+    },
+    {
+        "name": "BrickBreakerSetChangingRsp",
+        "id": 5314
+    },
+    {
+        "name": "BrickBreakerSetReadyReq",
+        "id": 5371
+    },
+    {
+        "name": "BrickBreakerSetReadyRsp",
+        "id": 5332
+    },
+    {
+        "name": "BrickBreakerSettleNotify",
+        "id": 23886
+    },
+    {
+        "name": "BrickBreakerTwiceStartReq",
+        "id": 24700
+    },
+    {
+        "name": "BrickBreakerTwiceStartRsp",
+        "id": 20232
+    },
+    {
+        "name": "BuoyantCombatSettleNotify",
+        "id": 8751
+    },
+    {
+        "name": "BuyBattlePassLevelReq",
+        "id": 2643
+    },
+    {
+        "name": "BuyBattlePassLevelRsp",
+        "id": 2609
+    },
+    {
+        "name": "BuyGoodsReq",
+        "id": 756
+    },
+    {
+        "name": "BuyGoodsRsp",
+        "id": 719
+    },
+    {
+        "name": "BuyResinReq",
+        "id": 693
+    },
+    {
+        "name": "BuyResinRsp",
+        "id": 654
+    },
+    {
+        "name": "CalcWeaponUpgradeReturnItemsReq",
+        "id": 666
+    },
+    {
+        "name": "CalcWeaponUpgradeReturnItemsRsp",
+        "id": 652
+    },
+    {
+        "name": "CancelCityReputationRequestReq",
+        "id": 2857
+    },
+    {
+        "name": "CancelCityReputationRequestRsp",
+        "id": 2827
+    },
+    {
+        "name": "CancelCoopTaskReq",
+        "id": 1993
+    },
+    {
+        "name": "CancelCoopTaskRsp",
+        "id": 1959
+    },
+    {
+        "name": "CancelFinishParentQuestNotify",
+        "id": 422
+    },
+    {
+        "name": "CanUseSkillNotify",
+        "id": 1042
+    },
+    {
+        "name": "CardProductRewardNotify",
+        "id": 4135
+    },
+    {
+        "name": "CataLogFinishedGlobalWatcherAllDataNotify",
+        "id": 6365
+    },
+    {
+        "name": "CataLogNewFinishedGlobalWatcherNotify",
+        "id": 6368
+    },
+    {
+        "name": "ChallengeDataNotify",
+        "id": 973
+    },
+    {
+        "name": "ChallengeRecordNotify",
+        "id": 907
+    },
+    {
+        "name": "ChangeAvatarReq",
+        "id": 1682
+    },
+    {
+        "name": "ChangeAvatarRsp",
+        "id": 1699
+    },
+    {
+        "name": "ChangeCustomDungeonRoomReq",
+        "id": 6217
+    },
+    {
+        "name": "ChangeCustomDungeonRoomRsp",
+        "id": 6212
+    },
+    {
+        "name": "ChangeGameTimeReq",
+        "id": 178
+    },
+    {
+        "name": "ChangeGameTimeRsp",
+        "id": 157
+    },
+    {
+        "name": "ChangeMailStarNotify",
+        "id": 1448
+    },
+    {
+        "name": "ChangeMpTeamAvatarReq",
+        "id": 1645
+    },
+    {
+        "name": "ChangeMpTeamAvatarRsp",
+        "id": 1730
+    },
+    {
+        "name": "ChangeServerGlobalValueNotify",
+        "id": 17
+    },
+    {
+        "name": "ChangeTeamNameReq",
+        "id": 1706
+    },
+    {
+        "name": "ChangeTeamNameRsp",
+        "id": 1696
+    },
+    {
+        "name": "ChangeWidgetBackgroundActiveStateReq",
+        "id": 5959
+    },
+    {
+        "name": "ChangeWidgetBackgroundActiveStateRsp",
+        "id": 5955
+    },
+    {
+        "name": "ChangeWorldToSingleModeNotify",
+        "id": 3461
+    },
+    {
+        "name": "ChangeWorldToSingleModeReq",
+        "id": 3296
+    },
+    {
+        "name": "ChangeWorldToSingleModeRsp",
+        "id": 3258
+    },
+    {
+        "name": "ChannelerSlabCheckEnterLoopDungeonReq",
+        "id": 8286
+    },
+    {
+        "name": "ChannelerSlabCheckEnterLoopDungeonRsp",
+        "id": 8631
+    },
+    {
+        "name": "ChannelerSlabEnterLoopDungeonReq",
+        "id": 8564
+    },
+    {
+        "name": "ChannelerSlabEnterLoopDungeonRsp",
+        "id": 8526
+    },
+    {
+        "name": "ChannelerSlabLoopDungeonChallengeInfoNotify",
+        "id": 8576
+    },
+    {
+        "name": "ChannelerSlabLoopDungeonSelectConditionReq",
+        "id": 8659
+    },
+    {
+        "name": "ChannelerSlabLoopDungeonSelectConditionRsp",
+        "id": 8858
+    },
+    {
+        "name": "ChannelerSlabLoopDungeonTakeFirstPassRewardReq",
+        "id": 8498
+    },
+    {
+        "name": "ChannelerSlabLoopDungeonTakeFirstPassRewardRsp",
+        "id": 8824
+    },
+    {
+        "name": "ChannelerSlabLoopDungeonTakeScoreRewardReq",
+        "id": 8348
+    },
+    {
+        "name": "ChannelerSlabLoopDungeonTakeScoreRewardRsp",
+        "id": 8369
+    },
+    {
+        "name": "ChannelerSlabOneOffDungeonInfoNotify",
+        "id": 8015
+    },
+    {
+        "name": "ChannelerSlabOneOffDungeonInfoReq",
+        "id": 8877
+    },
+    {
+        "name": "ChannelerSlabOneOffDungeonInfoRsp",
+        "id": 8270
+    },
+    {
+        "name": "ChannelerSlabSaveAssistInfoReq",
+        "id": 8039
+    },
+    {
+        "name": "ChannelerSlabSaveAssistInfoRsp",
+        "id": 8071
+    },
+    {
+        "name": "ChannelerSlabStageActiveChallengeIndexNotify",
+        "id": 8857
+    },
+    {
+        "name": "ChannelerSlabStageOneoffDungeonNotify",
+        "id": 8692
+    },
+    {
+        "name": "ChannelerSlabTakeoffBuffReq",
+        "id": 8299
+    },
+    {
+        "name": "ChannelerSlabTakeoffBuffRsp",
+        "id": 8034
+    },
+    {
+        "name": "ChannelerSlabWearBuffReq",
+        "id": 8664
+    },
+    {
+        "name": "ChannelerSlabWearBuffRsp",
+        "id": 8285
+    },
+    {
+        "name": "ChapterStateNotify",
+        "id": 442
+    },
+    {
+        "name": "CharAmusementSettleNotify",
+        "id": 23128
+    },
+    {
+        "name": "ChatChannelDataNotify",
+        "id": 4998
+    },
+    {
+        "name": "ChatChannelInfoNotify",
+        "id": 4975
+    },
+    {
+        "name": "ChatChannelShieldNotify",
+        "id": 5049
+    },
+    {
+        "name": "ChatChannelUpdateNotify",
+        "id": 4989
+    },
+    {
+        "name": "ChatHistoryNotify",
+        "id": 3309
+    },
+    {
+        "name": "CheckAddItemExceedLimitNotify",
+        "id": 697
+    },
+    {
+        "name": "CheckGroupReplacedReq",
+        "id": 3056
+    },
+    {
+        "name": "CheckGroupReplacedRsp",
+        "id": 3411
+    },
+    {
+        "name": "CheckSegmentCRCNotify",
+        "id": 16
+    },
+    {
+        "name": "CheckSegmentCRCReq",
+        "id": 73
+    },
+    {
+        "name": "CheckUgcStateReq",
+        "id": 6345
+    },
+    {
+        "name": "CheckUgcStateRsp",
+        "id": 6302
+    },
+    {
+        "name": "CheckUgcUpdateReq",
+        "id": 6315
+    },
+    {
+        "name": "CheckUgcUpdateRsp",
+        "id": 6318
+    },
+    {
+        "name": "ChessEscapedMonstersNotify",
+        "id": 5341
+    },
+    {
+        "name": "ChessLeftMonstersNotify",
+        "id": 5336
+    },
+    {
+        "name": "ChessManualRefreshCardsReq",
+        "id": 5326
+    },
+    {
+        "name": "ChessManualRefreshCardsRsp",
+        "id": 5377
+    },
+    {
+        "name": "ChessPickCardNotify",
+        "id": 5374
+    },
+    {
+        "name": "ChessPickCardReq",
+        "id": 5366
+    },
+    {
+        "name": "ChessPickCardRsp",
+        "id": 5352
+    },
+    {
+        "name": "ChessPlayerInfoNotify",
+        "id": 5365
+    },
+    {
+        "name": "ChessSelectedCardsNotify",
+        "id": 5397
+    },
+    {
+        "name": "ChooseCurAvatarTeamReq",
+        "id": 1738
+    },
+    {
+        "name": "ChooseCurAvatarTeamRsp",
+        "id": 1778
+    },
+    {
+        "name": "CityReputationDataNotify",
+        "id": 2842
+    },
+    {
+        "name": "CityReputationLevelupNotify",
+        "id": 2900
+    },
+    {
+        "name": "ClearRoguelikeCurseNotify",
+        "id": 8038
+    },
+    {
+        "name": "ClientAbilitiesInitFinishCombineNotify",
+        "id": 1161
+    },
+    {
+        "name": "ClientAbilityChangeNotify",
+        "id": 1139
+    },
+    {
+        "name": "ClientAbilityInitBeginNotify",
+        "id": 1156
+    },
+    {
+        "name": "ClientAbilityInitFinishNotify",
+        "id": 1119
+    },
+    {
+        "name": "ClientAIStateNotify",
+        "id": 1125
+    },
+    {
+        "name": "ClientBulletCreateNotify",
+        "id": 44
+    },
+    {
+        "name": "ClientCollectorDataNotify",
+        "id": 4252
+    },
+    {
+        "name": "ClientHashDebugNotify",
+        "id": 3287
+    },
+    {
+        "name": "ClientLoadingCostumeVerificationNotify",
+        "id": 3269
+    },
+    {
+        "name": "ClientLockGameTimeNotify",
+        "id": 141
+    },
+    {
+        "name": "ClientNewMailNotify",
+        "id": 1457
+    },
+    {
+        "name": "ClientPauseNotify",
+        "id": 236
+    },
+    {
+        "name": "ClientReconnectNotify",
+        "id": 39
+    },
+    {
+        "name": "ClientRemoveCombatEndModifierNotify",
+        "id": 1190
+    },
+    {
+        "name": "ClientReportNotify",
+        "id": 25
+    },
+    {
+        "name": "ClientScriptEventNotify",
+        "id": 260
+    },
+    {
+        "name": "ClientTransmitReq",
+        "id": 221
+    },
+    {
+        "name": "ClientTransmitRsp",
+        "id": 222
+    },
+    {
+        "name": "ClientTriggerEventNotify",
+        "id": 148
+    },
+    {
+        "name": "CloseCommonTipsNotify",
+        "id": 3273
+    },
+    {
+        "name": "ClosedItemNotify",
+        "id": 641
+    },
+    {
+        "name": "CodexDataFullNotify",
+        "id": 4201
+    },
+    {
+        "name": "CodexDataUpdateNotify",
+        "id": 4203
+    },
+    {
+        "name": "CoinCollectCheckDoubleStartPlayReq",
+        "id": 22424
+    },
+    {
+        "name": "CoinCollectCheckDoubleStartPlayRsp",
+        "id": 24124
+    },
+    {
+        "name": "CoinCollectChooseSkillReq",
+        "id": 21667
+    },
+    {
+        "name": "CoinCollectChooseSkillRsp",
+        "id": 23416
+    },
+    {
+        "name": "CoinCollectGallerySettleNotify",
+        "id": 5546
+    },
+    {
+        "name": "CoinCollectInterruptPlayReq",
+        "id": 20562
+    },
+    {
+        "name": "CoinCollectInterruptPlayRsp",
+        "id": 23589
+    },
+    {
+        "name": "CoinCollectPrepareReq",
+        "id": 23071
+    },
+    {
+        "name": "CoinCollectPrepareRsp",
+        "id": 23817
+    },
+    {
+        "name": "CoinCollectPrepareStageNotify",
+        "id": 6408
+    },
+    {
+        "name": "CombatInvocationsNotify",
+        "id": 354
+    },
+    {
+        "name": "CombineDataNotify",
+        "id": 677
+    },
+    {
+        "name": "CombineFormulaDataNotify",
+        "id": 665
+    },
+    {
+        "name": "CombineReq",
+        "id": 675
+    },
+    {
+        "name": "CombineRsp",
+        "id": 634
+    },
+    {
+        "name": "CommonPlayerTipsNotify",
+        "id": 8167
+    },
+    {
+        "name": "CompoundDataNotify",
+        "id": 164
+    },
+    {
+        "name": "CompoundUnlockNotify",
+        "id": 106
+    },
+    {
+        "name": "CookDataNotify",
+        "id": 133
+    },
+    {
+        "name": "CookGradeDataNotify",
+        "id": 180
+    },
+    {
+        "name": "CookRecipeDataNotify",
+        "id": 110
+    },
+    {
+        "name": "CoopCgShowNotify",
+        "id": 1951
+    },
+    {
+        "name": "CoopCgUpdateNotify",
+        "id": 1962
+    },
+    {
+        "name": "CoopChapterUpdateNotify",
+        "id": 1967
+    },
+    {
+        "name": "CoopDataNotify",
+        "id": 1994
+    },
+    {
+        "name": "CoopPointUpdateNotify",
+        "id": 1958
+    },
+    {
+        "name": "CoopProgressUpdateNotify",
+        "id": 1987
+    },
+    {
+        "name": "CoopRewardUpdateNotify",
+        "id": 1984
+    },
+    {
+        "name": "CreateMassiveEntityNotify",
+        "id": 353
+    },
+    {
+        "name": "CreateMassiveEntityReq",
+        "id": 311
+    },
+    {
+        "name": "CreateMassiveEntityRsp",
+        "id": 350
+    },
+    {
+        "name": "CreateVehicleReq",
+        "id": 807
+    },
+    {
+        "name": "CreateVehicleRsp",
+        "id": 817
+    },
+    {
+        "name": "CrystalLinkDungeonInfoNotify",
+        "id": 8408
+    },
+    {
+        "name": "CrystalLinkEnterDungeonReq",
+        "id": 8179
+    },
+    {
+        "name": "CrystalLinkEnterDungeonRsp",
+        "id": 8628
+    },
+    {
+        "name": "CrystalLinkRestartDungeonReq",
+        "id": 8177
+    },
+    {
+        "name": "CrystalLinkRestartDungeonRsp",
+        "id": 8741
+    },
+    {
+        "name": "CustomDungeonBattleRecordNotify",
+        "id": 6225
+    },
+    {
+        "name": "CustomDungeonOfficialNotify",
+        "id": 6236
+    },
+    {
+        "name": "CustomDungeonRecoverNotify",
+        "id": 6228
+    },
+    {
+        "name": "CustomDungeonUpdateNotify",
+        "id": 6230
+    },
+    {
+        "name": "CutSceneBeginNotify",
+        "id": 283
+    },
+    {
+        "name": "CutSceneEndNotify",
+        "id": 281
+    },
+    {
+        "name": "CutSceneFinishNotify",
+        "id": 284
+    },
+    {
+        "name": "DailyTaskDataNotify",
+        "id": 124
+    },
+    {
+        "name": "DailyTaskFilterCityReq",
+        "id": 101
+    },
+    {
+        "name": "DailyTaskFilterCityRsp",
+        "id": 138
+    },
+    {
+        "name": "DailyTaskProgressNotify",
+        "id": 149
+    },
+    {
+        "name": "DailyTaskScoreRewardNotify",
+        "id": 191
+    },
+    {
+        "name": "DailyTaskUnlockedCitiesNotify",
+        "id": 169
+    },
+    {
+        "name": "DataResVersionNotify",
+        "id": 153
+    },
+    {
+        "name": "DealAddFriendReq",
+        "id": 4061
+    },
+    {
+        "name": "DealAddFriendRsp",
+        "id": 4047
+    },
+    {
+        "name": "DeathZoneInfoNotify",
+        "id": 6291
+    },
+    {
+        "name": "DeathZoneObserveNotify",
+        "id": 3062
+    },
+    {
+        "name": "DebugNotify",
+        "id": 101
+    },
+    {
+        "name": "DelBackupAvatarTeamReq",
+        "id": 1698
+    },
+    {
+        "name": "DelBackupAvatarTeamRsp",
+        "id": 1666
+    },
+    {
+        "name": "DeleteFriendNotify",
+        "id": 4073
+    },
+    {
+        "name": "DeleteFriendReq",
+        "id": 4027
+    },
+    {
+        "name": "DeleteFriendRsp",
+        "id": 4039
+    },
+    {
+        "name": "DelMailReq",
+        "id": 1443
+    },
+    {
+        "name": "DelMailRsp",
+        "id": 1461
+    },
+    {
+        "name": "DelScenePlayTeamEntityNotify",
+        "id": 3237
+    },
+    {
+        "name": "DelTeamEntityNotify",
+        "id": 393
+    },
+    {
+        "name": "DeshretObeliskChestInfoNotify",
+        "id": 867
+    },
+    {
+        "name": "DestroyMassiveEntityNotify",
+        "id": 324
+    },
+    {
+        "name": "DestroyMaterialReq",
+        "id": 685
+    },
+    {
+        "name": "DestroyMaterialRsp",
+        "id": 608
+    },
+    {
+        "name": "DigActivityChangeGadgetStateReq",
+        "id": 8372
+    },
+    {
+        "name": "DigActivityChangeGadgetStateRsp",
+        "id": 8289
+    },
+    {
+        "name": "DigActivityMarkPointChangeNotify",
+        "id": 8871
+    },
+    {
+        "name": "DisableRoguelikeTrapNotify",
+        "id": 8839
+    },
+    {
+        "name": "DoGachaReq",
+        "id": 1556
+    },
+    {
+        "name": "DoGachaRsp",
+        "id": 1519
+    },
+    {
+        "name": "DoRoguelikeDungeonCardGachaReq",
+        "id": 8740
+    },
+    {
+        "name": "DoRoguelikeDungeonCardGachaRsp",
+        "id": 8144
+    },
+    {
+        "name": "DoSetPlayerBornDataNotify",
+        "id": 176
+    },
+    {
+        "name": "DraftGuestReplyInviteNotify",
+        "id": 5447
+    },
+    {
+        "name": "DraftGuestReplyInviteReq",
+        "id": 5443
+    },
+    {
+        "name": "DraftGuestReplyInviteRsp",
+        "id": 5461
+    },
+    {
+        "name": "DraftGuestReplyTwiceConfirmNotify",
+        "id": 5499
+    },
+    {
+        "name": "DraftGuestReplyTwiceConfirmReq",
+        "id": 5427
+    },
+    {
+        "name": "DraftGuestReplyTwiceConfirmRsp",
+        "id": 5439
+    },
+    {
+        "name": "DraftInviteResultNotify",
+        "id": 5478
+    },
+    {
+        "name": "DraftOwnerInviteNotify",
+        "id": 5500
+    },
+    {
+        "name": "DraftOwnerStartInviteReq",
+        "id": 5456
+    },
+    {
+        "name": "DraftOwnerStartInviteRsp",
+        "id": 5419
+    },
+    {
+        "name": "DraftOwnerTwiceConfirmNotify",
+        "id": 5457
+    },
+    {
+        "name": "DraftTwiceConfirmResultNotify",
+        "id": 5448
+    },
+    {
+        "name": "DragonSpineChapterFinishNotify",
+        "id": 2149
+    },
+    {
+        "name": "DragonSpineChapterOpenNotify",
+        "id": 2123
+    },
+    {
+        "name": "DragonSpineChapterProgressChangeNotify",
+        "id": 2035
+    },
+    {
+        "name": "DragonSpineCoinChangeNotify",
+        "id": 2086
+    },
+    {
+        "name": "DropHintNotify",
+        "id": 646
+    },
+    {
+        "name": "DropItemReq",
+        "id": 657
+    },
+    {
+        "name": "DropItemRsp",
+        "id": 627
+    },
+    {
+        "name": "DungeonCandidateTeamChangeAvatarReq",
+        "id": 982
+    },
+    {
+        "name": "DungeonCandidateTeamChangeAvatarRsp",
+        "id": 911
+    },
+    {
+        "name": "DungeonCandidateTeamCreateReq",
+        "id": 933
+    },
+    {
+        "name": "DungeonCandidateTeamCreateRsp",
+        "id": 910
+    },
+    {
+        "name": "DungeonCandidateTeamDismissNotify",
+        "id": 903
+    },
+    {
+        "name": "DungeonCandidateTeamInfoNotify",
+        "id": 917
+    },
+    {
+        "name": "DungeonCandidateTeamInviteNotify",
+        "id": 905
+    },
+    {
+        "name": "DungeonCandidateTeamInviteReq",
+        "id": 980
+    },
+    {
+        "name": "DungeonCandidateTeamInviteRsp",
+        "id": 946
+    },
+    {
+        "name": "DungeonCandidateTeamKickReq",
+        "id": 975
+    },
+    {
+        "name": "DungeonCandidateTeamKickRsp",
+        "id": 934
+    },
+    {
+        "name": "DungeonCandidateTeamLeaveReq",
+        "id": 995
+    },
+    {
+        "name": "DungeonCandidateTeamLeaveRsp",
+        "id": 964
+    },
+    {
+        "name": "DungeonCandidateTeamPlayerLeaveNotify",
+        "id": 972
+    },
+    {
+        "name": "DungeonCandidateTeamRefuseNotify",
+        "id": 994
+    },
+    {
+        "name": "DungeonCandidateTeamReplyInviteReq",
+        "id": 967
+    },
+    {
+        "name": "DungeonCandidateTeamReplyInviteRsp",
+        "id": 915
+    },
+    {
+        "name": "DungeonCandidateTeamSetChangingAvatarReq",
+        "id": 908
+    },
+    {
+        "name": "DungeonCandidateTeamSetChangingAvatarRsp",
+        "id": 909
+    },
+    {
+        "name": "DungeonCandidateTeamSetReadyReq",
+        "id": 921
+    },
+    {
+        "name": "DungeonCandidateTeamSetReadyRsp",
+        "id": 922
+    },
+    {
+        "name": "DungeonChallengeBeginNotify",
+        "id": 976
+    },
+    {
+        "name": "DungeonChallengeFinishNotify",
+        "id": 916
+    },
+    {
+        "name": "DungeonDataNotify",
+        "id": 990
+    },
+    {
+        "name": "DungeonDieOptionReq",
+        "id": 939
+    },
+    {
+        "name": "DungeonDieOptionRsp",
+        "id": 948
+    },
+    {
+        "name": "DungeonEntryInfoReq",
+        "id": 979
+    },
+    {
+        "name": "DungeonEntryInfoRsp",
+        "id": 930
+    },
+    {
+        "name": "DungeonEntryToBeExploreNotify",
+        "id": 3196
+    },
+    {
+        "name": "DungeonFollowNotify",
+        "id": 937
+    },
+    {
+        "name": "DungeonGetStatueDropReq",
+        "id": 989
+    },
+    {
+        "name": "DungeonGetStatueDropRsp",
+        "id": 944
+    },
+    {
+        "name": "DungeonInterruptChallengeReq",
+        "id": 991
+    },
+    {
+        "name": "DungeonInterruptChallengeRsp",
+        "id": 993
+    },
+    {
+        "name": "DungeonPlayerDieNotify",
+        "id": 927
+    },
+    {
+        "name": "DungeonPlayerDieReq",
+        "id": 925
+    },
+    {
+        "name": "DungeonPlayerDieRsp",
+        "id": 942
+    },
+    {
+        "name": "DungeonRestartInviteNotify",
+        "id": 963
+    },
+    {
+        "name": "DungeonRestartInviteReplyNotify",
+        "id": 987
+    },
+    {
+        "name": "DungeonRestartInviteReplyReq",
+        "id": 904
+    },
+    {
+        "name": "DungeonRestartInviteReplyRsp",
+        "id": 923
+    },
+    {
+        "name": "DungeonRestartReq",
+        "id": 998
+    },
+    {
+        "name": "DungeonRestartResultNotify",
+        "id": 985
+    },
+    {
+        "name": "DungeonRestartRsp",
+        "id": 920
+    },
+    {
+        "name": "DungeonReviseLevelNotify",
+        "id": 966
+    },
+    {
+        "name": "DungeonSettleNotify",
+        "id": 957
+    },
+    {
+        "name": "DungeonShowReminderNotify",
+        "id": 999
+    },
+    {
+        "name": "DungeonSlipRevivePointActivateReq",
+        "id": 924
+    },
+    {
+        "name": "DungeonSlipRevivePointActivateRsp",
+        "id": 949
+    },
+    {
+        "name": "DungeonWayPointActivateReq",
+        "id": 947
+    },
+    {
+        "name": "DungeonWayPointActivateRsp",
+        "id": 978
+    },
+    {
+        "name": "DungeonWayPointNotify",
+        "id": 961
+    },
+    {
+        "name": "EchoNotify",
+        "id": 89
+    },
+    {
+        "name": "EchoShellTakeRewardReq",
+        "id": 8049
+    },
+    {
+        "name": "EchoShellTakeRewardRsp",
+        "id": 8265
+    },
+    {
+        "name": "EchoShellUpdateNotify",
+        "id": 8891
+    },
+    {
+        "name": "EffigyChallengeInfoNotify",
+        "id": 2113
+    },
+    {
+        "name": "EffigyChallengeResultNotify",
+        "id": 2022
+    },
+    {
+        "name": "EffigyChallengeV2ChooseSkillReq",
+        "id": 23748
+    },
+    {
+        "name": "EffigyChallengeV2ChooseSkillRsp",
+        "id": 23618
+    },
+    {
+        "name": "EffigyChallengeV2DungeonInfoNotify",
+        "id": 24761
+    },
+    {
+        "name": "EffigyChallengeV2EnterDungeonReq",
+        "id": 21069
+    },
+    {
+        "name": "EffigyChallengeV2EnterDungeonRsp",
+        "id": 22024
+    },
+    {
+        "name": "EffigyChallengeV2RestartDungeonReq",
+        "id": 21293
+    },
+    {
+        "name": "EffigyChallengeV2RestartDungeonRsp",
+        "id": 23467
+    },
+    {
+        "name": "EndCameraSceneLookNotify",
+        "id": 291
+    },
+    {
+        "name": "EndCoinCollectPlaySingleModeReq",
+        "id": 23963
+    },
+    {
+        "name": "EndCoinCollectPlaySingleModeRsp",
+        "id": 21015
+    },
+    {
+        "name": "EnterChessDungeonReq",
+        "id": 8855
+    },
+    {
+        "name": "EnterChessDungeonRsp",
+        "id": 8293
+    },
+    {
+        "name": "EnterCustomDungeonReq",
+        "id": 6242
+    },
+    {
+        "name": "EnterCustomDungeonRsp",
+        "id": 6241
+    },
+    {
+        "name": "EnterFishingReq",
+        "id": 5842
+    },
+    {
+        "name": "EnterFishingRsp",
+        "id": 5841
+    },
+    {
+        "name": "EnterFungusFighterPlotDungeonReq",
+        "id": 23768
+    },
+    {
+        "name": "EnterFungusFighterPlotDungeonRsp",
+        "id": 20791
+    },
+    {
+        "name": "EnterFungusFighterTrainingDungeonReq",
+        "id": 23992
+    },
+    {
+        "name": "EnterFungusFighterTrainingDungeonRsp",
+        "id": 22876
+    },
+    {
+        "name": "EnterIrodoriChessDungeonReq",
+        "id": 8592
+    },
+    {
+        "name": "EnterIrodoriChessDungeonRsp",
+        "id": 8238
+    },
+    {
+        "name": "EnterMechanicusDungeonReq",
+        "id": 3927
+    },
+    {
+        "name": "EnterMechanicusDungeonRsp",
+        "id": 3939
+    },
+    {
+        "name": "EnterRogueDiaryDungeonReq",
+        "id": 8627
+    },
+    {
+        "name": "EnterRogueDiaryDungeonRsp",
+        "id": 8152
+    },
+    {
+        "name": "EnterRoguelikeDungeonNotify",
+        "id": 8657
+    },
+    {
+        "name": "EnterSceneDoneReq",
+        "id": 232
+    },
+    {
+        "name": "EnterSceneDoneRsp",
+        "id": 268
+    },
+    {
+        "name": "EnterScenePeerNotify",
+        "id": 271
+    },
+    {
+        "name": "EnterSceneReadyReq",
+        "id": 262
+    },
+    {
+        "name": "EnterSceneReadyRsp",
+        "id": 251
+    },
+    {
+        "name": "EnterSceneWeatherAreaNotify",
+        "id": 282
+    },
+    {
+        "name": "EnterTransPointRegionNotify",
+        "id": 242
+    },
+    {
+        "name": "EnterTrialAvatarActivityDungeonReq",
+        "id": 2142
+    },
+    {
+        "name": "EnterTrialAvatarActivityDungeonRsp",
+        "id": 2176
+    },
+    {
+        "name": "EnterWorldAreaReq",
+        "id": 246
+    },
+    {
+        "name": "EnterWorldAreaRsp",
+        "id": 275
+    },
+    {
+        "name": "EntityAiKillSelfNotify",
+        "id": 385
+    },
+    {
+        "name": "EntityAiSyncNotify",
+        "id": 304
+    },
+    {
+        "name": "EntityAuthorityChangeNotify",
+        "id": 305
+    },
+    {
+        "name": "EntityConfigHashNotify",
+        "id": 3332
+    },
+    {
+        "name": "EntityFightPropChangeReasonNotify",
+        "id": 1261
+    },
+    {
+        "name": "EntityFightPropNotify",
+        "id": 1256
+    },
+    {
+        "name": "EntityFightPropUpdateNotify",
+        "id": 1219
+    },
+    {
+        "name": "EntityForceSyncReq",
+        "id": 234
+    },
+    {
+        "name": "EntityForceSyncRsp",
+        "id": 295
+    },
+    {
+        "name": "EntityJumpNotify",
+        "id": 237
+    },
+    {
+        "name": "EntityMoveRoomNotify",
+        "id": 3337
+    },
+    {
+        "name": "EntityPropNotify",
+        "id": 1279
+    },
+    {
+        "name": "EntityTagChangeNotify",
+        "id": 3192
+    },
+    {
+        "name": "EquipRoguelikeRuneReq",
+        "id": 8357
+    },
+    {
+        "name": "EquipRoguelikeRuneRsp",
+        "id": 8815
+    },
+    {
+        "name": "EvtAiSyncCombatThreatInfoNotify",
+        "id": 320
+    },
+    {
+        "name": "EvtAiSyncSkillCdNotify",
+        "id": 395
+    },
+    {
+        "name": "EvtAnimatorParameterNotify",
+        "id": 330
+    },
+    {
+        "name": "EvtAnimatorStateChangedNotify",
+        "id": 327
+    },
+    {
+        "name": "EvtAvatarEnterFocusNotify",
+        "id": 344
+    },
+    {
+        "name": "EvtAvatarExitFocusNotify",
+        "id": 307
+    },
+    {
+        "name": "EvtAvatarLockChairReq",
+        "id": 308
+    },
+    {
+        "name": "EvtAvatarLockChairRsp",
+        "id": 309
+    },
+    {
+        "name": "EvtAvatarSitDownNotify",
+        "id": 322
+    },
+    {
+        "name": "EvtAvatarStandUpNotify",
+        "id": 382
+    },
+    {
+        "name": "EvtAvatarUpdateFocusNotify",
+        "id": 317
+    },
+    {
+        "name": "EvtBeingHealedNotify",
+        "id": 366
+    },
+    {
+        "name": "EvtBeingHitNotify",
+        "id": 379
+    },
+    {
+        "name": "EvtBeingHitsCombineNotify",
+        "id": 364
+    },
+    {
+        "name": "EvtBulletDeactiveNotify",
+        "id": 399
+    },
+    {
+        "name": "EvtBulletHitNotify",
+        "id": 348
+    },
+    {
+        "name": "EvtBulletMoveNotify",
+        "id": 389
+    },
+    {
+        "name": "EvtCostStaminaNotify",
+        "id": 378
+    },
+    {
+        "name": "EvtCreateGadgetNotify",
+        "id": 400
+    },
+    {
+        "name": "EvtDestroyGadgetNotify",
+        "id": 343
+    },
+    {
+        "name": "EvtDestroyServerGadgetNotify",
+        "id": 387
+    },
+    {
+        "name": "EvtDoSkillSuccNotify",
+        "id": 319
+    },
+    {
+        "name": "EvtEntityRenderersChangedNotify",
+        "id": 375
+    },
+    {
+        "name": "EvtEntityStartDieEndNotify",
+        "id": 325
+    },
+    {
+        "name": "EvtFaceToDirNotify",
+        "id": 347
+    },
+    {
+        "name": "EvtFaceToEntityNotify",
+        "id": 361
+    },
+    {
+        "name": "EvtLocalGadgetOwnerLeaveSceneNotify",
+        "id": 352
+    },
+    {
+        "name": "EvtRushMoveNotify",
+        "id": 339
+    },
+    {
+        "name": "EvtSetAttackTargetNotify",
+        "id": 357
+    },
+    {
+        "name": "ExclusiveRuleNotify",
+        "id": 118
+    },
+    {
+        "name": "ExecuteGadgetLuaReq",
+        "id": 235
+    },
+    {
+        "name": "ExecuteGadgetLuaRsp",
+        "id": 240
+    },
+    {
+        "name": "ExecuteGroupTriggerReq",
+        "id": 263
+    },
+    {
+        "name": "ExecuteGroupTriggerRsp",
+        "id": 204
+    },
+    {
+        "name": "ExitCustomDungeonTryReq",
+        "id": 6243
+    },
+    {
+        "name": "ExitCustomDungeonTryRsp",
+        "id": 6209
+    },
+    {
+        "name": "ExitFishingReq",
+        "id": 5802
+    },
+    {
+        "name": "ExitFishingRsp",
+        "id": 5843
+    },
+    {
+        "name": "ExitSceneWeatherAreaNotify",
+        "id": 211
+    },
+    {
+        "name": "ExitTransPointRegionNotify",
+        "id": 290
+    },
+    {
+        "name": "ExpeditionChallengeEnterRegionNotify",
+        "id": 2027
+    },
+    {
+        "name": "ExpeditionChallengeFinishedNotify",
+        "id": 2074
+    },
+    {
+        "name": "ExpeditionRecallReq",
+        "id": 2098
+    },
+    {
+        "name": "ExpeditionRecallRsp",
+        "id": 2066
+    },
+    {
+        "name": "ExpeditionStartReq",
+        "id": 2016
+    },
+    {
+        "name": "ExpeditionStartRsp",
+        "id": 2182
+    },
+    {
+        "name": "ExpeditionTakeRewardReq",
+        "id": 2015
+    },
+    {
+        "name": "ExpeditionTakeRewardRsp",
+        "id": 2197
+    },
+    {
+        "name": "FindHilichurlAcceptQuestNotify",
+        "id": 8893
+    },
+    {
+        "name": "FindHilichurlFinishSecondQuestNotify",
+        "id": 8644
+    },
+    {
+        "name": "FinishDeliveryNotify",
+        "id": 2030
+    },
+    {
+        "name": "FinishedParentQuestNotify",
+        "id": 419
+    },
+    {
+        "name": "FinishedParentQuestUpdateNotify",
+        "id": 500
+    },
+    {
+        "name": "FinishedTalkIdListNotify",
+        "id": 578
+    },
+    {
+        "name": "FinishLanternProjectionReq",
+        "id": 8932
+    },
+    {
+        "name": "FinishLanternProjectionRsp",
+        "id": 8971
+    },
+    {
+        "name": "FinishMainCoopReq",
+        "id": 1977
+    },
+    {
+        "name": "FinishMainCoopRsp",
+        "id": 1981
+    },
+    {
+        "name": "FireworksLaunchDataNotify",
+        "id": 5917
+    },
+    {
+        "name": "FireworksReformDataNotify",
+        "id": 5908
+    },
+    {
+        "name": "FishAttractNotify",
+        "id": 5809
+    },
+    {
+        "name": "FishBaitGoneNotify",
+        "id": 5830
+    },
+    {
+        "name": "FishBattleBeginReq",
+        "id": 5815
+    },
+    {
+        "name": "FishBattleBeginRsp",
+        "id": 5818
+    },
+    {
+        "name": "FishBattleEndReq",
+        "id": 5808
+    },
+    {
+        "name": "FishBattleEndRsp",
+        "id": 5845
+    },
+    {
+        "name": "FishBiteReq",
+        "id": 5812
+    },
+    {
+        "name": "FishBiteRsp",
+        "id": 5834
+    },
+    {
+        "name": "FishCastRodReq",
+        "id": 5827
+    },
+    {
+        "name": "FishCastRodRsp",
+        "id": 5831
+    },
+    {
+        "name": "FishChosenNotify",
+        "id": 5844
+    },
+    {
+        "name": "FishEscapeNotify",
+        "id": 5817
+    },
+    {
+        "name": "FishingGallerySettleNotify",
+        "id": 8464
+    },
+    {
+        "name": "FishPoolDataNotify",
+        "id": 5837
+    },
+    {
+        "name": "FleurFairBalloonSettleNotify",
+        "id": 2159
+    },
+    {
+        "name": "FleurFairBuffEnergyNotify",
+        "id": 5322
+    },
+    {
+        "name": "FleurFairFallSettleNotify",
+        "id": 2136
+    },
+    {
+        "name": "FleurFairFinishGalleryStageNotify",
+        "id": 5311
+    },
+    {
+        "name": "FleurFairMusicGameSettleReq",
+        "id": 2111
+    },
+    {
+        "name": "FleurFairMusicGameSettleRsp",
+        "id": 2156
+    },
+    {
+        "name": "FleurFairMusicGameStartReq",
+        "id": 2070
+    },
+    {
+        "name": "FleurFairMusicGameStartRsp",
+        "id": 2146
+    },
+    {
+        "name": "FleurFairReplayMiniGameReq",
+        "id": 2127
+    },
+    {
+        "name": "FleurFairReplayMiniGameRsp",
+        "id": 2061
+    },
+    {
+        "name": "FleurFairStageSettleNotify",
+        "id": 5382
+    },
+    {
+        "name": "FlightActivityRestartReq",
+        "id": 2152
+    },
+    {
+        "name": "FlightActivityRestartRsp",
+        "id": 2158
+    },
+    {
+        "name": "FlightActivitySettleNotify",
+        "id": 2143
+    },
+    {
+        "name": "FocusAvatarReq",
+        "id": 1793
+    },
+    {
+        "name": "FocusAvatarRsp",
+        "id": 1786
+    },
+    {
+        "name": "ForceAddPlayerFriendReq",
+        "id": 4063
+    },
+    {
+        "name": "ForceAddPlayerFriendRsp",
+        "id": 4004
+    },
+    {
+        "name": "ForceDragAvatarNotify",
+        "id": 3008
+    },
+    {
+        "name": "ForceDragBackTransferNotify",
+        "id": 3494
+    },
+    {
+        "name": "ForgeDataNotify",
+        "id": 674
+    },
+    {
+        "name": "ForgeFormulaDataNotify",
+        "id": 626
+    },
+    {
+        "name": "ForgeGetQueueDataReq",
+        "id": 664
+    },
+    {
+        "name": "ForgeGetQueueDataRsp",
+        "id": 667
+    },
+    {
+        "name": "ForgeQueueDataNotify",
+        "id": 695
+    },
+    {
+        "name": "ForgeQueueManipulateReq",
+        "id": 622
+    },
+    {
+        "name": "ForgeQueueManipulateRsp",
+        "id": 682
+    },
+    {
+        "name": "ForgeStartReq",
+        "id": 615
+    },
+    {
+        "name": "ForgeStartRsp",
+        "id": 621
+    },
+    {
+        "name": "FoundationNotify",
+        "id": 876
+    },
+    {
+        "name": "FoundationReq",
+        "id": 842
+    },
+    {
+        "name": "FoundationRsp",
+        "id": 890
+    },
+    {
+        "name": "FriendInfoChangeNotify",
+        "id": 4065
+    },
+    {
+        "name": "FungusCaptureSettleNotify",
+        "id": 5510
+    },
+    {
+        "name": "FungusCultivateReq",
+        "id": 23545
+    },
+    {
+        "name": "FungusCultivateRsp",
+        "id": 20883
+    },
+    {
+        "name": "FungusFighterClearTrainingRuntimeDataReq",
+        "id": 24267
+    },
+    {
+        "name": "FungusFighterClearTrainingRuntimeDataRsp",
+        "id": 20749
+    },
+    {
+        "name": "FungusFighterPlotInfoNotify",
+        "id": 23920
+    },
+    {
+        "name": "FungusFighterRestartTrainingDungeonReq",
+        "id": 24273
+    },
+    {
+        "name": "FungusFighterRestartTrainingDungeonRsp",
+        "id": 20579
+    },
+    {
+        "name": "FungusFighterRuntimeDataNotify",
+        "id": 20567
+    },
+    {
+        "name": "FungusFighterTrainingGallerySettleNotify",
+        "id": 23475
+    },
+    {
+        "name": "FungusFighterTrainingInfoNotify",
+        "id": 5533
+    },
+    {
+        "name": "FungusFighterTrainingSelectFungusReq",
+        "id": 24249
+    },
+    {
+        "name": "FungusFighterTrainingSelectFungusRsp",
+        "id": 23309
+    },
+    {
+        "name": "FungusFighterUseBackupFungusReq",
+        "id": 22075
+    },
+    {
+        "name": "FungusFighterUseBackupFungusRsp",
+        "id": 21089
+    },
+    {
+        "name": "FungusRenameReq",
+        "id": 22498
+    },
+    {
+        "name": "FungusRenameRsp",
+        "id": 22216
+    },
+    {
+        "name": "FurnitureCurModuleArrangeCountNotify",
+        "id": 4538
+    },
+    {
+        "name": "FurnitureMakeBeHelpedNotify",
+        "id": 4766
+    },
+    {
+        "name": "FurnitureMakeCancelReq",
+        "id": 4726
+    },
+    {
+        "name": "FurnitureMakeCancelRsp",
+        "id": 4676
+    },
+    {
+        "name": "FurnitureMakeFinishNotify",
+        "id": 4850
+    },
+    {
+        "name": "FurnitureMakeHelpReq",
+        "id": 4478
+    },
+    {
+        "name": "FurnitureMakeHelpRsp",
+        "id": 4507
+    },
+    {
+        "name": "FurnitureMakeInfoChangeNotify",
+        "id": 4882
+    },
+    {
+        "name": "FurnitureMakeReq",
+        "id": 4802
+    },
+    {
+        "name": "FurnitureMakeRsp",
+        "id": 4504
+    },
+    {
+        "name": "FurnitureMakeStartReq",
+        "id": 4581
+    },
+    {
+        "name": "FurnitureMakeStartRsp",
+        "id": 4877
+    },
+    {
+        "name": "GachaActivityCreateRobotReq",
+        "id": 8316
+    },
+    {
+        "name": "GachaActivityCreateRobotRsp",
+        "id": 8494
+    },
+    {
+        "name": "GachaActivityNextStageReq",
+        "id": 8342
+    },
+    {
+        "name": "GachaActivityNextStageRsp",
+        "id": 8914
+    },
+    {
+        "name": "GachaActivityPercentNotify",
+        "id": 8706
+    },
+    {
+        "name": "GachaActivityResetReq",
+        "id": 8540
+    },
+    {
+        "name": "GachaActivityResetRsp",
+        "id": 8416
+    },
+    {
+        "name": "GachaActivityTakeRewardReq",
+        "id": 8853
+    },
+    {
+        "name": "GachaActivityTakeRewardRsp",
+        "id": 8354
+    },
+    {
+        "name": "GachaActivityUpdateElemNotify",
+        "id": 8241
+    },
+    {
+        "name": "GachaOpenWishNotify",
+        "id": 1561
+    },
+    {
+        "name": "GachaSimpleInfoNotify",
+        "id": 1547
+    },
+    {
+        "name": "GachaWishReq",
+        "id": 1600
+    },
+    {
+        "name": "GachaWishRsp",
+        "id": 1543
+    },
+    {
+        "name": "GadgetAutoPickDropInfoNotify",
+        "id": 899
+    },
+    {
+        "name": "GadgetChainLevelChangeNotify",
+        "id": 837
+    },
+    {
+        "name": "GadgetChainLevelUpdateNotify",
+        "id": 873
+    },
+    {
+        "name": "GadgetChangeLevelTagReq",
+        "id": 875
+    },
+    {
+        "name": "GadgetChangeLevelTagRsp",
+        "id": 834
+    },
+    {
+        "name": "GadgetCustomTreeInfoNotify",
+        "id": 846
+    },
+    {
+        "name": "GadgetGeneralRewardInfoNotify",
+        "id": 848
+    },
+    {
+        "name": "GadgetInteractReq",
+        "id": 879
+    },
+    {
+        "name": "GadgetInteractRsp",
+        "id": 830
+    },
+    {
+        "name": "GadgetPlayDataNotify",
+        "id": 827
+    },
+    {
+        "name": "GadgetPlayStartNotify",
+        "id": 878
+    },
+    {
+        "name": "GadgetPlayStopNotify",
+        "id": 857
+    },
+    {
+        "name": "GadgetPlayUidOpNotify",
+        "id": 839
+    },
+    {
+        "name": "GadgetStateNotify",
+        "id": 856
+    },
+    {
+        "name": "GadgetTalkChangeNotify",
+        "id": 816
+    },
+    {
+        "name": "GalleryBalloonScoreNotify",
+        "id": 5556
+    },
+    {
+        "name": "GalleryBalloonShootNotify",
+        "id": 5530
+    },
+    {
+        "name": "GalleryBounceConjuringHitNotify",
+        "id": 5542
+    },
+    {
+        "name": "GalleryBrokenFloorFallNotify",
+        "id": 5539
+    },
+    {
+        "name": "GalleryBulletHitNotify",
+        "id": 5527
+    },
+    {
+        "name": "GalleryCrystalLinkBuffInfoNotify",
+        "id": 5516
+    },
+    {
+        "name": "GalleryCrystalLinkKillMonsterNotify",
+        "id": 5576
+    },
+    {
+        "name": "GalleryFallCatchNotify",
+        "id": 5600
+    },
+    {
+        "name": "GalleryFallScoreNotify",
+        "id": 5543
+    },
+    {
+        "name": "GalleryFlowerCatchNotify",
+        "id": 5578
+    },
+    {
+        "name": "GalleryIslandPartyDownHillInfoNotify",
+        "id": 5537
+    },
+    {
+        "name": "GalleryPreStartNotify",
+        "id": 5557
+    },
+    {
+        "name": "GalleryStartNotify",
+        "id": 5579
+    },
+    {
+        "name": "GalleryStopNotify",
+        "id": 5519
+    },
+    {
+        "name": "GallerySumoKillMonsterNotify",
+        "id": 5590
+    },
+    {
+        "name": "GalleryWillStartCountdownNotify",
+        "id": 5505
+    },
+    {
+        "name": "GCGApplyInviteBattleNotify",
+        "id": 7984
+    },
+    {
+        "name": "GCGApplyInviteBattleReq",
+        "id": 7032
+    },
+    {
+        "name": "GCGApplyInviteBattleRsp",
+        "id": 7754
+    },
+    {
+        "name": "GCGAskDuelReq",
+        "id": 7034
+    },
+    {
+        "name": "GCGAskDuelRsp",
+        "id": 7564
+    },
+    {
+        "name": "GCGBackToDuelReq",
+        "id": 7015
+    },
+    {
+        "name": "GCGBackToDuelRsp",
+        "id": 7039
+    },
+    {
+        "name": "GCGBasicDataNotify",
+        "id": 7739
+    },
+    {
+        "name": "GCGBossChallengeUpdateNotify",
+        "id": 7852
+    },
+    {
+        "name": "GCGChallengeUpdateNotify",
+        "id": 7270
+    },
+    {
+        "name": "GCGClientSettleReq",
+        "id": 7035
+    },
+    {
+        "name": "GCGClientSettleRsp",
+        "id": 7532
+    },
+    {
+        "name": "GCGDebugReplayNotify",
+        "id": 7071
+    },
+    {
+        "name": "GCGDSBanCardNotify",
+        "id": 7135
+    },
+    {
+        "name": "GCGDSCardBackUnlockNotify",
+        "id": 7078
+    },
+    {
+        "name": "GCGDSCardFaceUnlockNotify",
+        "id": 7767
+    },
+    {
+        "name": "GCGDSCardFaceUpdateNotify",
+        "id": 7066
+    },
+    {
+        "name": "GCGDSCardNumChangeNotify",
+        "id": 7244
+    },
+    {
+        "name": "GCGDSCardProficiencyNotify",
+        "id": 7969
+    },
+    {
+        "name": "GCGDSChangeCardBackReq",
+        "id": 7680
+    },
+    {
+        "name": "GCGDSChangeCardBackRsp",
+        "id": 7011
+    },
+    {
+        "name": "GCGDSChangeCardFaceReq",
+        "id": 7010
+    },
+    {
+        "name": "GCGDSChangeCardFaceRsp",
+        "id": 7549
+    },
+    {
+        "name": "GCGDSChangeCurDeckReq",
+        "id": 7257
+    },
+    {
+        "name": "GCGDSChangeCurDeckRsp",
+        "id": 7908
+    },
+    {
+        "name": "GCGDSChangeDeckNameReq",
+        "id": 7463
+    },
+    {
+        "name": "GCGDSChangeDeckNameRsp",
+        "id": 7617
+    },
+    {
+        "name": "GCGDSChangeFieldReq",
+        "id": 7788
+    },
+    {
+        "name": "GCGDSChangeFieldRsp",
+        "id": 7036
+    },
+    {
+        "name": "GCGDSCurDeckChangeNotify",
+        "id": 7769
+    },
+    {
+        "name": "GCGDSDataNotify",
+        "id": 7850
+    },
+    {
+        "name": "GCGDSDeckSaveReq",
+        "id": 7713
+    },
+    {
+        "name": "GCGDSDeckSaveRsp",
+        "id": 7459
+    },
+    {
+        "name": "GCGDSDeckUnlockNotify",
+        "id": 7427
+    },
+    {
+        "name": "GCGDSDeckUpdateNotify",
+        "id": 7751
+    },
+    {
+        "name": "GCGDSDeleteDeckReq",
+        "id": 7821
+    },
+    {
+        "name": "GCGDSDeleteDeckRsp",
+        "id": 7067
+    },
+    {
+        "name": "GCGDSFieldUnlockNotify",
+        "id": 7860
+    },
+    {
+        "name": "GCGDSTakeCardProficiencyRewardReq",
+        "id": 7001
+    },
+    {
+        "name": "GCGDSTakeCardProficiencyRewardRsp",
+        "id": 7718
+    },
+    {
+        "name": "GCGGameBriefDataNotify",
+        "id": 7824
+    },
+    {
+        "name": "GCGGameCreateFailReasonNotify",
+        "id": 7658
+    },
+    {
+        "name": "GCGGameMaxNotify",
+        "id": 7226
+    },
+    {
+        "name": "GCGGrowthLevelNotify",
+        "id": 7343
+    },
+    {
+        "name": "GCGGrowthLevelRewardNotify",
+        "id": 7934
+    },
+    {
+        "name": "GCGGrowthLevelTakeRewardReq",
+        "id": 7486
+    },
+    {
+        "name": "GCGGrowthLevelTakeRewardRsp",
+        "id": 7602
+    },
+    {
+        "name": "GCGHeartBeatNotify",
+        "id": 7576
+    },
+    {
+        "name": "GCGInitFinishReq",
+        "id": 7348
+    },
+    {
+        "name": "GCGInitFinishRsp",
+        "id": 7369
+    },
+    {
+        "name": "GCGInviteBattleNotify",
+        "id": 7448
+    },
+    {
+        "name": "GCGInviteGuestBattleReq",
+        "id": 7202
+    },
+    {
+        "name": "GCGInviteGuestBattleRsp",
+        "id": 7997
+    },
+    {
+        "name": "GCGLevelChallengeDeleteNotify",
+        "id": 7993
+    },
+    {
+        "name": "GCGLevelChallengeFinishNotify",
+        "id": 7004
+    },
+    {
+        "name": "GCGLevelChallengeNotify",
+        "id": 7183
+    },
+    {
+        "name": "GCGMessagePackNotify",
+        "id": 7299
+    },
+    {
+        "name": "GCGOperationReq",
+        "id": 7664
+    },
+    {
+        "name": "GCGOperationRsp",
+        "id": 7285
+    },
+    {
+        "name": "GCGResourceStateNotify",
+        "id": 7586
+    },
+    {
+        "name": "GCGSettleNotify",
+        "id": 7562
+    },
+    {
+        "name": "GCGSettleOptionReq",
+        "id": 7600
+    },
+    {
+        "name": "GCGSettleOptionRsp",
+        "id": 7110
+    },
+    {
+        "name": "GCGSkillPreviewAskReq",
+        "id": 7858
+    },
+    {
+        "name": "GCGSkillPreviewAskRsp",
+        "id": 7877
+    },
+    {
+        "name": "GCGSkillPreviewNotify",
+        "id": 7659
+    },
+    {
+        "name": "GCGStartChallengeByCheckRewardReq",
+        "id": 7982
+    },
+    {
+        "name": "GCGStartChallengeByCheckRewardRsp",
+        "id": 7727
+    },
+    {
+        "name": "GCGStartChallengeReq",
+        "id": 7964
+    },
+    {
+        "name": "GCGStartChallengeRsp",
+        "id": 7999
+    },
+    {
+        "name": "GCGTavernNpcInfoNotify",
+        "id": 7267
+    },
+    {
+        "name": "GCGTCInviteReq",
+        "id": 7341
+    },
+    {
+        "name": "GCGTCInviteRsp",
+        "id": 7027
+    },
+    {
+        "name": "GCGTCTavernChallengeDataNotify",
+        "id": 7356
+    },
+    {
+        "name": "GCGTCTavernChallengeUpdateNotify",
+        "id": 7907
+    },
+    {
+        "name": "GCGTCTavernInfoNotify",
+        "id": 7268
+    },
+    {
+        "name": "GCGWeekChallengeInfoNotify",
+        "id": 7058
+    },
+    {
+        "name": "GCGWorldChallengeUnlockNotify",
+        "id": 7370
+    },
+    {
+        "name": "GCGWorldPlayerGCGStateReq",
+        "id": 7375
+    },
+    {
+        "name": "GCGWorldPlayerGCGStateRsp",
+        "id": 7248
+    },
+    {
+        "name": "GearActivityFinishPlayGearReq",
+        "id": 20236
+    },
+    {
+        "name": "GearActivityFinishPlayGearRsp",
+        "id": 20776
+    },
+    {
+        "name": "GearActivityFinishPlayPictureReq",
+        "id": 23793
+    },
+    {
+        "name": "GearActivityFinishPlayPictureRsp",
+        "id": 20453
+    },
+    {
+        "name": "GearActivityStartPlayGearReq",
+        "id": 20589
+    },
+    {
+        "name": "GearActivityStartPlayGearRsp",
+        "id": 23953
+    },
+    {
+        "name": "GearActivityStartPlayPictureReq",
+        "id": 24968
+    },
+    {
+        "name": "GearActivityStartPlayPictureRsp",
+        "id": 20011
+    },
+    {
+        "name": "GetActivityInfoReq",
+        "id": 2011
+    },
+    {
+        "name": "GetActivityInfoRsp",
+        "id": 2043
+    },
+    {
+        "name": "GetActivityScheduleReq",
+        "id": 2008
+    },
+    {
+        "name": "GetActivityScheduleRsp",
+        "id": 2056
+    },
+    {
+        "name": "GetActivityShopSheetInfoReq",
+        "id": 761
+    },
+    {
+        "name": "GetActivityShopSheetInfoRsp",
+        "id": 747
+    },
+    {
+        "name": "GetAllActivatedBargainDataReq",
+        "id": 403
+    },
+    {
+        "name": "GetAllActivatedBargainDataRsp",
+        "id": 433
+    },
+    {
+        "name": "GetAllH5ActivityInfoReq",
+        "id": 5691
+    },
+    {
+        "name": "GetAllH5ActivityInfoRsp",
+        "id": 5692
+    },
+    {
+        "name": "GetAllMailNotify",
+        "id": 1499
+    },
+    {
+        "name": "GetAllMailReq",
+        "id": 1427
+    },
+    {
+        "name": "GetAllMailResultNotify",
+        "id": 1425
+    },
+    {
+        "name": "GetAllMailRsp",
+        "id": 1439
+    },
+    {
+        "name": "GetAllSceneGalleryInfoReq",
+        "id": 5561
+    },
+    {
+        "name": "GetAllSceneGalleryInfoRsp",
+        "id": 5547
+    },
+    {
+        "name": "GetAllUnlockNameCardReq",
+        "id": 4017
+    },
+    {
+        "name": "GetAllUnlockNameCardRsp",
+        "id": 4005
+    },
+    {
+        "name": "GetAreaExplorePointReq",
+        "id": 267
+    },
+    {
+        "name": "GetAreaExplorePointRsp",
+        "id": 215
+    },
+    {
+        "name": "GetAuthkeyReq",
+        "id": 1447
+    },
+    {
+        "name": "GetAuthkeyRsp",
+        "id": 1478
+    },
+    {
+        "name": "GetAuthSalesmanInfoReq",
+        "id": 2049
+    },
+    {
+        "name": "GetAuthSalesmanInfoRsp",
+        "id": 2087
+    },
+    {
+        "name": "GetBargainDataReq",
+        "id": 494
+    },
+    {
+        "name": "GetBargainDataRsp",
+        "id": 472
+    },
+    {
+        "name": "GetBattlePassProductReq",
+        "id": 2612
+    },
+    {
+        "name": "GetBattlePassProductRsp",
+        "id": 2634
+    },
+    {
+        "name": "GetBlossomBriefInfoListReq",
+        "id": 2779
+    },
+    {
+        "name": "GetBlossomBriefInfoListRsp",
+        "id": 2730
+    },
+    {
+        "name": "GetBonusActivityRewardReq",
+        "id": 2525
+    },
+    {
+        "name": "GetBonusActivityRewardRsp",
+        "id": 2542
+    },
+    {
+        "name": "GetChatEmojiCollectionReq",
+        "id": 4088
+    },
+    {
+        "name": "GetChatEmojiCollectionRsp",
+        "id": 4066
+    },
+    {
+        "name": "GetCityHuntingOfferReq",
+        "id": 4322
+    },
+    {
+        "name": "GetCityHuntingOfferRsp",
+        "id": 4335
+    },
+    {
+        "name": "GetCityReputationInfoReq",
+        "id": 2879
+    },
+    {
+        "name": "GetCityReputationInfoRsp",
+        "id": 2830
+    },
+    {
+        "name": "GetCityReputationMapInfoReq",
+        "id": 2839
+    },
+    {
+        "name": "GetCityReputationMapInfoRsp",
+        "id": 2848
+    },
+    {
+        "name": "GetCompoundDataReq",
+        "id": 167
+    },
+    {
+        "name": "GetCompoundDataRsp",
+        "id": 115
+    },
+    {
+        "name": "GetCustomDungeonReq",
+        "id": 6205
+    },
+    {
+        "name": "GetCustomDungeonRsp",
+        "id": 6211
+    },
+    {
+        "name": "GetDailyDungeonEntryInfoReq",
+        "id": 950
+    },
+    {
+        "name": "GetDailyDungeonEntryInfoRsp",
+        "id": 953
+    },
+    {
+        "name": "GetDungeonEntryExploreConditionReq",
+        "id": 3364
+    },
+    {
+        "name": "GetDungeonEntryExploreConditionRsp",
+        "id": 3425
+    },
+    {
+        "name": "GetExpeditionAssistInfoListReq",
+        "id": 2088
+    },
+    {
+        "name": "GetExpeditionAssistInfoListRsp",
+        "id": 2100
+    },
+    {
+        "name": "GetFriendShowAvatarInfoReq",
+        "id": 4049
+    },
+    {
+        "name": "GetFriendShowAvatarInfoRsp",
+        "id": 4091
+    },
+    {
+        "name": "GetFriendShowNameCardInfoReq",
+        "id": 4098
+    },
+    {
+        "name": "GetFriendShowNameCardInfoRsp",
+        "id": 4020
+    },
+    {
+        "name": "GetFurnitureCurModuleArrangeCountReq",
+        "id": 4730
+    },
+    {
+        "name": "GetGachaInfoReq",
+        "id": 1579
+    },
+    {
+        "name": "GetGachaInfoRsp",
+        "id": 1530
+    },
+    {
+        "name": "GetGameplayRecommendationReq",
+        "id": 155
+    },
+    {
+        "name": "GetGameplayRecommendationRsp",
+        "id": 113
+    },
+    {
+        "name": "GetHomeExchangeWoodInfoReq",
+        "id": 4777
+    },
+    {
+        "name": "GetHomeExchangeWoodInfoRsp",
+        "id": 4580
+    },
+    {
+        "name": "GetHomeLevelUpRewardReq",
+        "id": 4457
+    },
+    {
+        "name": "GetHomeLevelUpRewardRsp",
+        "id": 4857
+    },
+    {
+        "name": "GetHuntingOfferRewardReq",
+        "id": 4327
+    },
+    {
+        "name": "GetHuntingOfferRewardRsp",
+        "id": 4331
+    },
+    {
+        "name": "GetInvestigationMonsterReq",
+        "id": 1930
+    },
+    {
+        "name": "GetInvestigationMonsterRsp",
+        "id": 1901
+    },
+    {
+        "name": "GetMailItemReq",
+        "id": 1419
+    },
+    {
+        "name": "GetMailItemRsp",
+        "id": 1500
+    },
+    {
+        "name": "GetMapAreaReq",
+        "id": 3106
+    },
+    {
+        "name": "GetMapAreaRsp",
+        "id": 3275
+    },
+    {
+        "name": "GetMapMarkTipsReq",
+        "id": 3473
+    },
+    {
+        "name": "GetMapMarkTipsRsp",
+        "id": 3272
+    },
+    {
+        "name": "GetMechanicusInfoReq",
+        "id": 3979
+    },
+    {
+        "name": "GetMechanicusInfoRsp",
+        "id": 3930
+    },
+    {
+        "name": "GetNextResourceInfoReq",
+        "id": 197
+    },
+    {
+        "name": "GetNextResourceInfoRsp",
+        "id": 102
+    },
+    {
+        "name": "GetOnlinePlayerInfoReq",
+        "id": 90
+    },
+    {
+        "name": "GetOnlinePlayerInfoRsp",
+        "id": 76
+    },
+    {
+        "name": "GetOnlinePlayerListReq",
+        "id": 47
+    },
+    {
+        "name": "GetOnlinePlayerListRsp",
+        "id": 78
+    },
+    {
+        "name": "GetOpActivityInfoReq",
+        "id": 5179
+    },
+    {
+        "name": "GetOpActivityInfoRsp",
+        "id": 5130
+    },
+    {
+        "name": "GetParentQuestVideoKeyReq",
+        "id": 449
+    },
+    {
+        "name": "GetParentQuestVideoKeyRsp",
+        "id": 491
+    },
+    {
+        "name": "GetPlayerAskFriendListReq",
+        "id": 4008
+    },
+    {
+        "name": "GetPlayerAskFriendListRsp",
+        "id": 4009
+    },
+    {
+        "name": "GetPlayerBlacklistReq",
+        "id": 4015
+    },
+    {
+        "name": "GetPlayerBlacklistRsp",
+        "id": 4021
+    },
+    {
+        "name": "GetPlayerFriendListReq",
+        "id": 4079
+    },
+    {
+        "name": "GetPlayerFriendListRsp",
+        "id": 4030
+    },
+    {
+        "name": "GetPlayerHomeCompInfoReq",
+        "id": 4655
+    },
+    {
+        "name": "GetPlayerMpModeAvailabilityReq",
+        "id": 1812
+    },
+    {
+        "name": "GetPlayerMpModeAvailabilityRsp",
+        "id": 1834
+    },
+    {
+        "name": "GetPlayerSocialDetailReq",
+        "id": 4078
+    },
+    {
+        "name": "GetPlayerSocialDetailRsp",
+        "id": 4057
+    },
+    {
+        "name": "GetPlayerTokenReq",
+        "id": 179
+    },
+    {
+        "name": "GetPlayerTokenRsp",
+        "id": 130
+    },
+    {
+        "name": "GetPushTipsRewardReq",
+        "id": 2217
+    },
+    {
+        "name": "GetPushTipsRewardRsp",
+        "id": 2205
+    },
+    {
+        "name": "GetQuestLackingResourceReq",
+        "id": 453
+    },
+    {
+        "name": "GetQuestLackingResourceRsp",
+        "id": 424
+    },
+    {
+        "name": "GetQuestTalkHistoryReq",
+        "id": 447
+    },
+    {
+        "name": "GetQuestTalkHistoryRsp",
+        "id": 478
+    },
+    {
+        "name": "GetRecentMpPlayerListReq",
+        "id": 4080
+    },
+    {
+        "name": "GetRecentMpPlayerListRsp",
+        "id": 4046
+    },
+    {
+        "name": "GetRecommendCustomDungeonReq",
+        "id": 6221
+    },
+    {
+        "name": "GetRecommendCustomDungeonRsp",
+        "id": 6237
+    },
+    {
+        "name": "GetRegionSearchReq",
+        "id": 5627
+    },
+    {
+        "name": "GetReunionMissionInfoReq",
+        "id": 5062
+    },
+    {
+        "name": "GetReunionMissionInfoRsp",
+        "id": 5084
+    },
+    {
+        "name": "GetReunionPrivilegeInfoReq",
+        "id": 5093
+    },
+    {
+        "name": "GetReunionPrivilegeInfoRsp",
+        "id": 5059
+    },
+    {
+        "name": "GetReunionSignInInfoReq",
+        "id": 5077
+    },
+    {
+        "name": "GetReunionSignInInfoRsp",
+        "id": 5081
+    },
+    {
+        "name": "GetRogueDairyRepairInfoReq",
+        "id": 8730
+    },
+    {
+        "name": "GetRogueDairyRepairInfoRsp",
+        "id": 8656
+    },
+    {
+        "name": "GetSceneAreaReq",
+        "id": 289
+    },
+    {
+        "name": "GetSceneAreaRsp",
+        "id": 244
+    },
+    {
+        "name": "GetSceneNpcPositionReq",
+        "id": 519
+    },
+    {
+        "name": "GetSceneNpcPositionRsp",
+        "id": 600
+    },
+    {
+        "name": "GetScenePerformanceReq",
+        "id": 3403
+    },
+    {
+        "name": "GetScenePerformanceRsp",
+        "id": 3010
+    },
+    {
+        "name": "GetScenePointReq",
+        "id": 299
+    },
+    {
+        "name": "GetScenePointRsp",
+        "id": 225
+    },
+    {
+        "name": "GetShopmallDataReq",
+        "id": 800
+    },
+    {
+        "name": "GetShopmallDataRsp",
+        "id": 743
+    },
+    {
+        "name": "GetShopReq",
+        "id": 779
+    },
+    {
+        "name": "GetShopRsp",
+        "id": 730
+    },
+    {
+        "name": "GetSignInRewardReq",
+        "id": 2600
+    },
+    {
+        "name": "GetSignInRewardRsp",
+        "id": 2543
+    },
+    {
+        "name": "GetStoreCustomDungeonReq",
+        "id": 6204
+    },
+    {
+        "name": "GetStoreCustomDungeonRsp",
+        "id": 6210
+    },
+    {
+        "name": "GetUgcBriefInfoReq",
+        "id": 6322
+    },
+    {
+        "name": "GetUgcBriefInfoRsp",
+        "id": 6335
+    },
+    {
+        "name": "GetUgcReq",
+        "id": 6342
+    },
+    {
+        "name": "GetUgcRsp",
+        "id": 6341
+    },
+    {
+        "name": "GetWidgetSlotReq",
+        "id": 4274
+    },
+    {
+        "name": "GetWidgetSlotRsp",
+        "id": 4270
+    },
+    {
+        "name": "GetWorldMpInfoReq",
+        "id": 3034
+    },
+    {
+        "name": "GetWorldMpInfoRsp",
+        "id": 3310
+    },
+    {
+        "name": "GiveUpRoguelikeDungeonCardReq",
+        "id": 8440
+    },
+    {
+        "name": "GiveUpRoguelikeDungeonCardRsp",
+        "id": 8762
+    },
+    {
+        "name": "GivingRecordChangeNotify",
+        "id": 187
+    },
+    {
+        "name": "GivingRecordNotify",
+        "id": 123
+    },
+    {
+        "name": "GlobalBuildingInfoNotify",
+        "id": 5302
+    },
+    {
+        "name": "GMShowNavMeshReq",
+        "id": 2363
+    },
+    {
+        "name": "GMShowNavMeshRsp",
+        "id": 2304
+    },
+    {
+        "name": "GMShowObstacleReq",
+        "id": 2398
+    },
+    {
+        "name": "GMShowObstacleRsp",
+        "id": 2320
+    },
+    {
+        "name": "GmTalkNotify",
+        "id": 5
+    },
+    {
+        "name": "GmTalkReq",
+        "id": 30
+    },
+    {
+        "name": "GmTalkRsp",
+        "id": 56
+    },
+    {
+        "name": "GrantRewardNotify",
+        "id": 603
+    },
+    {
+        "name": "GravenInnocenceEditCarveCombinationReq",
+        "id": 24150
+    },
+    {
+        "name": "GravenInnocenceEditCarveCombinationRsp",
+        "id": 23400
+    },
+    {
+        "name": "GravenInnocencePhotoFinishReq",
+        "id": 22391
+    },
+    {
+        "name": "GravenInnocencePhotoFinishRsp",
+        "id": 22418
+    },
+    {
+        "name": "GravenInnocencePhotoReminderNotify",
+        "id": 22577
+    },
+    {
+        "name": "GravenInnocenceRaceRestartReq",
+        "id": 23067
+    },
+    {
+        "name": "GravenInnocenceRaceRestartRsp",
+        "id": 20056
+    },
+    {
+        "name": "GravenInnocenceRaceSettleNotify",
+        "id": 24427
+    },
+    {
+        "name": "GroupLinkAllNotify",
+        "id": 5792
+    },
+    {
+        "name": "GroupLinkChangeNotify",
+        "id": 5791
+    },
+    {
+        "name": "GroupLinkDeleteNotify",
+        "id": 5772
+    },
+    {
+        "name": "GroupLinkMarkUpdateNotify",
+        "id": 5785
+    },
+    {
+        "name": "GroupSuiteNotify",
+        "id": 3489
+    },
+    {
+        "name": "GroupUnloadNotify",
+        "id": 3138
+    },
+    {
+        "name": "GuestBeginEnterSceneNotify",
+        "id": 3125
+    },
+    {
+        "name": "GuestPostEnterSceneNotify",
+        "id": 3229
+    },
+    {
+        "name": "H5ActivityIdsNotify",
+        "id": 5672
+    },
+    {
+        "name": "HideAndSeekChooseMapReq",
+        "id": 8759
+    },
+    {
+        "name": "HideAndSeekChooseMapRsp",
+        "id": 8501
+    },
+    {
+        "name": "HideAndSeekPlayerCapturedNotify",
+        "id": 5580
+    },
+    {
+        "name": "HideAndSeekPlayerReadyNotify",
+        "id": 5393
+    },
+    {
+        "name": "HideAndSeekPlayerSetAvatarNotify",
+        "id": 5354
+    },
+    {
+        "name": "HideAndSeekSelectAvatarReq",
+        "id": 5350
+    },
+    {
+        "name": "HideAndSeekSelectAvatarRsp",
+        "id": 5353
+    },
+    {
+        "name": "HideAndSeekSelectSkillReq",
+        "id": 8062
+    },
+    {
+        "name": "HideAndSeekSelectSkillRsp",
+        "id": 8841
+    },
+    {
+        "name": "HideAndSeekSetReadyReq",
+        "id": 5324
+    },
+    {
+        "name": "HideAndSeekSetReadyRsp",
+        "id": 5349
+    },
+    {
+        "name": "HideAndSeekSettleNotify",
+        "id": 5391
+    },
+    {
+        "name": "HitClientTrivialNotify",
+        "id": 238
+    },
+    {
+        "name": "HitTreeNotify",
+        "id": 3018
+    },
+    {
+        "name": "HomeAllUnlockedBgmIdListNotify",
+        "id": 4841
+    },
+    {
+        "name": "HomeAvatarAllFinishRewardNotify",
+        "id": 4798
+    },
+    {
+        "name": "HomeAvatarCostumeChangeNotify",
+        "id": 4775
+    },
+    {
+        "name": "HomeAvatarRewardEventGetReq",
+        "id": 4754
+    },
+    {
+        "name": "HomeAvatarRewardEventGetRsp",
+        "id": 4713
+    },
+    {
+        "name": "HomeAvatarRewardEventNotify",
+        "id": 4849
+    },
+    {
+        "name": "HomeAvatarSummonAllEventNotify",
+        "id": 4670
+    },
+    {
+        "name": "HomeAvatarSummonEventReq",
+        "id": 4894
+    },
+    {
+        "name": "HomeAvatarSummonEventRsp",
+        "id": 4562
+    },
+    {
+        "name": "HomeAvatarSummonFinishReq",
+        "id": 4804
+    },
+    {
+        "name": "HomeAvatarSummonFinishRsp",
+        "id": 4814
+    },
+    {
+        "name": "HomeAvatarTalkFinishInfoNotify",
+        "id": 4757
+    },
+    {
+        "name": "HomeAvatarTalkReq",
+        "id": 4704
+    },
+    {
+        "name": "HomeAvatarTalkRsp",
+        "id": 4718
+    },
+    {
+        "name": "HomeAvtarAllFinishRewardNotify",
+        "id": 4535
+    },
+    {
+        "name": "HomeBalloonGalleryScoreNotify",
+        "id": 4734
+    },
+    {
+        "name": "HomeBalloonGallerySettleNotify",
+        "id": 4604
+    },
+    {
+        "name": "HomeBasicInfoNotify",
+        "id": 4622
+    },
+    {
+        "name": "HomeBlockNotify",
+        "id": 4679
+    },
+    {
+        "name": "HomeBlueprintInfoNotify",
+        "id": 4813
+    },
+    {
+        "name": "HomeChangeBgmNotify",
+        "id": 4518
+    },
+    {
+        "name": "HomeChangeBgmReq",
+        "id": 4736
+    },
+    {
+        "name": "HomeChangeBgmRsp",
+        "id": 4895
+    },
+    {
+        "name": "HomeChangeEditModeReq",
+        "id": 4719
+    },
+    {
+        "name": "HomeChangeEditModeRsp",
+        "id": 4661
+    },
+    {
+        "name": "HomeChangeModuleReq",
+        "id": 4559
+    },
+    {
+        "name": "HomeChangeModuleRsp",
+        "id": 4551
+    },
+    {
+        "name": "HomeChooseModuleReq",
+        "id": 4456
+    },
+    {
+        "name": "HomeChooseModuleRsp",
+        "id": 4638
+    },
+    {
+        "name": "HomeClearGroupRecordReq",
+        "id": 4823
+    },
+    {
+        "name": "HomeClearGroupRecordRsp",
+        "id": 4525
+    },
+    {
+        "name": "HomeComfortInfoNotify",
+        "id": 4763
+    },
+    {
+        "name": "HomeCreateBlueprintReq",
+        "id": 4539
+    },
+    {
+        "name": "HomeCreateBlueprintRsp",
+        "id": 4806
+    },
+    {
+        "name": "HomeCustomFurnitureInfoNotify",
+        "id": 4888
+    },
+    {
+        "name": "HomeDeleteBlueprintReq",
+        "id": 4501
+    },
+    {
+        "name": "HomeDeleteBlueprintRsp",
+        "id": 4545
+    },
+    {
+        "name": "HomeEditCustomFurnitureReq",
+        "id": 4778
+    },
+    {
+        "name": "HomeEditCustomFurnitureRsp",
+        "id": 4769
+    },
+    {
+        "name": "HomeEnterEditModeFinishReq",
+        "id": 4865
+    },
+    {
+        "name": "HomeEnterEditModeFinishRsp",
+        "id": 4583
+    },
+    {
+        "name": "HomeExchangeWoodReq",
+        "id": 4808
+    },
+    {
+        "name": "HomeExchangeWoodRsp",
+        "id": 4885
+    },
+    {
+        "name": "HomeFishFarmingInfoNotify",
+        "id": 4842
+    },
+    {
+        "name": "HomeGalleryInPlayingNotify",
+        "id": 5573
+    },
+    {
+        "name": "HomeGetArrangementInfoReq",
+        "id": 4601
+    },
+    {
+        "name": "HomeGetArrangementInfoRsp",
+        "id": 4878
+    },
+    {
+        "name": "HomeGetBasicInfoReq",
+        "id": 4743
+    },
+    {
+        "name": "HomeGetBlueprintSlotInfoReq",
+        "id": 4688
+    },
+    {
+        "name": "HomeGetBlueprintSlotInfoRsp",
+        "id": 4498
+    },
+    {
+        "name": "HomeGetFishFarmingInfoReq",
+        "id": 4835
+    },
+    {
+        "name": "HomeGetFishFarmingInfoRsp",
+        "id": 4567
+    },
+    {
+        "name": "HomeGetGroupRecordReq",
+        "id": 4756
+    },
+    {
+        "name": "HomeGetGroupRecordRsp",
+        "id": 4824
+    },
+    {
+        "name": "HomeGetOnlineStatusReq",
+        "id": 4856
+    },
+    {
+        "name": "HomeGetOnlineStatusRsp",
+        "id": 4649
+    },
+    {
+        "name": "HomeKickPlayerReq",
+        "id": 4684
+    },
+    {
+        "name": "HomeKickPlayerRsp",
+        "id": 4657
+    },
+    {
+        "name": "HomeLimitedShopBuyGoodsReq",
+        "id": 4574
+    },
+    {
+        "name": "HomeLimitedShopBuyGoodsRsp",
+        "id": 4630
+    },
+    {
+        "name": "HomeLimitedShopGoodsListReq",
+        "id": 4537
+    },
+    {
+        "name": "HomeLimitedShopGoodsListRsp",
+        "id": 4492
+    },
+    {
+        "name": "HomeLimitedShopInfoChangeNotify",
+        "id": 4790
+    },
+    {
+        "name": "HomeLimitedShopInfoNotify",
+        "id": 4475
+    },
+    {
+        "name": "HomeLimitedShopInfoReq",
+        "id": 4815
+    },
+    {
+        "name": "HomeLimitedShopInfoRsp",
+        "id": 4739
+    },
+    {
+        "name": "HomeMarkPointNotify",
+        "id": 4868
+    },
+    {
+        "name": "HomeModuleSeenReq",
+        "id": 4861
+    },
+    {
+        "name": "HomeModuleSeenRsp",
+        "id": 4693
+    },
+    {
+        "name": "HomeModuleUnlockNotify",
+        "id": 4674
+    },
+    {
+        "name": "HomeNewUnlockedBgmIdListNotify",
+        "id": 4899
+    },
+    {
+        "name": "HomePictureFrameInfoNotify",
+        "id": 4495
+    },
+    {
+        "name": "HomePlantFieldNotify",
+        "id": 4848
+    },
+    {
+        "name": "HomePlantInfoNotify",
+        "id": 4873
+    },
+    {
+        "name": "HomePlantInfoReq",
+        "id": 4629
+    },
+    {
+        "name": "HomePlantInfoRsp",
+        "id": 4460
+    },
+    {
+        "name": "HomePlantSeedReq",
+        "id": 4768
+    },
+    {
+        "name": "HomePlantSeedRsp",
+        "id": 4694
+    },
+    {
+        "name": "HomePlantWeedReq",
+        "id": 4866
+    },
+    {
+        "name": "HomePlantWeedRsp",
+        "id": 4619
+    },
+    {
+        "name": "HomePreChangeEditModeNotify",
+        "id": 4720
+    },
+    {
+        "name": "HomePreviewBlueprintReq",
+        "id": 4745
+    },
+    {
+        "name": "HomePreviewBlueprintRsp",
+        "id": 4462
+    },
+    {
+        "name": "HomePriorCheckNotify",
+        "id": 4557
+    },
+    {
+        "name": "HomeRacingGallerySettleNotify",
+        "id": 4807
+    },
+    {
+        "name": "HomeResourceNotify",
+        "id": 4762
+    },
+    {
+        "name": "HomeResourceTakeFetterExpReq",
+        "id": 4521
+    },
+    {
+        "name": "HomeResourceTakeFetterExpRsp",
+        "id": 4607
+    },
+    {
+        "name": "HomeResourceTakeHomeCoinReq",
+        "id": 4800
+    },
+    {
+        "name": "HomeResourceTakeHomeCoinRsp",
+        "id": 4779
+    },
+    {
+        "name": "HomeSaveArrangementNoChangeReq",
+        "id": 4672
+    },
+    {
+        "name": "HomeSaveArrangementNoChangeRsp",
+        "id": 4603
+    },
+    {
+        "name": "HomeSceneInitFinishReq",
+        "id": 4451
+    },
+    {
+        "name": "HomeSceneInitFinishRsp",
+        "id": 4531
+    },
+    {
+        "name": "HomeSceneJumpReq",
+        "id": 4527
+    },
+    {
+        "name": "HomeSceneJumpRsp",
+        "id": 4647
+    },
+    {
+        "name": "HomeScenePointFishFarmingInfoNotify",
+        "id": 4834
+    },
+    {
+        "name": "HomeSearchBlueprintReq",
+        "id": 4705
+    },
+    {
+        "name": "HomeSearchBlueprintRsp",
+        "id": 4512
+    },
+    {
+        "name": "HomeSeekFurnitureGalleryScoreNotify",
+        "id": 4723
+    },
+    {
+        "name": "HomeSetBlueprintFriendOptionReq",
+        "id": 4472
+    },
+    {
+        "name": "HomeSetBlueprintFriendOptionRsp",
+        "id": 4615
+    },
+    {
+        "name": "HomeSetBlueprintSlotOptionReq",
+        "id": 4491
+    },
+    {
+        "name": "HomeSetBlueprintSlotOptionRsp",
+        "id": 4621
+    },
+    {
+        "name": "HomeTransferReq",
+        "id": 4613
+    },
+    {
+        "name": "HomeTransferRsp",
+        "id": 4711
+    },
+    {
+        "name": "HomeUpdateArrangementInfoReq",
+        "id": 4533
+    },
+    {
+        "name": "HomeUpdateArrangementInfoRsp",
+        "id": 4776
+    },
+    {
+        "name": "HomeUpdateFishFarmingInfoReq",
+        "id": 4767
+    },
+    {
+        "name": "HomeUpdateFishFarmingInfoRsp",
+        "id": 4582
+    },
+    {
+        "name": "HomeUpdatePictureFrameInfoReq",
+        "id": 4764
+    },
+    {
+        "name": "HomeUpdatePictureFrameInfoRsp",
+        "id": 4468
+    },
+    {
+        "name": "HomeUpdateScenePointFishFarmingInfoReq",
+        "id": 4652
+    },
+    {
+        "name": "HomeUpdateScenePointFishFarmingInfoRsp",
+        "id": 4606
+    },
+    {
+        "name": "HostPlayerNotify",
+        "id": 356
+    },
+    {
+        "name": "HuntingFailNotify",
+        "id": 4315
+    },
+    {
+        "name": "HuntingGiveUpReq",
+        "id": 4308
+    },
+    {
+        "name": "HuntingGiveUpRsp",
+        "id": 4345
+    },
+    {
+        "name": "HuntingOngoingNotify",
+        "id": 4318
+    },
+    {
+        "name": "HuntingRevealClueNotify",
+        "id": 4317
+    },
+    {
+        "name": "HuntingRevealFinalNotify",
+        "id": 4312
+    },
+    {
+        "name": "HuntingStartNotify",
+        "id": 4344
+    },
+    {
+        "name": "HuntingSuccessNotify",
+        "id": 4334
+    },
+    {
+        "name": "InBattleMechanicusBuildingPointsNotify",
+        "id": 5361
+    },
+    {
+        "name": "InBattleMechanicusCardResultNotify",
+        "id": 5399
+    },
+    {
+        "name": "InBattleMechanicusConfirmCardNotify",
+        "id": 5348
+    },
+    {
+        "name": "InBattleMechanicusConfirmCardReq",
+        "id": 5327
+    },
+    {
+        "name": "InBattleMechanicusConfirmCardRsp",
+        "id": 5339
+    },
+    {
+        "name": "InBattleMechanicusEscapeMonsterNotify",
+        "id": 5400
+    },
+    {
+        "name": "InBattleMechanicusLeftMonsterNotify",
+        "id": 5343
+    },
+    {
+        "name": "InBattleMechanicusPickCardNotify",
+        "id": 5357
+    },
+    {
+        "name": "InBattleMechanicusPickCardReq",
+        "id": 5347
+    },
+    {
+        "name": "InBattleMechanicusPickCardRsp",
+        "id": 5378
+    },
+    {
+        "name": "InBattleMechanicusSettleNotify",
+        "id": 5342
+    },
+    {
+        "name": "InstableSprayEnterDungeonReq",
+        "id": 21889
+    },
+    {
+        "name": "InstableSprayEnterDungeonRsp",
+        "id": 24458
+    },
+    {
+        "name": "InstableSprayGalleryInfoNotify",
+        "id": 5594
+    },
+    {
+        "name": "InstableSprayLevelFinishNotify",
+        "id": 21512
+    },
+    {
+        "name": "InstableSprayRestartDungeonReq",
+        "id": 22725
+    },
+    {
+        "name": "InstableSprayRestartDungeonRsp",
+        "id": 23617
+    },
+    {
+        "name": "InstableSpraySwitchTeamReq",
+        "id": 22524
+    },
+    {
+        "name": "InstableSpraySwitchTeamRsp",
+        "id": 21806
+    },
+    {
+        "name": "InteractDailyDungeonInfoNotify",
+        "id": 954
+    },
+    {
+        "name": "InterpretInferenceWordReq",
+        "id": 454
+    },
+    {
+        "name": "InterpretInferenceWordRsp",
+        "id": 498
+    },
+    {
+        "name": "InterruptGalleryReq",
+        "id": 5548
+    },
+    {
+        "name": "InterruptGalleryRsp",
+        "id": 5599
+    },
+    {
+        "name": "InvestigationMonsterUpdateNotify",
+        "id": 1910
+    },
+    {
+        "name": "InvestigationQuestDailyNotify",
+        "id": 1926
+    },
+    {
+        "name": "InvestigationReadQuestDailyNotify",
+        "id": 1908
+    },
+    {
+        "name": "IrodoriChessEquipCardReq",
+        "id": 8766
+    },
+    {
+        "name": "IrodoriChessEquipCardRsp",
+        "id": 8884
+    },
+    {
+        "name": "IrodoriChessLeftMonsterNotify",
+        "id": 5331
+    },
+    {
+        "name": "IrodoriChessPlayerInfoNotify",
+        "id": 5312
+    },
+    {
+        "name": "IrodoriChessUnequipCardReq",
+        "id": 8409
+    },
+    {
+        "name": "IrodoriChessUnequipCardRsp",
+        "id": 8537
+    },
+    {
+        "name": "IrodoriEditFlowerCombinationReq",
+        "id": 8835
+    },
+    {
+        "name": "IrodoriEditFlowerCombinationRsp",
+        "id": 8454
+    },
+    {
+        "name": "IrodoriFillPoetryReq",
+        "id": 8926
+    },
+    {
+        "name": "IrodoriFillPoetryRsp",
+        "id": 8076
+    },
+    {
+        "name": "IrodoriMasterGalleryCgEndNotify",
+        "id": 8050
+    },
+    {
+        "name": "IrodoriMasterGallerySettleNotify",
+        "id": 8792
+    },
+    {
+        "name": "IrodoriMasterStartGalleryReq",
+        "id": 8243
+    },
+    {
+        "name": "IrodoriMasterStartGalleryRsp",
+        "id": 8495
+    },
+    {
+        "name": "IrodoriScanEntityReq",
+        "id": 8931
+    },
+    {
+        "name": "IrodoriScanEntityRsp",
+        "id": 8840
+    },
+    {
+        "name": "IslandPartyRaftInfoNotify",
+        "id": 5589
+    },
+    {
+        "name": "IslandPartySailInfoNotify",
+        "id": 5544
+    },
+    {
+        "name": "IslandPartySettleNotify",
+        "id": 24127
+    },
+    {
+        "name": "ItemAddHintNotify",
+        "id": 700
+    },
+    {
+        "name": "ItemCdGroupTimeNotify",
+        "id": 680
+    },
+    {
+        "name": "ItemGivingReq",
+        "id": 185
+    },
+    {
+        "name": "ItemGivingRsp",
+        "id": 108
+    },
+    {
+        "name": "ItemRenameAvatarReq",
+        "id": 1688
+    },
+    {
+        "name": "ItemRenameAvatarRsp",
+        "id": 1700
+    },
+    {
+        "name": "JoinHomeWorldFailNotify",
+        "id": 4859
+    },
+    {
+        "name": "JoinPlayerFailNotify",
+        "id": 258
+    },
+    {
+        "name": "JoinPlayerSceneReq",
+        "id": 297
+    },
+    {
+        "name": "JoinPlayerSceneRsp",
+        "id": 202
+    },
+    {
+        "name": "KeepAliveNotify",
+        "id": 79
+    },
+    {
+        "name": "LanternRiteDoFireworksReformReq",
+        "id": 8517
+    },
+    {
+        "name": "LanternRiteDoFireworksReformRsp",
+        "id": 8171
+    },
+    {
+        "name": "LanternRiteEndFireworksReformReq",
+        "id": 8936
+    },
+    {
+        "name": "LanternRiteEndFireworksReformRsp",
+        "id": 8414
+    },
+    {
+        "name": "LanternRiteStartFireworksReformReq",
+        "id": 8200
+    },
+    {
+        "name": "LanternRiteStartFireworksReformRsp",
+        "id": 8652
+    },
+    {
+        "name": "LanternRiteTakeSkinRewardReq",
+        "id": 8398
+    },
+    {
+        "name": "LanternRiteTakeSkinRewardRsp",
+        "id": 8104
+    },
+    {
+        "name": "LastPacketPrintNotify",
+        "id": 94
+    },
+    {
+        "name": "LaunchFireworksReq",
+        "id": 5977
+    },
+    {
+        "name": "LaunchFireworksRsp",
+        "id": 5936
+    },
+    {
+        "name": "LeaveSceneReq",
+        "id": 230
+    },
+    {
+        "name": "LeaveSceneRsp",
+        "id": 256
+    },
+    {
+        "name": "LeaveWorldNotify",
+        "id": 3247
+    },
+    {
+        "name": "LevelTagDataNotify",
+        "id": 3468
+    },
+    {
+        "name": "LevelupCityReq",
+        "id": 223
+    },
+    {
+        "name": "LevelupCityRsp",
+        "id": 287
+    },
+    {
+        "name": "LifeStateChangeNotify",
+        "id": 1230
+    },
+    {
+        "name": "LikeCustomDungeonReq",
+        "id": 6203
+    },
+    {
+        "name": "LikeCustomDungeonRsp",
+        "id": 6233
+    },
+    {
+        "name": "LiveEndNotify",
+        "id": 810
+    },
+    {
+        "name": "LiveStartNotify",
+        "id": 872
+    },
+    {
+        "name": "LoadActivityTerrainNotify",
+        "id": 2089
+    },
+    {
+        "name": "LuaEnvironmentEffectNotify",
+        "id": 3083
+    },
+    {
+        "name": "LuaSetOptionNotify",
+        "id": 323
+    },
+    {
+        "name": "LuminanceStoneChallengeSettleNotify",
+        "id": 8784
+    },
+    {
+        "name": "LunaRiteAreaFinishNotify",
+        "id": 8382
+    },
+    {
+        "name": "LunaRiteGroupBundleRegisterNotify",
+        "id": 8455
+    },
+    {
+        "name": "LunaRiteHintPointRemoveNotify",
+        "id": 8763
+    },
+    {
+        "name": "LunaRiteHintPointReq",
+        "id": 8811
+    },
+    {
+        "name": "LunaRiteHintPointRsp",
+        "id": 8394
+    },
+    {
+        "name": "LunaRiteSacrificeReq",
+        "id": 8717
+    },
+    {
+        "name": "LunaRiteSacrificeRsp",
+        "id": 8215
+    },
+    {
+        "name": "LunaRiteTakeSacrificeRewardReq",
+        "id": 8213
+    },
+    {
+        "name": "LunaRiteTakeSacrificeRewardRsp",
+        "id": 8895
+    },
+    {
+        "name": "MailChangeNotify",
+        "id": 1430
+    },
+    {
+        "name": "MainCoopFailNotify",
+        "id": 1956
+    },
+    {
+        "name": "MainCoopUpdateNotify",
+        "id": 1991
+    },
+    {
+        "name": "MapAreaChangeNotify",
+        "id": 3485
+    },
+    {
+        "name": "MarkEntityInMinMapNotify",
+        "id": 293
+    },
+    {
+        "name": "MarkMapReq",
+        "id": 3282
+    },
+    {
+        "name": "MarkMapRsp",
+        "id": 3346
+    },
+    {
+        "name": "MarkNewNotify",
+        "id": 1239
+    },
+    {
+        "name": "MarkTargetInvestigationMonsterNotify",
+        "id": 1921
+    },
+    {
+        "name": "MassiveEntityElementOpBatchNotify",
+        "id": 363
+    },
+    {
+        "name": "MassiveEntityStateChangedNotify",
+        "id": 349
+    },
+    {
+        "name": "MaterialDeleteReturnNotify",
+        "id": 698
+    },
+    {
+        "name": "MaterialDeleteUpdateNotify",
+        "id": 604
+    },
+    {
+        "name": "McoinExchangeHcoinReq",
+        "id": 623
+    },
+    {
+        "name": "McoinExchangeHcoinRsp",
+        "id": 687
+    },
+    {
+        "name": "MechanicusCandidateTeamCreateReq",
+        "id": 3925
+    },
+    {
+        "name": "MechanicusCandidateTeamCreateRsp",
+        "id": 3942
+    },
+    {
+        "name": "MechanicusCloseNotify",
+        "id": 3943
+    },
+    {
+        "name": "MechanicusCoinNotify",
+        "id": 3919
+    },
+    {
+        "name": "MechanicusLevelupGearReq",
+        "id": 3978
+    },
+    {
+        "name": "MechanicusLevelupGearRsp",
+        "id": 3957
+    },
+    {
+        "name": "MechanicusOpenNotify",
+        "id": 4000
+    },
+    {
+        "name": "MechanicusSequenceOpenNotify",
+        "id": 3956
+    },
+    {
+        "name": "MechanicusUnlockGearReq",
+        "id": 3961
+    },
+    {
+        "name": "MechanicusUnlockGearRsp",
+        "id": 3947
+    },
+    {
+        "name": "MeetNpcReq",
+        "id": 561
+    },
+    {
+        "name": "MeetNpcRsp",
+        "id": 547
+    },
+    {
+        "name": "MetNpcIdListNotify",
+        "id": 543
+    },
+    {
+        "name": "MichiaeMatsuriDarkPressureLevelUpdateNotify",
+        "id": 8136
+    },
+    {
+        "name": "MichiaeMatsuriGainCrystalExpUpdateNotify",
+        "id": 8318
+    },
+    {
+        "name": "MichiaeMatsuriInteractStatueReq",
+        "id": 8008
+    },
+    {
+        "name": "MichiaeMatsuriInteractStatueRsp",
+        "id": 8150
+    },
+    {
+        "name": "MichiaeMatsuriRemoveChallengeMarkNotify",
+        "id": 8581
+    },
+    {
+        "name": "MichiaeMatsuriRemoveChestMarkNotify",
+        "id": 8203
+    },
+    {
+        "name": "MichiaeMatsuriStartBossChallengeReq",
+        "id": 8650
+    },
+    {
+        "name": "MichiaeMatsuriStartBossChallengeRsp",
+        "id": 8953
+    },
+    {
+        "name": "MichiaeMatsuriStartDarkChallengeReq",
+        "id": 8166
+    },
+    {
+        "name": "MichiaeMatsuriStartDarkChallengeRsp",
+        "id": 8379
+    },
+    {
+        "name": "MichiaeMatsuriUnlockCrystalSkillReq",
+        "id": 8632
+    },
+    {
+        "name": "MichiaeMatsuriUnlockCrystalSkillRsp",
+        "id": 8874
+    },
+    {
+        "name": "MiracleRingDataNotify",
+        "id": 5222
+    },
+    {
+        "name": "MiracleRingDeliverItemReq",
+        "id": 5244
+    },
+    {
+        "name": "MiracleRingDeliverItemRsp",
+        "id": 5217
+    },
+    {
+        "name": "MiracleRingDestroyNotify",
+        "id": 5212
+    },
+    {
+        "name": "MiracleRingDropResultNotify",
+        "id": 5231
+    },
+    {
+        "name": "MiracleRingTakeRewardReq",
+        "id": 5235
+    },
+    {
+        "name": "MiracleRingTakeRewardRsp",
+        "id": 5227
+    },
+    {
+        "name": "MistTrialDungeonFailNotify",
+        "id": 8320
+    },
+    {
+        "name": "MistTrialFloorLevelNotify",
+        "id": 988
+    },
+    {
+        "name": "MistTrialGetChallengeMissionReq",
+        "id": 8048
+    },
+    {
+        "name": "MistTrialGetChallengeMissionRsp",
+        "id": 8193
+    },
+    {
+        "name": "MistTrialGetDungeonExhibitionDataReq",
+        "id": 8983
+    },
+    {
+        "name": "MistTrialGetDungeonExhibitionDataRsp",
+        "id": 8903
+    },
+    {
+        "name": "MistTrialSelectAvatarAndEnterDungeonReq",
+        "id": 8226
+    },
+    {
+        "name": "MistTrialSelectAvatarAndEnterDungeonRsp",
+        "id": 8658
+    },
+    {
+        "name": "MistTrialSettleNotify",
+        "id": 8116
+    },
+    {
+        "name": "MonsterAIConfigHashNotify",
+        "id": 3050
+    },
+    {
+        "name": "MonsterAlertChangeNotify",
+        "id": 303
+    },
+    {
+        "name": "MonsterForceAlertNotify",
+        "id": 333
+    },
+    {
+        "name": "MonsterPointArrayRouteUpdateNotify",
+        "id": 3384
+    },
+    {
+        "name": "MonsterSummonTagNotify",
+        "id": 1379
+    },
+    {
+        "name": "MpBlockNotify",
+        "id": 1806
+    },
+    {
+        "name": "MpPlayGuestReplyInviteReq",
+        "id": 1837
+    },
+    {
+        "name": "MpPlayGuestReplyInviteRsp",
+        "id": 1804
+    },
+    {
+        "name": "MpPlayGuestReplyNotify",
+        "id": 1810
+    },
+    {
+        "name": "MpPlayInviteResultNotify",
+        "id": 1839
+    },
+    {
+        "name": "MpPlayOwnerCheckReq",
+        "id": 1802
+    },
+    {
+        "name": "MpPlayOwnerCheckRsp",
+        "id": 1843
+    },
+    {
+        "name": "MpPlayOwnerInviteNotify",
+        "id": 1821
+    },
+    {
+        "name": "MpPlayOwnerStartInviteReq",
+        "id": 1809
+    },
+    {
+        "name": "MpPlayOwnerStartInviteRsp",
+        "id": 1830
+    },
+    {
+        "name": "MpPlayPrepareInterruptNotify",
+        "id": 1850
+    },
+    {
+        "name": "MpPlayPrepareNotify",
+        "id": 1801
+    },
+    {
+        "name": "MultistagePlayEndNotify",
+        "id": 5345
+    },
+    {
+        "name": "MultistagePlayFinishStageReq",
+        "id": 5330
+    },
+    {
+        "name": "MultistagePlayFinishStageRsp",
+        "id": 5325
+    },
+    {
+        "name": "MultistagePlayInfoNotify",
+        "id": 5379
+    },
+    {
+        "name": "MultistagePlaySettleNotify",
+        "id": 5360
+    },
+    {
+        "name": "MultistagePlayStageEndNotify",
+        "id": 5392
+    },
+    {
+        "name": "MuqadasPotionActivityEnterDungeonReq",
+        "id": 22772
+    },
+    {
+        "name": "MuqadasPotionActivityEnterDungeonRsp",
+        "id": 22650
+    },
+    {
+        "name": "MuqadasPotionCaptureWeaknessReq",
+        "id": 24162
+    },
+    {
+        "name": "MuqadasPotionCaptureWeaknessRsp",
+        "id": 21366
+    },
+    {
+        "name": "MuqadasPotionDungeonSettleNotify",
+        "id": 22734
+    },
+    {
+        "name": "MuqadasPotionRestartDungeonReq",
+        "id": 20087
+    },
+    {
+        "name": "MuqadasPotionRestartDungeonRsp",
+        "id": 20780
+    },
+    {
+        "name": "MusicGameSettleReq",
+        "id": 8998
+    },
+    {
+        "name": "MusicGameSettleRsp",
+        "id": 8360
+    },
+    {
+        "name": "MusicGameStartReq",
+        "id": 8820
+    },
+    {
+        "name": "MusicGameStartRsp",
+        "id": 8216
+    },
+    {
+        "name": "NavMeshStatsNotify",
+        "id": 2323
+    },
+    {
+        "name": "NicknameAuditConfigNotify",
+        "id": 171
+    },
+    {
+        "name": "NightCrowGadgetObservationMatchReq",
+        "id": 895
+    },
+    {
+        "name": "NightCrowGadgetObservationMatchRsp",
+        "id": 864
+    },
+    {
+        "name": "NormalUidOpNotify",
+        "id": 5742
+    },
+    {
+        "name": "NpcTalkReq",
+        "id": 579
+    },
+    {
+        "name": "NpcTalkRsp",
+        "id": 530
+    },
+    {
+        "name": "NpcTalkStateNotify",
+        "id": 450
+    },
+    {
+        "name": "ObstacleModifyNotify",
+        "id": 2356
+    },
+    {
+        "name": "OfferingInteractReq",
+        "id": 2920
+    },
+    {
+        "name": "OfferingInteractRsp",
+        "id": 2906
+    },
+    {
+        "name": "OneoffGatherPointDetectorDataNotify",
+        "id": 4293
+    },
+    {
+        "name": "OpActivityDataNotify",
+        "id": 5156
+    },
+    {
+        "name": "OpActivityStateNotify",
+        "id": 2579
+    },
+    {
+        "name": "OpActivityUpdateNotify",
+        "id": 5119
+    },
+    {
+        "name": "OpenBlossomCircleCampGuideNotify",
+        "id": 2761
+    },
+    {
+        "name": "OpenStateChangeNotify",
+        "id": 117
+    },
+    {
+        "name": "OpenStateUpdateNotify",
+        "id": 107
+    },
+    {
+        "name": "OrderDisplayNotify",
+        "id": 4131
+    },
+    {
+        "name": "OrderFinishNotify",
+        "id": 4122
+    },
+    {
+        "name": "OtherPlayerEnterHomeNotify",
+        "id": 4749
+    },
+    {
+        "name": "OutStuckCustomDungeonReq",
+        "id": 6213
+    },
+    {
+        "name": "OutStuckCustomDungeonRsp",
+        "id": 6238
+    },
+    {
+        "name": "ParentQuestInferenceDataNotify",
+        "id": 493
+    },
+    {
+        "name": "PathfindingEnterSceneReq",
+        "id": 2400
+    },
+    {
+        "name": "PathfindingEnterSceneRsp",
+        "id": 2343
+    },
+    {
+        "name": "PathfindingPingNotify",
+        "id": 2319
+    },
+    {
+        "name": "PerformOperationNotify",
+        "id": 1176
+    },
+    {
+        "name": "PersistentDungeonSwitchAvatarReq",
+        "id": 1624
+    },
+    {
+        "name": "PersistentDungeonSwitchAvatarRsp",
+        "id": 1677
+    },
+    {
+        "name": "PersonalLineAllDataReq",
+        "id": 434
+    },
+    {
+        "name": "PersonalLineAllDataRsp",
+        "id": 495
+    },
+    {
+        "name": "PersonalLineNewUnlockNotify",
+        "id": 411
+    },
+    {
+        "name": "PersonalSceneJumpReq",
+        "id": 252
+    },
+    {
+        "name": "PersonalSceneJumpRsp",
+        "id": 274
+    },
+    {
+        "name": "PhotoActivityClientViewReq",
+        "id": 9000
+    },
+    {
+        "name": "PhotoActivityClientViewRsp",
+        "id": 8963
+    },
+    {
+        "name": "PhotoActivityFinishReq",
+        "id": 8395
+    },
+    {
+        "name": "PhotoActivityFinishRsp",
+        "id": 8847
+    },
+    {
+        "name": "PingReq",
+        "id": 100
+    },
+    {
+        "name": "PingRsp",
+        "id": 43
+    },
+    {
+        "name": "PlantFlowerAcceptAllGiveFlowerReq",
+        "id": 8240
+    },
+    {
+        "name": "PlantFlowerAcceptAllGiveFlowerRsp",
+        "id": 8313
+    },
+    {
+        "name": "PlantFlowerAcceptGiveFlowerReq",
+        "id": 8300
+    },
+    {
+        "name": "PlantFlowerAcceptGiveFlowerRsp",
+        "id": 8554
+    },
+    {
+        "name": "PlantFlowerEditFlowerCombinationReq",
+        "id": 8396
+    },
+    {
+        "name": "PlantFlowerEditFlowerCombinationRsp",
+        "id": 8684
+    },
+    {
+        "name": "PlantFlowerGetCanGiveFriendFlowerReq",
+        "id": 8545
+    },
+    {
+        "name": "PlantFlowerGetCanGiveFriendFlowerRsp",
+        "id": 8273
+    },
+    {
+        "name": "PlantFlowerGetFriendFlowerWishListReq",
+        "id": 8132
+    },
+    {
+        "name": "PlantFlowerGetFriendFlowerWishListRsp",
+        "id": 8682
+    },
+    {
+        "name": "PlantFlowerGetRecvFlowerListReq",
+        "id": 8662
+    },
+    {
+        "name": "PlantFlowerGetRecvFlowerListRsp",
+        "id": 8229
+    },
+    {
+        "name": "PlantFlowerGetSeedInfoReq",
+        "id": 8674
+    },
+    {
+        "name": "PlantFlowerGetSeedInfoRsp",
+        "id": 8912
+    },
+    {
+        "name": "PlantFlowerGiveFriendFlowerReq",
+        "id": 8930
+    },
+    {
+        "name": "PlantFlowerGiveFriendFlowerRsp",
+        "id": 8559
+    },
+    {
+        "name": "PlantFlowerHaveRecvFlowerNotify",
+        "id": 8101
+    },
+    {
+        "name": "PlantFlowerSetFlowerWishReq",
+        "id": 8420
+    },
+    {
+        "name": "PlantFlowerSetFlowerWishRsp",
+        "id": 8324
+    },
+    {
+        "name": "PlantFlowerTakeSeedRewardReq",
+        "id": 8611
+    },
+    {
+        "name": "PlantFlowerTakeSeedRewardRsp",
+        "id": 8685
+    },
+    {
+        "name": "PlatformChangeRouteNotify",
+        "id": 288
+    },
+    {
+        "name": "PlatformStartRouteNotify",
+        "id": 208
+    },
+    {
+        "name": "PlatformStopRouteNotify",
+        "id": 209
+    },
+    {
+        "name": "PlayerAllowEnterMpAfterAgreeMatchNotify",
+        "id": 4184
+    },
+    {
+        "name": "PlayerApplyEnterHomeNotify",
+        "id": 4486
+    },
+    {
+        "name": "PlayerApplyEnterHomeResultNotify",
+        "id": 4793
+    },
+    {
+        "name": "PlayerApplyEnterHomeResultReq",
+        "id": 4646
+    },
+    {
+        "name": "PlayerApplyEnterHomeResultRsp",
+        "id": 4542
+    },
+    {
+        "name": "PlayerApplyEnterMpAfterMatchAgreedNotify",
+        "id": 4168
+    },
+    {
+        "name": "PlayerApplyEnterMpNotify",
+        "id": 1842
+    },
+    {
+        "name": "PlayerApplyEnterMpReq",
+        "id": 1841
+    },
+    {
+        "name": "PlayerApplyEnterMpResultNotify",
+        "id": 1835
+    },
+    {
+        "name": "PlayerApplyEnterMpResultReq",
+        "id": 1827
+    },
+    {
+        "name": "PlayerApplyEnterMpResultRsp",
+        "id": 1831
+    },
+    {
+        "name": "PlayerApplyEnterMpRsp",
+        "id": 1822
+    },
+    {
+        "name": "PlayerCancelMatchReq",
+        "id": 4185
+    },
+    {
+        "name": "PlayerCancelMatchRsp",
+        "id": 4177
+    },
+    {
+        "name": "PlayerChatCDNotify",
+        "id": 3450
+    },
+    {
+        "name": "PlayerChatNotify",
+        "id": 3265
+    },
+    {
+        "name": "PlayerChatReq",
+        "id": 3305
+    },
+    {
+        "name": "PlayerChatRsp",
+        "id": 3087
+    },
+    {
+        "name": "PlayerCompoundMaterialBoostReq",
+        "id": 159
+    },
+    {
+        "name": "PlayerCompoundMaterialBoostRsp",
+        "id": 129
+    },
+    {
+        "name": "PlayerCompoundMaterialReq",
+        "id": 146
+    },
+    {
+        "name": "PlayerCompoundMaterialRsp",
+        "id": 175
+    },
+    {
+        "name": "PlayerConfirmMatchReq",
+        "id": 4167
+    },
+    {
+        "name": "PlayerConfirmMatchRsp",
+        "id": 4162
+    },
+    {
+        "name": "PlayerCookArgsReq",
+        "id": 109
+    },
+    {
+        "name": "PlayerCookArgsRsp",
+        "id": 188
+    },
+    {
+        "name": "PlayerCookReq",
+        "id": 105
+    },
+    {
+        "name": "PlayerCookRsp",
+        "id": 194
+    },
+    {
+        "name": "PlayerDataNotify",
+        "id": 147
+    },
+    {
+        "name": "PlayerDeathZoneNotify",
+        "id": 6272
+    },
+    {
+        "name": "PlayerEnterDungeonReq",
+        "id": 956
+    },
+    {
+        "name": "PlayerEnterDungeonRsp",
+        "id": 919
+    },
+    {
+        "name": "PlayerEnterSceneInfoNotify",
+        "id": 241
+    },
+    {
+        "name": "PlayerEnterSceneNotify",
+        "id": 279
+    },
+    {
+        "name": "PlayerEyePointStateNotify",
+        "id": 3079
+    },
+    {
+        "name": "PlayerFishingDataNotify",
+        "id": 5821
+    },
+    {
+        "name": "PlayerForceExitReq",
+        "id": 126
+    },
+    {
+        "name": "PlayerForceExitRsp",
+        "id": 177
+    },
+    {
+        "name": "PlayerGameTimeByLuaNotify",
+        "id": 186
+    },
+    {
+        "name": "PlayerGameTimeNotify",
+        "id": 127
+    },
+    {
+        "name": "PlayerGCGMatchConfirmNotify",
+        "id": 4171
+    },
+    {
+        "name": "PlayerGCGMatchDismissNotify",
+        "id": 4180
+    },
+    {
+        "name": "PlayerGeneralMatchConfirmNotify",
+        "id": 4195
+    },
+    {
+        "name": "PlayerGeneralMatchDismissNotify",
+        "id": 4158
+    },
+    {
+        "name": "PlayerGetForceQuitBanInfoReq",
+        "id": 4152
+    },
+    {
+        "name": "PlayerGetForceQuitBanInfoRsp",
+        "id": 4193
+    },
+    {
+        "name": "PlayerHomeCompInfoNotify",
+        "id": 4818
+    },
+    {
+        "name": "PlayerInjectFixNotify",
+        "id": 165
+    },
+    {
+        "name": "PlayerInvestigationAllInfoNotify",
+        "id": 1916
+    },
+    {
+        "name": "PlayerInvestigationNotify",
+        "id": 1915
+    },
+    {
+        "name": "PlayerInvestigationTargetNotify",
+        "id": 1902
+    },
+    {
+        "name": "PlayerLevelRewardUpdateNotify",
+        "id": 104
+    },
+    {
+        "name": "PlayerLoginReq",
+        "id": 156
+    },
+    {
+        "name": "PlayerLoginRsp",
+        "id": 119
+    },
+    {
+        "name": "PlayerLogoutNotify",
+        "id": 161
+    },
+    {
+        "name": "PlayerLogoutReq",
+        "id": 200
+    },
+    {
+        "name": "PlayerLogoutRsp",
+        "id": 143
+    },
+    {
+        "name": "PlayerLuaShellNotify",
+        "id": 166
+    },
+    {
+        "name": "PlayerMatchAgreedResultNotify",
+        "id": 4165
+    },
+    {
+        "name": "PlayerMatchInfoNotify",
+        "id": 4172
+    },
+    {
+        "name": "PlayerMatchStopNotify",
+        "id": 4181
+    },
+    {
+        "name": "PlayerMatchSuccNotify",
+        "id": 4194
+    },
+    {
+        "name": "PlayerNicknameAuditDataNotify",
+        "id": 162
+    },
+    {
+        "name": "PlayerNicknameNotify",
+        "id": 151
+    },
+    {
+        "name": "PlayerOfferingDataNotify",
+        "id": 2911
+    },
+    {
+        "name": "PlayerOfferingReq",
+        "id": 2915
+    },
+    {
+        "name": "PlayerOfferingRsp",
+        "id": 2916
+    },
+    {
+        "name": "PlayerPreEnterMpNotify",
+        "id": 1817
+    },
+    {
+        "name": "PlayerPropChangeNotify",
+        "id": 116
+    },
+    {
+        "name": "PlayerPropChangeReasonNotify",
+        "id": 1257
+    },
+    {
+        "name": "PlayerPropNotify",
+        "id": 139
+    },
+    {
+        "name": "PlayerQuitDungeonReq",
+        "id": 1000
+    },
+    {
+        "name": "PlayerQuitDungeonRsp",
+        "id": 943
+    },
+    {
+        "name": "PlayerQuitFromHomeNotify",
+        "id": 4724
+    },
+    {
+        "name": "PlayerQuitFromMpNotify",
+        "id": 1844
+    },
+    {
+        "name": "PlayerRandomCookReq",
+        "id": 172
+    },
+    {
+        "name": "PlayerRandomCookRsp",
+        "id": 103
+    },
+    {
+        "name": "PlayerRechargeDataNotify",
+        "id": 4127
+    },
+    {
+        "name": "PlayerReportReq",
+        "id": 4022
+    },
+    {
+        "name": "PlayerReportRsp",
+        "id": 4082
+    },
+    {
+        "name": "PlayerRoutineDataNotify",
+        "id": 3542
+    },
+    {
+        "name": "PlayerSetLanguageReq",
+        "id": 111
+    },
+    {
+        "name": "PlayerSetLanguageRsp",
+        "id": 150
+    },
+    {
+        "name": "PlayerSetOnlyMPWithPSPlayerReq",
+        "id": 1815
+    },
+    {
+        "name": "PlayerSetOnlyMPWithPSPlayerRsp",
+        "id": 1818
+    },
+    {
+        "name": "PlayerSetPauseReq",
+        "id": 122
+    },
+    {
+        "name": "PlayerSetPauseRsp",
+        "id": 182
+    },
+    {
+        "name": "PlayerSignatureAuditDataNotify",
+        "id": 4036
+    },
+    {
+        "name": "PlayerSignatureNotify",
+        "id": 4041
+    },
+    {
+        "name": "PlayerStartMatchReq",
+        "id": 4192
+    },
+    {
+        "name": "PlayerStartMatchRsp",
+        "id": 4191
+    },
+    {
+        "name": "PlayerStoreNotify",
+        "id": 679
+    },
+    {
+        "name": "PlayerTimeNotify",
+        "id": 121
+    },
+    {
+        "name": "PlayerWorldSceneInfoListNotify",
+        "id": 3059
+    },
+    {
+        "name": "PostEnterSceneReq",
+        "id": 3286
+    },
+    {
+        "name": "PostEnterSceneRsp",
+        "id": 3094
+    },
+    {
+        "name": "PotionEnterDungeonNotify",
+        "id": 8777
+    },
+    {
+        "name": "PotionEnterDungeonReq",
+        "id": 8945
+    },
+    {
+        "name": "PotionEnterDungeonRsp",
+        "id": 8679
+    },
+    {
+        "name": "PotionResetChallengeReq",
+        "id": 8331
+    },
+    {
+        "name": "PotionResetChallengeRsp",
+        "id": 8804
+    },
+    {
+        "name": "PotionRestartDungeonReq",
+        "id": 8575
+    },
+    {
+        "name": "PotionRestartDungeonRsp",
+        "id": 8492
+    },
+    {
+        "name": "PotionSaveDungeonResultReq",
+        "id": 8672
+    },
+    {
+        "name": "PotionSaveDungeonResultRsp",
+        "id": 8579
+    },
+    {
+        "name": "PrivateChatNotify",
+        "id": 5006
+    },
+    {
+        "name": "PrivateChatReq",
+        "id": 5029
+    },
+    {
+        "name": "PrivateChatRsp",
+        "id": 4980
+    },
+    {
+        "name": "ProfilePictureChangeNotify",
+        "id": 4023
+    },
+    {
+        "name": "ProjectorOptionReq",
+        "id": 803
+    },
+    {
+        "name": "ProjectorOptionRsp",
+        "id": 833
+    },
+    {
+        "name": "ProudSkillChangeNotify",
+        "id": 1027
+    },
+    {
+        "name": "ProudSkillExtraLevelNotify",
+        "id": 1025
+    },
+    {
+        "name": "ProudSkillUpgradeReq",
+        "id": 1078
+    },
+    {
+        "name": "ProudSkillUpgradeRsp",
+        "id": 1057
+    },
+    {
+        "name": "PSNBlackListNotify",
+        "id": 4085
+    },
+    {
+        "name": "PSNFriendListNotify",
+        "id": 4087
+    },
+    {
+        "name": "PSPlayerApplyEnterMpReq",
+        "id": 1808
+    },
+    {
+        "name": "PSPlayerApplyEnterMpRsp",
+        "id": 1845
+    },
+    {
+        "name": "PublishCustomDungeonReq",
+        "id": 6245
+    },
+    {
+        "name": "PublishCustomDungeonRsp",
+        "id": 6202
+    },
+    {
+        "name": "PublishUgcReq",
+        "id": 6312
+    },
+    {
+        "name": "PublishUgcRsp",
+        "id": 6334
+    },
+    {
+        "name": "PullPrivateChatReq",
+        "id": 4993
+    },
+    {
+        "name": "PullPrivateChatRsp",
+        "id": 5011
+    },
+    {
+        "name": "PullRecentChatReq",
+        "id": 4997
+    },
+    {
+        "name": "PullRecentChatRsp",
+        "id": 5028
+    },
+    {
+        "name": "PushTipsAllDataNotify",
+        "id": 2237
+    },
+    {
+        "name": "PushTipsChangeNotify",
+        "id": 2289
+    },
+    {
+        "name": "PushTipsReadFinishReq",
+        "id": 2244
+    },
+    {
+        "name": "PushTipsReadFinishRsp",
+        "id": 2207
+    },
+    {
+        "name": "QueryCodexMonsterBeKilledNumReq",
+        "id": 4204
+    },
+    {
+        "name": "QueryCodexMonsterBeKilledNumRsp",
+        "id": 4202
+    },
+    {
+        "name": "QueryPathReq",
+        "id": 2379
+    },
+    {
+        "name": "QueryPathRsp",
+        "id": 2330
+    },
+    {
+        "name": "QuestCreateEntityReq",
+        "id": 457
+    },
+    {
+        "name": "QuestCreateEntityRsp",
+        "id": 427
+    },
+    {
+        "name": "QuestDelNotify",
+        "id": 456
+    },
+    {
+        "name": "QuestDestroyEntityReq",
+        "id": 439
+    },
+    {
+        "name": "QuestDestroyEntityRsp",
+        "id": 448
+    },
+    {
+        "name": "QuestDestroyNpcReq",
+        "id": 437
+    },
+    {
+        "name": "QuestDestroyNpcRsp",
+        "id": 489
+    },
+    {
+        "name": "QuestGlobalVarNotify",
+        "id": 480
+    },
+    {
+        "name": "QuestListNotify",
+        "id": 479
+    },
+    {
+        "name": "QuestListUpdateNotify",
+        "id": 430
+    },
+    {
+        "name": "QuestProgressUpdateNotify",
+        "id": 490
+    },
+    {
+        "name": "QuestRenameAvatarReq",
+        "id": 487
+    },
+    {
+        "name": "QuestRenameAvatarRsp",
+        "id": 485
+    },
+    {
+        "name": "QuestTransmitReq",
+        "id": 446
+    },
+    {
+        "name": "QuestTransmitRsp",
+        "id": 475
+    },
+    {
+        "name": "QuestUpdateQuestTimeVarNotify",
+        "id": 482
+    },
+    {
+        "name": "QuestUpdateQuestVarNotify",
+        "id": 473
+    },
+    {
+        "name": "QuestUpdateQuestVarReq",
+        "id": 476
+    },
+    {
+        "name": "QuestUpdateQuestVarRsp",
+        "id": 416
+    },
+    {
+        "name": "QuickOpenActivityReq",
+        "id": 8302
+    },
+    {
+        "name": "QuickOpenActivityRsp",
+        "id": 8677
+    },
+    {
+        "name": "QuickUseWidgetReq",
+        "id": 4284
+    },
+    {
+        "name": "QuickUseWidgetRsp",
+        "id": 4265
+    },
+    {
+        "name": "ReadMailNotify",
+        "id": 1456
+    },
+    {
+        "name": "ReadNicknameAuditReq",
+        "id": 132
+    },
+    {
+        "name": "ReadNicknameAuditRsp",
+        "id": 168
+    },
+    {
+        "name": "ReadPrivateChatReq",
+        "id": 5007
+    },
+    {
+        "name": "ReadPrivateChatRsp",
+        "id": 4977
+    },
+    {
+        "name": "ReadSignatureAuditReq",
+        "id": 4002
+    },
+    {
+        "name": "ReadSignatureAuditRsp",
+        "id": 4012
+    },
+    {
+        "name": "ReceivedTrialAvatarActivityRewardReq",
+        "id": 2155
+    },
+    {
+        "name": "ReceivedTrialAvatarActivityRewardRsp",
+        "id": 2175
+    },
+    {
+        "name": "RechargeReq",
+        "id": 4142
+    },
+    {
+        "name": "RechargeRsp",
+        "id": 4141
+    },
+    {
+        "name": "RedeemLegendaryKeyReq",
+        "id": 464
+    },
+    {
+        "name": "RedeemLegendaryKeyRsp",
+        "id": 467
+    },
+    {
+        "name": "ReformFireworksReq",
+        "id": 6074
+    },
+    {
+        "name": "ReformFireworksRsp",
+        "id": 6062
+    },
+    {
+        "name": "RefreshBackgroundAvatarReq",
+        "id": 1765
+    },
+    {
+        "name": "RefreshBackgroundAvatarRsp",
+        "id": 1744
+    },
+    {
+        "name": "RefreshEntityAuthNotify",
+        "id": 3099
+    },
+    {
+        "name": "RefreshRogueDiaryCardReq",
+        "id": 8868
+    },
+    {
+        "name": "RefreshRogueDiaryCardRsp",
+        "id": 8359
+    },
+    {
+        "name": "RefreshRoguelikeDungeonCardReq",
+        "id": 8065
+    },
+    {
+        "name": "RefreshRoguelikeDungeonCardRsp",
+        "id": 8994
+    },
+    {
+        "name": "RegionalPlayInfoNotify",
+        "id": 6292
+    },
+    {
+        "name": "RegionSearchChangeRegionNotify",
+        "id": 5641
+    },
+    {
+        "name": "RegionSearchNotify",
+        "id": 5642
+    },
+    {
+        "name": "ReliquaryDecomposeReq",
+        "id": 631
+    },
+    {
+        "name": "ReliquaryDecomposeRsp",
+        "id": 601
+    },
+    {
+        "name": "ReliquaryFilterStateNotify",
+        "id": 669
+    },
+    {
+        "name": "ReliquaryFilterStateSaveNotify",
+        "id": 638
+    },
+    {
+        "name": "ReliquaryPromoteReq",
+        "id": 617
+    },
+    {
+        "name": "ReliquaryPromoteRsp",
+        "id": 605
+    },
+    {
+        "name": "ReliquaryUpgradeReq",
+        "id": 644
+    },
+    {
+        "name": "ReliquaryUpgradeRsp",
+        "id": 607
+    },
+    {
+        "name": "RemotePlayerWidgetNotify",
+        "id": 5910
+    },
+    {
+        "name": "RemoveBlacklistReq",
+        "id": 4003
+    },
+    {
+        "name": "RemoveBlacklistRsp",
+        "id": 4033
+    },
+    {
+        "name": "RemoveCustomDungeonReq",
+        "id": 6234
+    },
+    {
+        "name": "RemoveCustomDungeonRsp",
+        "id": 6215
+    },
+    {
+        "name": "RemoveRandTaskInfoNotify",
+        "id": 198
+    },
+    {
+        "name": "ReplayCustomDungeonReq",
+        "id": 6214
+    },
+    {
+        "name": "ReplayCustomDungeonRsp",
+        "id": 6248
+    },
+    {
+        "name": "ReportFightAntiCheatNotify",
+        "id": 388
+    },
+    {
+        "name": "ReportTrackingIOInfoNotify",
+        "id": 4144
+    },
+    {
+        "name": "RequestLiveInfoReq",
+        "id": 805
+    },
+    {
+        "name": "RequestLiveInfoRsp",
+        "id": 894
+    },
+    {
+        "name": "ReserveRogueDiaryAvatarReq",
+        "id": 8311
+    },
+    {
+        "name": "ReserveRogueDiaryAvatarRsp",
+        "id": 8901
+    },
+    {
+        "name": "ResetRogueDiaryPlayReq",
+        "id": 8125
+    },
+    {
+        "name": "ResetRogueDiaryPlayRsp",
+        "id": 8943
+    },
+    {
+        "name": "ResinCardDataUpdateNotify",
+        "id": 4134
+    },
+    {
+        "name": "ResinChangeNotify",
+        "id": 611
+    },
+    {
+        "name": "RestartCoinCollectPlaySingleModeReq",
+        "id": 21382
+    },
+    {
+        "name": "RestartCoinCollectPlaySingleModeRsp",
+        "id": 23294
+    },
+    {
+        "name": "RestartEffigyChallengeReq",
+        "id": 2051
+    },
+    {
+        "name": "RestartEffigyChallengeRsp",
+        "id": 2172
+    },
+    {
+        "name": "ResumeRogueDiaryDungeonReq",
+        "id": 8704
+    },
+    {
+        "name": "ResumeRogueDiaryDungeonRsp",
+        "id": 8332
+    },
+    {
+        "name": "RetryCurRogueDiaryDungeonReq",
+        "id": 8696
+    },
+    {
+        "name": "RetryCurRogueDiaryDungeonRsp",
+        "id": 8269
+    },
+    {
+        "name": "ReunionActivateNotify",
+        "id": 5071
+    },
+    {
+        "name": "ReunionBriefInfoReq",
+        "id": 5092
+    },
+    {
+        "name": "ReunionBriefInfoRsp",
+        "id": 5091
+    },
+    {
+        "name": "ReunionDailyRefreshNotify",
+        "id": 5054
+    },
+    {
+        "name": "ReunionPrivilegeChangeNotify",
+        "id": 5087
+    },
+    {
+        "name": "ReunionSettleNotify",
+        "id": 5080
+    },
+    {
+        "name": "RobotPushPlayerDataNotify",
+        "id": 99
+    },
+    {
+        "name": "RogueCellUpdateNotify",
+        "id": 8851
+    },
+    {
+        "name": "RogueDiaryCoinAddNotify",
+        "id": 8525
+    },
+    {
+        "name": "RogueDiaryDungeonInfoNotify",
+        "id": 8096
+    },
+    {
+        "name": "RogueDiaryDungeonSettleNotify",
+        "id": 8726
+    },
+    {
+        "name": "RogueDiaryRepairInfoNotify",
+        "id": 8084
+    },
+    {
+        "name": "RogueDiaryReviveAvatarReq",
+        "id": 8678
+    },
+    {
+        "name": "RogueDiaryReviveAvatarRsp",
+        "id": 8061
+    },
+    {
+        "name": "RogueDiaryTiredAvatarNotify",
+        "id": 8660
+    },
+    {
+        "name": "RogueDungeonPlayerCellChangeNotify",
+        "id": 8093
+    },
+    {
+        "name": "RogueFinishRepairReq",
+        "id": 8483
+    },
+    {
+        "name": "RogueFinishRepairRsp",
+        "id": 8503
+    },
+    {
+        "name": "RogueHealAvatarsReq",
+        "id": 8175
+    },
+    {
+        "name": "RogueHealAvatarsRsp",
+        "id": 8252
+    },
+    {
+        "name": "RoguelikeCardGachaNotify",
+        "id": 8057
+    },
+    {
+        "name": "RoguelikeEffectDataNotify",
+        "id": 8544
+    },
+    {
+        "name": "RoguelikeEffectViewReq",
+        "id": 8605
+    },
+    {
+        "name": "RoguelikeEffectViewRsp",
+        "id": 8437
+    },
+    {
+        "name": "RoguelikeGiveUpReq",
+        "id": 8442
+    },
+    {
+        "name": "RoguelikeGiveUpRsp",
+        "id": 8905
+    },
+    {
+        "name": "RoguelikeMistClearNotify",
+        "id": 8768
+    },
+    {
+        "name": "RoguelikeRefreshCardCostUpdateNotify",
+        "id": 8210
+    },
+    {
+        "name": "RoguelikeResourceBonusPropUpdateNotify",
+        "id": 8426
+    },
+    {
+        "name": "RoguelikeRuneRecordUpdateNotify",
+        "id": 8629
+    },
+    {
+        "name": "RoguelikeSelectAvatarAndEnterDungeonReq",
+        "id": 8988
+    },
+    {
+        "name": "RoguelikeSelectAvatarAndEnterDungeonRsp",
+        "id": 8910
+    },
+    {
+        "name": "RoguelikeTakeStageFirstPassRewardReq",
+        "id": 8531
+    },
+    {
+        "name": "RoguelikeTakeStageFirstPassRewardRsp",
+        "id": 8182
+    },
+    {
+        "name": "RogueResumeDungeonReq",
+        "id": 8275
+    },
+    {
+        "name": "RogueResumeDungeonRsp",
+        "id": 8772
+    },
+    {
+        "name": "RogueSwitchAvatarReq",
+        "id": 8399
+    },
+    {
+        "name": "RogueSwitchAvatarRsp",
+        "id": 8445
+    },
+    {
+        "name": "SalesmanDeliverItemReq",
+        "id": 2057
+    },
+    {
+        "name": "SalesmanDeliverItemRsp",
+        "id": 2151
+    },
+    {
+        "name": "SalesmanTakeRewardReq",
+        "id": 2069
+    },
+    {
+        "name": "SalesmanTakeRewardRsp",
+        "id": 2026
+    },
+    {
+        "name": "SalesmanTakeSpecialRewardReq",
+        "id": 2067
+    },
+    {
+        "name": "SalesmanTakeSpecialRewardRsp",
+        "id": 2044
+    },
+    {
+        "name": "SalvageEscortRestartReq",
+        "id": 8520
+    },
+    {
+        "name": "SalvageEscortRestartRsp",
+        "id": 8553
+    },
+    {
+        "name": "SalvageEscortSettleNotify",
+        "id": 8798
+    },
+    {
+        "name": "SalvagePreventRestartReq",
+        "id": 8796
+    },
+    {
+        "name": "SalvagePreventRestartRsp",
+        "id": 8493
+    },
+    {
+        "name": "SalvagePreventSettleNotify",
+        "id": 8435
+    },
+    {
+        "name": "SaveCoopDialogReq",
+        "id": 1954
+    },
+    {
+        "name": "SaveCoopDialogRsp",
+        "id": 1960
+    },
+    {
+        "name": "SaveCustomDungeonRoomReq",
+        "id": 6222
+    },
+    {
+        "name": "SaveCustomDungeonRoomRsp",
+        "id": 6235
+    },
+    {
+        "name": "SaveMainCoopReq",
+        "id": 1972
+    },
+    {
+        "name": "SaveMainCoopRsp",
+        "id": 1985
+    },
+    {
+        "name": "SaveUgcReq",
+        "id": 6344
+    },
+    {
+        "name": "SaveUgcRsp",
+        "id": 6317
+    },
+    {
+        "name": "SceneAreaUnlockNotify",
+        "id": 207
+    },
+    {
+        "name": "SceneAreaWeatherNotify",
+        "id": 250
+    },
+    {
+        "name": "SceneAudioNotify",
+        "id": 3009
+    },
+    {
+        "name": "SceneAvatarStaminaStepReq",
+        "id": 257
+    },
+    {
+        "name": "SceneAvatarStaminaStepRsp",
+        "id": 227
+    },
+    {
+        "name": "SceneCreateEntityReq",
+        "id": 294
+    },
+    {
+        "name": "SceneCreateEntityRsp",
+        "id": 272
+    },
+    {
+        "name": "SceneDataNotify",
+        "id": 3368
+    },
+    {
+        "name": "SceneDestroyEntityReq",
+        "id": 203
+    },
+    {
+        "name": "SceneDestroyEntityRsp",
+        "id": 233
+    },
+    {
+        "name": "SceneEntitiesMoveCombineNotify",
+        "id": 3452
+    },
+    {
+        "name": "SceneEntitiesMovesReq",
+        "id": 292
+    },
+    {
+        "name": "SceneEntitiesMovesRsp",
+        "id": 245
+    },
+    {
+        "name": "SceneEntityAppearNotify",
+        "id": 243
+    },
+    {
+        "name": "SceneEntityDisappearNotify",
+        "id": 261
+    },
+    {
+        "name": "SceneEntityDrownReq",
+        "id": 217
+    },
+    {
+        "name": "SceneEntityDrownRsp",
+        "id": 205
+    },
+    {
+        "name": "SceneEntityMoveNotify",
+        "id": 239
+    },
+    {
+        "name": "SceneEntityMoveReq",
+        "id": 247
+    },
+    {
+        "name": "SceneEntityMoveRsp",
+        "id": 278
+    },
+    {
+        "name": "SceneEntityUpdateNotify",
+        "id": 3115
+    },
+    {
+        "name": "SceneForceLockNotify",
+        "id": 280
+    },
+    {
+        "name": "SceneForceUnlockNotify",
+        "id": 210
+    },
+    {
+        "name": "SceneGalleryInfoNotify",
+        "id": 5525
+    },
+    {
+        "name": "SceneGalleryVintageHuntingSettleNotify",
+        "id": 22325
+    },
+    {
+        "name": "SceneInitFinishReq",
+        "id": 219
+    },
+    {
+        "name": "SceneInitFinishRsp",
+        "id": 300
+    },
+    {
+        "name": "SceneKickPlayerNotify",
+        "id": 201
+    },
+    {
+        "name": "SceneKickPlayerReq",
+        "id": 212
+    },
+    {
+        "name": "SceneKickPlayerRsp",
+        "id": 231
+    },
+    {
+        "name": "ScenePlayBattleInfoListNotify",
+        "id": 4375
+    },
+    {
+        "name": "ScenePlayBattleInfoNotify",
+        "id": 4429
+    },
+    {
+        "name": "ScenePlayBattleInterruptNotify",
+        "id": 4389
+    },
+    {
+        "name": "ScenePlayBattleResultNotify",
+        "id": 4398
+    },
+    {
+        "name": "ScenePlayBattleUidOpNotify",
+        "id": 4449
+    },
+    {
+        "name": "ScenePlayerBackgroundAvatarRefreshNotify",
+        "id": 3388
+    },
+    {
+        "name": "ScenePlayerInfoNotify",
+        "id": 253
+    },
+    {
+        "name": "ScenePlayerLocationNotify",
+        "id": 248
+    },
+    {
+        "name": "ScenePlayerSoundNotify",
+        "id": 266
+    },
+    {
+        "name": "ScenePlayGuestReplyInviteReq",
+        "id": 4411
+    },
+    {
+        "name": "ScenePlayGuestReplyInviteRsp",
+        "id": 4397
+    },
+    {
+        "name": "ScenePlayGuestReplyNotify",
+        "id": 4428
+    },
+    {
+        "name": "ScenePlayInfoListNotify",
+        "id": 4377
+    },
+    {
+        "name": "ScenePlayInviteResultNotify",
+        "id": 4407
+    },
+    {
+        "name": "ScenePlayOutofRegionNotify",
+        "id": 4392
+    },
+    {
+        "name": "ScenePlayOwnerCheckReq",
+        "id": 4380
+    },
+    {
+        "name": "ScenePlayOwnerCheckRsp",
+        "id": 4406
+    },
+    {
+        "name": "ScenePlayOwnerInviteNotify",
+        "id": 4393
+    },
+    {
+        "name": "ScenePlayOwnerStartInviteReq",
+        "id": 4369
+    },
+    {
+        "name": "ScenePlayOwnerStartInviteRsp",
+        "id": 4450
+    },
+    {
+        "name": "ScenePointUnlockNotify",
+        "id": 276
+    },
+    {
+        "name": "SceneRouteChangeNotify",
+        "id": 285
+    },
+    {
+        "name": "SceneTeamUpdateNotify",
+        "id": 1728
+    },
+    {
+        "name": "SceneTimeNotify",
+        "id": 296
+    },
+    {
+        "name": "SceneTransToPointReq",
+        "id": 216
+    },
+    {
+        "name": "SceneTransToPointRsp",
+        "id": 273
+    },
+    {
+        "name": "SceneWeatherForecastReq",
+        "id": 3350
+    },
+    {
+        "name": "SceneWeatherForecastRsp",
+        "id": 3064
+    },
+    {
+        "name": "SeaLampCoinNotify",
+        "id": 2188
+    },
+    {
+        "name": "SeaLampContributeItemReq",
+        "id": 2133
+    },
+    {
+        "name": "SeaLampContributeItemRsp",
+        "id": 2116
+    },
+    {
+        "name": "SeaLampFlyLampNotify",
+        "id": 2114
+    },
+    {
+        "name": "SeaLampFlyLampReq",
+        "id": 2187
+    },
+    {
+        "name": "SeaLampFlyLampRsp",
+        "id": 2161
+    },
+    {
+        "name": "SeaLampPopularityNotify",
+        "id": 2135
+    },
+    {
+        "name": "SeaLampTakeContributionRewardReq",
+        "id": 2199
+    },
+    {
+        "name": "SeaLampTakeContributionRewardRsp",
+        "id": 2003
+    },
+    {
+        "name": "SeaLampTakePhaseRewardReq",
+        "id": 2006
+    },
+    {
+        "name": "SeaLampTakePhaseRewardRsp",
+        "id": 2105
+    },
+    {
+        "name": "SealBattleBeginNotify",
+        "id": 226
+    },
+    {
+        "name": "SealBattleEndNotify",
+        "id": 277
+    },
+    {
+        "name": "SealBattleProgressNotify",
+        "id": 265
+    },
+    {
+        "name": "SearchCustomDungeonReq",
+        "id": 6201
+    },
+    {
+        "name": "SearchCustomDungeonRsp",
+        "id": 6239
+    },
+    {
+        "name": "SeeMonsterReq",
+        "id": 206
+    },
+    {
+        "name": "SeeMonsterRsp",
+        "id": 255
+    },
+    {
+        "name": "SelectAsterMidDifficultyReq",
+        "id": 2060
+    },
+    {
+        "name": "SelectAsterMidDifficultyRsp",
+        "id": 2101
+    },
+    {
+        "name": "SelectEffigyChallengeConditionReq",
+        "id": 2131
+    },
+    {
+        "name": "SelectEffigyChallengeConditionRsp",
+        "id": 2110
+    },
+    {
+        "name": "SelectRoguelikeDungeonCardReq",
+        "id": 8529
+    },
+    {
+        "name": "SelectRoguelikeDungeonCardRsp",
+        "id": 8720
+    },
+    {
+        "name": "SelectWorktopOptionReq",
+        "id": 900
+    },
+    {
+        "name": "SelectWorktopOptionRsp",
+        "id": 843
+    },
+    {
+        "name": "ServerAnnounceNotify",
+        "id": 2129
+    },
+    {
+        "name": "ServerAnnounceRevokeNotify",
+        "id": 2064
+    },
+    {
+        "name": "ServerBuffChangeNotify",
+        "id": 398
+    },
+    {
+        "name": "ServerCombatEndNotify",
+        "id": 1142
+    },
+    {
+        "name": "ServerCondMeetQuestListUpdateNotify",
+        "id": 410
+    },
+    {
+        "name": "ServerDisconnectClientNotify",
+        "id": 152
+    },
+    {
+        "name": "ServerGlobalValueChangeNotify",
+        "id": 1199
+    },
+    {
+        "name": "ServerLogNotify",
+        "id": 27
+    },
+    {
+        "name": "ServerMessageNotify",
+        "id": 5741
+    },
+    {
+        "name": "ServerTimeNotify",
+        "id": 57
+    },
+    {
+        "name": "ServerTryCancelGeneralMatchNotify",
+        "id": 4159
+    },
+    {
+        "name": "ServerUpdateGlobalValueNotify",
+        "id": 1148
+    },
+    {
+        "name": "SetBattlePassViewedReq",
+        "id": 2608
+    },
+    {
+        "name": "SetBattlePassViewedRsp",
+        "id": 2645
+    },
+    {
+        "name": "SetChatEmojiCollectionReq",
+        "id": 4052
+    },
+    {
+        "name": "SetChatEmojiCollectionRsp",
+        "id": 4074
+    },
+    {
+        "name": "SetCodexPushtipsReadReq",
+        "id": 4209
+    },
+    {
+        "name": "SetCodexPushtipsReadRsp",
+        "id": 4205
+    },
+    {
+        "name": "SetCoopChapterViewedReq",
+        "id": 1989
+    },
+    {
+        "name": "SetCoopChapterViewedRsp",
+        "id": 2000
+    },
+    {
+        "name": "SetCurExpeditionChallengeIdReq",
+        "id": 2028
+    },
+    {
+        "name": "SetCurExpeditionChallengeIdRsp",
+        "id": 2005
+    },
+    {
+        "name": "SetEntityClientDataNotify",
+        "id": 3318
+    },
+    {
+        "name": "SetEquipLockStateReq",
+        "id": 609
+    },
+    {
+        "name": "SetEquipLockStateRsp",
+        "id": 688
+    },
+    {
+        "name": "SetFriendEnterHomeOptionReq",
+        "id": 4853
+    },
+    {
+        "name": "SetFriendEnterHomeOptionRsp",
+        "id": 4526
+    },
+    {
+        "name": "SetFriendRemarkNameReq",
+        "id": 4011
+    },
+    {
+        "name": "SetFriendRemarkNameRsp",
+        "id": 4050
+    },
+    {
+        "name": "SetH5ActivityRedDotTimestampReq",
+        "id": 5685
+    },
+    {
+        "name": "SetH5ActivityRedDotTimestampRsp",
+        "id": 5677
+    },
+    {
+        "name": "SetIsAutoUnlockSpecificEquipReq",
+        "id": 602
+    },
+    {
+        "name": "SetIsAutoUnlockSpecificEquipRsp",
+        "id": 612
+    },
+    {
+        "name": "SetLimitOptimizationNotify",
+        "id": 8066
+    },
+    {
+        "name": "SetNameCardReq",
+        "id": 4044
+    },
+    {
+        "name": "SetNameCardRsp",
+        "id": 4007
+    },
+    {
+        "name": "SetOpenStateReq",
+        "id": 189
+    },
+    {
+        "name": "SetOpenStateRsp",
+        "id": 144
+    },
+    {
+        "name": "SetPlayerBirthdayReq",
+        "id": 4048
+    },
+    {
+        "name": "SetPlayerBirthdayRsp",
+        "id": 4099
+    },
+    {
+        "name": "SetPlayerBornDataReq",
+        "id": 142
+    },
+    {
+        "name": "SetPlayerBornDataRsp",
+        "id": 190
+    },
+    {
+        "name": "SetPlayerHeadImageReq",
+        "id": 4090
+    },
+    {
+        "name": "SetPlayerHeadImageRsp",
+        "id": 4076
+    },
+    {
+        "name": "SetPlayerNameReq",
+        "id": 173
+    },
+    {
+        "name": "SetPlayerNameRsp",
+        "id": 137
+    },
+    {
+        "name": "SetPlayerPropReq",
+        "id": 199
+    },
+    {
+        "name": "SetPlayerPropRsp",
+        "id": 125
+    },
+    {
+        "name": "SetPlayerSignatureReq",
+        "id": 4025
+    },
+    {
+        "name": "SetPlayerSignatureRsp",
+        "id": 4042
+    },
+    {
+        "name": "SetSceneWeatherAreaReq",
+        "id": 214
+    },
+    {
+        "name": "SetSceneWeatherAreaRsp",
+        "id": 270
+    },
+    {
+        "name": "SetUpAvatarTeamReq",
+        "id": 1713
+    },
+    {
+        "name": "SetUpAvatarTeamRsp",
+        "id": 1622
+    },
+    {
+        "name": "SetUpLunchBoxWidgetReq",
+        "id": 4267
+    },
+    {
+        "name": "SetUpLunchBoxWidgetRsp",
+        "id": 4262
+    },
+    {
+        "name": "SetWidgetSlotReq",
+        "id": 4255
+    },
+    {
+        "name": "SetWidgetSlotRsp",
+        "id": 4261
+    },
+    {
+        "name": "ShowClientGuideNotify",
+        "id": 3369
+    },
+    {
+        "name": "ShowClientTutorialNotify",
+        "id": 3204
+    },
+    {
+        "name": "ShowCommonTipsNotify",
+        "id": 3065
+    },
+    {
+        "name": "ShowMessageNotify",
+        "id": 19
+    },
+    {
+        "name": "ShowTemplateReminderNotify",
+        "id": 3300
+    },
+    {
+        "name": "SignatureAuditConfigNotify",
+        "id": 4097
+    },
+    {
+        "name": "SignInInfoReq",
+        "id": 2556
+    },
+    {
+        "name": "SignInInfoRsp",
+        "id": 2519
+    },
+    {
+        "name": "SingleRestartBrickBreakerReq",
+        "id": 20021
+    },
+    {
+        "name": "SingleRestartBrickBreakerRsp",
+        "id": 22269
+    },
+    {
+        "name": "SingleStartBrickBreakerReq",
+        "id": 23663
+    },
+    {
+        "name": "SingleStartBrickBreakerRsp",
+        "id": 20712
+    },
+    {
+        "name": "SkyCrystalDetectorDataUpdateNotify",
+        "id": 4259
+    },
+    {
+        "name": "SocialDataNotify",
+        "id": 4075
+    },
+    {
+        "name": "SpiceActivityFinishMakeSpiceReq",
+        "id": 8838
+    },
+    {
+        "name": "SpiceActivityFinishMakeSpiceRsp",
+        "id": 8946
+    },
+    {
+        "name": "SpiceActivityGivingRecordNotify",
+        "id": 8719
+    },
+    {
+        "name": "SpiceActivityProcessFoodReq",
+        "id": 8523
+    },
+    {
+        "name": "SpiceActivityProcessFoodRsp",
+        "id": 8381
+    },
+    {
+        "name": "SpringUseReq",
+        "id": 1651
+    },
+    {
+        "name": "SpringUseRsp",
+        "id": 1772
+    },
+    {
+        "name": "StartArenaChallengeLevelReq",
+        "id": 2196
+    },
+    {
+        "name": "StartArenaChallengeLevelRsp",
+        "id": 2171
+    },
+    {
+        "name": "StartBuoyantCombatGalleryReq",
+        "id": 8427
+    },
+    {
+        "name": "StartBuoyantCombatGalleryRsp",
+        "id": 8969
+    },
+    {
+        "name": "StartCoopPointReq",
+        "id": 1995
+    },
+    {
+        "name": "StartCoopPointRsp",
+        "id": 1952
+    },
+    {
+        "name": "StartEffigyChallengeReq",
+        "id": 2157
+    },
+    {
+        "name": "StartEffigyChallengeRsp",
+        "id": 2169
+    },
+    {
+        "name": "StartFishingReq",
+        "id": 5822
+    },
+    {
+        "name": "StartFishingRsp",
+        "id": 5835
+    },
+    {
+        "name": "StartRogueDiaryPlayReq",
+        "id": 8220
+    },
+    {
+        "name": "StartRogueDiaryPlayRsp",
+        "id": 8881
+    },
+    {
+        "name": "StartRogueDiaryRoomReq",
+        "id": 8279
+    },
+    {
+        "name": "StartRogueDiaryRoomRsp",
+        "id": 8806
+    },
+    {
+        "name": "StartRogueEliteCellChallengeReq",
+        "id": 8485
+    },
+    {
+        "name": "StartRogueEliteCellChallengeRsp",
+        "id": 8967
+    },
+    {
+        "name": "StartRogueNormalCellChallengeReq",
+        "id": 8247
+    },
+    {
+        "name": "StartRogueNormalCellChallengeRsp",
+        "id": 8146
+    },
+    {
+        "name": "StopReminderNotify",
+        "id": 3119
+    },
+    {
+        "name": "StoreCustomDungeonReq",
+        "id": 6250
+    },
+    {
+        "name": "StoreCustomDungeonRsp",
+        "id": 6206
+    },
+    {
+        "name": "StoreItemChangeNotify",
+        "id": 656
+    },
+    {
+        "name": "StoreItemDelNotify",
+        "id": 619
+    },
+    {
+        "name": "StoreWeightLimitNotify",
+        "id": 630
+    },
+    {
+        "name": "SubmitInferenceWordReq",
+        "id": 404
+    },
+    {
+        "name": "SubmitInferenceWordRsp",
+        "id": 423
+    },
+    {
+        "name": "SummerTimeFloatSignalPositionNotify",
+        "id": 8701
+    },
+    {
+        "name": "SummerTimeFloatSignalUpdateNotify",
+        "id": 8508
+    },
+    {
+        "name": "SummerTimeSprintBoatRestartReq",
+        "id": 8111
+    },
+    {
+        "name": "SummerTimeSprintBoatRestartRsp",
+        "id": 8466
+    },
+    {
+        "name": "SummerTimeSprintBoatSettleNotify",
+        "id": 8451
+    },
+    {
+        "name": "SummerTimeV2BoatSettleNotify",
+        "id": 8153
+    },
+    {
+        "name": "SummerTimeV2RestartBoatGalleryReq",
+        "id": 8885
+    },
+    {
+        "name": "SummerTimeV2RestartBoatGalleryRsp",
+        "id": 8225
+    },
+    {
+        "name": "SummerTimeV2RestartDungeonReq",
+        "id": 8073
+    },
+    {
+        "name": "SummerTimeV2RestartDungeonRsp",
+        "id": 8686
+    },
+    {
+        "name": "SumoDungeonSettleNotify",
+        "id": 8434
+    },
+    {
+        "name": "SumoEnterDungeonNotify",
+        "id": 8297
+    },
+    {
+        "name": "SumoLeaveDungeonNotify",
+        "id": 8567
+    },
+    {
+        "name": "SumoRestartDungeonReq",
+        "id": 8725
+    },
+    {
+        "name": "SumoRestartDungeonRsp",
+        "id": 8276
+    },
+    {
+        "name": "SumoSaveTeamReq",
+        "id": 8022
+    },
+    {
+        "name": "SumoSaveTeamRsp",
+        "id": 8739
+    },
+    {
+        "name": "SumoSelectTeamAndEnterDungeonReq",
+        "id": 8978
+    },
+    {
+        "name": "SumoSelectTeamAndEnterDungeonRsp",
+        "id": 8744
+    },
+    {
+        "name": "SumoSetNoSwitchPunishTimeNotify",
+        "id": 8610
+    },
+    {
+        "name": "SumoSwitchTeamReq",
+        "id": 8738
+    },
+    {
+        "name": "SumoSwitchTeamRsp",
+        "id": 8201
+    },
+    {
+        "name": "SyncScenePlayTeamEntityNotify",
+        "id": 3393
+    },
+    {
+        "name": "SyncTeamEntityNotify",
+        "id": 391
+    },
+    {
+        "name": "TakeAchievementGoalRewardReq",
+        "id": 2677
+    },
+    {
+        "name": "TakeAchievementGoalRewardRsp",
+        "id": 2681
+    },
+    {
+        "name": "TakeAchievementRewardReq",
+        "id": 2672
+    },
+    {
+        "name": "TakeAchievementRewardRsp",
+        "id": 2685
+    },
+    {
+        "name": "TakeAsterSpecialRewardReq",
+        "id": 2019
+    },
+    {
+        "name": "TakeAsterSpecialRewardRsp",
+        "id": 2132
+    },
+    {
+        "name": "TakeBackGivingItemReq",
+        "id": 128
+    },
+    {
+        "name": "TakeBackGivingItemRsp",
+        "id": 196
+    },
+    {
+        "name": "TakeBattlePassMissionPointReq",
+        "id": 2644
+    },
+    {
+        "name": "TakeBattlePassMissionPointRsp",
+        "id": 2617
+    },
+    {
+        "name": "TakeBattlePassRewardReq",
+        "id": 2627
+    },
+    {
+        "name": "TakeBattlePassRewardRsp",
+        "id": 2631
+    },
+    {
+        "name": "TakeCityReputationExploreRewardReq",
+        "id": 2899
+    },
+    {
+        "name": "TakeCityReputationExploreRewardRsp",
+        "id": 2825
+    },
+    {
+        "name": "TakeCityReputationLevelRewardReq",
+        "id": 2856
+    },
+    {
+        "name": "TakeCityReputationLevelRewardRsp",
+        "id": 2819
+    },
+    {
+        "name": "TakeCityReputationParentQuestReq",
+        "id": 2843
+    },
+    {
+        "name": "TakeCityReputationParentQuestRsp",
+        "id": 2861
+    },
+    {
+        "name": "TakeCompoundOutputReq",
+        "id": 134
+    },
+    {
+        "name": "TakeCompoundOutputRsp",
+        "id": 195
+    },
+    {
+        "name": "TakeCoopRewardReq",
+        "id": 1980
+    },
+    {
+        "name": "TakeCoopRewardRsp",
+        "id": 1971
+    },
+    {
+        "name": "TakeDeliveryDailyRewardReq",
+        "id": 2075
+    },
+    {
+        "name": "TakeDeliveryDailyRewardRsp",
+        "id": 2174
+    },
+    {
+        "name": "TakeEffigyFirstPassRewardReq",
+        "id": 2138
+    },
+    {
+        "name": "TakeEffigyFirstPassRewardRsp",
+        "id": 2178
+    },
+    {
+        "name": "TakeEffigyRewardReq",
+        "id": 2082
+    },
+    {
+        "name": "TakeEffigyRewardRsp",
+        "id": 2099
+    },
+    {
+        "name": "TakeFirstShareRewardReq",
+        "id": 4034
+    },
+    {
+        "name": "TakeFirstShareRewardRsp",
+        "id": 4095
+    },
+    {
+        "name": "TakeFurnitureMakeReq",
+        "id": 4506
+    },
+    {
+        "name": "TakeFurnitureMakeRsp",
+        "id": 4803
+    },
+    {
+        "name": "TakeHuntingOfferReq",
+        "id": 4342
+    },
+    {
+        "name": "TakeHuntingOfferRsp",
+        "id": 4341
+    },
+    {
+        "name": "TakeInvestigationRewardReq",
+        "id": 1924
+    },
+    {
+        "name": "TakeInvestigationRewardRsp",
+        "id": 1907
+    },
+    {
+        "name": "TakeInvestigationTargetRewardReq",
+        "id": 1903
+    },
+    {
+        "name": "TakeInvestigationTargetRewardRsp",
+        "id": 1905
+    },
+    {
+        "name": "TakeMaterialDeleteReturnReq",
+        "id": 620
+    },
+    {
+        "name": "TakeMaterialDeleteReturnRsp",
+        "id": 663
+    },
+    {
+        "name": "TakeoffEquipReq",
+        "id": 642
+    },
+    {
+        "name": "TakeoffEquipRsp",
+        "id": 690
+    },
+    {
+        "name": "TakeOfferingLevelRewardReq",
+        "id": 2901
+    },
+    {
+        "name": "TakeOfferingLevelRewardRsp",
+        "id": 2902
+    },
+    {
+        "name": "TakePlayerLevelRewardReq",
+        "id": 120
+    },
+    {
+        "name": "TakePlayerLevelRewardRsp",
+        "id": 163
+    },
+    {
+        "name": "TakeRegionSearchRewardReq",
+        "id": 5622
+    },
+    {
+        "name": "TakeRegionSearchRewardRsp",
+        "id": 5635
+    },
+    {
+        "name": "TakeResinCardDailyRewardReq",
+        "id": 4117
+    },
+    {
+        "name": "TakeResinCardDailyRewardRsp",
+        "id": 4112
+    },
+    {
+        "name": "TakeReunionFirstGiftRewardReq",
+        "id": 5072
+    },
+    {
+        "name": "TakeReunionFirstGiftRewardRsp",
+        "id": 5085
+    },
+    {
+        "name": "TakeReunionMissionRewardReq",
+        "id": 5095
+    },
+    {
+        "name": "TakeReunionMissionRewardRsp",
+        "id": 5052
+    },
+    {
+        "name": "TakeReunionSignInRewardReq",
+        "id": 5094
+    },
+    {
+        "name": "TakeReunionSignInRewardRsp",
+        "id": 5067
+    },
+    {
+        "name": "TakeReunionWatcherRewardReq",
+        "id": 5065
+    },
+    {
+        "name": "TakeReunionWatcherRewardRsp",
+        "id": 5068
+    },
+    {
+        "name": "TanukiTravelFinishGuideQuestNotify",
+        "id": 8481
+    },
+    {
+        "name": "TaskVarNotify",
+        "id": 136
+    },
+    {
+        "name": "TeamResonanceChangeNotify",
+        "id": 1090
+    },
+    {
+        "name": "ToTheMoonAddObstacleReq",
+        "id": 6143
+    },
+    {
+        "name": "ToTheMoonAddObstacleRsp",
+        "id": 6161
+    },
+    {
+        "name": "ToTheMoonEnterSceneReq",
+        "id": 6119
+    },
+    {
+        "name": "ToTheMoonEnterSceneRsp",
+        "id": 6200
+    },
+    {
+        "name": "ToTheMoonObstaclesModifyNotify",
+        "id": 6157
+    },
+    {
+        "name": "ToTheMoonPingNotify",
+        "id": 6156
+    },
+    {
+        "name": "ToTheMoonQueryPathReq",
+        "id": 6179
+    },
+    {
+        "name": "ToTheMoonQueryPathRsp",
+        "id": 6130
+    },
+    {
+        "name": "ToTheMoonRemoveObstacleReq",
+        "id": 6147
+    },
+    {
+        "name": "ToTheMoonRemoveObstacleRsp",
+        "id": 6178
+    },
+    {
+        "name": "TowerAllDataReq",
+        "id": 2447
+    },
+    {
+        "name": "TowerAllDataRsp",
+        "id": 2478
+    },
+    {
+        "name": "TowerBriefDataNotify",
+        "id": 2479
+    },
+    {
+        "name": "TowerBuffSelectReq",
+        "id": 2448
+    },
+    {
+        "name": "TowerBuffSelectRsp",
+        "id": 2499
+    },
+    {
+        "name": "TowerCurLevelRecordChangeNotify",
+        "id": 2456
+    },
+    {
+        "name": "TowerDailyRewardProgressChangeNotify",
+        "id": 2419
+    },
+    {
+        "name": "TowerEnterLevelReq",
+        "id": 2427
+    },
+    {
+        "name": "TowerEnterLevelRsp",
+        "id": 2439
+    },
+    {
+        "name": "TowerFloorRecordChangeNotify",
+        "id": 2430
+    },
+    {
+        "name": "TowerGetFloorStarRewardReq",
+        "id": 2444
+    },
+    {
+        "name": "TowerGetFloorStarRewardRsp",
+        "id": 2407
+    },
+    {
+        "name": "TowerLevelEndNotify",
+        "id": 2433
+    },
+    {
+        "name": "TowerLevelStarCondNotify",
+        "id": 2410
+    },
+    {
+        "name": "TowerMiddleLevelChangeTeamNotify",
+        "id": 2480
+    },
+    {
+        "name": "TowerRecordHandbookReq",
+        "id": 2446
+    },
+    {
+        "name": "TowerRecordHandbookRsp",
+        "id": 2475
+    },
+    {
+        "name": "TowerSurrenderReq",
+        "id": 2437
+    },
+    {
+        "name": "TowerSurrenderRsp",
+        "id": 2489
+    },
+    {
+        "name": "TowerTeamSelectReq",
+        "id": 2443
+    },
+    {
+        "name": "TowerTeamSelectRsp",
+        "id": 2461
+    },
+    {
+        "name": "TreasureMapBonusChallengeNotify",
+        "id": 2097
+    },
+    {
+        "name": "TreasureMapCurrencyNotify",
+        "id": 2032
+    },
+    {
+        "name": "TreasureMapDetectorDataNotify",
+        "id": 4254
+    },
+    {
+        "name": "TreasureMapGuideTaskDoneNotify",
+        "id": 2046
+    },
+    {
+        "name": "TreasureMapHostInfoNotify",
+        "id": 8296
+    },
+    {
+        "name": "TreasureMapMpChallengeNotify",
+        "id": 2021
+    },
+    {
+        "name": "TreasureMapPreTaskDoneNotify",
+        "id": 2177
+    },
+    {
+        "name": "TreasureMapRegionActiveNotify",
+        "id": 2085
+    },
+    {
+        "name": "TreasureMapRegionInfoNotify",
+        "id": 2179
+    },
+    {
+        "name": "TreasureSeelieCollectOrbsNotify",
+        "id": 20380
+    },
+    {
+        "name": "TrialAvatarFirstPassDungeonNotify",
+        "id": 2134
+    },
+    {
+        "name": "TrialAvatarInDungeonIndexNotify",
+        "id": 2063
+    },
+    {
+        "name": "TriggerCreateGadgetToEquipPartNotify",
+        "id": 346
+    },
+    {
+        "name": "TriggerRoguelikeCurseNotify",
+        "id": 8965
+    },
+    {
+        "name": "TriggerRoguelikeRuneReq",
+        "id": 8822
+    },
+    {
+        "name": "TriggerRoguelikeRuneRsp",
+        "id": 8133
+    },
+    {
+        "name": "TryCustomDungeonReq",
+        "id": 6218
+    },
+    {
+        "name": "TryCustomDungeonRsp",
+        "id": 6208
+    },
+    {
+        "name": "TryEnterHomeReq",
+        "id": 4648
+    },
+    {
+        "name": "TryEnterHomeRsp",
+        "id": 4796
+    },
+    {
+        "name": "TryEnterNextRogueDiaryDungeonReq",
+        "id": 8791
+    },
+    {
+        "name": "TryEnterNextRogueDiaryDungeonRsp",
+        "id": 8487
+    },
+    {
+        "name": "TryInterruptRogueDiaryDungeonReq",
+        "id": 8438
+    },
+    {
+        "name": "TryInterruptRogueDiaryDungeonRsp",
+        "id": 8234
+    },
+    {
+        "name": "UgcNotify",
+        "id": 6308
+    },
+    {
+        "name": "UnfreezeGroupLimitNotify",
+        "id": 3483
+    },
+    {
+        "name": "UnionCmdNotify",
+        "id": 42
+    },
+    {
+        "name": "Unk3300_DGBNCDEIIFC",
+        "id": 952
+    },
+    {
+        "name": "Unk3300_DMOBAABGOBF",
+        "id": 7193
+    },
+    {
+        "name": "Unk3300_ICAGMOCOALO",
+        "id": 4187
+    },
+    {
+        "name": "Unk3300_LOINGBJLJEM",
+        "id": 7048
+    },
+    {
+        "name": "UnlockAvatarTalentReq",
+        "id": 1079
+    },
+    {
+        "name": "UnlockAvatarTalentRsp",
+        "id": 1030
+    },
+    {
+        "name": "UnlockCoopChapterReq",
+        "id": 1965
+    },
+    {
+        "name": "UnlockCoopChapterRsp",
+        "id": 1968
+    },
+    {
+        "name": "UnlockedFurnitureFormulaDataNotify",
+        "id": 4716
+    },
+    {
+        "name": "UnlockedFurnitureSuiteDataNotify",
+        "id": 4532
+    },
+    {
+        "name": "UnlockNameCardNotify",
+        "id": 4010
+    },
+    {
+        "name": "UnlockPersonalLineReq",
+        "id": 415
+    },
+    {
+        "name": "UnlockPersonalLineRsp",
+        "id": 421
+    },
+    {
+        "name": "UnlockTransPointReq",
+        "id": 3200
+    },
+    {
+        "name": "UnlockTransPointRsp",
+        "id": 3046
+    },
+    {
+        "name": "UnmarkEntityInMinMapNotify",
+        "id": 254
+    },
+    {
+        "name": "UpdateAbilityCreatedMovingPlatformNotify",
+        "id": 825
+    },
+    {
+        "name": "UpdatePlayerShowAvatarListReq",
+        "id": 4053
+    },
+    {
+        "name": "UpdatePlayerShowAvatarListRsp",
+        "id": 4024
+    },
+    {
+        "name": "UpdatePlayerShowNameCardListReq",
+        "id": 4093
+    },
+    {
+        "name": "UpdatePlayerShowNameCardListRsp",
+        "id": 4054
+    },
+    {
+        "name": "UpdatePS4BlockListReq",
+        "id": 4064
+    },
+    {
+        "name": "UpdatePS4BlockListRsp",
+        "id": 4067
+    },
+    {
+        "name": "UpdatePS4FriendListNotify",
+        "id": 4016
+    },
+    {
+        "name": "UpdatePS4FriendListReq",
+        "id": 4026
+    },
+    {
+        "name": "UpdatePS4FriendListRsp",
+        "id": 4077
+    },
+    {
+        "name": "UpdateRedPointNotify",
+        "id": 7
+    },
+    {
+        "name": "UpdateReunionWatcherNotify",
+        "id": 5058
+    },
+    {
+        "name": "UpdateSalvageBundleMarkReq",
+        "id": 8906
+    },
+    {
+        "name": "UpdateSalvageBundleMarkRsp",
+        "id": 8620
+    },
+    {
+        "name": "UpgradeRoguelikeShikigamiReq",
+        "id": 8282
+    },
+    {
+        "name": "UpgradeRoguelikeShikigamiRsp",
+        "id": 8314
+    },
+    {
+        "name": "UseItemReq",
+        "id": 647
+    },
+    {
+        "name": "UseItemRsp",
+        "id": 678
+    },
+    {
+        "name": "UseMiracleRingReq",
+        "id": 5242
+    },
+    {
+        "name": "UseMiracleRingRsp",
+        "id": 5241
+    },
+    {
+        "name": "UseWidgetCreateGadgetReq",
+        "id": 4264
+    },
+    {
+        "name": "UseWidgetCreateGadgetRsp",
+        "id": 4298
+    },
+    {
+        "name": "UseWidgetRetractGadgetReq",
+        "id": 4275
+    },
+    {
+        "name": "UseWidgetRetractGadgetRsp",
+        "id": 4263
+    },
+    {
+        "name": "VehicleInteractReq",
+        "id": 889
+    },
+    {
+        "name": "VehicleInteractRsp",
+        "id": 844
+    },
+    {
+        "name": "VehicleStaminaNotify",
+        "id": 880
+    },
+    {
+        "name": "ViewCodexReq",
+        "id": 4206
+    },
+    {
+        "name": "ViewCodexRsp",
+        "id": 4210
+    },
+    {
+        "name": "ViewLanternProjectionLevelTipsReq",
+        "id": 8303
+    },
+    {
+        "name": "ViewLanternProjectionLevelTipsRsp",
+        "id": 8962
+    },
+    {
+        "name": "ViewLanternProjectionTipsReq",
+        "id": 8560
+    },
+    {
+        "name": "ViewLanternProjectionTipsRsp",
+        "id": 8623
+    },
+    {
+        "name": "VintageCampGroupBundleRegisterNotify",
+        "id": 24329
+    },
+    {
+        "name": "VintageCampStageFinishNotify",
+        "id": 21839
+    },
+    {
+        "name": "VintageDecorateBoothReq",
+        "id": 22958
+    },
+    {
+        "name": "VintageDecorateBoothRsp",
+        "id": 21588
+    },
+    {
+        "name": "VintageHuntingStartGalleryReq",
+        "id": 21649
+    },
+    {
+        "name": "VintageHuntingStartGalleryRsp",
+        "id": 22068
+    },
+    {
+        "name": "VintageMarketDeliverItemReq",
+        "id": 21131
+    },
+    {
+        "name": "VintageMarketDeliverItemRsp",
+        "id": 23763
+    },
+    {
+        "name": "VintageMarketDividendFinishNotify",
+        "id": 22064
+    },
+    {
+        "name": "VintageMarketFinishStorePlayReq",
+        "id": 21911
+    },
+    {
+        "name": "VintageMarketFinishStorePlayRsp",
+        "id": 20941
+    },
+    {
+        "name": "VintageMarketNpcEventFinishNotify",
+        "id": 24781
+    },
+    {
+        "name": "VintageMarketStartStorePlayReq",
+        "id": 22447
+    },
+    {
+        "name": "VintageMarketStartStorePlayRsp",
+        "id": 23017
+    },
+    {
+        "name": "VintageMarketStoreChooseStrategyReq",
+        "id": 21624
+    },
+    {
+        "name": "VintageMarketStoreChooseStrategyRsp",
+        "id": 21298
+    },
+    {
+        "name": "VintageMarketStoreUnlockSlotReq",
+        "id": 22367
+    },
+    {
+        "name": "VintageMarketStoreUnlockSlotRsp",
+        "id": 23327
+    },
+    {
+        "name": "VintageMarketStoreViewStrategyReq",
+        "id": 21834
+    },
+    {
+        "name": "VintageMarketStoreViewStrategyRsp",
+        "id": 22881
+    },
+    {
+        "name": "VintagePresentFinishNoify",
+        "id": 21400
+    },
+    {
+        "name": "VintagePresentFinishNotify",
+        "id": 20454
+    },
+    {
+        "name": "WatcherAllDataNotify",
+        "id": 2279
+    },
+    {
+        "name": "WatcherChangeNotify",
+        "id": 2230
+    },
+    {
+        "name": "WatcherEventNotify",
+        "id": 2256
+    },
+    {
+        "name": "WatcherEventStageNotify",
+        "id": 2300
+    },
+    {
+        "name": "WatcherEventTypeNotify",
+        "id": 2219
+    },
+    {
+        "name": "WaterSpritePhaseFinishNotify",
+        "id": 2120
+    },
+    {
+        "name": "WeaponAwakenReq",
+        "id": 633
+    },
+    {
+        "name": "WeaponAwakenRsp",
+        "id": 610
+    },
+    {
+        "name": "WeaponPromoteReq",
+        "id": 637
+    },
+    {
+        "name": "WeaponPromoteRsp",
+        "id": 689
+    },
+    {
+        "name": "WeaponUpgradeReq",
+        "id": 616
+    },
+    {
+        "name": "WeaponUpgradeRsp",
+        "id": 673
+    },
+    {
+        "name": "WearEquipReq",
+        "id": 699
+    },
+    {
+        "name": "WearEquipRsp",
+        "id": 625
+    },
+    {
+        "name": "WidgetActiveChangeNotify",
+        "id": 4297
+    },
+    {
+        "name": "WidgetCaptureAnimalReq",
+        "id": 4279
+    },
+    {
+        "name": "WidgetCaptureAnimalRsp",
+        "id": 4296
+    },
+    {
+        "name": "WidgetCoolDownNotify",
+        "id": 4268
+    },
+    {
+        "name": "WidgetDoBagReq",
+        "id": 4269
+    },
+    {
+        "name": "WidgetDoBagRsp",
+        "id": 4299
+    },
+    {
+        "name": "WidgetGadgetAllDataNotify",
+        "id": 4288
+    },
+    {
+        "name": "WidgetGadgetDataNotify",
+        "id": 4276
+    },
+    {
+        "name": "WidgetGadgetDestroyNotify",
+        "id": 4257
+    },
+    {
+        "name": "WidgetQuickHitTreeReq",
+        "id": 3068
+    },
+    {
+        "name": "WidgetQuickHitTreeRsp",
+        "id": 3250
+    },
+    {
+        "name": "WidgetReportReq",
+        "id": 4258
+    },
+    {
+        "name": "WidgetReportRsp",
+        "id": 4295
+    },
+    {
+        "name": "WidgetSlotChangeNotify",
+        "id": 4278
+    },
+    {
+        "name": "WidgetUpdateExtraCDReq",
+        "id": 5907
+    },
+    {
+        "name": "WidgetUpdateExtraCDRsp",
+        "id": 6076
+    },
+    {
+        "name": "WidgetUseAttachAbilityGroupChangeNotify",
+        "id": 4290
+    },
+    {
+        "name": "WidgetWeatherWizardDataNotify",
+        "id": 5952
+    },
+    {
+        "name": "WindFieldGalleryChallengeInfoNotify",
+        "id": 5503
+    },
+    {
+        "name": "WindFieldGalleryInfoNotify",
+        "id": 5572
+    },
+    {
+        "name": "WindFieldRestartDungeonReq",
+        "id": 24309
+    },
+    {
+        "name": "WindFieldRestartDungeonRsp",
+        "id": 20706
+    },
+    {
+        "name": "WindSeedClientNotify",
+        "id": 1157
+    },
+    {
+        "name": "WinterCampAcceptAllGiveItemReq",
+        "id": 8538
+    },
+    {
+        "name": "WinterCampAcceptAllGiveItemRsp",
+        "id": 8731
+    },
+    {
+        "name": "WinterCampAcceptGiveItemReq",
+        "id": 8516
+    },
+    {
+        "name": "WinterCampAcceptGiveItemRsp",
+        "id": 8966
+    },
+    {
+        "name": "WinterCampEditSnowmanCombinationReq",
+        "id": 8157
+    },
+    {
+        "name": "WinterCampEditSnowmanCombinationRsp",
+        "id": 8951
+    },
+    {
+        "name": "WinterCampGetCanGiveFriendItemReq",
+        "id": 8443
+    },
+    {
+        "name": "WinterCampGetCanGiveFriendItemRsp",
+        "id": 8021
+    },
+    {
+        "name": "WinterCampGetFriendWishListReq",
+        "id": 8764
+    },
+    {
+        "name": "WinterCampGetFriendWishListRsp",
+        "id": 8208
+    },
+    {
+        "name": "WinterCampGetRecvItemListReq",
+        "id": 8794
+    },
+    {
+        "name": "WinterCampGetRecvItemListRsp",
+        "id": 8957
+    },
+    {
+        "name": "WinterCampGiveFriendItemReq",
+        "id": 8102
+    },
+    {
+        "name": "WinterCampGiveFriendItemRsp",
+        "id": 8735
+    },
+    {
+        "name": "WinterCampRaceScoreNotify",
+        "id": 8960
+    },
+    {
+        "name": "WinterCampRecvItemNotify",
+        "id": 8952
+    },
+    {
+        "name": "WinterCampSetWishListReq",
+        "id": 8380
+    },
+    {
+        "name": "WinterCampSetWishListRsp",
+        "id": 8288
+    },
+    {
+        "name": "WinterCampStageInfoChangeNotify",
+        "id": 8878
+    },
+    {
+        "name": "WinterCampTakeBattleRewardReq",
+        "id": 8484
+    },
+    {
+        "name": "WinterCampTakeBattleRewardRsp",
+        "id": 8310
+    },
+    {
+        "name": "WinterCampTakeExploreRewardReq",
+        "id": 8014
+    },
+    {
+        "name": "WinterCampTakeExploreRewardRsp",
+        "id": 8323
+    },
+    {
+        "name": "WinterCampTriathlonRestartReq",
+        "id": 8524
+    },
+    {
+        "name": "WinterCampTriathlonRestartRsp",
+        "id": 8468
+    },
+    {
+        "name": "WinterCampTriathlonSettleNotify",
+        "id": 8194
+    },
+    {
+        "name": "WorktopOptionNotify",
+        "id": 819
+    },
+    {
+        "name": "WorldAllRoutineTypeNotify",
+        "id": 3541
+    },
+    {
+        "name": "WorldChestOpenNotify",
+        "id": 3242
+    },
+    {
+        "name": "WorldDataNotify",
+        "id": 3436
+    },
+    {
+        "name": "WorldOwnerBlossomBriefInfoNotify",
+        "id": 2719
+    },
+    {
+        "name": "WorldOwnerBlossomScheduleInfoNotify",
+        "id": 2800
+    },
+    {
+        "name": "WorldOwnerDailyTaskNotify",
+        "id": 193
+    },
+    {
+        "name": "WorldPlayerDieNotify",
+        "id": 259
+    },
+    {
+        "name": "WorldPlayerInfoNotify",
+        "id": 3150
+    },
+    {
+        "name": "WorldPlayerLocationNotify",
+        "id": 224
+    },
+    {
+        "name": "WorldPlayerReviveReq",
+        "id": 229
+    },
+    {
+        "name": "WorldPlayerReviveRsp",
+        "id": 286
+    },
+    {
+        "name": "WorldPlayerRTTNotify",
+        "id": 37
+    },
+    {
+        "name": "WorldRoutineChangeNotify",
+        "id": 3535
+    },
+    {
+        "name": "WorldRoutineTypeCloseNotify",
+        "id": 3527
+    },
+    {
+        "name": "WorldRoutineTypeRefreshNotify",
+        "id": 3522
+    }
+]

@@ -1,3 +1,5 @@
+// Proto has been converted from Sorapointa to Grasscutter format
+// Proto has been converted from Sorapointa to Grasscutter format
 // Sorapointa - A server software re-implementation for a certain anime game, and avoid sorapointa.
 // Copyright (C) 2022  Sorapointa Team
 //
@@ -20,7 +22,7 @@ import "TowerCurLevelRecord.proto";
 import "TowerFloorRecord.proto";
 import "TowerMonthlyBrief.proto";
 
-option java_package = "org.sorapointa.proto";
+option java_package = "emu.grasscutter.net.proto";
 
 message TowerAllDataRsp {
   // enum CmdId {
@@ -39,7 +41,7 @@ message TowerAllDataRsp {
   uint32 schedule_start_time = 610;
   int32 retcode = 11;
   uint32 Unk3300_OHCHCJGJIDK = 4;
-  uint32 Unk3300_BBHKBDDFPFE = 2;
+  uint32 valid_tower_record_num = 2;
   TowerMonthlyBrief last_schedule_monthly_brief = 1245;
   TowerCurLevelRecord cur_level_record = 12;
   repeated TowerFloorRecord tower_floor_record_list = 13;
@@ -47,5 +49,5 @@ message TowerAllDataRsp {
   uint32 Unk3300_LEKODCFPINJ = 7;
   map<uint32, uint32> Unk3300_PJPEEJACFJH = 3;
   bool is_finished_entrance_floor = 15;
-  map<uint32, uint32> Unk3300_GNINCLBMMDJ = 14;
+  map<uint32, uint32> floor_open_time_map = 14;
 }

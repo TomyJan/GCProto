@@ -1,3 +1,5 @@
+// Proto has been converted from Sorapointa to Grasscutter format
+// Proto has been converted from Sorapointa to Grasscutter format
 // Sorapointa - A server software re-implementation for a certain anime game, and avoid sorapointa.
 // Copyright (C) 2022  Sorapointa Team
 //
@@ -16,7 +18,7 @@
 
 syntax = "proto3";
 
-option java_package = "org.sorapointa.proto";
+option java_package = "emu.grasscutter.net.proto";
 
 message AvatarUpgradeRsp {
   // enum CmdId {
@@ -30,7 +32,7 @@ message AvatarUpgradeRsp {
   int32 retcode = 8;
   uint64 avatar_guid = 14;
   uint32 cur_level = 9;
-  map<uint32, float> Unk3300_OIMPFCDCDGA = 13;
-  map<uint32, float> Unk3300_BFNHHNKOLBH = 6;
+  map<uint32, float> cur_fight_prop_map = 13;
+  map<uint32, float> old_fight_prop_map = 6;
   uint32 old_level = 12;
 }

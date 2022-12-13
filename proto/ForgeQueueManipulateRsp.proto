@@ -1,3 +1,5 @@
+// Proto has been converted from Sorapointa to Grasscutter format
+// Proto has been converted from Sorapointa to Grasscutter format
 // Sorapointa - A server software re-implementation for a certain anime game, and avoid sorapointa.
 // Copyright (C) 2022  Sorapointa Team
 //
@@ -19,7 +21,7 @@ syntax = "proto3";
 import "ForgeQueueManipulateType.proto";
 import "ItemParam.proto";
 
-option java_package = "org.sorapointa.proto";
+option java_package = "emu.grasscutter.net.proto";
 
 message ForgeQueueManipulateRsp {
   // enum CmdId {
@@ -32,7 +34,7 @@ message ForgeQueueManipulateRsp {
 
   repeated ItemParam extra_output_item_list = 3;
   ForgeQueueManipulateType manipulate_type = 12;
-  repeated ItemParam Unk3300_JDHFPCBOGFH = 4;
-  repeated ItemParam Unk3300_EOLDJAMHDHM = 14;
+  repeated ItemParam return_item_list = 4;
+  repeated ItemParam output_item_list = 14;
   int32 retcode = 11;
 }

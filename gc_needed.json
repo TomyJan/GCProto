@@ -1,0 +1,1487 @@
+[
+    {
+        "name": "AbilityInvocationsNotify"
+    },
+    {
+        "name": "ActivityTakeWatcherRewardReq"
+    },
+    {
+        "name": "AddBackupAvatarTeamReq"
+    },
+    {
+        "name": "AddQuestContentProgressReq"
+    },
+    {
+        "name": "AskAddFriendReq"
+    },
+    {
+        "name": "AvatarChangeCostumeReq"
+    },
+    {
+        "name": "AvatarChangeElementTypeReq"
+    },
+    {
+        "name": "AvatarDieAnimationEndReq"
+    },
+    {
+        "name": "AvatarExpeditionAllDataReq"
+    },
+    {
+        "name": "AvatarExpeditionCallBackReq"
+    },
+    {
+        "name": "AvatarExpeditionGetRewardReq"
+    },
+    {
+        "name": "AvatarExpeditionStartReq"
+    },
+    {
+        "name": "AvatarFetterLevelRewardReq"
+    },
+    {
+        "name": "AvatarPromoteReq"
+    },
+    {
+        "name": "AvatarSkillUpgradeReq"
+    },
+    {
+        "name": "AvatarUpgradeReq"
+    },
+    {
+        "name": "AvatarWearFlycloakReq"
+    },
+    {
+        "name": "BuyBattlePassLevelReq"
+    },
+    {
+        "name": "BuyGoodsReq"
+    },
+    {
+        "name": "CalcWeaponUpgradeReturnItemsReq"
+    },
+    {
+        "name": "ChangeAvatarReq"
+    },
+    {
+        "name": "ChangeGameTimeReq"
+    },
+    {
+        "name": "HomeChangeBgmReq"
+    },
+    {
+        "name": "ChangeMailStarNotify"
+    },
+    {
+        "name": "ChangeMpTeamAvatarReq"
+    },
+    {
+        "name": "ChangeTeamNameReq"
+    },
+    {
+        "name": "ChooseCurAvatarTeamReq"
+    },
+    {
+        "name": "ClientAbilityInitFinishNotify"
+    },
+    {
+        "name": "CombatInvocationsNotify"
+    },
+    {
+        "name": "CombineReq"
+    },
+    {
+        "name": "CreateVehicleReq"
+    },
+    {
+        "name": "DailyTaskFilterCityReq"
+    },
+    {
+        "name": "DealAddFriendReq"
+    },
+    {
+        "name": "DeleteFriendReq"
+    },
+    {
+        "name": "DelMailReq"
+    },
+    {
+        "name": "DestroyMaterialReq"
+    },
+    {
+        "name": "DoGachaReq"
+    },
+    {
+        "name": "DungeonEntryInfoReq"
+    },
+    {
+        "name": "DungeonWayPointActivateReq"
+    },
+    {
+        "name": "DungeonWayPointActivateReq"
+    },
+    {
+        "name": "EnterSceneDoneReq"
+    },
+    {
+        "name": "EnterSceneReadyReq"
+    },
+    {
+        "name": "EnterTransPointRegionNotify"
+    },
+    {
+        "name": "EnterWorldAreaReq"
+    },
+    {
+        "name": "EntityAiSyncNotify"
+    },
+    {
+        "name": "EvtAiSyncCombatThreatInfoNotify"
+    },
+    {
+        "name": "EvtAiSyncSkillCdNotify"
+    },
+    {
+        "name": "EvtAvatarLockChairReq"
+    },
+    {
+        "name": "EvtAvatarSitDownNotify"
+    },
+    {
+        "name": "EvtAvatarStandUpNotify"
+    },
+    {
+        "name": "EvtCreateGadgetNotify"
+    },
+    {
+        "name": "EvtDestroyGadgetNotify"
+    },
+    {
+        "name": "EvtDoSkillSuccNotify"
+    },
+    {
+        "name": "EvtEntityRenderersChangedNotify"
+    },
+    {
+        "name": "ExitTransPointRegionNotify"
+    },
+    {
+        "name": "FireworkReq"
+    },
+    {
+        "name": "FireworkSetReq"
+    },
+    {
+        "name": "ForgeGetQueueDataReq"
+    },
+    {
+        "name": "ForgeQueueManipulateReq"
+    },
+    {
+        "name": "ForgeStartReq"
+    },
+    {
+        "name": "FurnitureMakeReq"
+    },
+    {
+        "name": "FurnitureMakeStartReq"
+    },
+    {
+        "name": "GachaWishReq"
+    },
+    {
+        "name": "GadgetInteractReq"
+    },
+    {
+        "name": "GetActivityInfoReq"
+    },
+    {
+        "name": "GetActivityShopSheetInfoReq"
+    },
+    {
+        "name": "GetAllH5ActivityInfoReq"
+    },
+    {
+        "name": "GetAllMailReq"
+    },
+    {
+        "name": "GetAllUnlockNameCardReq"
+    },
+    {
+        "name": "GetAuthkeyReq"
+    },
+    {
+        "name": "GetChatEmojiCollectionReq"
+    },
+    {
+        "name": "GetCompoundDataReq"
+    },
+    {
+        "name": "GetDailyDungeonEntryInfoReq"
+    },
+    {
+        "name": "GetFriendShowAvatarInfoReq"
+    },
+    {
+        "name": "GetFriendShowNameCardInfoReq"
+    },
+    {
+        "name": "GetFurnitureCurModuleArrangeCountReq"
+    },
+    {
+        "name": "GetGachaInfoReq"
+    },
+    {
+        "name": "GetInvestigationMonsterReq"
+    },
+    {
+        "name": "GetMailItemReq"
+    },
+    {
+        "name": "GetOnlinePlayerListReq"
+    },
+    {
+        "name": "GetPlayerAskFriendListReq"
+    },
+    {
+        "name": "GetPlayerBlacklistRsp"
+    },
+    {
+        "name": "GetPlayerFriendListReq"
+    },
+    {
+        "name": "GetPlayerHomeCompInfoReq"
+    },
+    {
+        "name": "GetPlayerSocialDetailReq"
+    },
+    {
+        "name": "GetPlayerTokenReq"
+    },
+    {
+        "name": "GetRegionSearchReq"
+    },
+    {
+        "name": "GetSceneAreaReq"
+    },
+    {
+        "name": "GetScenePointReq"
+    },
+    {
+        "name": "GetShopmallDataReq"
+    },
+    {
+        "name": "GetShopReq"
+    },
+    {
+        "name": "GetWidgetSlotReq"
+    },
+    {
+        "name": "GetWorldMpInfoReq"
+    },
+    {
+        "name": "HitTreeNotify"
+    },
+    {
+        "name": "HomeChangeEditModeReq"
+    },
+    {
+        "name": "HomeChooseModuleReq"
+    },
+    {
+        "name": "HomeGetArrangementInfoReq"
+    },
+    {
+        "name": "HomeGetBasicInfoReq"
+    },
+    {
+        "name": "HomeSceneInitFinishReq"
+    },
+    {
+        "name": "HomeSceneJumpReq"
+    },
+    {
+        "name": "HomeEnterEditModeFinishReq"
+    },
+    {
+        "name": "HomeUpdateArrangementInfoReq"
+    },
+    {
+        "name": "MarkMapReq"
+    },
+    {
+        "name": "McoinExchangeHcoinReq"
+    },
+    {
+        "name": "MonsterAIConfigHashNotify"
+    },
+    {
+        "name": "GetUgcReq"
+    },
+    {
+        "name": "GetUgcRsp"
+    },
+    {
+        "name": "MusicGameSearchBeatmapReq"
+    },
+    {
+        "name": "MusicGameSettleReq"
+    },
+    {
+        "name": "MusicGameStartReq"
+    },
+    {
+        "name": "MusicGameStartToPlayOthersBeatmapReq"
+    },
+    {
+        "name": "NpcTalkReq"
+    },
+    {
+        "name": "ObstacleModifyNotify"
+    },
+    {
+        "name": "PathfindingEnterSceneReq"
+    },
+    {
+        "name": "PersonalLineAllDataReq"
+    },
+    {
+        "name": "PersonalSceneJumpReq"
+    },
+    {
+        "name": "PingReq"
+    },
+    {
+        "name": "PlayerApplyEnterMpReq"
+    },
+    {
+        "name": "PlayerApplyEnterMpResultReq"
+    },
+    {
+        "name": "PlayerChatReq"
+    },
+    {
+        "name": "PlayerCompoundMaterialReq"
+    },
+    {
+        "name": "PlayerCookArgsReq"
+    },
+    {
+        "name": "PlayerCookReq"
+    },
+    {
+        "name": "PlayerEnterDungeonReq"
+    },
+    {
+        "name": "PlayerForceExitRsp"
+    },
+    {
+        "name": "PlayerGetForceQuitBanInfoReq"
+    },
+    {
+        "name": "DoSetPlayerBornDataNotify"
+    },
+    {
+        "name": "PlayerQuitDungeonReq"
+    },
+    {
+        "name": "PlayerSetPauseReq"
+    },
+    {
+        "name": "PostEnterSceneReq"
+    },
+    {
+        "name": "PrivateChatReq"
+    },
+    {
+        "name": "PullPrivateChatReq"
+    },
+    {
+        "name": "PullRecentChatReq"
+    },
+    {
+        "name": "QueryCodexMonsterBeKilledNumReq"
+    },
+    {
+        "name": "QueryPathReq"
+    },
+    {
+        "name": "QuestCreateEntityReq"
+    },
+    {
+        "name": "QuestUpdateQuestVarReq"
+    },
+    {
+        "name": "QuickUseWidgetRsp"
+    },
+    {
+        "name": "ReadMailNotify"
+    },
+    {
+        "name": "ReliquaryDecomposeReq"
+    },
+    {
+        "name": "ReliquaryUpgradeReq"
+    },
+    {
+        "name": "DelBackupAvatarTeamReq"
+    },
+    {
+        "name": "SceneEntityDrownReq"
+    },
+    {
+        "name": "SceneForceUnlockNotify"
+    },
+    {
+        "name": "SceneKickPlayerReq"
+    },
+    {
+        "name": "SceneTransToPointReq"
+    },
+    {
+        "name": "SelectWorktopOptionReq"
+    },
+    {
+        "name": "SetBattlePassViewedReq"
+    },
+    {
+        "name": "SetChatEmojiCollectionReq"
+    },
+    {
+        "name": "SetEntityClientDataNotify"
+    },
+    {
+        "name": "SetEquipLockStateReq"
+    },
+    {
+        "name": "SetFriendEnterHomeOptionReq"
+    },
+    {
+        "name": "SetNameCardReq"
+    },
+    {
+        "name": "SetOpenStateReq"
+    },
+    {
+        "name": "SetPlayerBirthdayReq"
+    },
+    {
+        "name": "SetPlayerBornDataRsp"
+    },
+    {
+        "name": "SetPlayerHeadImageReq"
+    },
+    {
+        "name": "SetPlayerNameReq"
+    },
+    {
+        "name": "SetPlayerPropReq"
+    },
+    {
+        "name": "SetPlayerSignatureReq"
+    },
+    {
+        "name": "SetUpAvatarTeamReq"
+    },
+    {
+        "name": "SetUpLunchBoxWidgetReq"
+    },
+    {
+        "name": "SetWidgetSlotReq"
+    },
+    {
+        "name": "TakeBattlePassMissionPointReq"
+    },
+    {
+        "name": "TakeBattlePassRewardReq"
+    },
+    {
+        "name": "TakeCompoundOutputReq"
+    },
+    {
+        "name": "TakeFurnitureMakeReq"
+    },
+    {
+        "name": "TakeoffEquipReq"
+    },
+    {
+        "name": "TakePlayerLevelRewardReq"
+    },
+    {
+        "name": "TowerAllDataReq"
+    },
+    {
+        "name": "TowerEnterLevelReq"
+    },
+    {
+        "name": "TowerTeamSelectReq"
+    },
+    {
+        "name": "TryEnterHomeReq"
+    },
+    {
+        "name": "UnionCmdNotify"
+    },
+    {
+        "name": "UnlockAvatarTalentReq"
+    },
+    {
+        "name": "UnlockPersonalLineReq"
+    },
+    {
+        "name": "UnlockTransPointReq"
+    },
+    {
+        "name": "UpdateAbilityCreatedMovingPlatformNotify"
+    },
+    {
+        "name": "UpdatePlayerShowAvatarListReq"
+    },
+    {
+        "name": "UpdatePlayerShowNameCardListReq"
+    },
+    {
+        "name": "UseItemReq"
+    },
+    {
+        "name": "VehicleInteractReq"
+    },
+    {
+        "name": "WeaponAwakenReq"
+    },
+    {
+        "name": "WeaponPromoteReq"
+    },
+    {
+        "name": "WeaponUpgradeReq"
+    },
+    {
+        "name": "WearEquipReq"
+    },
+    {
+        "name": "WidgetDoBagReq"
+    },
+    {
+        "name": "WorldPlayerReviveReq"
+    },
+    {
+        "name": "TakeCompoundOutputRsp"
+    },
+    {
+        "name": "AbilityChangeNotify"
+    },
+    {
+        "name": "AbilityInvocationsNotify"
+    },
+    {
+        "name": "ActivityInfoNotify"
+    },
+    {
+        "name": "ActivityScheduleInfoNotify"
+    },
+    {
+        "name": "ActivityTakeWatcherRewardRsp"
+    },
+    {
+        "name": "ActivityUpdateWatcherNotify"
+    },
+    {
+        "name": "AddBackupAvatarTeamRsp"
+    },
+    {
+        "name": "AddQuestContentProgressRsp"
+    },
+    {
+        "name": "AllWidgetDataNotify"
+    },
+    {
+        "name": "AskAddFriendNotify"
+    },
+    {
+        "name": "AskAddFriendRsp"
+    },
+    {
+        "name": "AvatarAddNotify"
+    },
+    {
+        "name": "AvatarChangeCostumeNotify"
+    },
+    {
+        "name": "AvatarChangeCostumeRsp"
+    },
+    {
+        "name": "AvatarChangeElementTypeRsp"
+    },
+    {
+        "name": "AvatarDataNotify"
+    },
+    {
+        "name": "AvatarDieAnimationEndRsp"
+    },
+    {
+        "name": "AvatarEquipChangeNotify"
+    },
+    {
+        "name": "AvatarExpeditionAllDataRsp"
+    },
+    {
+        "name": "AvatarExpeditionCallBackRsp"
+    },
+    {
+        "name": "AvatarExpeditionDataNotify"
+    },
+    {
+        "name": "AvatarExpeditionGetRewardRsp"
+    },
+    {
+        "name": "AvatarExpeditionStartRsp"
+    },
+    {
+        "name": "AvatarFetterDataNotify"
+    },
+    {
+        "name": "AvatarFetterLevelRewardRsp"
+    },
+    {
+        "name": "AvatarFightPropNotify"
+    },
+    {
+        "name": "AvatarFightPropUpdateNotify"
+    },
+    {
+        "name": "AvatarFlycloakChangeNotify"
+    },
+    {
+        "name": "AvatarGainCostumeNotify"
+    },
+    {
+        "name": "AvatarGainFlycloakNotify"
+    },
+    {
+        "name": "AvatarLifeStateChangeNotify"
+    },
+    {
+        "name": "AvatarPromoteRsp"
+    },
+    {
+        "name": "AvatarPropNotify"
+    },
+    {
+        "name": "AvatarSkillChangeNotify"
+    },
+    {
+        "name": "AvatarSkillDepotChangeNotify"
+    },
+    {
+        "name": "AvatarSkillInfoNotify"
+    },
+    {
+        "name": "AvatarSkillMaxChargeCountNotify"
+    },
+    {
+        "name": "AvatarSkillUpgradeRsp"
+    },
+    {
+        "name": "AvatarTeamUpdateNotify"
+    },
+    {
+        "name": "AvatarUnlockTalentNotify"
+    },
+    {
+        "name": "AvatarUpgradeRsp"
+    },
+    {
+        "name": "AvatarWearFlycloakRsp"
+    },
+    {
+        "name": "BattlePassAllDataNotify"
+    },
+    {
+        "name": "BattlePassCurScheduleUpdateNotify"
+    },
+    {
+        "name": "BattlePassMissionUpdateNotify"
+    },
+    {
+        "name": "BlossomBriefInfoNotify"
+    },
+    {
+        "name": "BuyBattlePassLevelRsp"
+    },
+    {
+        "name": "BuyGoodsRsp"
+    },
+    {
+        "name": "CalcWeaponUpgradeReturnItemsRsp"
+    },
+    {
+        "name": "CanUseSkillNotify"
+    },
+    {
+        "name": "CardProductRewardNotify"
+    },
+    {
+        "name": "ChallengeDataNotify"
+    },
+    {
+        "name": "ChangeAvatarRsp"
+    },
+    {
+        "name": "ChangeGameTimeRsp"
+    },
+    {
+        "name": "HomeChangeBgmNotify"
+    },
+    {
+        "name": "HomeChangeBgmRsp"
+    },
+    {
+        "name": "ChangeMpTeamAvatarRsp"
+    },
+    {
+        "name": "ChangeTeamNameRsp"
+    },
+    {
+        "name": "ChapterStateNotify"
+    },
+    {
+        "name": "ChooseCurAvatarTeamRsp"
+    },
+    {
+        "name": "ClientAbilityInitFinishNotify"
+    },
+    {
+        "name": "CodexDataFullNotify"
+    },
+    {
+        "name": "CodexDataUpdateNotify"
+    },
+    {
+        "name": "CombatInvocationsNotify"
+    },
+    {
+        "name": "CombineDataNotify"
+    },
+    {
+        "name": "CombineFormulaDataNotify"
+    },
+    {
+        "name": "CombineRsp"
+    },
+    {
+        "name": "CompoundDataNotify"
+    },
+    {
+        "name": "CookDataNotify"
+    },
+    {
+        "name": "CookRecipeDataNotify"
+    },
+    {
+        "name": "CreateVehicleRsp"
+    },
+    {
+        "name": "AvatarTeamAllDataNotify"
+    },
+    {
+        "name": "DailyTaskDataNotify"
+    },
+    {
+        "name": "DailyTaskFilterCityRsp"
+    },
+    {
+        "name": "DailyTaskProgressNotify"
+    },
+    {
+        "name": "DailyTaskUnlockedCitiesNotify"
+    },
+    {
+        "name": "DealAddFriendRsp"
+    },
+    {
+        "name": "DeleteFriendNotify"
+    },
+    {
+        "name": "DeleteFriendRsp"
+    },
+    {
+        "name": "DelMailRsp"
+    },
+    {
+        "name": "QuestDelNotify"
+    },
+    {
+        "name": "DelTeamEntityNotify"
+    },
+    {
+        "name": "DestroyMaterialRsp"
+    },
+    {
+        "name": "DoGachaRsp"
+    },
+    {
+        "name": "DungeonChallengeBeginNotify"
+    },
+    {
+        "name": "DungeonChallengeFinishNotify"
+    },
+    {
+        "name": "DungeonEntryInfoRsp"
+    },
+    {
+        "name": "DungeonSettleNotify"
+    },
+    {
+        "name": "DungeonShowReminderNotify"
+    },
+    {
+        "name": "DungeonSlipRevivePointActivateRsp"
+    },
+    {
+        "name": "DungeonWayPointActivateRsp"
+    },
+    {
+        "name": "EnterSceneDoneRsp"
+    },
+    {
+        "name": "EnterScenePeerNotify"
+    },
+    {
+        "name": "EnterSceneReadyRsp"
+    },
+    {
+        "name": "EnterWorldAreaRsp"
+    },
+    {
+        "name": "EntityAiSyncNotify"
+    },
+    {
+        "name": "EntityFightPropChangeReasonNotify"
+    },
+    {
+        "name": "EntityFightPropUpdateNotify"
+    },
+    {
+        "name": "EvtAvatarLockChairRsp"
+    },
+    {
+        "name": "EvtAvatarSitDownNotify"
+    },
+    {
+        "name": "EvtAvatarStandUpNotify"
+    },
+    {
+        "name": "EvtEntityRenderersChangedNotify"
+    },
+    {
+        "name": "FinishedParentQuestNotify"
+    },
+    {
+        "name": "FinishedParentQuestUpdateNotify"
+    },
+    {
+        "name": "FireworkNotify"
+    },
+    {
+        "name": "FireworkRsp"
+    },
+    {
+        "name": "FireworkSetNotify"
+    },
+    {
+        "name": "FireworkSetRsp"
+    },
+    {
+        "name": "ForgeDataNotify"
+    },
+    {
+        "name": "ForgeFormulaDataNotify"
+    },
+    {
+        "name": "ForgeGetQueueDataRsp"
+    },
+    {
+        "name": "ForgeQueueDataNotify"
+    },
+    {
+        "name": "ForgeQueueManipulateRsp"
+    },
+    {
+        "name": "ForgeStartRsp"
+    },
+    {
+        "name": "FurnitureCurModuleArrangeCountNotify"
+    },
+    {
+        "name": "FurnitureMakeRsp"
+    },
+    {
+        "name": "FurnitureMakeStartRsp"
+    },
+    {
+        "name": "GachaWishRsp"
+    },
+    {
+        "name": "GadgetAutoPickDropInfoNotify"
+    },
+    {
+        "name": "GadgetInteractRsp"
+    },
+    {
+        "name": "GadgetStateNotify"
+    },
+    {
+        "name": "GetActivityInfoRsp"
+    },
+    {
+        "name": "GetActivityShopSheetInfoRsp"
+    },
+    {
+        "name": "GetAllMailRsp"
+    },
+    {
+        "name": "GetAllUnlockNameCardRsp"
+    },
+    {
+        "name": "GetAuthkeyRsp"
+    },
+    {
+        "name": "GetChatEmojiCollectionRsp"
+    },
+    {
+        "name": "GetCompoundDataRsp"
+    },
+    {
+        "name": "GetDailyDungeonEntryInfoRsp"
+    },
+    {
+        "name": "GetFriendShowAvatarInfoRsp"
+    },
+    {
+        "name": "GetFriendShowNameCardInfoRsp"
+    },
+    {
+        "name": "GetGachaInfoRsp"
+    },
+    {
+        "name": "GetInvestigationMonsterRsp"
+    },
+    {
+        "name": "GetMailItemRsp"
+    },
+    {
+        "name": "GetOnlinePlayerListRsp"
+    },
+    {
+        "name": "GetPlayerAskFriendListRsp"
+    },
+    {
+        "name": "GetPlayerFriendListRsp"
+    },
+    {
+        "name": "GetPlayerSocialDetailRsp"
+    },
+    {
+        "name": "GetPlayerTokenRsp"
+    },
+    {
+        "name": "GetSceneAreaRsp"
+    },
+    {
+        "name": "GetScenePointRsp"
+    },
+    {
+        "name": "GetShopmallDataRsp"
+    },
+    {
+        "name": "GetShopRsp"
+    },
+    {
+        "name": "GetWidgetSlotRsp"
+    },
+    {
+        "name": "GetWorldMpInfoRsp"
+    },
+    {
+        "name": "GroupSuiteNotify"
+    },
+    {
+        "name": "GroupUnloadNotify"
+    },
+    {
+        "name": "H5ActivityIdsNotify"
+    },
+    {
+        "name": "HomeBasicInfoNotify"
+    },
+    {
+        "name": "HomeChangeEditModeRsp"
+    },
+    {
+        "name": "HomeChooseModuleRsp"
+    },
+    {
+        "name": "HomeComfortInfoNotify"
+    },
+    {
+        "name": "HomeGetArrangementInfoRsp"
+    },
+    {
+        "name": "HomeMarkPointNotify"
+    },
+    {
+        "name": "HomeSceneInitFinishRsp"
+    },
+    {
+        "name": "HomeSceneJumpRsp"
+    },
+    {
+        "name": "HomePreChangeEditModeNotify"
+    },
+    {
+        "name": "HomeEnterEditModeFinishRsp"
+    },
+    {
+        "name": "HomeUpdateArrangementInfoRsp"
+    },
+    {
+        "name": "HostPlayerNotify"
+    },
+    {
+        "name": "ItemAddHintNotify"
+    },
+    {
+        "name": "LifeStateChangeNotify"
+    },
+    {
+        "name": "MailChangeNotify"
+    },
+    {
+        "name": "MarkMapRsp"
+    },
+    {
+        "name": "MarkNewNotify"
+    },
+    {
+        "name": "McoinExchangeHcoinRsp"
+    },
+    {
+        "name": "MusicGameCreateBeatmapRsp"
+    },
+    {
+        "name": "MusicGameGetBeatmapRsp"
+    },
+    {
+        "name": "MusicGameSearchBeatmapRsp"
+    },
+    {
+        "name": "MusicGameSettleRsp"
+    },
+    {
+        "name": "MusicGameStartRsp"
+    },
+    {
+        "name": "MusicGameStartToPlayOthersBeatmapRsp"
+    },
+    {
+        "name": "NpcTalkRsp"
+    },
+    {
+        "name": "OpenStateChangeNotify"
+    },
+    {
+        "name": "OpenStateUpdateNotify"
+    },
+    {
+        "name": "PathfindingEnterSceneRsp"
+    },
+    {
+        "name": "PersonalLineAllDataRsp"
+    },
+    {
+        "name": "PersonalSceneJumpRsp"
+    },
+    {
+        "name": "PingRsp"
+    },
+    {
+        "name": "PlatformStartRouteNotify"
+    },
+    {
+        "name": "PlatformStopRouteNotify"
+    },
+    {
+        "name": "PlayerApplyEnterMpNotify"
+    },
+    {
+        "name": "PlayerApplyEnterMpResultNotify"
+    },
+    {
+        "name": "PlayerApplyEnterMpResultRsp"
+    },
+    {
+        "name": "PlayerApplyEnterMpRsp"
+    },
+    {
+        "name": "PlayerChatNotify"
+    },
+    {
+        "name": "PlayerChatRsp"
+    },
+    {
+        "name": "PlayerCompoundMaterialRsp"
+    },
+    {
+        "name": "PlayerCookArgsRsp"
+    },
+    {
+        "name": "PlayerCookRsp"
+    },
+    {
+        "name": "PlayerDataNotify"
+    },
+    {
+        "name": "PlayerEnterDungeonRsp"
+    },
+    {
+        "name": "PlayerEnterSceneInfoNotify"
+    },
+    {
+        "name": "PlayerEnterSceneNotify"
+    },
+    {
+        "name": "PlayerGameTimeNotify"
+    },
+    {
+        "name": "PlayerGetForceQuitBanInfoRsp"
+    },
+    {
+        "name": "PlayerHomeCompInfoNotify"
+    },
+    {
+        "name": "PlayerLevelRewardUpdateNotify"
+    },
+    {
+        "name": "PlayerLoginRsp"
+    },
+    {
+        "name": "PlayerPropChangeNotify"
+    },
+    {
+        "name": "PlayerPropChangeReasonNotify"
+    },
+    {
+        "name": "PlayerPropNotify"
+    },
+    {
+        "name": "PlayerSetPauseRsp"
+    },
+    {
+        "name": "PlayerStoreNotify"
+    },
+    {
+        "name": "PlayerTimeNotify"
+    },
+    {
+        "name": "PlayerWorldSceneInfoListNotify"
+    },
+    {
+        "name": "PostEnterSceneRsp"
+    },
+    {
+        "name": "PrivateChatNotify"
+    },
+    {
+        "name": "ProudSkillChangeNotify"
+    },
+    {
+        "name": "ProudSkillExtraLevelNotify"
+    },
+    {
+        "name": "PullPrivateChatRsp"
+    },
+    {
+        "name": "PullRecentChatRsp"
+    },
+    {
+        "name": "QueryCodexMonsterBeKilledNumRsp"
+    },
+    {
+        "name": "QueryPathRsp"
+    },
+    {
+        "name": "QuestCreateEntityRsp"
+    },
+    {
+        "name": "QuestListNotify"
+    },
+    {
+        "name": "QuestListUpdateNotify"
+    },
+    {
+        "name": "QuestProgressUpdateNotify"
+    },
+    {
+        "name": "QuestUpdateQuestVarRsp"
+    },
+    {
+        "name": "ReliquaryDecomposeRsp"
+    },
+    {
+        "name": "ReliquaryUpgradeRsp"
+    },
+    {
+        "name": "DelBackupAvatarTeamRsp"
+    },
+    {
+        "name": "ResinChangeNotify"
+    },
+    {
+        "name": "SceneAreaUnlockNotify"
+    },
+    {
+        "name": "SceneAreaWeatherNotify"
+    },
+    {
+        "name": "SceneEntityAppearNotify"
+    },
+    {
+        "name": "SceneEntityDisappearNotify"
+    },
+    {
+        "name": "SceneEntityDrownRsp"
+    },
+    {
+        "name": "SceneEntityMoveNotify"
+    },
+    {
+        "name": "SceneInitFinishRsp"
+    },
+    {
+        "name": "SceneKickPlayerRsp"
+    },
+    {
+        "name": "ScenePlayerInfoNotify"
+    },
+    {
+        "name": "ScenePlayerLocationNotify"
+    },
+    {
+        "name": "ScenePointUnlockNotify"
+    },
+    {
+        "name": "SceneTeamUpdateNotify"
+    },
+    {
+        "name": "SceneTimeNotify"
+    },
+    {
+        "name": "SceneTransToPointRsp"
+    },
+    {
+        "name": "SelectWorktopOptionRsp"
+    },
+    {
+        "name": "ServerAnnounceNotify"
+    },
+    {
+        "name": "ServerAnnounceRevokeNotify"
+    },
+    {
+        "name": "ServerBuffChangeNotify"
+    },
+    {
+        "name": "ServerCondMeetQuestListUpdateNotify"
+    },
+    {
+        "name": "ServerTimeNotify"
+    },
+    {
+        "name": "SetBattlePassViewedRsp"
+    },
+    {
+        "name": "SetChatEmojiCollectionRsp"
+    },
+    {
+        "name": "SetEquipLockStateRsp"
+    },
+    {
+        "name": "SetFriendEnterHomeOptionRsp"
+    },
+    {
+        "name": "SetNameCardRsp"
+    },
+    {
+        "name": "SetOpenStateRsp"
+    },
+    {
+        "name": "SetPlayerBirthdayRsp"
+    },
+    {
+        "name": "SetPlayerHeadImageRsp"
+    },
+    {
+        "name": "SetPlayerNameRsp"
+    },
+    {
+        "name": "SetPlayerPropRsp"
+    },
+    {
+        "name": "SetPlayerSignatureRsp"
+    },
+    {
+        "name": "SetUpAvatarTeamRsp"
+    },
+    {
+        "name": "SetUpLunchBoxWidgetRsp"
+    },
+    {
+        "name": "SetWidgetSlotRsp"
+    },
+    {
+        "name": "StoreItemChangeNotify"
+    },
+    {
+        "name": "StoreItemDelNotify"
+    },
+    {
+        "name": "StoreWeightLimitNotify"
+    },
+    {
+        "name": "SyncScenePlayTeamEntityNotify"
+    },
+    {
+        "name": "SyncTeamEntityNotify"
+    },
+    {
+        "name": "TakeAchievementRewardReq"
+    },
+    {
+        "name": "TakeBattlePassMissionPointRsp"
+    },
+    {
+        "name": "TakeBattlePassRewardRsp"
+    },
+    {
+        "name": "TakeFurnitureMakeRsp"
+    },
+    {
+        "name": "TakeoffEquipRsp"
+    },
+    {
+        "name": "TakePlayerLevelRewardRsp"
+    },
+    {
+        "name": "TowerAllDataRsp"
+    },
+    {
+        "name": "TowerCurLevelRecordChangeNotify"
+    },
+    {
+        "name": "TowerEnterLevelRsp"
+    },
+    {
+        "name": "TowerFloorRecordChangeNotify"
+    },
+    {
+        "name": "TowerLevelStarCondNotify"
+    },
+    {
+        "name": "TowerMiddleLevelChangeTeamNotify"
+    },
+    {
+        "name": "TowerTeamSelectRsp"
+    },
+    {
+        "name": "TryEnterHomeRsp"
+    },
+    {
+        "name": "UnlockAvatarTalentRsp"
+    },
+    {
+        "name": "UnlockedFurnitureFormulaDataNotify"
+    },
+    {
+        "name": "UnlockedFurnitureSuiteDataNotify"
+    },
+    {
+        "name": "HomeAllUnlockedBgmIdListNotify"
+    },
+    {
+        "name": "HomeNewUnlockedBgmIdListNotify"
+    },
+    {
+        "name": "UnlockNameCardNotify"
+    },
+    {
+        "name": "UnlockPersonalLineRsp"
+    },
+    {
+        "name": "UnlockTransPointRsp"
+    },
+    {
+        "name": "UpdatePlayerShowAvatarListRsp"
+    },
+    {
+        "name": "UpdatePlayerShowNameCardListRsp"
+    },
+    {
+        "name": "UseItemRsp"
+    },
+    {
+        "name": "VehicleInteractRsp"
+    },
+    {
+        "name": "VehicleStaminaNotify"
+    },
+    {
+        "name": "WeaponAwakenRsp"
+    },
+    {
+        "name": "WeaponPromoteRsp"
+    },
+    {
+        "name": "WeaponUpgradeRsp"
+    },
+    {
+        "name": "WearEquipRsp"
+    },
+    {
+        "name": "WidgetCoolDownNotify"
+    },
+    {
+        "name": "WidgetDoBagRsp"
+    },
+    {
+        "name": "AllWidgetDataNotify"
+    },
+    {
+        "name": "WidgetGadgetDataNotify"
+    },
+    {
+        "name": "WidgetSlotChangeNotify"
+    },
+    {
+        "name": "WorktopOptionNotify"
+    },
+    {
+        "name": "WorldDataNotify"
+    },
+    {
+        "name": "WorldOwnerDailyTaskNotify"
+    },
+    {
+        "name": "WorldPlayerDieNotify"
+    },
+    {
+        "name": "WorldPlayerInfoNotify"
+    },
+    {
+        "name": "WorldPlayerLocationNotify"
+    },
+    {
+        "name": "WorldPlayerReviveRsp"
+    },
+    {
+        "name": "WorldPlayerRTTNotify"
+    }
+]

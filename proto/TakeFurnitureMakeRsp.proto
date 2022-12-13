@@ -1,3 +1,5 @@
+// Proto has been converted from Sorapointa to Grasscutter format
+// Proto has been converted from Sorapointa to Grasscutter format
 // Sorapointa - A server software re-implementation for a certain anime game, and avoid sorapointa.
 // Copyright (C) 2022  Sorapointa Team
 //
@@ -19,7 +21,7 @@ syntax = "proto3";
 import "FurnitureMakeSlot.proto";
 import "ItemParam.proto";
 
-option java_package = "org.sorapointa.proto";
+option java_package = "emu.grasscutter.net.proto";
 
 message TakeFurnitureMakeRsp {
   // enum CmdId {
@@ -31,8 +33,8 @@ message TakeFurnitureMakeRsp {
   // }
 
   int32 retcode = 15;
-  repeated ItemParam Unk3300_JDHFPCBOGFH = 5;
+  repeated ItemParam return_item_list = 5;
   FurnitureMakeSlot furniture_make_slot = 14;
-  repeated ItemParam Unk3300_EOLDJAMHDHM = 10;
+  repeated ItemParam output_item_list = 10;
   uint32 make_id = 3;
 }

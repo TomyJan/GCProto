@@ -1,3 +1,4 @@
+// Proto has been converted from Sorapointa to Grasscutter format
 // Sorapointa - A server software re-implementation for a certain anime game, and avoid sorapointa.
 // Copyright (C) 2022  Sorapointa Team
 //
@@ -18,7 +19,7 @@ syntax = "proto3";
 
 import "GCGLevelType.proto";
 
-option java_package = "org.sorapointa.proto";
+option java_package = "emu.grasscutter.net.proto";
 
 message GCGStartChallengeByCheckRewardRsp {
   // enum CmdId {
@@ -29,9 +30,9 @@ message GCGStartChallengeByCheckRewardRsp {
   //   ENET_IS_RELIABLE = 1;
   // }
 
-  repeated uint32 Unk3300_GPDPCJLHBDE = 3;
+  repeated uint32 exceeded_item_type_list = 3;
   uint32 level_id = 5;
-  repeated uint32 Unk3300_PKJMEJKAPBI = 8;
+  repeated uint32 exceeded_item_list = 8;
   GCGLevelType level_type = 2;
   uint32 config_id = 9;
   int32 retcode = 12;

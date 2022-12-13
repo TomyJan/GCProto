@@ -1,3 +1,4 @@
+// Proto has been converted from Sorapointa to Grasscutter format
 // Sorapointa - A server software re-implementation for a certain anime game, and avoid sorapointa.
 // Copyright (C) 2022  Sorapointa Team
 //
@@ -21,7 +22,7 @@ import "GCGPVEIntention.proto";
 import "GCGWaitingCharacter.proto";
 import "GCGZone.proto";
 
-option java_package = "org.sorapointa.proto";
+option java_package = "emu.grasscutter.net.proto";
 
 message GCGPlayerField {
   uint32 Unk3300_IKJMGAHCFPM = 5;
@@ -39,6 +40,6 @@ message GCGPlayerField {
   bool is_passed = 8;
   repeated GCGPVEIntention intention_list = 304;
   repeated GCGDiceSideType dice_side_list = 13;
-  uint32 Unk3300_FJNPFBIHFGD = 3;
+  uint32 deck_card_num = 3;
   uint32 Unk3300_GLNIFLOKBPM = 14;
 }

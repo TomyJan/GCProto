@@ -1,3 +1,4 @@
+// Proto has been converted from Sorapointa to Grasscutter format
 // Sorapointa - A server software re-implementation for a certain anime game, and avoid sorapointa.
 // Copyright (C) 2022  Sorapointa Team
 //
@@ -20,7 +21,7 @@ import "CustomDungeon.proto";
 import "EnterCustomDungeonType.proto";
 import "TryCustomDungeonType.proto";
 
-option java_package = "org.sorapointa.proto";
+option java_package = "emu.grasscutter.net.proto";
 
 message CustomDungeonRecoverNotify {
   // enum CmdId {

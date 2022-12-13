@@ -1,3 +1,4 @@
+// Proto has been converted from Sorapointa to Grasscutter format
 // Sorapointa - A server software re-implementation for a certain anime game, and avoid sorapointa.
 // Copyright (C) 2022  Sorapointa Team
 //
@@ -16,7 +17,7 @@
 
 syntax = "proto3";
 
-option java_package = "org.sorapointa.proto";
+option java_package = "emu.grasscutter.net.proto";
 
 message ClientNewMailNotify {
   // enum CmdId {
@@ -27,6 +28,6 @@ message ClientNewMailNotify {
   //   ENET_IS_RELIABLE = 1;
   // }
 
-  uint32 Unk3300_FBDGCFAALFN = 13;
-  uint32 Unk3300_MANJMCPELLJ = 2;
+  uint32 not_got_attachment_num = 13;
+  uint32 not_read_num = 2;
 }

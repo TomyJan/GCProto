@@ -1,3 +1,4 @@
+// Proto has been converted from Sorapointa to Grasscutter format
 // Sorapointa - A server software re-implementation for a certain anime game, and avoid sorapointa.
 // Copyright (C) 2022  Sorapointa Team
 //
@@ -16,13 +17,13 @@
 
 syntax = "proto3";
 
-option java_package = "org.sorapointa.proto";
+option java_package = "emu.grasscutter.net.proto";
 
 message GCGDSCardData {
   uint32 num = 11;
   uint32 face_type = 5;
   uint32 card_id = 4;
-  repeated uint32 Unk3300_CIGGHHIHJFM = 14;
-  repeated uint32 Unk3300_OAFMDJCPCJH = 6;
+  repeated uint32 proficiency_reward_taken_idx_list = 14;
+  repeated uint32 unlock_face_type_list = 6;
   uint32 proficiency = 10;
 }
