@@ -1,5 +1,4 @@
 // Proto has been converted from Sorapointa to Grasscutter format
-// Proto has been converted from Sorapointa to Grasscutter format
 // Sorapointa - A server software re-implementation for a certain anime game, and avoid sorapointa.
 // Copyright (C) 2022  Sorapointa Team
 //
@@ -29,10 +28,10 @@ message GachaWishRsp {
   //   ENET_IS_RELIABLE = 1;
   // }
 
-  uint32 wish_item_id = 6; // Unk3300_NMOKGFGDFFC
-  uint32 wish_progress = 15; // Unk3300_KEIJFMKAKDH
+  uint32 wish_progress = 6;
+  uint32 wish_item_id = 15;
   uint32 gacha_schedule_id = 11;
   int32 retcode = 13;
-  uint32 wish_max_progress = 10; // Unk3300_BLLMPAJNCPI
+  uint32 wish_max_progress = 10;
   uint32 gacha_type = 8;
 }

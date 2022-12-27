@@ -723,4 +723,4 @@ function scan_gc() {
 // cmdid_to_op(); // 4. update op
 // npx prettier --write PacketOpcodes.java
 // scan_gc(); // 5. scan gc
-// clean_proto_gen(); // 6. clean proto
+clean_proto_gen(); // 6. clean proto

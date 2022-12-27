@@ -4,7 +4,7 @@
 ::协议文件路径, 最后不要跟“\”符号
 set SOURCE_FOLDER=.\proto
 ::如果文件中引用了别的proto文件， IMP_ FOLDER是引用的proto文件的目录
-set IMP_ FOLDER=.\proto
+set IMP_ FOLDER=
 ::Java编译器路径
 set JAVA_COMPILER_PATH=.\bin\protoc.exe
 ::Java文件生成路径, 最后不要跟“\”符号

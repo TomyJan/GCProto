@@ -1,5 +1,4 @@
 // Proto has been converted from Sorapointa to Grasscutter format
-// Proto has been converted from Sorapointa to Grasscutter format
 // Sorapointa - A server software re-implementation for a certain anime game, and avoid sorapointa.
 // Copyright (C) 2022  Sorapointa Team
 //
@@ -22,9 +21,9 @@ option java_package = "emu.grasscutter.net.proto";
 
 message AbilityIdentifier {
   uint32 instanced_ability_id = 4;
-  uint32 Unk3300_IHCKJKLCICI = 10;
+  uint32 modifier_owner_id = 10;
   bool is_serverbuff_modifier = 14;
   int32 local_id = 7;
-  uint32 Unk3300_OOOLELPBDHJ = 1;
+  uint32 ability_caster_id = 1;
   uint32 instanced_modifier_id = 5;
 }

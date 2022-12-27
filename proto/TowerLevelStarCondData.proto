@@ -1,5 +1,4 @@
 // Proto has been converted from Sorapointa to Grasscutter format
-// Proto has been converted from Sorapointa to Grasscutter format
 // Sorapointa - A server software re-implementation for a certain anime game, and avoid sorapointa.
 // Copyright (C) 2022  Sorapointa Team
 //
@@ -24,5 +23,5 @@ message TowerLevelStarCondData {
   bool Unk3300_KBCFDFOAJMM = 14;
   bool Unk3300_CPBCNACKAAK = 5;
   uint32 Unk3300_JGOLBFMJBCL = 11;
-  uint32 Unk3300_MGHNDJAACME = 12;
+  uint32 cond_value = 12;
 }
