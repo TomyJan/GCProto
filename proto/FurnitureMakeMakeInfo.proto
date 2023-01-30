@@ -16,9 +16,7 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-
 option java_package = "emu.grasscutter.net.proto";
-
 message FurnitureMakeMakeInfo {
   uint32 furniture_id = 13;
   uint32 make_count = 9;

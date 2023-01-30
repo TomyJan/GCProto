@@ -1,44 +1,29 @@
-// Proto has been converted from Sorapointa to Grasscutter format
-// Sorapointa - A server software re-implementation for a certain anime game, and avoid sorapointa.
-// Copyright (C) 2022  Sorapointa Team
-//
-// This program is free software: you can redistribute it and/or modify
-// it under the terms of the GNU Affero General Public License as
-// published by the Free Software Foundation, either version 3 of the
-// License, or (at your option) any later version.
-//
-// This program is distributed in the hope that it will be useful,
-// but WITHOUT ANY WARRANTY; without even the implied warranty of
-// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-// GNU Affero General Public License for more details.
-//
-// You should have received a copy of the GNU Affero General Public License
-// along with this program.  If not, see <https://www.gnu.org/licenses/>.
-
 syntax = "proto3";
-
-import "AvatarInfo.proto";
-import "AvatarRenameInfo.proto";
-import "AvatarTeam.proto";
-
 option java_package = "emu.grasscutter.net.proto";
 
-message AvatarDataNotify {
-  // enum CmdId {
-  //   option allow_alias = true;
-  //   NONE = 0;
-  //   CMD_ID = 1607;
-  //   ENET_CHANNEL_ID = 0;
-  //   ENET_IS_RELIABLE = 1;
-  // }
 
-  repeated AvatarInfo avatar_list = 14;
-  repeated AvatarRenameInfo avatar_rename_list = 8;
-  uint32 cur_avatar_team_id = 7;
-  repeated uint32 owned_flycloak_list = 6;
-  repeated uint64 temp_avatar_guid_list = 15;
-  uint64 choose_avatar_guid = 1;
-  map<uint32, AvatarTeam> avatar_team_map = 11;
-  repeated uint32 owned_costume_list = 5;
-  repeated uint32 backup_avatar_team_order_list = 3;
+
+import "AvatarInfo.proto";
+import "AvatarTeam.proto";
+import "AvatarRenameInfo.proto";
+
+
+message AvatarDataNotify {
+	enum FHCMOBLNBMF {
+		option allow_alias = true;
+		NONE = 0;
+		PEPPOHPHJOJ = 1645;
+		DCDNILFDFLB = 0;
+		NNBKOLMPOEA = 1;
+	}
+
+	uint64 chooseAvatarGuid = 4;
+	repeated uint32 ownedCostumeList = 15;
+	repeated AvatarInfo avatarList = 8;
+	uint32 curAvatarTeamId = 5;
+	map<uint32, AvatarTeam> avatarTeamMap = 6;
+	repeated uint32 ownedFlycloakList = 2;
+	repeated AvatarRenameInfo avatarRenameList = 7;
+	repeated uint32 backupAvatarTeamOrderList = 12;
+	repeated uint64 tempAvatarGuidList = 14;
 }

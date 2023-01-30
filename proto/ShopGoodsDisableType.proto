@@ -1,7 +1,8 @@
 // Proto has been converted from Sorapointa to Grasscutter format
 syntax = "proto3";
-
 option java_package = "emu.grasscutter.net.proto";
+
+
 
 enum ShopGoodsDisableType {
 	SHOP_GOODS_DISABLE_NONE = 0;

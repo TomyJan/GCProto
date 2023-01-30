@@ -1,6 +1,5 @@
 // Proto has been converted from Sorapointa to Grasscutter format
 syntax = "proto3";
-
 option java_package = "emu.grasscutter.net.proto";
 
 import "MusicBriefInfo.proto";
@@ -9,6 +8,7 @@ import "MusicGameUnknown1Enum.proto";
 // CmdId: 6304
 // EnetChannelId: 0
 // EnetIsReliable: true
+
 message MusicGameSearchBeatmapRsp {
 	int32 retcode = 9;
 	MusicGameUnknown1Enum unknown_enum1 = 3;

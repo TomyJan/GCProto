@@ -9,7 +9,7 @@
         "name": "RoutePoint"
     },
     {
-        "name": "BattlePassMission"
+        "name": "MissionStatus"
     },
     {
         "name": "AbilityInvokeEntryHead"
@@ -369,6 +369,9 @@
         "name": "MarkMapReq"
     },
     {
+        "name": "Operation"
+    },
+    {
         "name": "EntityMoveInfo"
     },
     {
@@ -405,7 +408,7 @@
         "name": "Birthday"
     },
     {
-        "name": "ServerBuffChangeNotify"
+        "name": "ServerBuffChangeType"
     },
     {
         "name": "ServerBuff"
@@ -457,6 +460,9 @@
     },
     {
         "name": "RegionSimpleInfo"
+    },
+    {
+        "name": "ResVersionConfig"
     },
     {
         "name": "AbilityInvocationsNotify"
@@ -958,6 +964,9 @@
     },
     {
         "name": "AvatarDataNotify"
+    },
+    {
+        "name": "AvatarRenameInfo"
     },
     {
         "name": "AvatarDieAnimationEndRsp"
@@ -1599,6 +1608,9 @@
         "name": "QueryPathRsp"
     },
     {
+        "name": "PathStatusType"
+    },
+    {
         "name": "QuestCreateEntityRsp"
     },
     {
@@ -1693,6 +1705,9 @@
     },
     {
         "name": "ServerAnnounceRevokeNotify"
+    },
+    {
+        "name": "ServerBuffChangeNotify"
     },
     {
         "name": "ServerCondMeetQuestListUpdateNotify"
@@ -1882,6 +1897,9 @@
     },
     {
         "name": "WidgetSlotChangeNotify"
+    },
+    {
+        "name": "WindSeedClientNotify"
     },
     {
         "name": "WorktopOptionNotify"

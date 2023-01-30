@@ -32,8 +32,8 @@
         "id": 4898
     },
     {
-        "name": "MistTrialDunegonFailNotify",
-        "id": 8135
+        "name": "InBattleMechanicusEscapeMonsterNotify",
+        "id": 5400
     },
     {
         "name": "MusicGameGetBeatmapRsp",
@@ -70,14 +70,6 @@
     {
         "name": "PrivateChatSetSequenceRsp",
         "id": 4957
-    },
-    {
-        "name": "SceneWeatherForcastReq",
-        "id": 3110
-    },
-    {
-        "name": "SceneWeatherForcastRsp",
-        "id": 3012
     },
     {
         "name": "Unk2700_NGPMINKIOPK",

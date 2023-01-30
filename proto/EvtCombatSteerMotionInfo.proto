@@ -16,10 +16,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 
 import "Vector.proto";
-
-option java_package = "emu.grasscutter.net.proto";
 
 message EvtCombatSteerMotionInfo {
   Vector face_dir = 5;

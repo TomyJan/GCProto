@@ -1,65 +1,46 @@
-// Proto has been converted from Sorapointa to Grasscutter format
-// Sorapointa - A server software re-implementation for a certain anime game, and avoid sorapointa.
-// Copyright (C) 2022  Sorapointa Team
-//
-// This program is free software: you can redistribute it and/or modify
-// it under the terms of the GNU Affero General Public License as
-// published by the Free Software Foundation, either version 3 of the
-// License, or (at your option) any later version.
-//
-// This program is distributed in the hope that it will be useful,
-// but WITHOUT ANY WARRANTY; without even the implied warranty of
-// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-// GNU Affero General Public License for more details.
-//
-// You should have received a copy of the GNU Affero General Public License
-// along with this program.  If not, see <https://www.gnu.org/licenses/>.
-
 syntax = "proto3";
-
-import "StopServerInfo.proto";
-
 option java_package = "emu.grasscutter.net.proto";
 
+import "StopServer.proto";
 message GetPlayerTokenRsp {
-  // enum CmdId {
-  //   option allow_alias = true;
-  //   NONE = 0;
-  //   CMD_ID = 130;
-  //   ENET_CHANNEL_ID = 0;
-  //   ENET_IS_RELIABLE = 1;
-  // }
+	enum NLINKJJLDME {
+		option allow_alias = true;
+		NONE = 0;
+		PEPPOHPHJOJ = 155;
+		DCDNILFDFLB = 0;
+		NNBKOLMPOEA = 1;
+	}
 
-  bytes security_cmd_buffer = 6;
-  uint32 Unk3300_PIPLDEAPMMN = 7;
-  bool is_guest = 11;
-  bool Unk3300_AJBBIPFMBEL = 126;
-  uint32 key_id = 134;
-  string sign = 1666;
-  string secret_key = 15;
-  uint32 account_type = 8;
-  uint32 channel_id = 676;
-  bytes extra_bin_data = 5;
-  uint64 secret_key_seed = 3;
-  string token = 13;
-  string server_rand_key = 1188;
-  uint32 Unk3300_DILMOPPLPEM = 1670;
-  string birthday = 1847;
-  uint32 tag = 1099;
-  string client_ip_str = 1382;
-  uint32 sub_channel_id = 1038;
-  int32 retcode = 2;
-  string client_version_random_key = 1152;
-  string psn_id = 242;
-  bool is_proficient_player = 9;
-  uint32 platform_type = 10;
-  uint32 reg_platform = 646;
-  StopServerInfo stop_server = 1897;
-  uint32 Unk3300_FHPCJMIILPA = 12;
-  bool Unk3300_CFBHAHOHDKC = 746;
-  string account_uid = 1;
-  repeated uint32 finish_collection_id_list = 1766;
-  string msg = 4;
-  string country_code = 245;
-  uint32 uid = 14;
+	uint32 subChannelId = 891;
+	string token = 6;
+	uint32 uid = 1;
+	string secretKey = 12;
+	uint32 accountType = 3;
+	string msg = 10;
+	bool Unk3300_AJBBIPFMBEL = 661;
+	bytes securityCmdBuffer = 13;
+	int32 retcode = 15;
+	bytes extraBinData = 14;
+	string clientVersionRandomKey = 1558;
+	string countryCode = 1960;
+	uint32 keyId = 2003;
+	string birthday = 1459;
+	uint32 gmUid = 5;
+	uint64 secretKeySeed = 8;
+	uint32 blackUidEndTime = 2;
+	uint32 channelId = 1356;
+	uint32 regPlatform = 1614;
+	uint32 platformType = 11;
+	bool isGuest = 4;
+	repeated uint32 finishCollectionIdList = 1846;
+	uint32 tag = 1344;
+	string accountUid = 9;
+	bool isProficientPlayer = 7;
+	string sign = 1993;
+	StopServer stopServer = 347;
+	string psnId = 1285;
+	uint32 cloudClientIp = 1481;
+	string clientIpStr = 64;
+	string serverRandKey = 1420;
+	bool Unk3300_CFBHAHOHDKC = 1663;
 }

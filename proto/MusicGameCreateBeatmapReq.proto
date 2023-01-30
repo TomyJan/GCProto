@@ -1,6 +1,5 @@
 // Proto has been converted from Sorapointa to Grasscutter format
 syntax = "proto3";
-
 option java_package = "emu.grasscutter.net.proto";
 
 import "MusicBeatmap.proto";

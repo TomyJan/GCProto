@@ -1,42 +1,25 @@
-// Proto has been converted from Sorapointa to Grasscutter format
-// Sorapointa - A server software re-implementation for a certain anime game, and avoid sorapointa.
-// Copyright (C) 2022  Sorapointa Team
-//
-// This program is free software: you can redistribute it and/or modify
-// it under the terms of the GNU Affero General Public License as
-// published by the Free Software Foundation, either version 3 of the
-// License, or (at your option) any later version.
-//
-// This program is distributed in the hope that it will be useful,
-// but WITHOUT ANY WARRANTY; without even the implied warranty of
-// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-// GNU Affero General Public License for more details.
-//
-// You should have received a copy of the GNU Affero General Public License
-// along with this program.  If not, see <https://www.gnu.org/licenses/>.
-
 syntax = "proto3";
-
-import "ItemParam.proto";
-
 option java_package = "emu.grasscutter.net.proto";
 
-message CombineRsp {
-  // enum CmdId {
-  //   option allow_alias = true;
-  //   NONE = 0;
-  //   CMD_ID = 634;
-  //   ENET_CHANNEL_ID = 0;
-  //   ENET_IS_RELIABLE = 1;
-  // }
 
-  repeated ItemParam Unk3300_IAMGGFHOMEC = 11;
-  repeated ItemParam Unk3300_BAKPEKIFJOA = 13;
-  repeated ItemParam Unk3300_CDAFJDFHLKI = 6;
-  uint64 avatar_guid = 7;
-  uint32 combine_count = 2;
-  uint32 combine_id = 10;
-  repeated ItemParam cost_item_list = 15;
-  int32 retcode = 1;
-  repeated ItemParam result_item_list = 4;
+
+import "ItemParam.proto";
+message CombineRsp {
+	enum HJFFHHJPMKC {
+		option allow_alias = true;
+		NONE = 0;
+		PEPPOHPHJOJ = 630;
+		DCDNILFDFLB = 0;
+		NNBKOLMPOEA = 1;
+	}
+
+	uint32 combineCount = 10;
+	repeated ItemParam resultItemList = 13;
+	uint64 avatarGuid = 7;
+	repeated ItemParam totalExtraItemList = 1;
+	int32 retcode = 12;
+	repeated ItemParam totalRandomItemList = 3;
+	uint32 combineId = 5;
+	repeated ItemParam costItemList = 2;
+	repeated ItemParam totalReturnItemList = 4;
 }

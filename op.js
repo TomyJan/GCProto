@@ -6,6 +6,7 @@ const readline = require("readline");
 // cmdid current version
 const read_cmdid = "cmdid.csv";
 const read_cmdid_output = "cmdid.json";
+const read_cmdid_ht_output = "cmdid_ht_34.json";
 const read_cmdid_output_gc = "cmdid_gc.json";
 const read_cmdid_output_gc_update = "cmdid_gc_update.json";
 const read_cmdid_output_gc_nofound = "cmdid_gc_nofound.json";
@@ -20,16 +21,16 @@ console.log(process.cwd());
 //(TODO: add input file)
 // folder gc auto-generated proto
 const folder_proto_gc_gen =
-  "../Grasscutter-Yuuki/src/generated/main/java/emu/grasscutter/net/proto/";
+  "../GSServer-GC/src/generated/main/java/emu/grasscutter/net/proto/";
 
 // file PacketOpcodes currently in use
 const read_cmdid_gc =
-  "../Grasscutter-Yuuki/src/main/java/emu/grasscutter/net/packet/PacketOpcodes.java";
+  "../GSServer-GC/src/main/java/emu/grasscutter/net/packet/PacketOpcodes.java";
 
 const folder_packet_gc =
-  "../Grasscutter-Yuuki/src/main/java/emu/grasscutter/server/packet/";
+  "../GSServer-GC/src/main/java/emu/grasscutter/server/packet/";
 
-const folder_gc_scan = "../Grasscutter-Yuuki/src/main/java/emu/grasscutter/";
+const folder_gc_scan = "../GSServer-GC/src/main/java/emu/grasscutter/";
 
 //const read_cmdid = fs.readFileSync("cmdid.csv");
 //const read_packetopcodes = fs.readFileSync("PacketOpcodes.java");
@@ -75,6 +76,28 @@ function get_cmdid_json() {
   });
 }
 
+var data_gen = [];
+var index_file_cmdid_gen = 0;
+// gen json file cmdid
+function read_cmdid_ht_json() {
+  const k = read_json(read_cmdid_ht_output);
+  // console.log(k);
+  for (const key in k) {
+    if (k.hasOwnProperty(key)) {
+      //console.log(key + ": " + k[key]);
+
+      var subdata = new Object();
+      subdata["name"] = key;
+      subdata["id"] = parseInt(k[key]);
+      data_gen.push(subdata);
+      index_file_cmdid_gen++;
+    }
+  }
+
+  console.log("found cmd id " + index_file_cmdid_gen);
+  save_json(data_gen, read_cmdid_output);
+}
+
 // create cmdid from gc which comes from PacketOpcodes
 function get_cmdid_gc() {
   const inputStreamcmdid = fs.createReadStream(read_cmdid_gc);
@@ -118,12 +141,11 @@ var data_gc_cmdid_nofound = [];
 
 var check_dunp_id = [];
 function update_cmdid_gc() {
-
   // cmdid_gc.json (read_cmdid_output_gc) and cmdid.json (read_cmdid_output)
 
   const json_cmdid_last = read_json(read_cmdid_output);
   const json_cmdid_old = read_json(read_cmdid_output_gc);
-  
+
   json_cmdid_old.forEach(function (s, index) {
     var id = s.id;
     var name = s.name.trim();
@@ -131,7 +153,6 @@ function update_cmdid_gc() {
     // switch to name mode?
     var found_id = json_cmdid_last.find((j) => j.name == name);
     if (found_id) {
-
       found_cmdid_new++;
 
       if (id == found_id.id) {
@@ -144,13 +165,10 @@ function update_cmdid_gc() {
 
         s.id = found_id.id; // rename id
       }
-
     } else {
-
       console.log("Wow nofound -> ID: " + id + " | Name: " + name);
       data_gc_cmdid_nofound.push(s);
       nofound_cmdid_new++;
-
     }
 
     // find dump by id
@@ -169,7 +187,6 @@ function update_cmdid_gc() {
     */
 
     // find dump by name?
-
   });
 
   check_dunp_id = []; // clear
@@ -273,14 +290,14 @@ function cmdid_to_op() {
 
   json_cmdidfix_raw.forEach(function (s) {
     var found_id = dup_name.find((j) => j.name == s.name);
-    if(!found_id){
-     melon += "\npublic static final int " + s.name + " = " + s.id + ";";
-     dup_name.push(s);
-     count_nodup++;
-    }else{
+    if (!found_id) {
+      melon += "\npublic static final int " + s.name + " = " + s.id + ";";
+      dup_name.push(s);
+      count_nodup++;
+    } else {
       count_dup++;
-      if(s.replace){
-        console.log("DUP: "+found_id.id+" > "+s.id+" ");
+      if (s.replace) {
+        console.log("DUP: " + found_id.id + " > " + s.id + " ");
       }
     }
     //console.log(s);
@@ -291,7 +308,7 @@ function cmdid_to_op() {
     */
   });
 
-  console.log("done no dup "+count_nodup+" | dup "+count_dup);
+  console.log("done no dup " + count_nodup + " | dup " + count_dup);
 
   melon += "\n}";
   save(melon, write_op); // use "npx prettier --write PacketOpcodes.java" for better Formatter
@@ -457,7 +474,7 @@ function getPacketOpcodes(raw) {
   return name;
 }
 
-// C:\Users\Administrator\Desktop\Projek\Docker\GS\gs\Grasscutter-Yuuki\src\main\java\emu\grasscutter
+// C:\Users\Administrator\Desktop\Projek\Docker\GS\gs\GSServer-GC\src\main\java\emu\grasscutter
 
 var file_proto = [];
 var file_proto_more = [];
@@ -555,7 +572,7 @@ function clean_proto_gen() {
     if (found_proto) {
       // if found import
       if (found_proto.import) {
-        found_proto.import.forEach(function (s) {          
+        found_proto.import.forEach(function (s) {
           var f = noe.find((j) => j === s);
           if (!f) {
             noe.push(s);
@@ -724,3 +741,5 @@ function scan_gc() {
 // npx prettier --write PacketOpcodes.java
 // scan_gc(); // 5. scan gc
 clean_proto_gen(); // 6. clean proto
+
+//read_cmdid_ht_json();

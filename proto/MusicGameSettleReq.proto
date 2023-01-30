@@ -1,50 +1,31 @@
-// Proto has been converted from Sorapointa to Grasscutter format
-// Sorapointa - A server software re-implementation for a certain anime game, and avoid sorapointa.
-// Copyright (C) 2022  Sorapointa Team
-//
-// This program is free software: you can redistribute it and/or modify
-// it under the terms of the GNU Affero General Public License as
-// published by the Free Software Foundation, either version 3 of the
-// License, or (at your option) any later version.
-//
-// This program is distributed in the hope that it will be useful,
-// but WITHOUT ANY WARRANTY; without even the implied warranty of
-// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-// GNU Affero General Public License for more details.
-//
-// You should have received a copy of the GNU Affero General Public License
-// along with this program.  If not, see <https://www.gnu.org/licenses/>.
-
 syntax = "proto3";
-
 option java_package = "emu.grasscutter.net.proto";
-
 message MusicGameSettleReq {
-  // enum CmdId {
-  //   option allow_alias = true;
-  //   NONE = 0;
-  //   CMD_ID = 8998;
-  //   ENET_CHANNEL_ID = 0;
-  //   ENET_IS_RELIABLE = 1;
-  //   IS_ALLOW_CLIENT = 1;
-  // }
+	enum COBMENDFOKN {
+		option allow_alias = true;
+		NONE = 0;
+		PEPPOHPHJOJ = 8066;
+		DCDNILFDFLB = 0;
+		NNBKOLMPOEA = 1;
+		EAJIABGAOCI = 1;
+	}
 
-  repeated uint32 Unk3300_MLLDAPCIDDO = 14;
-  repeated uint32 Unk3300_HHBCEPNLCLL = 1007;
-  bool Unk3300_DMLNKOLOAAH = 1984;
-  uint32 Unk3300_EBOJMGOCPLE = 82;
-  uint32 max_combo = 10;
-  bool is_save_score = 7;
-  float speed = 790;
-  uint32 Unk3300_MDHEJNFHBBI = 15;
-  uint32 score = 8;
-  bool Unk3300_BHIGAMNDFML = 291;
-  uint32 correct_hit = 11;
-  uint32 Unk3300_HEPJNCAOEMP = 1;
-  uint32 combo = 4;
-  uint32 Unk3300_IPODKENCAOK = 304;
-  uint64 ugc_guid = 3;
-  uint32 Unk3300_AHAGHAHGPLD = 12;
-  uint32 music_basic_id = 5;
-  uint32 Unk3300_GJMIIDIOOMM = 1951;
+	uint64 ugcGuid = 4;
+	repeated uint32 Unk3300_HHBCEPNLCLL = 1626;
+	bool isSaveScore = 11;
+	uint32 musicBasicId = 7;
+	uint32 score = 2;
+	uint32 Unk3300_EBOJMGOCPLE = 493;
+	repeated uint32 Unk3300_MLLDAPCIDDO = 5;
+	float speed = 484;
+	uint32 combo = 15;
+	bool Unk3300_BHIGAMNDFML = 527;
+	uint32 maxCombo = 12;
+	uint32 Unk3300_IPODKENCAOK = 252;
+	uint32 correctHit = 13;
+	uint32 Unk3300_GJMIIDIOOMM = 108;
+	uint32 Unk3300_MDHEJNFHBBI = 9;
+	bool Unk3300_DMLNKOLOAAH = 497;
+	uint32 Unk3300_AHAGHAHGPLD = 3;
+	uint32 Unk3300_HEPJNCAOEMP = 8;
 }

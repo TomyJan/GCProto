@@ -16,9 +16,7 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-
 option java_package = "emu.grasscutter.net.proto";
-
 message SceneGalleryHomeSeekFurnitureInfo {
   uint32 Unk3300_DAEEBIEAOMN = 3;
   uint32 Unk3300_ENKOGPIEHFD = 14;

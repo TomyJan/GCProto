@@ -1,6 +1,5 @@
 // Proto has been converted from Sorapointa to Grasscutter format
 syntax = "proto3";
-
 option java_package = "emu.grasscutter.net.proto";
 
 import "FireworkSetData.proto";
@@ -9,6 +8,7 @@ import "FireworkSetData.proto";
 // EnetChannelId: 0
 // EnetIsReliable: true
 // IsAllowClient: true
+
 message FireworkSetReq {
 	FireworkSetData data = 2;
 }
