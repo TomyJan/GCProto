@@ -1,5 +1,6 @@
 // Proto has been converted from Sorapointa to Grasscutter format
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
 enum MusicGameUnknown2Enum {

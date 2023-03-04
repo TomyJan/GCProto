@@ -1,20 +1,14 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
-
-
 import "Vector.proto";
-message HitTreeNotify {
-	enum IGPKPGNGFHB {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 3118;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-		EAJIABGAOCI = 1;
-	}
 
-	Vector dropPos = 11;
-	Vector treePos = 4;
-	uint32 treeType = 5;
+// Name: FCOELCNJHFD
+// CmdId: 3299
+message HitTreeNotify {
+    Vector drop_pos = 6;
+    Vector tree_pos = 2;
+    uint32 tree_type = 11;
 }
+

@@ -1,20 +1,14 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
-
-
-import "TowerCurLevelRecord.proto";
 import "TowerMonthlyBrief.proto";
+import "TowerCurLevelRecord.proto";
 import "TowerFloorRecord.proto";
-message TowerAllDataRsp {
-	enum ADOPBFIMDJI {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 2462;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
 
+// Name: NFDBAJIDFBG (3.4)
+// CmdId: 2465
+message TowerAllDataRsp {
 	uint32 Unk3300_OHCHCJGJIDK = 7;
 	TowerCurLevelRecord curLevelRecord = 1;
 	bool isFirstInteract = 8;
@@ -33,3 +27,4 @@ message TowerAllDataRsp {
 	TowerMonthlyBrief monthlyBrief = 13;
 	int32 retcode = 4;
 }
+

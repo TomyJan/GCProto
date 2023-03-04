@@ -1,10 +1,12 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
 
 
 import "Vector.proto";
 import "HitColliderType.proto";
+
 message HitCollision {
 	float attackeeHitEntityAngle = 12;
 	Vector hitDir = 4;

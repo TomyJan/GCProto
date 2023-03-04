@@ -1,14 +1,11 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message TowerEnterLevelReq {
-	enum MFBIEBDFJHG {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 2424;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-		EAJIABGAOCI = 1;
-	}
 
-	uint32 enterPointId = 9;
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: DFMIGMBANII
+// CmdId: 2459
+message TowerEnterLevelReq {
+    uint32 enter_point_id = 3;
 }
+

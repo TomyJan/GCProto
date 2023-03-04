@@ -1,21 +1,14 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
 
-
-
-
+// Name: OIOAHCFDIKE
+// CmdId: 1691
 message AvatarFetterLevelRewardRsp {
-	enum JBNBIMLNDDO {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 1612;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
-
-	uint32 rewardId = 15;
-	int32 retcode = 14;
-	uint32 fetterLevel = 2;
-	uint64 avatarGuid = 6;
+    int32 retcode = 15;
+    uint64 avatar_guid = 9;
+    uint32 fetter_level = 8;
+    uint32 reward_id = 3;
 }
+

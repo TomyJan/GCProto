@@ -1,13 +1,11 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message PlayerLevelRewardUpdateNotify {
-	enum NIBNCFJCBPP {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 154;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
 
-	repeated uint32 levelList = 5;
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: PEPKLGNFLGE
+// CmdId: 120
+message PlayerLevelRewardUpdateNotify {
+    repeated uint32 level_list = 15;
 }
+

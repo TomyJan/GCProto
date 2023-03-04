@@ -1,33 +1,28 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
-
-
-import "Vector.proto";
 import "EnterType.proto";
-message PlayerEnterSceneNotify {
-	enum JPDEBPGMBPE {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 205;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
+import "Vector.proto";
 
-	bool isFirstLoginEnterScene = 10;
-	uint32 enterSceneToken = 2;
-	uint32 prevSceneId = 4;
-	uint32 worldType = 1090;
-	bool isSkipUi = 317;
-	uint32 sceneId = 3;
-	Vector pos = 13;
-	uint32 worldLevel = 5;
-	string sceneTransaction = 647;
-	uint32 enterReason = 74;
-	EnterType type = 9;
-	uint32 dungeonId = 11;
-	repeated uint32 sceneTagIdList = 8;
-	Vector prevPos = 12;
-	uint64 sceneBeginTime = 15;
-	uint32 targetUid = 1;
+// Name: IDHDDCPMNCK
+// CmdId: 267
+message PlayerEnterSceneNotify {
+    uint32 target_uid = 6;
+    Vector prev_pos = 15;
+    uint32 world_type = 95;
+    uint32 enter_reason = 1508;
+    EnterType type = 7;
+    uint32 enter_scene_token = 11;
+    bool is_first_login_enter_scene = 292;
+    uint32 world_level = 12;
+    bool is_skip_ui = 5;
+    string scene_transaction = 1465;
+    Vector pos = 4;
+    uint32 prev_scene_id = 1;
+    repeated uint32 scene_tag_id_list = 14;
+    uint32 scene_id = 10;
+    uint32 dungeon_id = 8;
+    uint64 scene_begin_time = 9;
 }
+

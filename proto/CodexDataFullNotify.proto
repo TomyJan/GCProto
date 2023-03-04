@@ -1,20 +1,15 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
-
-
 import "CodexTypeData.proto";
-message CodexDataFullNotify {
-	enum BCCJMPBEOAG {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 4207;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
 
-	repeated uint32 recentViewedPushtipsList = 1;
-	uint32 lastReadPushtipsCodexId = 11;
-	uint32 lastReadPushtipsTypeId = 10;
-	repeated CodexTypeData typeDataList = 8;
+// Name: GCDBECKPFCJ
+// CmdId: 4203
+message CodexDataFullNotify {
+    repeated uint32 recent_viewed_pushtips_list = 1;
+    uint32 KAOIMONFEOK = 5;
+    uint32 AIOANFPLOPL = 8;
+    repeated CodexTypeData type_data_list = 4;
 }
+

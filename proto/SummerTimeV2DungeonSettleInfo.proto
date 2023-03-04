@@ -1,7 +1,12 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: IJIFIANJEKJ
 message SummerTimeV2DungeonSettleInfo {
-	uint32 Unk3300_JHBCHFHAGFO = 12;
-	uint32 Unk3300_BNNMNCKEHHO = 9;
-	bool isSuccess = 10;
+    bool is_success = 5;
+    uint32 IMHBJJAIBFJ = 12;
+    uint32 JHEBGEDHMLB = 3;
 }
+

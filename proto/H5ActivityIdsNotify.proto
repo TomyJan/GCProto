@@ -1,14 +1,12 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message H5ActivityIdsNotify {
-	enum GKKOHIHBIMF {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 5696;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
 
-	map<uint32, uint32> h5ActivityMap = 15;
-	uint32 clientRedDotTimestamp = 1;
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: FAONDBOEDMA
+// CmdId: 5659
+message H5ActivityIdsNotify {
+    uint32 client_red_dot_timestamp = 12;
+    map<uint32, uint32> h5_activity_map = 1;
 }
+

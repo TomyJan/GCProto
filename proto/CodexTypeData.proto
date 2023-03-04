@@ -1,12 +1,14 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
-
-
 import "CodexType.proto";
+
+// Name: DHDKCGCJDGH
 message CodexTypeData {
-	repeated uint32 codexIdList = 4;
-	repeated bool haveViewedList = 8;
-	CodexType type = 14;
-	map<uint32, uint32> weaponMaxPromoteLevelMap = 3;
+    map<uint32, uint32> weapon_max_promote_level_map = 1;
+    CodexType type = 10;
+    repeated uint32 codex_id_list = 12;
+    repeated bool have_viewed_list = 3;
 }
+

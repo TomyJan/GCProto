@@ -1,15 +1,13 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message GetParentQuestVideoKeyRsp {
-	enum LIDIFEGCLAB {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 427;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
 
-	uint64 videoKey = 2;
-	int32 retcode = 9;
-	uint32 parentQuestId = 11;
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: AALPIPNOICA
+// CmdId: 493
+message GetParentQuestVideoKeyRsp {
+    uint32 parent_quest_id = 11;
+    uint64 video_key = 9;
+    int32 retcode = 1;
 }
+

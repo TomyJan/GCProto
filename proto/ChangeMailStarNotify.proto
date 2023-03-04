@@ -1,15 +1,12 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message ChangeMailStarNotify {
-	enum PHAAKAMCIEC {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 1478;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-		EAJIABGAOCI = 1;
-	}
 
-	repeated uint32 mailIdList = 11;
-	bool isStar = 12;
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: LDNEKLCGAIE
+// CmdId: 1491
+message ChangeMailStarNotify {
+    repeated uint32 mail_id_list = 6;
+    bool is_star = 10;
 }
+

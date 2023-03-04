@@ -1,14 +1,12 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message SetPlayerSignatureRsp {
-	enum FBIHDAIKAAC {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 4069;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
 
-	string signature = 13;
-	int32 retcode = 10;
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: AICKCEEEKKO
+// CmdId: 4027
+message SetPlayerSignatureRsp {
+    string signature = 13;
+    int32 retcode = 9;
 }
+

@@ -1,8 +1,9 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
 
-
+// Name: BPJGLKPJAPE
 enum CombatTypeArgument {
 	COMBAT_TYPE_ARGUMENT_NONE = 0;
 	COMBAT_TYPE_ARGUMENT_EVT_BEING_HIT = 1;
@@ -24,3 +25,4 @@ enum CombatTypeArgument {
 	COMBAT_TYPE_ARGUMENT_SKILL_ANCHOR_POSITION_NTF = 17;
 	COMBAT_TYPE_ARGUMENT_GRAPPLING_HOOK_MOVE = 18;
 }
+

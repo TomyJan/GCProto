@@ -1,17 +1,19 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
-
-
 import "Vector.proto";
+
+// Name: HILEIPGFAAN
 message TreasureMapRegionInfo {
-	uint32 Unk3300_LKEMEDPMIGM = 5;
-	uint32 Unk3300_MNEKJILFHOA = 12;
-	uint32 startTime = 6;
-	uint32 sceneId = 1;
-	uint32 regionId = 14;
-	uint32 regionRadius = 8;
-	bool Unk3300_HHBHLPHLHIL = 15;
-	bool Unk3300_NIBJOAJLCJI = 2;
-	Vector regionCenterPos = 13;
+    bool KFBKHLGDFPM = 1;
+    uint32 FEJIBKBKDEP = 10;
+    uint32 region_radius = 4;
+    uint32 start_time = 9;
+    bool EGFGPPLNLDD = 7;
+    uint32 scene_id = 13;
+    uint32 HJCIGCAEBLI = 15;
+    uint32 region_id = 6;
+    Vector region_center_pos = 8;
 }
+

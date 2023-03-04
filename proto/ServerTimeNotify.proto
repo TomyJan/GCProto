@@ -1,13 +1,11 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message ServerTimeNotify {
-	enum ODMLPFBCGNH {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 14;
-		DCDNILFDFLB = 1;
-		NNBKOLMPOEA = 1;
-	}
 
-	uint64 serverTime = 12;
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: OJGHKIIHLIG
+// CmdId: 50
+message ServerTimeNotify {
+    uint64 server_time = 8;
 }
+

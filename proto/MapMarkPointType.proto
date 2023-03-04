@@ -1,6 +1,9 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
+
+// Name: KCEHIDGIEEF
 enum MapMarkPointType {
   MAP_MARK_POINT_TYPE_NPC = 0;
   MAP_MARK_POINT_TYPE_QUEST = 1;
@@ -10,3 +13,4 @@ enum MapMarkPointType {
   MAP_MARK_POINT_TYPE_MONSTER = 5;
   MAP_MARK_POINT_TYPE_FISH_POOL = 6;
 }
+

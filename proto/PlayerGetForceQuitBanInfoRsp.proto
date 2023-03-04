@@ -1,15 +1,13 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message PlayerGetForceQuitBanInfoRsp {
-	enum FEAMOCGDCOF {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 4157;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
 
-	int32 retcode = 7;
-	uint32 expireTime = 9;
-	uint32 matchId = 10;
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: NOLOHBKIHLJ
+// CmdId: 4176
+message PlayerGetForceQuitBanInfoRsp {
+    int32 retcode = 6;
+    uint32 match_id = 7;
+    uint32 expire_time = 11;
 }
+

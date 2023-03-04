@@ -1,13 +1,11 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message OpenStateUpdateNotify {
-	enum FPCOHDNDFFP {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 158;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
 
-	map<uint32, uint32> openStateMap = 9;
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: JEAIDHCCOGP
+// CmdId: 174
+message OpenStateUpdateNotify {
+    map<uint32, uint32> open_state_map = 6;
 }
+

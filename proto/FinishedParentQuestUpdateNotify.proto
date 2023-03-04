@@ -1,17 +1,12 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
-
-
 import "ParentQuest.proto";
-message FinishedParentQuestUpdateNotify {
-	enum JPBJMNPBPPB {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 420;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
 
-	repeated ParentQuest parentQuestList = 15;
+// Name: GJFEGDKEGBM
+// CmdId: 414
+message FinishedParentQuestUpdateNotify {
+    repeated ParentQuest parent_quest_list = 15;
 }
+

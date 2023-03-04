@@ -1,43 +1,43 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
-
-
-import "AttackHitEffectResult.proto";
 import "AbilityIdentifier.proto";
+import "AttackHitEffectResult.proto";
 import "HitCollision.proto";
 import "Vector.proto";
 
-
+// Name: PKHKLDLFMBJ
 message AttackResult {
-	uint32 endureBreak = 6;
-	uint32 Unk3300_BALCPHMFIBC = 1940;
-	float damage = 12;
-	bool isCrit = 9;
-	AttackHitEffectResult hitEffResult = 5;
-	float elementDurabilityAttenuation = 1333;
-	float damageShield = 198;
-	bool Unk3300_DOMAOPGPHMD = 1698;
-	uint32 elementType = 1;
-	uint32 targetType = 346;
-	bool Unk3300_MGIMJGMIPLD = 531;
-	uint32 criticalRand = 1576;
-	AbilityIdentifier abilityIdentifier = 2;
-	HitCollision hitCollision = 14;
-	uint32 attackTimestampMs = 1829;
-	uint32 attackerId = 4;
-	string animEventId = 11;
-	int32 hitRetreatAngleCompat = 15;
-	uint32 Unk3300_JMJHGJCAOBH = 55;
-	uint32 defenseId = 13;
-	bool isResistText = 555;
-	uint32 attackCount = 1593;
-	Vector resolvedDir = 8;
-	uint32 hitPosType = 7;
-	uint32 hashedAnimEventId = 2009;
-	uint32 Unk3300_KPKAECBFABP = 1569;
-	float endureDelta = 1169;
-	uint32 Unk3300_GBPJCELJKJA = 701;
-	float elementAmplifyRate = 1858;
-	uint32 Unk3300_ABJJNNNKGBB = 888;
+    uint32 LLFAEOGLJEG = 877;
+    AbilityIdentifier ability_identifier = 8;
+    uint32 MHBBBOPJCAJ = 620;
+    uint32 NNPPKMOBCJI = 1911;
+    uint32 AOOKFAELLCG = 384;
+    uint32 EOGBECEEHIB = 789;
+    uint32 DMPFJNNHEEL = 955;
+    bool NMANJCHGKNF = 1298;
+    float damage = 3;
+    bool CDKMJDNAOAC = 14;
+    float GCKKIKJLCKG = 1030;
+    uint32 GFAODFMIIIB = 278;
+    float AEIPHPGEFAN = 474;
+    HitCollision hitCollision = 10;
+    uint32 IPPPOLACNMI = 13;
+    bool ANNLKCIDPEC = 1534;
+    uint32 attacker_id = 2;
+    float EINPFAMBCJM = 1966;
+    bool JKJBOKBIIBI = 196;
+    string anim_event_id = 5;
+    Vector resolved_dir = 15;
+    AttackHitEffectResult hitEffResult = 7;
+    uint32 BIHIHLDIPOK = 6;
+    uint32 element_type = 4;
+    uint32 OOLJHPBLPDL = 352;
+    uint32 defense_id = 9;
+    float AMBEMOIPJNN = 602;
+    uint32 NGGMGNLMHFO = 1853;
+    int32 hit_retreat_angle_compat = 12;
+    uint32 GAPNFLFDBJK = 570;
 }
+

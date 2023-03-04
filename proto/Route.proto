@@ -1,10 +1,12 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
-
-
 import "RoutePoint.proto";
+
+// Name: DHLMDFOJICF
 message Route {
-	repeated RoutePoint routePoints = 1;
-	uint32 routeType = 2;
+    repeated RoutePoint route_points = 1;
+    uint32 route_type = 2;
 }
+

@@ -1,20 +1,13 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
-
-
 
 import "AvatarTeam.proto";
 
-
+// Name: JNDHMMALEAP
+// CmdId: 1744
 message AvatarTeamUpdateNotify {
-	enum KGKBPKDHFNL {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 1723;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
-
-	map<uint32, AvatarTeam> avatarTeamMap = 6;
-	repeated uint64 tempAvatarGuidList = 8;
+    map<uint32, AvatarTeam> avatar_team_map = 4;
+    repeated uint64 temp_avatar_guid_list = 13;
 }
+

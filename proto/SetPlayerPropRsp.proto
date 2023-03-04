@@ -1,13 +1,11 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message SetPlayerPropRsp {
-	enum MJGMBECEPOM {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 113;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
 
-	int32 retcode = 13;
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: FEPIDEJLGBA
+// CmdId: 129
+message SetPlayerPropRsp {
+    int32 retcode = 3;
 }
+

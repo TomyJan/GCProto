@@ -1,8 +1,9 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
 
-
+// Name: FNGKDKJDKHM
 enum EnterType {
 	ENTER_TYPE_NONE = 0;
 	ENTER_TYPE_SELF = 1;
@@ -17,3 +18,4 @@ enum EnterType {
 	ENTER_TYPE_OTHER_HOME = 10;
 	ENTER_TYPE_GOTO_RECREATE = 11;
 }
+

@@ -1,33 +1,31 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message GetPlayerTokenReq {
-	enum HOJPANHOIDB {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 105;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-		EAJIABGAOCI = 1;
-	}
 
-	uint32 platformType = 10;
-	string Unk3300_PHNOHCKIHIA = 6;
-	string countryCode = 1;
-	string clientIpStr = 8;
-	uint32 Unk3300_PMGFBMJNNCL = 13;
-	uint32 keyId = 294;
-	string Unk3300_PKONAOIDNFK = 9;
-	uint32 accountType = 5;
-	bool isGuest = 14;
-	uint32 cloudClientIp = 1399;
-	string birthday = 65;
-	string onlineId = 12;
-	uint32 uid = 11;
-	string clientRandKey = 776;
-	uint32 subChannelId = 7;
-	string accountUid = 4;
-	string accountToken = 2;
-	string psnId = 15;
-	uint32 channelId = 3;
-	uint32 lang = 904;
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: JOOGNGFNALJ
+// CmdId: 167
+message GetPlayerTokenReq {
+    uint32 channel_id = 3;
+    uint32 account_type = 2;
+    string account_token = 13;
+    string birthday = 41;
+    string client_ip_str = 8;
+    bool is_guest = 10;
+    string online_id = 14;
+    string client_rand_key = 2038;
+    uint32 BGELCCHCJDG = 1806;
+    string account_uid = 7;
+    string psn_id = 15;
+    string HBEOMFDDEPG = 11;
+    string DDBJAFAFLNP = 1053;
+    uint32 uid = 1;
+    uint32 DMBKJKNPKBC = 1662;
+    uint32 sub_channel_id = 4;
+    uint32 platform_type = 12;
+    string EDGJFDAKLKN = 9;
+    string country_code = 6;
+    uint32 GHBLLEHOHNP = 5;
+    uint32 key_id = 915;
 }
+

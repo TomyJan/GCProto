@@ -1,14 +1,11 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message SetPlayerNameReq {
-	enum OGLEBIEPALE {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 200;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-		EAJIABGAOCI = 1;
-	}
 
-	string nickName = 3;
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: CPIDFBGHCEJ
+// CmdId: 123
+message SetPlayerNameReq {
+    string nick_name = 6;
 }
+

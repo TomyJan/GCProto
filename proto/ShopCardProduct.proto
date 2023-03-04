@@ -1,9 +1,11 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
 
 
 import "ItemParam.proto";
+
 message ShopCardProduct {
 	message ResinCard {
 		repeated ItemParam baseItemList = 1;

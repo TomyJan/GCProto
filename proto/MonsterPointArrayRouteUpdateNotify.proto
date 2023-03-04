@@ -1,18 +1,13 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
-
-
 import "MonsterRoute.proto";
-message MonsterPointArrayRouteUpdateNotify {
-	enum KDIIOAFKLLL {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 3271;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
 
-	uint32 entityId = 12;
-	MonsterRoute monsterRoute = 2;
+// Name: OIABFKOCGOI
+// CmdId: 3498
+message MonsterPointArrayRouteUpdateNotify {
+    MonsterRoute monster_route = 7;
+    uint32 entity_id = 5;
 }
+

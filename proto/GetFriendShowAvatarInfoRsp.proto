@@ -1,19 +1,14 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
-
-
 import "ShowAvatarInfo.proto";
-message GetFriendShowAvatarInfoRsp {
-	enum DBNKIEDKCKB {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 4027;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
 
-	repeated ShowAvatarInfo showAvatarInfoList = 3;
-	int32 retcode = 12;
-	uint32 uid = 13;
+// Name: FPNKDNOFKEI
+// CmdId: 4093
+message GetFriendShowAvatarInfoRsp {
+    repeated ShowAvatarInfo show_avatar_info_list = 1;
+    uint32 uid = 12;
+    int32 retcode = 9;
 }
+

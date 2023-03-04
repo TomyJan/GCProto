@@ -1,16 +1,13 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message PlayerGameTimeNotify {
-	enum FAMEPMJBHAJ {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 124;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-		EAJIABGAOCI = 1;
-	}
 
-	uint32 gameTime = 1;
-	bool isHome = 3;
-	uint32 uid = 14;
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: ELLGKGBIOFD
+// CmdId: 159
+message PlayerGameTimeNotify {
+    bool is_home = 10;
+    uint32 game_time = 14;
+    uint32 uid = 12;
 }
+

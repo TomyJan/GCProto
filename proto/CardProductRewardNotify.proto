@@ -1,20 +1,13 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
 
-
-
-
+// Name: PKOMPHLMLED
+// CmdId: 4146
 message CardProductRewardNotify {
-	enum EIGMFIIBFJL {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 4141;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
-
-	string productId = 9;
-	uint32 hcoin = 6;
-	uint32 remainDays = 7;
+    uint32 hcoin = 2;
+    uint32 remainDays = 6;
+    string product_id = 15;
 }
+

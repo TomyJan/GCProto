@@ -1,14 +1,11 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message GetPlayerSocialDetailReq {
-	enum EKDIHCDGADL {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 4062;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-		EAJIABGAOCI = 1;
-	}
 
-	uint32 uid = 14;
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: HLFIAFHOBAD
+// CmdId: 4065
+message GetPlayerSocialDetailReq {
+    uint32 uid = 2;
 }
+

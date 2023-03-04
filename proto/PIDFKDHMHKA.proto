@@ -1,5 +1,0 @@
-syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message PIDFKDHMHKA {
-	uint32 lfphpeioogl = 1;
-}

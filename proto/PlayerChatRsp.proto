@@ -1,14 +1,12 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message PlayerChatRsp {
-	enum LKKMEKKIFAK {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 3480;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
 
-	uint32 chatForbiddenEndtime = 2;
-	int32 retcode = 14;
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: FCOCJOMDEDM
+// CmdId: 3070
+message PlayerChatRsp {
+    int32 retcode = 1;
+    uint32 chat_forbidden_endtime = 10;
 }
+

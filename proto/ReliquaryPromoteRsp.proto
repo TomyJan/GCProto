@@ -1,18 +1,16 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message ReliquaryPromoteRsp {
-	enum PLLBDKLOIEH {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 675;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
 
-	repeated uint32 curAppendPropList = 12;
-	uint64 targetReliquaryGuid = 2;
-	int32 retcode = 6;
-	repeated uint32 oldAppendPropList = 11;
-	uint32 oldPromoteLevel = 7;
-	uint32 curPromoteLevel = 15;
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: EGKNAIKCCFF
+// CmdId: 684
+message ReliquaryPromoteRsp {
+    int32 retcode = 13;
+    uint32 ONKINPFPNPJ = 9;
+    uint32 PJGFEEMIPBL = 8;
+    repeated uint32 CHKOMADPLAO = 14;
+    repeated uint32 PBPLNHFCKIO = 11;
+    uint64 target_reliquary_guid = 2;
 }
+

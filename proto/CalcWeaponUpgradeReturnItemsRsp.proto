@@ -1,21 +1,14 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
-
-
 
 import "ItemParam.proto";
 
-
+// Name: GNKPDDCJANA
+// CmdId: 698
 message CalcWeaponUpgradeReturnItemsRsp {
-	enum MMGACCGBCKM {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 660;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
-
-	int32 retcode = 4;
-	uint64 targetWeaponGuid = 9;
-	repeated ItemParam itemParamList = 7;
+    uint64 target_weapon_guid = 10;
+    repeated ItemParam item_param_list = 11;
+    int32 retcode = 14;
 }
+

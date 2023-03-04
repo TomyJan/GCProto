@@ -1,14 +1,12 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message UpdatePlayerShowNameCardListRsp {
-	enum JGKOGCINOBM {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 4023;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
 
-	repeated uint32 showNameCardIdList = 10;
-	int32 retcode = 9;
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: ICDMJMHFHOB
+// CmdId: 4087
+message UpdatePlayerShowNameCardListRsp {
+    int32 retcode = 7;
+    repeated uint32 show_name_card_id_list = 10;
 }
+

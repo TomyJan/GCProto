@@ -1,13 +1,10 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message InvestigationReadQuestDailyNotify {
-	enum BKDIJBIKCBF {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 1906;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-		EAJIABGAOCI = 1;
-	}
 
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: FKFPCHOFBHP
+// CmdId: 1921
+message InvestigationReadQuestDailyNotify {
 }
+

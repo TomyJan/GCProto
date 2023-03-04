@@ -1,7 +1,12 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: CPCLNBAOEMO
 message RogueAvatarInfo {
-	uint32 avatarId = 15;
-	bool isAlive = 5;
-	bool egkmacmbgbe = 1;
+    bool LKHOGMMPCJL = 10;
+    bool ABCENJAFGOF = 5;
+    uint32 avatar_id = 3;
 }
+

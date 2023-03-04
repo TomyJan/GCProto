@@ -1,13 +1,11 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message SetIsAutoUnlockSpecificEquipRsp {
-	enum DNPEDMFMCLL {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 638;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
 
-	int32 retcode = 8;
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: FPEHEANBFDJ
+// CmdId: 632
+message SetIsAutoUnlockSpecificEquipRsp {
+    int32 retcode = 7;
 }
+

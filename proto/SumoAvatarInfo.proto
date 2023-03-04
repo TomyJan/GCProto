@@ -1,6 +1,11 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: KBJAJFKCKGI
 message SumoAvatarInfo {
-	uint64 avatarId = 9;
-	bool isTrial = 2;
+    bool is_trial = 13;
+    uint64 avatar_id = 10;
 }
+

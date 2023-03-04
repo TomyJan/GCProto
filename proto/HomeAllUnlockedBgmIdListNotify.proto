@@ -1,13 +1,11 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message HomeAllUnlockedBgmIdListNotify {
-	enum FCNFGMDBOPG {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 4563;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
 
-	repeated uint32 allUnlockedBgmIdList = 13;
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: CKMGNHJBJBA
+// CmdId: 4544
+message HomeAllUnlockedBgmIdListNotify {
+    repeated uint32 all_unlocked_bgm_id_list = 6;
 }
+

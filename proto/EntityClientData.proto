@@ -1,7 +1,12 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: LGAFMFIJKIE
 message EntityClientData {
-	uint32 windChangeSceneTime = 1;
-	float windmillSyncAngle = 2;
-	int32 windChangeTargetLevel = 3;
+    uint32 wind_change_scene_time = 1;
+    float windmill_sync_angle = 2;
+    int32 wind_change_target_level = 3;
 }
+

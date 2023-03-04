@@ -1,14 +1,11 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message EnterSceneReadyReq {
-	enum MIHBPJLNMBP {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 268;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-		EAJIABGAOCI = 1;
-	}
 
-	uint32 enterSceneToken = 9;
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: NAAHDAEHJBB
+// CmdId: 300
+message EnterSceneReadyReq {
+    uint32 enter_scene_token = 10;
 }
+

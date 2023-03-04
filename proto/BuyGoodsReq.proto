@@ -1,22 +1,14 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
-
-
 
 import "ShopGoods.proto";
 
-
+// Name: KNMKFMAAMHH
+// CmdId: 754
 message BuyGoodsReq {
-	enum ELOCMPDKODO {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 787;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-		EAJIABGAOCI = 1;
-	}
-
-	uint32 buyCount = 14;
-	uint32 shopType = 5;
-	ShopGoods goods = 3;
+    uint32 buy_count = 14;
+    ShopGoods goods = 5;
+    uint32 shop_type = 11;
 }
+

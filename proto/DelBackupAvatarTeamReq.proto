@@ -1,14 +1,11 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message DelBackupAvatarTeamReq {
-	enum CMNDBFMDCEI {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 1611;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-		EAJIABGAOCI = 1;
-	}
 
-	uint32 backupAvatarTeamId = 4;
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: ADAFEMNNBJL
+// CmdId: 1608
+message DelBackupAvatarTeamReq {
+    uint32 backup_avatar_team_id = 9;
 }
+

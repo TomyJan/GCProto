@@ -1,19 +1,12 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
 
-
-
-
+// Name: LNEHHKPDPHL
+// CmdId: 472
 message AddQuestContentProgressRsp {
-	enum OCHDKHKOIKI {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 480;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
-
-	uint32 contentType = 13;
-	int32 retcode = 8;
+    int32 retcode = 5;
+    uint32 content_type = 12;
 }
+

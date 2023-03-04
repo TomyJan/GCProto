@@ -1,19 +1,13 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
-
-
 import "HomeLimitedShopGoods.proto";
-message HomeLimitedShopBuyGoodsReq {
-	enum NLNFOCHGLND {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 4647;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-		EAJIABGAOCI = 1;
-	}
 
-	HomeLimitedShopGoods goods = 1;
-	uint32 buyCount = 10;
+// Name: KIJPELEMEPN
+// CmdId: 4471
+message HomeLimitedShopBuyGoodsReq {
+    uint32 buy_count = 14;
+    HomeLimitedShopGoods goods = 13;
 }
+

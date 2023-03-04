@@ -1,18 +1,13 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
-
-
 import "HomeLimitedShopInfo.proto";
-message HomeLimitedShopInfoRsp {
-	enum KPHKNIOJHGG {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 4517;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
 
-	int32 retcode = 10;
-	HomeLimitedShopInfo shopInfo = 7;
+// Name: PMAGBEFIIEL
+// CmdId: 4791
+message HomeLimitedShopInfoRsp {
+    int32 retcode = 6;
+    HomeLimitedShopInfo shopInfo = 10;
 }
+

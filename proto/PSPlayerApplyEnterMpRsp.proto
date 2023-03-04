@@ -1,15 +1,13 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message PSPlayerApplyEnterMpRsp {
-	enum OPABIFINKIE {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 1814;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
 
-	uint32 param = 14;
-	int32 retcode = 2;
-	string targetPsnId = 3;
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: EKGBIBIKFPI
+// CmdId: 1802
+message PSPlayerApplyEnterMpRsp {
+    string target_psn_id = 1;
+    int32 retcode = 8;
+    uint32 param = 3;
 }
+

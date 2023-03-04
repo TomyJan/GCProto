@@ -1,14 +1,12 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message DelTeamEntityNotify {
-	enum KOEAKIPCJJN {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 363;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
 
-	uint32 sceneId = 15;
-	repeated uint32 delEntityIdList = 1;
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: DIEEAFMCPBM
+// CmdId: 330
+message DelTeamEntityNotify {
+    uint32 scene_id = 15;
+    repeated uint32 del_entity_id_list = 1;
 }
+

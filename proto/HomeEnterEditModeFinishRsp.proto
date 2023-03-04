@@ -1,13 +1,11 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message HomeEnterEditModeFinishRsp {
-	enum BEGILMANMEH {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 4566;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
 
-	int32 retcode = 15;
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: KIEJGNOINFO
+// CmdId: 4562
+message HomeEnterEditModeFinishRsp {
+    int32 retcode = 9;
 }
+

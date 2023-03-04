@@ -1,8 +1,9 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
 
-
+// Name: KKAMMHDBPKH
 enum MotionState {
 	MOTION_STATE_NONE = 0;
 	MOTION_STATE_RESET = 1;
@@ -62,3 +63,4 @@ enum MotionState {
 	MOTION_STATE_AIR_COMPENSATION = 55;
 	MOTION_STATE_NUM = 56;
 }
+

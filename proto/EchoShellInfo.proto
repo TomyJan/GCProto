@@ -1,12 +1,10 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
 
-
-import "SummerTimeDungeonInfo.proto";
+// Name: EGLAMGPGDJE
 message EchoShellInfo {
-	repeated uint32 Unk3300_NEFBJPKBEHF = 10;
-	repeated uint32 Unk3300_OOCDFANFFDG = 5;
-	repeated uint32 takenRewardList = 14;
-	repeated SummerTimeDungeonInfo summerTimeDungeonList = 13;
+    uint32 shell_id = 1;
 }
+

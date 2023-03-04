@@ -1,20 +1,15 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
-
-
-import "ItemParam.proto";
 import "BattlePassRewardTakeOption.proto";
-message TakeBattlePassRewardRsp {
-	enum BPPNCLEIKKK {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 2643;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
+import "ItemParam.proto";
 
-	repeated ItemParam itemList = 3;
-	int32 retcode = 5;
-	repeated BattlePassRewardTakeOption takeOptionList = 13;
+// Name: MADDBBDDEDI
+// CmdId: 2615
+message TakeBattlePassRewardRsp {
+    repeated ItemParam item_list = 10;
+    repeated BattlePassRewardTakeOption take_option_list = 15;
+    int32 retcode = 8;
 }
+

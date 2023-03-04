@@ -1,9 +1,10 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
-
-
 import "ItemParam.proto";
+
+// Name: EFLDHGLFIDD (3.4)
 message ShopGoods {
 	uint32 Unk3300_MBGOMHNBHMG = 655;
 	uint32 maxLevel = 3;
@@ -26,3 +27,4 @@ message ShopGoods {
 	uint32 disableType = 9;
 	uint32 mcoin = 5;
 }
+

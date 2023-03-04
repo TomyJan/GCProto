@@ -1,13 +1,11 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message ItemCdGroupTimeNotify {
-	enum KAJJPFAOALJ {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 651;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
 
-	map<uint32, uint64> itemCdMap = 13;
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: KBFIFLBFIII
+// CmdId: 626
+message ItemCdGroupTimeNotify {
+    map<uint32, uint64> item_cd_map = 3;
 }
+

@@ -1,5 +1,10 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
+
+
+
+
 message MusicBriefInfo {
 	uint64 ugcGuid = 8;
 	uint32 Unk3300_CCMMPAHIMDO = 88;

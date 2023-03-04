@@ -1,15 +1,13 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message PlayerTimeNotify {
-	enum GABKEMDLGGF {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 103;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
 
-	uint64 playerTime = 13;
-	uint64 serverTime = 15;
-	bool isPaused = 7;
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: NACABFGKHCO
+// CmdId: 171
+message PlayerTimeNotify {
+    bool is_paused = 6;
+    uint64 server_time = 8;
+    uint64 player_time = 10;
 }
+

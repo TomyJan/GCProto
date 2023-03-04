@@ -1,5 +1,0 @@
-syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message CrystalLinkInfo {
-	uint32 score = 6;
-}

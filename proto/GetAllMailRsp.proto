@@ -1,20 +1,15 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
-
-
 import "MailData.proto";
-message GetAllMailRsp {
-	enum FNCKKDMEJGP {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 1429;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
 
-	bool isCollected = 5;
-	int32 retcode = 9;
-	repeated MailData mailList = 7;
-	bool isTruncated = 8;
+// Name: LLAGIAGEIKA
+// CmdId: 1407
+message GetAllMailRsp {
+    int32 retcode = 15;
+    bool is_truncated = 10;
+    repeated MailData mail_list = 11;
+    bool is_collected = 13;
 }
+

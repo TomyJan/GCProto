@@ -1,12 +1,10 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message TowerMiddleLevelChangeTeamNotify {
-	enum GNODNFEDNIL {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 2451;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
 
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: PNLHILHHFHK
+// CmdId: 2426
+message TowerMiddleLevelChangeTeamNotify {
 }
+

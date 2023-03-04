@@ -1,14 +1,12 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message ChooseCurAvatarTeamRsp {
-	enum AHLEDPGENMP {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 1770;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
 
-	int32 retcode = 2;
-	uint32 curTeamId = 8;
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: HJOODMDEAGF
+// CmdId: 1625
+message ChooseCurAvatarTeamRsp {
+    uint32 cur_team_id = 13;
+    int32 retcode = 1;
 }
+

@@ -1,18 +1,12 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
-
-
 import "GachaItem.proto";
-message DoGachaRsp {
-	enum HBDCDLMKCPD {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 1598;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
 
+// Name: LEFDKOLFJKL (3.4)
+// CmdId: 1564
+message DoGachaRsp {
 	uint32 leftGachaTimes = 7;
 	uint32 newGachaRandom = 9;
 	uint32 gachaType = 13;
@@ -33,3 +27,4 @@ message DoGachaRsp {
 	uint32 wishMaxProgress = 1;
 	uint32 costItemId = 6;
 }
+

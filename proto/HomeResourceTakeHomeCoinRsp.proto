@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "HomeResource.proto";
+
+// Name: KHPGKFLMLEE
+// CmdId: 4554
+message HomeResourceTakeHomeCoinRsp {
+    int32 retcode = 3;
+    HomeResource homeCoin = 9;
+}
+

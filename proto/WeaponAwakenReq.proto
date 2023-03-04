@@ -1,16 +1,13 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message WeaponAwakenReq {
-	enum KKIKGIEFMFN {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 645;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-		EAJIABGAOCI = 1;
-	}
 
-	map<uint32, uint32> affixLevelMap = 12;
-	uint64 itemGuid = 2;
-	uint64 targetWeaponGuid = 9;
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: PBAJMAFDFHM
+// CmdId: 657
+message WeaponAwakenReq {
+    uint64 item_guid = 7;
+    uint64 target_weapon_guid = 11;
+    map<uint32, uint32> affix_level_map = 8;
 }
+

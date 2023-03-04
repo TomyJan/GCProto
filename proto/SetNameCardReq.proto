@@ -1,14 +1,11 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message SetNameCardReq {
-	enum CBFBPJBKJPD {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 4025;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-		EAJIABGAOCI = 1;
-	}
 
-	uint32 nameCardId = 7;
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: KEOCAIGOMHF
+// CmdId: 4094
+message SetNameCardReq {
+    uint32 name_card_id = 13;
 }
+

@@ -1,13 +1,10 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message GetPlayerAskFriendListReq {
-	enum ANNFFFNCCFG {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 4037;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-		EAJIABGAOCI = 1;
-	}
 
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: CDNEAPKKHHL
+// CmdId: 4079
+message GetPlayerAskFriendListReq {
 }
+

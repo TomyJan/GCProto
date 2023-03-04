@@ -1,15 +1,13 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message WearEquipRsp {
-	enum MOMHFFAMGFM {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 613;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
 
-	int32 retcode = 9;
-	uint64 avatarGuid = 6;
-	uint64 equipGuid = 13;
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: BHBOLAAJJFE
+// CmdId: 629
+message WearEquipRsp {
+    uint64 equip_guid = 4;
+    int32 retcode = 2;
+    uint64 avatar_guid = 11;
 }
+

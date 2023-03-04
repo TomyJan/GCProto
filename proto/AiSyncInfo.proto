@@ -1,12 +1,11 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
-
-
-
-
+// Name: FCJLAGHOIFC
 message AiSyncInfo {
-	uint32 entityId = 1;
-	bool has_path_to_target = 2;
-	bool is_self_killing = 10;
+    uint32 entity_id = 10;
+    bool is_self_killing = 6;
+    bool has_path_to_target = 8;
 }
+

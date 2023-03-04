@@ -1,6 +1,11 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: CPMIONMGEPH
 message QuestGlobalVar {
-	int32 value = 14;
-	uint32 key = 9;
+    uint32 key = 1;
+    int32 value = 8;
 }
+

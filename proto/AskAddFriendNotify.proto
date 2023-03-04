@@ -1,20 +1,13 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
-
-
 
 import "FriendBrief.proto";
 
-
+// Name: PCOJKOCFPIN
+// CmdId: 4044
 message AskAddFriendNotify {
-	enum ACDJLMOMLPL {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 4088;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
-
-	FriendBrief targetFriendBrief = 7;
-	uint32 targetUid = 8;
+    uint32 target_uid = 9;
+    FriendBrief target_friend_brief = 3;
 }
+

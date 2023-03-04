@@ -1,18 +1,13 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
-
-
 import "Shop.proto";
-message GetShopRsp {
-	enum KNOFNDBCJKL {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 755;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
 
-	Shop shop = 10;
-	int32 retcode = 13;
+// Name: OEAKJGIILOL
+// CmdId: 775
+message GetShopRsp {
+    int32 retcode = 15;
+    Shop shop = 11;
 }
+

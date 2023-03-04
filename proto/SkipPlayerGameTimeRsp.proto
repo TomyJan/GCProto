@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message SkipPlayerGameTimeRsp {
+	uint32 clientGameTime = 14;
+	uint32 gameTime = 15;
+	int32 retcode = 12;
+}

@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+import "Status.proto";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: IMEFDIKAJBD
+message Achievement {
+    uint32 cur_progress = 2;
+    uint32 finish_timestamp = 13;
+    Status status = 6;
+    uint32 total_progress = 5;
+    uint32 id = 9;
+}

@@ -1,15 +1,12 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message SceneInitFinishRsp {
-	enum OLIDDPBLNPH {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 220;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-		EAJIABGAOCI = 1;
-	}
 
-	uint32 enterSceneToken = 9;
-	int32 retcode = 8;
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: GCJHACJGIDO
+// CmdId: 214
+message SceneInitFinishRsp {
+    uint32 enter_scene_token = 13;
+    int32 retcode = 4;
 }
+

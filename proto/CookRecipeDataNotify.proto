@@ -1,17 +1,12 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
-
-
 import "CookRecipeData.proto";
-message CookRecipeDataNotify {
-	enum OBKCEHGMAHN {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 185;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
 
-	CookRecipeData recipeData = 6;
+// Name: GAKFBBPCPHD
+// CmdId: 186
+message CookRecipeDataNotify {
+    CookRecipeData recipe_data = 6;
 }
+

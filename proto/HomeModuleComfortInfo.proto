@@ -1,7 +1,12 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: INNAMCEODEG
 message HomeModuleComfortInfo {
-	repeated uint32 worldSceneBlockComfortValueList = 3;
-	uint32 moduleId = 13;
-	uint32 roomSceneComfortValue = 2;
+    uint32 room_scene_comfort_value = 9;
+    repeated uint32 world_scene_block_comfort_value_list = 5;
+    uint32 module_id = 1;
 }
+

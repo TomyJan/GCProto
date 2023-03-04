@@ -1,14 +1,14 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
 
-
-
-
+// Name: JFHLNEBEOAA
 message AbilityAttachedModifier {
-	bool isInvalid = 1;
-	uint32 ownerEntityId = 2;
-	uint32 instancedModifierId = 3;
-	bool isServerbuffModifier = 4;
-	int32 attachNameHash = 5;
+    bool is_invalid = 1;
+    uint32 owner_entity_id = 2;
+    uint32 instanced_modifier_id = 3;
+    bool is_serverbuff_modifier = 4;
+    int32 attach_name_hash = 5;
 }
+

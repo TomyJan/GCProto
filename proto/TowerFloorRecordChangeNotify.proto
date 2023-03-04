@@ -1,18 +1,13 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
-
-
 import "TowerFloorRecord.proto";
-message TowerFloorRecordChangeNotify {
-	enum OAOPHOGEGKK {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 2455;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
 
-	bool isFinishedEntranceFloor = 11;
-	repeated TowerFloorRecord towerFloorRecordList = 12;
+// Name: GMBOOECENCF
+// CmdId: 2475
+message TowerFloorRecordChangeNotify {
+    bool is_finished_entrance_floor = 7;
+    repeated TowerFloorRecord tower_floor_record_list = 6;
 }
+

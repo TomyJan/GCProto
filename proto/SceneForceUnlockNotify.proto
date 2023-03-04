@@ -1,14 +1,12 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message SceneForceUnlockNotify {
-	enum CIAEKBLPKBJ {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 285;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
 
-	bool isAdd = 8;
-	repeated uint32 forceIdList = 14;
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: LEEEJNOCINN
+// CmdId: 286
+message SceneForceUnlockNotify {
+    bool is_add = 7;
+    repeated uint32 force_id_list = 11;
 }
+

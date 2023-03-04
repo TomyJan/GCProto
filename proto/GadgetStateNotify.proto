@@ -1,15 +1,13 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message GadgetStateNotify {
-	enum AKFEDCCGIJI {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 887;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
 
-	uint32 gadgetState = 9;
-	uint32 gadgetEntityId = 7;
-	bool isEnableInteract = 15;
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: DPAAILJEKLP
+// CmdId: 854
+message GadgetStateNotify {
+    uint32 gadget_state = 15;
+    bool is_enable_interact = 6;
+    uint32 gadget_entity_id = 8;
 }
+

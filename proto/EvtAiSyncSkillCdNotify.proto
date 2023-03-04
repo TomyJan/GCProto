@@ -1,18 +1,12 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
-
-
 import "AiSkillCdInfo.proto";
-message EvtAiSyncSkillCdNotify {
-	enum NOBFEMIJJNE {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 343;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-		EAJIABGAOCI = 1;
-	}
 
-	map<uint32, AiSkillCdInfo> aiCdMap = 11;
+// Name: FMKKKFIOHKJ
+// CmdId: 325
+message EvtAiSyncSkillCdNotify {
+    map<uint32, AiSkillCdInfo> ai_cd_map = 2;
 }
+

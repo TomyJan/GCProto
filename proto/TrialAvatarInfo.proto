@@ -1,12 +1,14 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
-
-
-import "TrialAvatarGrantRecord.proto";
 import "Item.proto";
+import "TrialAvatarGrantRecord.proto";
+
+// Name: LCCNADFOJME
 message TrialAvatarInfo {
-	uint32 trialAvatarId = 1;
-	repeated Item trialEquipList = 2;
-	TrialAvatarGrantRecord grantRecord = 3;
+    uint32 trial_avatar_id = 1;
+    repeated Item trial_equip_list = 2;
+    TrialAvatarGrantRecord grant_record = 3;
 }
+

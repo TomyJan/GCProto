@@ -1,11 +1,12 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
-
-
 
 import "MailTextContent.proto";
 import "MailCollectState.proto";
 import "MailItem.proto";
+
+// Name: HGOBDHKMDHO
 message MailData {
 	uint32 mailId = 1;
 	MailTextContent mailTextContent = 4;
@@ -19,3 +20,4 @@ message MailData {
 	repeated string argumentList = 14;
 	MailCollectState collectState = 15;
 }
+

@@ -1,16 +1,18 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
+import "BonusOpActivityInfo.proto";
 
-
-import "BonusInfo.proto";
+// Name: POGIPAEBEHM
 message OpActivityInfo {
-	uint32 scheduleId = 1;
-	uint32 beginTime = 8;
-	uint32 activityId = 15;
-	bool isHasChange = 3;
-	oneof detail {
-		BonusInfo bonus_info = 11;
-	}
-	uint32 endTime = 10;
+    uint32 schedule_id = 6;
+    uint32 activity_id = 8;
+    uint32 begin_time = 7;
+    uint32 end_time = 10;
+    bool is_has_change = 15;
+    oneof detail {
+        BonusOpActivityInfo bonus_info = 9;
+    }
 }
+

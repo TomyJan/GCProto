@@ -1,7 +1,91 @@
 [
     {
+        "name": "ChannelerSlabCheckEnterLoopDungeonReq",
+        "id": 8678
+    },
+    {
+        "name": "ChannelerSlabCheckEnterLoopDungeonRsp",
+        "id": 8961
+    },
+    {
+        "name": "ChannelerSlabEnterLoopDungeonReq",
+        "id": 8928
+    },
+    {
+        "name": "ChannelerSlabEnterLoopDungeonRsp",
+        "id": 8892
+    },
+    {
+        "name": "ChannelerSlabLoopDungeonChallengeInfoNotify",
+        "id": 8499
+    },
+    {
+        "name": "ChannelerSlabLoopDungeonSelectConditionReq",
+        "id": 8368
+    },
+    {
+        "name": "ChannelerSlabLoopDungeonSelectConditionRsp",
+        "id": 8943
+    },
+    {
+        "name": "ChannelerSlabLoopDungeonTakeFirstPassRewardReq",
+        "id": 8779
+    },
+    {
+        "name": "ChannelerSlabLoopDungeonTakeFirstPassRewardRsp",
+        "id": 8654
+    },
+    {
+        "name": "ChannelerSlabLoopDungeonTakeScoreRewardReq",
+        "id": 8751
+    },
+    {
+        "name": "ChannelerSlabLoopDungeonTakeScoreRewardRsp",
+        "id": 8186
+    },
+    {
+        "name": "ChannelerSlabOneOffDungeonInfoNotify",
+        "id": 8038
+    },
+    {
+        "name": "ChannelerSlabOneOffDungeonInfoReq",
+        "id": 8069
+    },
+    {
+        "name": "ChannelerSlabOneOffDungeonInfoRsp",
+        "id": 8731
+    },
+    {
+        "name": "ChannelerSlabSaveAssistInfoReq",
+        "id": 8304
+    },
+    {
+        "name": "ChannelerSlabSaveAssistInfoRsp",
+        "id": 8443
+    },
+    {
         "name": "ChannelerSlabStageOneofDungeonNotify",
         "id": 8203
+    },
+    {
+        "name": "ChannelerSlabTakeoffBuffReq",
+        "id": 8329
+    },
+    {
+        "name": "ChannelerSlabTakeoffBuffRsp",
+        "id": 8646
+    },
+    {
+        "name": "ChannelerSlabWearBuffReq",
+        "id": 8487
+    },
+    {
+        "name": "ChannelerSlabWearBuffRsp",
+        "id": 8651
+    },
+    {
+        "name": "DebugNotify",
+        "id": 101
     },
     {
         "name": "FireworkNotify",
@@ -28,12 +112,8 @@
         "id": 5969
     },
     {
-        "name": "FunitureMakeMakeInfoChangeNotify",
-        "id": 4898
-    },
-    {
         "name": "InBattleMechanicusEscapeMonsterNotify",
-        "id": 5400
+        "id": 5320
     },
     {
         "name": "MusicGameGetBeatmapRsp",
@@ -74,5 +154,13 @@
     {
         "name": "Unk2700_NGPMINKIOPK",
         "id": 8956
+    },
+    {
+        "name": "SkipPlayerGameTimeReq",
+        "id": 108
+    },
+    {
+        "name": "SkipPlayerGameTimeRsp",
+        "id": 166
     }
 ]

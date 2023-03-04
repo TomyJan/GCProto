@@ -1,16 +1,14 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message NpcTalkRsp {
-	enum MELLEOKPJBM {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 555;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
 
-	int32 retcode = 5;
-	uint32 npcEntityId = 11;
-	uint32 curTalkId = 1;
-	uint32 entityId = 9;
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: GHMPDOBCADL
+// CmdId: 575
+message NpcTalkRsp {
+    uint32 cur_talk_id = 5;
+    int32 retcode = 2;
+    uint32 entity_id = 4;
+    uint32 npc_entity_id = 11;
 }
+

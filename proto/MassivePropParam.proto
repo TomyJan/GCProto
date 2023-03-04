@@ -1,8 +1,13 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: FHFHEHMGCCO
 message MassivePropParam {
-	int32 type = 1;
-	repeated uint32 bkeclhnchpn = 2;
-	repeated float paramList = 3;
-	uint32 eejlkopeggc = 4;
+    int32 type = 1;
+    repeated uint32 reaction_info_list = 2;
+    repeated float param_list = 3;
+    uint32 sync_flag = 4;
 }
+

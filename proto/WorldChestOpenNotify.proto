@@ -1,15 +1,13 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message WorldChestOpenNotify {
-	enum GCDLLCOAPND {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 3085;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
 
-	uint32 groupId = 3;
-	uint32 sceneId = 6;
-	uint32 configId = 8;
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: CPHDPJHPOFE
+// CmdId: 3279
+message WorldChestOpenNotify {
+    uint32 config_id = 11;
+    uint32 group_id = 15;
+    uint32 scene_id = 3;
 }
+

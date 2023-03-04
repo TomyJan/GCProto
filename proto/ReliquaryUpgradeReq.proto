@@ -1,20 +1,14 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
-
-
 import "ItemParam.proto";
-message ReliquaryUpgradeReq {
-	enum HPFACEEFIAE {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 625;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-		EAJIABGAOCI = 1;
-	}
 
-	repeated uint64 foodReliquaryGuidList = 13;
-	uint64 targetReliquaryGuid = 14;
-	repeated ItemParam itemParamList = 8;
+// Name: GCFHDEGDMKH
+// CmdId: 694
+message ReliquaryUpgradeReq {
+    repeated uint64 food_reliquary_guid_list = 14;
+    repeated ItemParam item_param_list = 15;
+    uint64 target_reliquary_guid = 12;
 }
+

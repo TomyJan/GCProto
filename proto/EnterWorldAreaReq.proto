@@ -1,15 +1,12 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message EnterWorldAreaReq {
-	enum GNDHGLBEFEL {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 242;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-		EAJIABGAOCI = 1;
-	}
 
-	uint32 areaId = 1;
-	uint32 areaType = 11;
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: KCKKEDMBCFL
+// CmdId: 233
+message EnterWorldAreaReq {
+    uint32 area_type = 9;
+    uint32 area_id = 15;
 }
+

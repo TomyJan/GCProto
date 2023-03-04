@@ -1,20 +1,13 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
-
-
 
 import "AvatarEquipAffixInfo.proto";
 
-
+// Name: GDBEDIEBFFL
+// CmdId: 1666
 message AvatarEquipAffixStartNotify {
-	enum CIBOKBFGLBI {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 1602;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
-
-	AvatarEquipAffixInfo equipAffixInfo = 5;
-	uint64 avatarGuid = 15;
+    uint64 avatar_guid = 5;
+    AvatarEquipAffixInfo equip_affix_info = 10;
 }
+

@@ -1,21 +1,22 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
-
-
-import "Operation.proto";
 import "MapMarkPoint.proto";
-message MarkMapReq {
-	enum LJKBDJKNENE {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 3176;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-		EAJIABGAOCI = 1;
-	}
 
-	Operation op = 3;
-	MapMarkPoint old = 7;
-	MapMarkPoint mark = 10;
+// Name: FOPFBIBHDFN
+// CmdId: 3087
+message MarkMapReq {
+    // Name: LHHMCBIINHG
+	enum Operation {
+    	OPERATION_ADD = 0;
+    	OPERATION_MOD = 1;
+    	OPERATION_DEL = 2;
+    	OPERATION_GET = 3;
+    }
+
+    MapMarkPoint old = 9;
+    MapMarkPoint mark = 15;
+    Operation op = 1;
 }
+

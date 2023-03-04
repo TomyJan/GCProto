@@ -1,14 +1,11 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
-message DailyTaskUnlockedCitiesNotify {
-	enum PGKOMCHPHJP {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 176;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
 
-	repeated uint32 unlockedCityList = 6;
+// Name: ICNBAPCCAKO
+// CmdId: 180
+message DailyTaskUnlockedCitiesNotify {
+    repeated uint32 unlocked_city_list = 7;
 }
+

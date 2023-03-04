@@ -1,6 +1,0 @@
-syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message CrucibleInfo {
-	uint32 mpPlayId = 1;
-	uint32 prepareEndTime = 2;
-}

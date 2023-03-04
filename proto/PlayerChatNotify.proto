@@ -1,18 +1,13 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
-
-
 import "ChatInfo.proto";
-message PlayerChatNotify {
-	enum ODBGFHDCLMP {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 3092;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
 
-	uint32 channelId = 14;
-	ChatInfo chatInfo = 6;
+// Name: IOCNDGDEEOL
+// CmdId: 3236
+message PlayerChatNotify {
+    ChatInfo chat_info = 15;
+    uint32 channel_id = 4;
 }
+

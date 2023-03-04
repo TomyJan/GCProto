@@ -1,14 +1,16 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
-
-
-import "Vector.proto";
 import "HomeMarkPointFurnitureData.proto";
+import "Vector.proto";
+
+// Name: LKEBHBGDDFA
 message HomeMarkPointSceneData {
-	repeated HomeMarkPointFurnitureData furnitureList = 14;
-	uint32 moduleId = 5;
-	uint32 sceneId = 15;
-	Vector safePointPos = 10;
-	Vector teapotSpiritPos = 8;
+    Vector safePointPos = 14;
+    uint32 module_id = 8;
+    repeated HomeMarkPointFurnitureData furniture_list = 15;
+    uint32 scene_id = 7;
+    Vector teapotSpiritPos = 6;
 }
+

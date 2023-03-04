@@ -1,14 +1,11 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message TowerAllDataReq {
-	enum OEKPDBADMMB {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 2470;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-		EAJIABGAOCI = 1;
-	}
 
-	bool isInteract = 15;
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: EFPKBNLHIBC
+// CmdId: 2482
+message TowerAllDataReq {
+    bool is_interact = 1;
 }
+

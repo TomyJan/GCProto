@@ -1,12 +1,14 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
-
-
 import "Vector.proto";
+
+// Name: NEOMIACADNF
 message SkyCrystalDetectorData {
-	Vector hintCenterPos = 6;
-	uint32 groupId = 14;
-	uint32 configId = 8;
-	bool isHintValid = 3;
+    Vector hint_center_pos = 12;
+    uint32 group_id = 7;
+    uint32 config_id = 14;
+    bool is_hint_valid = 6;
 }
+

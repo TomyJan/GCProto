@@ -1,8 +1,9 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
 
-
+// Name: ILEGGBKJDDK
 enum PropChangeReason {
 	PROP_CHANGE_REASON_NONE = 0;
 	PROP_CHANGE_REASON_STATUE_RECOVER = 1;
@@ -19,3 +20,4 @@ enum PropChangeReason {
 	PROP_CHANGE_REASON_GM = 12;
 	PROP_CHANGE_REASON_MANUAL_ADJUST_WORLD_LEVEL = 13;
 }
+

@@ -1,23 +1,16 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
 
-
-
-
+// Name: KLNBJHKJCIN
+// CmdId: 1042
 message AvatarSkillChangeNotify {
-	enum MHMGKMKHGCN {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 1016;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
-
-	uint64 avatarGuid = 4;
-	uint32 entityId = 12;
-	uint32 avatarSkillId = 1;
-	uint32 skillDepotId = 5;
-	uint32 oldLevel = 6;
-	uint32 curLevel = 2;
+    uint32 avatarSkillId = 10;
+    uint64 avatar_guid = 9;
+    uint32 entity_id = 8;
+    uint32 curLevel = 3;
+    uint32 oldLevel = 14;
+    uint32 skill_depot_id = 4;
 }
+

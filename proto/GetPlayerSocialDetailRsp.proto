@@ -1,18 +1,13 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
-
-
 import "SocialDetail.proto";
-message GetPlayerSocialDetailRsp {
-	enum GEDIBCNNOHN {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 4014;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
 
-	SocialDetail detailData = 15;
-	int32 retcode = 14;
+// Name: LOFIPDAGNJA
+// CmdId: 4050
+message GetPlayerSocialDetailRsp {
+    SocialDetail detail_data = 11;
+    int32 retcode = 1;
 }
+

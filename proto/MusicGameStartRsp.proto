@@ -1,15 +1,13 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message MusicGameStartRsp {
-	enum PFNNLOBODEB {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 8893;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
 
-	int32 retcode = 10;
-	uint64 ugcGuid = 8;
-	uint32 musicBasicId = 15;
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: GGFNHKHDDKC
+// CmdId: 8334
+message MusicGameStartRsp {
+    int32 retcode = 9;
+    uint64 ugc_guid = 15;
+    uint32 music_basic_id = 11;
 }
+

@@ -1,14 +1,21 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
 
-
-import "LockReason.proto";
+// Name: FCFKAAGEDPK
 message LockedPersonallineData {
-	uint32 personalLineId = 6;
-	LockReason lockReason = 4;
-	oneof param {
-		uint32 chapter_id = 5;
-		uint32 level = 13;
-	}
+    // Name: HIKGMNEMNOH
+    enum LockReason {
+        LEVEL = 0;
+        QUEST = 1;
+    }
+
+    LockReason lock_reason = 1;
+    uint32 personal_line_id = 12;
+    oneof param {
+        uint32 chapter_id = 14;
+        uint32 level = 2;
+    }
 }
+

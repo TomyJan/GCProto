@@ -1,17 +1,15 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message UseItemRsp {
-	enum JBAEIJMIGAH {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 662;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
 
-	uint64 guid = 12;
-	int32 retcode = 7;
-	uint32 itemId = 4;
-	uint64 targetGuid = 11;
-	uint32 optionIdx = 3;
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: LLDLKAGIBLM
+// CmdId: 665
+message UseItemRsp {
+    uint32 item_id = 8;
+    uint64 guid = 7;
+    int32 retcode = 13;
+    uint64 target_guid = 14;
+    uint32 option_idx = 11;
 }
+

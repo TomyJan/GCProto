@@ -1,23 +1,16 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
-
-
-import "ItemParam.proto";
 import "AvatarExpeditionInfo.proto";
+import "ItemParam.proto";
 
-
+// Name: HFOJANBFGFH
+// CmdId: 1707
 message AvatarExpeditionGetRewardRsp {
-	enum OEBMGNAINIP {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 1659;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
-
-	int32 retcode = 9;
-	repeated ItemParam extraItemList = 10;
-	map<uint64, AvatarExpeditionInfo> expeditionInfoMap = 4;
-	repeated ItemParam itemList = 14;
+    int32 retcode = 1;
+    repeated ItemParam item_list = 11;
+    map<uint64, AvatarExpeditionInfo> expedition_info_map = 9;
+    repeated ItemParam extra_item_list = 5;
 }
+

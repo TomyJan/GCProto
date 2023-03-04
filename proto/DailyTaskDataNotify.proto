@@ -1,15 +1,13 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message DailyTaskDataNotify {
-	enum CJCCGCLIDDL {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 183;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
 
-	bool isTakenScoreReward = 13;
-	uint32 finishedNum = 11;
-	uint32 scoreRewardId = 2;
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: MEBMDKGNFIP
+// CmdId: 111
+message DailyTaskDataNotify {
+    uint32 score_reward_id = 10;
+    bool is_taken_score_reward = 6;
+    uint32 finished_num = 4;
 }
+

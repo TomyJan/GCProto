@@ -1,19 +1,12 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
 
-
-
-
+// Name: CCAJONFKHGH
+// CmdId: 2612
 message BuyBattlePassLevelRsp {
-	enum FHNEBDCOHHI {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 2615;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
-
-	uint32 buyLevel = 15;
-	int32 retcode = 7;
+    int32 retcode = 10;
+    uint32 buy_level = 6;
 }
+

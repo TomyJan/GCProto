@@ -1,9 +1,11 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
-
-
 import "FurnitureMakeData.proto";
+
+// Name: DIIKFAIPKGG
 message FurnitureMakeSlot {
-	repeated FurnitureMakeData furnitureMakeDataList = 4;
+    repeated FurnitureMakeData furnitureMakeDataList = 1;
 }
+

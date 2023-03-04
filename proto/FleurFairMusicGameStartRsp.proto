@@ -1,14 +1,12 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message FleurFairMusicGameStartRsp {
-	enum IOOGHFABFBP {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 2088;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
 
-	int32 retcode = 3;
-	uint32 musicBasicId = 5;
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: AEKPFNHFFJE
+// CmdId: 2174
+message FleurFairMusicGameStartRsp {
+    uint32 music_basic_id = 9;
+    int32 retcode = 1;
 }
+

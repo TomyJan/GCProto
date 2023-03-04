@@ -1,13 +1,11 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message PlayerForceExitRsp {
-	enum NOKJEIGHPAP {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 165;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
 
-	int32 retcode = 13;
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: MGJOAEHDAIC
+// CmdId: 190
+message PlayerForceExitRsp {
+    int32 retcode = 12;
 }
+

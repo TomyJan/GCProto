@@ -1,14 +1,12 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message SceneKickPlayerRsp {
-	enum KCBEAACBEPG {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 240;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
 
-	int32 retcode = 13;
-	uint32 targetUid = 3;
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: KIBABKJFHFK
+// CmdId: 231
+message SceneKickPlayerRsp {
+    int32 retcode = 6;
+    uint32 target_uid = 14;
 }
+

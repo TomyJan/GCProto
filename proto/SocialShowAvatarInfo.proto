@@ -1,7 +1,12 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: MLKHGDPIAKD
 message SocialShowAvatarInfo {
-	uint32 avatarId = 1;
-	uint32 level = 2;
-	uint32 costumeId = 3;
+    uint32 avatar_id = 1;
+    uint32 level = 2;
+    uint32 costume_id = 3;
 }
+

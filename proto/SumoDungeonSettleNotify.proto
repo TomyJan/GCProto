@@ -1,18 +1,16 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message SumoDungeonSettleNotify {
-	enum IDELPLOGHAE {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 8830;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
 
-	uint32 killEliteMonsterNum = 13;
-	uint32 stageId = 3;
-	bool isNewRecord = 15;
-	uint32 killMonsterNum = 4;
-	uint32 difficultyId = 2;
-	uint32 finalScore = 11;
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: DBDANFEPCMO
+// CmdId: 8665
+message SumoDungeonSettleNotify {
+    uint32 stage_id = 7;
+    uint32 final_score = 6;
+    uint32 LFMGDDMJGIP = 3;
+    uint32 DNCGDPEOCHL = 14;
+    bool is_new_record = 12;
+    uint32 difficulty_id = 11;
 }
+

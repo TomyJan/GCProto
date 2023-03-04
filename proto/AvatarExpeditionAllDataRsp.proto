@@ -1,22 +1,15 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
-
-
 
 import "AvatarExpeditionInfo.proto";
 
-
+// Name: OJPKEJLHHMN
+// CmdId: 1671
 message AvatarExpeditionAllDataRsp {
-	enum HDIMKBBDJLE {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 1654;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
-
-	uint32 expeditionCountLimit = 12;
-	repeated uint32 openExpeditionList = 9;
-	int32 retcode = 4;
-	map<uint64, AvatarExpeditionInfo> expeditionInfoMap = 10;
+    map<uint64, AvatarExpeditionInfo> expedition_info_map = 7;
+    uint32 expedition_count_limit = 2;
+    int32 retcode = 15;
+    repeated uint32 open_expedition_list = 12;
 }
+

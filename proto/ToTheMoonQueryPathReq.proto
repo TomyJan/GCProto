@@ -1,30 +1,42 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
-
-
-import "OptionType.proto";
 import "Vector.proto";
-import "AStarMethod.proto";
-import "FilterType.proto";
-message ToTheMoonQueryPathReq {
-	enum MAJKIHKKGFG {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 6105;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-		EAJIABGAOCI = 1;
-	}
 
-	OptionType queryType = 15;
-	int32 queryId = 3;
-	Vector sourcePos = 12;
-	uint32 sceneId = 6;
-	AStarMethod astarMethod = 1;
-	FilterType filterType = 8;
-	int32 fuzzyRange = 7;
-	bool Unk3300_OFGONAMNIJG = 10;
-	bool Unk3300_BBLMBILIOGP = 2;
-	Vector destinationPos = 5;
+// Name: HPFEKMDGIDK
+// CmdId: 6167
+message ToTheMoonQueryPathReq {
+    // Name: DEGELJBNIMO
+    enum DEGELJBNIMO {
+        DEGELJBNIMO_NFEKPNDGKLO = 0;
+        DEGELJBNIMO_FDONIBMDFGP = 1;
+    }
+
+    // Name: LEGHIEACHAF
+    enum LEGHIEACHAF {
+        LEGHIEACHAF_JLHHMIFJOBO = 0;
+        LEGHIEACHAF_DMCBLOJGNOP = 1;
+        LEGHIEACHAF_FHIAHIPIFIL = 2;
+        LEGHIEACHAF_PFDMCOBGNMP = 3;
+    }
+
+    // Name: FAJOMCCAPLH
+    enum FAJOMCCAPLH {
+        FAJOMCCAPLH_JIJOOEDDLJD = 0;
+        FAJOMCCAPLH_GAEBGLFLFDA = 1;
+        FAJOMCCAPLH_FBNDENEGJMN = 2;
+    }
+
+    DEGELJBNIMO BFLACBIGMCJ = 6;
+    bool GAGPNFCPOJB = 13;
+    LEGHIEACHAF OPIEJHMNDOO = 9;
+    Vector destination_pos = 14;
+    bool FHJJJJNHOPC = 12;
+    int32 fuzzy_range = 4;
+    uint32 scene_id = 3;
+    Vector source_pos = 5;
+    int32 query_id = 15;
+    FAJOMCCAPLH PJGBNOGMCNI = 8;
 }
+

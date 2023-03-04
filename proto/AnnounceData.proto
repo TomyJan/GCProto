@@ -1,18 +1,18 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
 
-
-
-
+// Name: NDDGEOMCBEE
 message AnnounceData {
-	uint32 configId = 9;
-	uint32 centerSystemFrequency = 14;
-	uint32 endTime = 5;
-	uint32 beginTime = 4;
-	string countDownText = 7;
-	bool isCenterSystemLast_5EveryMinutes = 12;
-	string dungeonConfirmText = 2;
-	uint32 countDownFrequency = 8;
-	string centerSystemText = 13;
+    bool is_center_system_last_5_every_minutes = 8;
+    uint32 countDownFrequency = 12;
+    uint32 end_time = 15;
+    uint32 config_id = 11;
+    string countDownText = 3;
+    string dungeonConfirmText = 5;
+    string centerSystemText = 6;
+    uint32 centerSystemFrequency = 7;
+    uint32 begin_time = 13;
 }
+

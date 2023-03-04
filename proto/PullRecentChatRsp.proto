@@ -1,18 +1,13 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
-
-
 import "ChatInfo.proto";
-message PullRecentChatRsp {
-	enum JIGIFODBEAL {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 5012;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
 
-	repeated ChatInfo chatInfo = 6;
-	int32 retcode = 12;
+// Name: OHFNDIHBDEN
+// CmdId: 5015
+message PullRecentChatRsp {
+    int32 retcode = 2;
+    repeated ChatInfo chat_info = 11;
 }
+

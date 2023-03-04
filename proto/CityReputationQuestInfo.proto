@@ -1,5 +1,10 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
+
+
+
+
 message CityReputationQuestInfo {
 	bool isOpen = 14;
 	repeated uint32 Unk3300_OMGMGDIHDOH = 4;

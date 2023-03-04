@@ -1,8 +1,9 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
 
-
+// Name: EGBBHBLNEAC
 enum PlayerDieType {
 	PLAYER_DIE_TYPE_NONE = 0;
 	PLAYER_DIE_TYPE_KILL_BY_MONSTER = 1;
@@ -14,3 +15,4 @@ enum PlayerDieType {
 	PLAYER_DIE_TYPE_CLIMATE_COLD = 7;
 	PLAYER_DIE_TYPE_STORM_LIGHTING = 8;
 }
+

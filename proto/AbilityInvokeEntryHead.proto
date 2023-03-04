@@ -1,16 +1,16 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
 
-
-
-
+// Name: DPAJKOIMAOF
 message AbilityInvokeEntryHead {
-	int32 localId = 7;
-	uint32 serverBuffUid = 15;
-	uint32 targetId = 5;
-	uint32 instancedAbilityId = 2;
-	uint32 instancedModifierId = 9;
-	bool isServerbuffModifier = 10;
-	int32 modifierConfigLocalId = 8;
+    uint32 server_buff_uid = 10;
+    uint32 target_id = 2;
+    int32 modifier_config_local_id = 5;
+    uint32 instanced_ability_id = 3;
+    bool is_serverbuff_modifier = 12;
+    int32 local_id = 13;
+    uint32 instanced_modifier_id = 14;
 }
+

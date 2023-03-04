@@ -1,12 +1,10 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message FurnitureMakeFinishNotify {
-	enum MIOIGBJOKEO {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 4789;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
 
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: MLDLJMCEPGD
+// CmdId: 4658
+message FurnitureMakeFinishNotify {
 }
+

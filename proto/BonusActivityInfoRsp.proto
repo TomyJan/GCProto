@@ -1,20 +1,13 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
-
-
 
 import "BonusActivityInfo.proto";
 
-
+// Name: IBIFLPDMIII
+// CmdId: 2542
 message BonusActivityInfoRsp {
-	enum JAGOBCLBFBH {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 2516;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
-
-	repeated BonusActivityInfo bonusActivityInfoList = 13;
-	int32 retcode = 12;
+    repeated BonusActivityInfo bonus_activity_info_list = 5;
+    int32 retcode = 9;
 }
+

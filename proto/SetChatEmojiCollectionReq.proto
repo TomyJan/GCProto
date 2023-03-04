@@ -1,18 +1,12 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
-
-
 import "ChatEmojiCollectionData.proto";
-message SetChatEmojiCollectionReq {
-	enum AMDGEFGHKLC {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 4060;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-		EAJIABGAOCI = 1;
-	}
 
-	ChatEmojiCollectionData chatEmojiCollectionData = 11;
+// Name: COHNKHJHMNA
+// CmdId: 4098
+message SetChatEmojiCollectionReq {
+    ChatEmojiCollectionData chat_emoji_collection_data = 13;
 }
+

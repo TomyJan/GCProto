@@ -1,22 +1,17 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
-
-
 
 import "FurnitureMakeSlot.proto";
 import "ItemParam.proto";
-message TakeFurnitureMakeRsp {
-	enum FBKEHNNKDMK {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 4806;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
 
-	repeated ItemParam returnItemList = 7;
-	FurnitureMakeSlot furnitureMakeSlot = 6;
-	uint32 makeId = 4;
-	repeated ItemParam outputItemList = 1;
-	int32 retcode = 10;
+// Name: ACOKGGPOACP
+// CmdId: 4630
+message TakeFurnitureMakeRsp {
+    repeated ItemParam outputItemList = 11;
+    repeated ItemParam returnItemList = 14;
+    FurnitureMakeSlot furniture_make_slot = 12;
+    uint32 make_id = 10;
+    int32 retcode = 8;
 }
+

@@ -1,13 +1,11 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message TrialAvatarFirstPassDungeonNotify {
-	enum CIGCJMPBLBJ {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 2175;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
 
-	uint32 trialAvatarIndexId = 9;
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: JDOFGAKDDPA
+// CmdId: 2105
+message TrialAvatarFirstPassDungeonNotify {
+    uint32 trial_avatar_index_id = 10;
 }
+

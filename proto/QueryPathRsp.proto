@@ -1,21 +1,16 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
-
-
-import "PathStatusType.proto";
 import "Vector.proto";
-message QueryPathRsp {
-	enum PKKNJCEPAHM {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 2355;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
+import "PathStatusType.proto";
 
-	int32 retcode = 13;
-	repeated Vector corners = 11;
-	PathStatusType queryStatus = 6;
-	int32 queryId = 15;
+// Name: FKMNFJNKLOG
+// CmdId: 2375
+message QueryPathRsp {
+    repeated Vector corners = 2;
+    PathStatusType query_status = 12;
+    int32 query_id = 7;
+    int32 retcode = 5;
 }
+

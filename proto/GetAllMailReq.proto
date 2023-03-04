@@ -1,14 +1,11 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message GetAllMailReq {
-	enum LHAPJAHPMOI {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 1424;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-		EAJIABGAOCI = 1;
-	}
 
-	bool isCollected = 8;
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: KHEEFEIBONK
+// CmdId: 1459
+message GetAllMailReq {
+    bool is_collected = 12;
 }
+

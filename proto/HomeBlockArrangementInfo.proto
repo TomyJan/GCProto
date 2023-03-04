@@ -1,4 +1,5 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
 
@@ -12,7 +13,6 @@ import "HomeFurnitureGroupData.proto";
 import "HomeNpcData.proto";
 import "HomeFurnitureCustomSuiteData.proto";
 import "HomeAnimalData.proto";
-
 
 message HomeBlockArrangementInfo {
 	repeated HomeFurnitureSuiteData furnitureSuiteList = 12;

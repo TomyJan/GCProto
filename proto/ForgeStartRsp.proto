@@ -1,13 +1,11 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message ForgeStartRsp {
-	enum PABBAJPLAIC {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 603;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
 
-	int32 retcode = 10;
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: INIMIDEBPCP
+// CmdId: 671
+message ForgeStartRsp {
+    int32 retcode = 11;
 }
+

@@ -1,19 +1,12 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
-
-
 
 import "AvatarRenameInfo.proto";
 
-
+// Name: KGEPLPDHBGI
+// CmdId: 1758
 message AvatarRenameInfoNotify {
-	enum HEGAMGBFDLO {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 1665;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
-
-	repeated AvatarRenameInfo avatarRenameList = 12;
+    repeated AvatarRenameInfo avatar_rename_list = 12;
 }
+

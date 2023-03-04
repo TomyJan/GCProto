@@ -1,16 +1,13 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message TakeFurnitureMakeReq {
-	enum JMDDKPFHPPA {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 4825;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-		EAJIABGAOCI = 1;
-	}
 
-	uint32 index = 6;
-	bool isFastFinish = 15;
-	uint32 makeId = 9;
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: IENBCEAAOKF
+// CmdId: 4713
+message TakeFurnitureMakeReq {
+    uint32 make_id = 7;
+    bool is_fast_finish = 11;
+    uint32 index = 10;
 }
+

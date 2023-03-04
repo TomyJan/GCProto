@@ -1,21 +1,13 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
-
-
 
 import "ActivityWatcherInfo.proto";
 
-
+// Name: PPOLCIAJKGN
+// CmdId: 2183
 message ActivityUpdateWatcherNotify {
-	enum FDMJLLHOHGH {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 2079;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-		EAJIABGAOCI = 1;
-	}
-
-	ActivityWatcherInfo watcherInfo = 11;
-	uint32 activityId = 3;
+    uint32 activity_id = 15;
+    ActivityWatcherInfo watcher_info = 3;
 }
+

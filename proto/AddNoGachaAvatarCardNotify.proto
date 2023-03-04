@@ -1,25 +1,18 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
-
-
 
 import "AddNoGachaAvatarCardTransferItem.proto";
 
-
+// Name: OKJGBFHLEIK
+// CmdId: 1787
 message AddNoGachaAvatarCardNotify {
-	enum NMBGCPIDMPH {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 1669;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
-
-	uint32 itemId = 7;
-	uint32 initial_promote_level = 3;
-	bool isTransferToItem = 14;
-	uint32 reason = 9;
-	repeated AddNoGachaAvatarCardTransferItem transferItemList = 10;
-	uint32 initial_level = 13;
-	uint32 avatarId = 4;
+    uint32 reason = 3;
+    uint32 initial_level = 14;
+    uint32 item_id = 15;
+    uint32 avatar_id = 1;
+    uint32 initial_promote_level = 4;
+    bool is_transfer_to_item = 9;
+    repeated AddNoGachaAvatarCardTransferItem transfer_item_list = 6;
 }
+

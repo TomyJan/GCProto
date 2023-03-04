@@ -1,19 +1,14 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
-
-
-import "StoreType.proto";
 import "Item.proto";
-message StoreItemChangeNotify {
-	enum KFIDBCGHEFE {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 687;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
+import "StoreType.proto";
 
-	repeated Item itemList = 13;
-	StoreType storeType = 5;
+// Name: JLFKGLMLFHC
+// CmdId: 654
+message StoreItemChangeNotify {
+    StoreType store_type = 1;
+    repeated Item item_list = 3;
 }
+

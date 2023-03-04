@@ -1,17 +1,14 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message FleurFairMusicGameSettleReq {
-	enum CCDNCHGCFON {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 2072;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-		EAJIABGAOCI = 1;
-	}
 
-	uint32 combo = 3;
-	uint32 musicBasicId = 9;
-	uint32 score = 7;
-	uint32 correctHit = 6;
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: EEHBPKDFJCG
+// CmdId: 2086
+message FleurFairMusicGameSettleReq {
+    uint32 correct_hit = 11;
+    uint32 music_basic_id = 1;
+    uint32 combo = 7;
+    uint32 score = 5;
 }
+

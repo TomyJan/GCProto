@@ -1,13 +1,11 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message SceneForceLockNotify {
-	enum KFGBLLFKPFJ {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 251;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
 
-	repeated uint32 forceIdList = 6;
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: ABCBKINNGNF
+// CmdId: 226
+message SceneForceLockNotify {
+    repeated uint32 force_id_list = 3;
 }
+

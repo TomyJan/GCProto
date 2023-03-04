@@ -1,14 +1,12 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message HomeChangeEditModeRsp {
-	enum DBDBLCNDCHO {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 4767;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
 
-	bool isEnterEditMode = 9;
-	int32 retcode = 3;
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: HKFKCOODNHH
+// CmdId: 4862
+message HomeChangeEditModeRsp {
+    int32 retcode = 14;
+    bool is_enter_edit_mode = 11;
 }
+

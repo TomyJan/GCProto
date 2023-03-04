@@ -1,20 +1,13 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
 
-
-
-
+// Name: FBJIKPIMBJM
+// CmdId: 2082
 message ActivityTakeWatcherRewardRsp {
-	enum JIMPALCEJKB {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 2009;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
-
-	int32 retcode = 9;
-	uint32 watcherId = 5;
-	uint32 activityId = 3;
+    int32 retcode = 13;
+    uint32 watcher_id = 5;
+    uint32 activity_id = 3;
 }
+

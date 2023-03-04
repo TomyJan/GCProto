@@ -1,15 +1,13 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message PlayerApplyEnterMpRsp {
-	enum PDHJJJJDBHJ {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 1846;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
 
-	uint32 param = 5;
-	uint32 targetUid = 10;
-	int32 retcode = 11;
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: KPEIDOAPHOC
+// CmdId: 1809
+message PlayerApplyEnterMpRsp {
+    uint32 target_uid = 14;
+    int32 retcode = 11;
+    uint32 param = 2;
 }
+

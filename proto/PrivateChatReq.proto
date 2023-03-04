@@ -1,18 +1,15 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message PrivateChatReq {
-	enum MFGNPEHDMAI {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 4955;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-		EAJIABGAOCI = 1;
-	}
 
-	uint32 targetUid = 11;
-	oneof content {
-		string text = 15;
-		uint32 icon = 9;
-	}
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: OJLJEEAEION
+// CmdId: 5017
+message PrivateChatReq {
+    uint32 target_uid = 13;
+    oneof content {
+        string text = 14;
+        uint32 icon = 8;
+    }
 }
+

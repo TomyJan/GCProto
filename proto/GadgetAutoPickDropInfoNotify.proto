@@ -1,17 +1,12 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
-
-
 import "Item.proto";
-message GadgetAutoPickDropInfoNotify {
-	enum HJFBOFFDKBP {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 816;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
 
-	repeated Item itemList = 15;
+// Name: PBGEBLODBDC
+// CmdId: 842
+message GadgetAutoPickDropInfoNotify {
+    repeated Item item_list = 14;
 }
+

@@ -1,15 +1,13 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message GetWorldMpInfoRsp {
-	enum OFKMCAOPPNI {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 3320;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
 
-	int32 retcode = 12;
-	bool isInMpMode = 11;
-	uint32 quitMpValidTime = 15;
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: ODNDKPCIPME
+// CmdId: 3118
+message GetWorldMpInfoRsp {
+    uint32 quit_mp_valid_time = 4;
+    int32 retcode = 15;
+    bool is_in_mp_mode = 7;
 }
+

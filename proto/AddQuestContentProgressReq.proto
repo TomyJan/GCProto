@@ -1,21 +1,13 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
 
-
-
-
+// Name: GALKBFKDBEG
+// CmdId: 434
 message AddQuestContentProgressReq {
-	enum FJCPEKKPFHI {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 474;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-		EAJIABGAOCI = 1;
-	}
-
-	uint32 addProgress = 2;
-	uint32 param = 9;
-	uint32 contentType = 14;
+    uint32 param = 10;
+    uint32 content_type = 2;
+    uint32 add_progress = 8;
 }
+

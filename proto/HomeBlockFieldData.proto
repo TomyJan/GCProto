@@ -1,10 +1,12 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
 
 
 import "Vector.proto";
 import "HomeBlockSubFieldData.proto";
+
 message HomeBlockFieldData {
 	Vector pos = 1;
 	uint32 guid = 6;

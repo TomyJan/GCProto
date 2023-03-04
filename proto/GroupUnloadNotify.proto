@@ -1,13 +1,11 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message GroupUnloadNotify {
-	enum MEIILILBNFF {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 3144;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
 
-	repeated uint32 groupList = 6;
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: MKCHJPNLPKA
+// CmdId: 3167
+message GroupUnloadNotify {
+    repeated uint32 group_list = 13;
 }
+

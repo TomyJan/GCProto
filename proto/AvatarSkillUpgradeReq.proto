@@ -1,21 +1,13 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
 
-
-
-
+// Name: HDNOGHLJFHJ
+// CmdId: 1007
 message AvatarSkillUpgradeReq {
-	enum APLOEPHODPD {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 1029;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-		EAJIABGAOCI = 1;
-	}
-
-	uint32 avatarSkillId = 10;
-	uint64 avatarGuid = 2;
-	uint32 oldLevel = 12;
+    uint32 avatarSkillId = 8;
+    uint32 avatar_guid = 4;
+    uint64 oldLevel = 9;
 }
+

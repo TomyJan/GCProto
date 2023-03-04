@@ -1,14 +1,12 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message DungeonWayPointActivateRsp {
-	enum KOKKJBIPNKE {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 962;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
 
-	uint32 wayPointId = 10;
-	int32 retcode = 3;
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: CCIKGOBPPCO
+// CmdId: 965
+message DungeonWayPointActivateRsp {
+    int32 retcode = 5;
+    uint32 way_point_id = 3;
 }
+

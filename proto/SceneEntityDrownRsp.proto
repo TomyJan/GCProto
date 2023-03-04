@@ -1,14 +1,12 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message SceneEntityDrownRsp {
-	enum BDPGJMMMEBO {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 275;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
 
-	uint32 entityId = 15;
-	int32 retcode = 13;
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: DLOBNCCPPIH
+// CmdId: 284
+message SceneEntityDrownRsp {
+    uint32 entity_id = 15;
+    int32 retcode = 14;
 }
+

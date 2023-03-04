@@ -1,6 +1,11 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: COFIOGPCLNN
 message TowerTeam {
-	repeated uint64 avatarGuidList = 4;
-	uint32 towerTeamId = 10;
+    uint32 tower_team_id = 10;
+    repeated uint64 avatar_guid_list = 14;
 }
+

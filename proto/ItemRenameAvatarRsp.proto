@@ -1,15 +1,13 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message ItemRenameAvatarRsp {
-	enum BDEOFMOFEEF {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 1628;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
 
-	int32 retcode = 15;
-	uint32 renameId = 8;
-	uint32 cdTime = 7;
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: GHECAHIKANG
+// CmdId: 1797
+message ItemRenameAvatarRsp {
+    uint32 cd_time = 5;
+    uint32 rename_id = 9;
+    int32 retcode = 7;
 }
+

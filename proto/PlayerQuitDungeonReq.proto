@@ -1,15 +1,12 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message PlayerQuitDungeonReq {
-	enum HACCGPMBNMB {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 920;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-		EAJIABGAOCI = 1;
-	}
 
-	uint32 pointId = 6;
-	bool isQuitImmediately = 5;
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: ABBDKBIGMHD
+// CmdId: 914
+message PlayerQuitDungeonReq {
+    uint32 point_id = 12;
+    bool is_quit_immediately = 4;
 }
+

@@ -1,6 +1,11 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: PHDAPKDOAPI
 message FeatureBlockInfo {
-	uint32 featureType = 1;
-	uint32 endTime = 2;
+    uint32 feature_type = 1;
+    uint32 end_time = 2;
 }
+

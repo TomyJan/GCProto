@@ -1,22 +1,24 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
-
-
-import "Vector.proto";
-import "HomeFurnitureData.proto";
 import "HomeBlockArrangementInfo.proto";
+import "HomeFurnitureData.proto";
+import "Vector.proto";
+
+// Name: FNABEPABCNG
 message HomeSceneArrangementInfo {
-	Vector djinnPos = 15;
-	uint32 sceneId = 1;
-	bool isSetBornPos = 5;
-	Vector bornPos = 10;
-	uint32 comfortValue = 9;
-	repeated HomeFurnitureData Unk3300_GCHNAMHBPHG = 11;
-	HomeFurnitureData mainHouse = 6;
-	Vector bornRot = 8;
-	uint32 tmpVersion = 4;
-	repeated HomeFurnitureData Unk3300_HPCHPODNBPH = 7;
-	repeated HomeBlockArrangementInfo blockArrangementInfoList = 3;
-	uint32 bgmId = 12;
+    uint32 comfortValue = 4;
+    Vector djinnPos = 12;
+    bool is_set_born_pos = 10;
+    repeated HomeFurnitureData Unk3400_CMBCIBBCMOK = 14;
+    repeated HomeFurnitureData Unk3400_EOHAHHFDAPI = 8;
+    uint32 bgm_id = 11;
+    Vector born_pos = 1;
+    repeated HomeBlockArrangementInfo blockArrangementInfoList = 9;
+    uint32 tmpVersion = 3;
+    HomeFurnitureData mainHouse = 15;
+    uint32 scene_id = 2;
+    Vector bornRot = 7;
 }
+

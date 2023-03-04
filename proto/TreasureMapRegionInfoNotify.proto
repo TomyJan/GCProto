@@ -1,17 +1,12 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
-
-
 import "TreasureMapRegionInfo.proto";
-message TreasureMapRegionInfoNotify {
-	enum ADDFACKEHCF {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 2064;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
 
-	TreasureMapRegionInfo regionInfo = 6;
+// Name: KKBGBOJPPEN
+// CmdId: 2190
+message TreasureMapRegionInfoNotify {
+    TreasureMapRegionInfo region_info = 6;
 }
+

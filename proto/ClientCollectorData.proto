@@ -1,7 +1,12 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: GBLLGEFNPCP
 message ClientCollectorData {
-	uint32 maxPoints = 8;
-	uint32 currPoints = 2;
-	uint32 materialId = 13;
+    uint32 MOHICPCPAFK = 9;
+    uint32 material_id = 5;
+    uint32 GEDKAGMKGAA = 15;
 }
+

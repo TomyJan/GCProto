@@ -16,10 +16,8 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
-
-
-
 
 message AbilityMixinCostStamina {
   bool is_swim = 7;

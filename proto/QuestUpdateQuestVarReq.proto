@@ -1,21 +1,15 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
-
-
 import "QuestVarOp.proto";
-message QuestUpdateQuestVarReq {
-	enum OAKICGPFBIK {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 439;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-		EAJIABGAOCI = 1;
-	}
 
-	uint32 parentQuestVarSeq = 9;
-	uint32 parentQuestId = 12;
-	repeated QuestVarOp questVarOpList = 4;
-	uint32 questId = 3;
+// Name: NLKBKCONOPK
+// CmdId: 461
+message QuestUpdateQuestVarReq {
+    uint32 quest_id = 10;
+    uint32 parent_quest_var_seq = 11;
+    repeated QuestVarOp quest_var_op_list = 7;
+    uint32 parent_quest_id = 1;
 }
+

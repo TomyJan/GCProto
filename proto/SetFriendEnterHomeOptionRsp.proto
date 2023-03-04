@@ -1,13 +1,11 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message SetFriendEnterHomeOptionRsp {
-	enum KABHJDLEHCE {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 4581;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
 
-	int32 retcode = 13;
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: DJMGMEPCFHC
+// CmdId: 4835
+message SetFriendEnterHomeOptionRsp {
+    int32 retcode = 5;
 }
+

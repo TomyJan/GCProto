@@ -1,28 +1,22 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
-
-
-import "Vector3Int.proto";
 import "OptionType.proto";
 import "QueryFilter.proto";
 import "Vector.proto";
-message QueryPathReq {
-	enum OIOAGLJGAJP {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 2305;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-		EAJIABGAOCI = 1;
-	}
+import "Vector3Int.proto";
 
-	int32 queryId = 13;
-	repeated Vector destinationPos = 4;
-	Vector3Int Unk3300_LHNGPJFOMIK = 5;
-	OptionType queryType = 12;
-	QueryFilter filter = 2;
-	Vector3Int Unk3300_CLGJBBJDOLN = 15;
-	uint32 sceneId = 7;
-	Vector sourcePos = 10;
+// Name: ACMGFNOFCKB
+// CmdId: 2367
+message QueryPathReq {
+    Vector source_pos = 10;
+    QueryFilter filter = 3;
+    Vector3Int APGDHBMJKHO = 12;
+    Vector3Int JDGEGADKHCL = 6;
+    OptionType queryType = 13;
+    int32 query_id = 14;
+    repeated Vector destination_pos = 15;
+    uint32 scene_id = 11;
 }
+

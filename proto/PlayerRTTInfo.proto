@@ -1,6 +1,11 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: JFBIKFCKPBC
 message PlayerRTTInfo {
-	uint32 rtt = 7;
-	uint32 uid = 13;
+    uint32 rtt = 14;
+    uint32 uid = 7;
 }
+

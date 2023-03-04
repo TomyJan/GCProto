@@ -1,14 +1,11 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message SalesmanDeliverItemReq {
-	enum EBJCNBHNGHJ {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 2117;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-		EAJIABGAOCI = 1;
-	}
 
-	uint32 scheduleId = 9;
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: GJHJNLKNKDI
+// CmdId: 2167
+message SalesmanDeliverItemReq {
+    uint32 schedule_id = 13;
 }
+

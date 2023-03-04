@@ -1,15 +1,12 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message EnterTransPointRegionNotify {
-	enum BLHMCAMBHEN {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 269;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-		EAJIABGAOCI = 1;
-	}
 
-	uint32 pointId = 1;
-	uint32 sceneId = 3;
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: HMBHOFBKBIB
+// CmdId: 227
+message EnterTransPointRegionNotify {
+    uint32 scene_id = 10;
+    uint32 point_id = 15;
 }
+

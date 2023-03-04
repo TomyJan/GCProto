@@ -1,8 +1,9 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
 
-
+// Name: CHKGDGODKAA
 enum InteractType {
 	INTERACT_TYPE_NONE = 0;
 	INTERACT_TYPE_PICK_ITEM = 1;
@@ -22,3 +23,4 @@ enum InteractType {
 	INTERACT_TYPE_UI_INTERACT = 15;
 	INTERACT_TYPE_DESHRET_OBELISK = 16;
 }
+

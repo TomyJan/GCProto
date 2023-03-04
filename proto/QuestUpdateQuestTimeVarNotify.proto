@@ -1,14 +1,12 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message QuestUpdateQuestTimeVarNotify {
-	enum EMCOBKDGJNG {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 436;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
 
-	uint32 parentQuestId = 5;
-	map<uint32, uint32> timeVarMap = 8;
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: ENINJHFDLCC
+// CmdId: 488
+message QuestUpdateQuestTimeVarNotify {
+    map<uint32, uint32> time_var_map = 14;
+    uint32 parent_quest_id = 12;
 }
+

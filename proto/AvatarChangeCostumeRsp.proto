@@ -1,20 +1,13 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
 
-
-
-
+// Name: COGFNDJFHDJ
+// CmdId: 1760
 message AvatarChangeCostumeRsp {
-	enum AAJPALBMJPF {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 1753;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
-
-	uint32 costumeId = 15;
-	uint64 avatarGuid = 5;
-	int32 retcode = 7;
+    int32 retcode = 7;
+    uint32 costume_id = 12;
+    uint64 avatar_guid = 3;
 }
+

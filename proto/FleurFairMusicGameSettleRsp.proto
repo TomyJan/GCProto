@@ -1,16 +1,14 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message FleurFairMusicGameSettleRsp {
-	enum LNFEHJBPLMB {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 2200;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
 
-	uint32 musicBasicId = 4;
-	bool isNewRecord = 5;
-	bool isUnlockNextLevel = 7;
-	int32 retcode = 3;
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: IOJLJGILOOC
+// CmdId: 2033
+message FleurFairMusicGameSettleRsp {
+    int32 retcode = 14;
+    bool is_unlock_next_level = 3;
+    bool is_new_record = 5;
+    uint32 music_basic_id = 1;
 }
+

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "HomeResource.proto";
+
+// Name: PEPNHFLKBLG
+// CmdId: 4753
+message HomeResourceNotify {
+    HomeResource homeCoin = 5;
+    HomeResource fetterExp = 14;
+}
+

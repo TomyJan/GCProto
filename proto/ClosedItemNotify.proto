@@ -1,13 +1,11 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message ClosedItemNotify {
-	enum EBJOICAJNPJ {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 612;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
 
-	repeated uint32 itemIdList = 6;
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: JMJFPPIJEGA
+// CmdId: 689
+message ClosedItemNotify {
+    repeated uint32 item_id_list = 10;
 }
+

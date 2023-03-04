@@ -1,14 +1,16 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
-
-
 import "ItemParam.proto";
+
+// Name: KACCHOBDCLB
 message HomeLimitedShopGoods {
-	uint32 disableType = 5;
-	ItemParam goodsItem = 12;
-	uint32 goodsId = 6;
-	repeated ItemParam costItemList = 15;
-	uint32 boughtNum = 7;
-	uint32 buyLimit = 13;
+    uint32 KCHMFBKCLKO = 5;
+    uint32 LLJPJOEMPFE = 12;
+    uint32 FGACANHEBMH = 11;
+    ItemParam goods_item = 2;
+    repeated ItemParam cost_item_list = 6;
+    uint32 GOMAIIJPDKD = 14;
 }
+

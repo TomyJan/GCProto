@@ -1,14 +1,12 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message WorktopOptionNotify {
-	enum OMINMJGKANB {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 898;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
 
-	repeated uint32 optionList = 9;
-	uint32 gadgetEntityId = 15;
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: HBOAACEFDIO
+// CmdId: 864
+message WorktopOptionNotify {
+    repeated uint32 option_list = 5;
+    uint32 gadget_entity_id = 14;
 }
+

@@ -1,17 +1,12 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
-
-
 import "HomeLimitedShopGoods.proto";
-message HomeLimitedShopInfoChangeNotify {
-	enum ALMFKCPBAGI {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 4552;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
 
-	repeated HomeLimitedShopGoods goodsList = 1;
+// Name: EKNBJFLCGCH
+// CmdId: 4722
+message HomeLimitedShopInfoChangeNotify {
+    repeated HomeLimitedShopGoods goods_list = 3;
 }
+

@@ -1,9 +1,11 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
-
-
 import "RogueAvatarInfo.proto";
+
+// Name: EIDMCBCONOB
 message RogueShowAvatarTeamInfo {
-	repeated RogueAvatarInfo avatarList = 3;
+    repeated RogueAvatarInfo avatar_list = 8;
 }
+

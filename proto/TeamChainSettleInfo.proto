@@ -1,9 +1,14 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: LIIKFCCFKNN
 message TeamChainSettleInfo {
-	bool isNewRecord = 13;
-	uint32 stageId = 4;
-	uint32 totalScore = 3;
-	uint32 difficulty = 15;
-	repeated uint32 scoreList = 9;
+    uint32 stage_id = 2;
+    uint32 difficulty = 9;
+    repeated uint32 score_list = 15;
+    bool is_new_record = 6;
+    uint32 total_score = 3;
 }
+

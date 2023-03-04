@@ -1,37 +1,31 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
-
-
-import "Vector.proto";
 import "ForwardType.proto";
-message EvtCreateGadgetNotify {
-	enum NNDMEEHFHPG {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 320;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-		EAJIABGAOCI = 1;
-	}
+import "Vector.proto";
 
-	uint32 targetLockPointIndex = 6;
-	bool is_async_load = 137;
-	uint32 ownerEntityId = 3;
-	Vector initEulerAngles = 11;
+// Name: FEDLMKKOMIL
+// CmdId: 314
+message EvtCreateGadgetNotify {
+    uint64 guid = 5;
+    ForwardType forwardType = 3;
+    uint32 entityId = 6;
+    uint32 targetLockPointIndex = 14;
+    uint32 ownerEntityId = 10;
+    uint32 roomId = 11;
+	bool is_async_load = 137; //guessed
+	uint32 campId = 8;
+    uint32 configId = 2;
+    repeated uint32 targetLockPointIndexList = 582;
+    repeated uint32 targetEntityIdList = 1945;
+    uint32 targetEntityId = 12;
+    bool isPeerIdFromPlayer = 13;
+	Vector initEulerAngles = 7;
 	uint32 propOwnerEntityId = 1;
-	uint32 roomId = 15;
-	ForwardType forwardType = 7;
-	uint32 campId = 14;
-	uint32 configId = 13;
-	uint32 targetEntityId = 10;
-	uint64 guid = 5;
-	bool Unk3300_DLBIJFOONBA = 2;
-	Vector initPos = 9;
-	uint32 entityId = 4;
-	bool isPeerIdFromPlayer = 771;
-	repeated uint32 targetLockPointIndexList = 1252;
-	bool Unk3300_EJNBIGLGMII = 8;
-	uint32 campType = 12;
-	repeated uint32 targetEntityIdList = 1591;
+	Vector initPos = 9;	
+	bool Unk3300_EJNBIGLGMII = 1128;
+	uint32 campType = 4;
+	
 }
+

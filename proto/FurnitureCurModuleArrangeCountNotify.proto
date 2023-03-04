@@ -1,17 +1,12 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
-
-
 import "Uint32Pair.proto";
-message FurnitureCurModuleArrangeCountNotify {
-	enum HGICNMNBGLO {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 4851;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
 
-	repeated Uint32Pair furnitureArrangeCountList = 13;
+// Name: ANKHKEFFFEC
+// CmdId: 4864
+message FurnitureCurModuleArrangeCountNotify {
+    repeated Uint32Pair furniture_arrange_count_list = 11;
 }
+

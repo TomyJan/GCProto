@@ -1,13 +1,11 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message QuestDelNotify {
-	enum OIGLHNOJFMH {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 487;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
 
-	uint32 questId = 15;
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: NICABKGLDMP
+// CmdId: 454
+message QuestDelNotify {
+    uint32 quest_id = 12;
 }
+

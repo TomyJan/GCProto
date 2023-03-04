@@ -1,8 +1,9 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
 
-
+// Name: IHFHAKKFMHG
 enum ForwardType {
 	FORWARD_TYPE_LOCAL = 0;
 	FORWARD_TYPE_TO_ALL = 1;
@@ -14,3 +15,4 @@ enum ForwardType {
 	FORWARD_TYPE_ONLY_SERVER = 7;
 	FORWARD_TYPE_TO_ALL_EXIST_EXCEPT_CUR = 8;
 }
+

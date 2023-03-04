@@ -1,29 +1,22 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
-
-
 import "AvatarInfo.proto";
-import "AvatarTeam.proto";
 import "AvatarRenameInfo.proto";
+import "AvatarTeam.proto";
 
-
+// Name: HBOPCIGKJHO
+// CmdId: 1613
 message AvatarDataNotify {
-	enum FHCMOBLNBMF {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 1645;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
-
-	uint64 chooseAvatarGuid = 4;
-	repeated uint32 ownedCostumeList = 15;
-	repeated AvatarInfo avatarList = 8;
-	uint32 curAvatarTeamId = 5;
-	map<uint32, AvatarTeam> avatarTeamMap = 6;
-	repeated uint32 ownedFlycloakList = 2;
-	repeated AvatarRenameInfo avatarRenameList = 7;
-	repeated uint32 backupAvatarTeamOrderList = 12;
-	repeated uint64 tempAvatarGuidList = 14;
+    repeated AvatarRenameInfo avatar_rename_list = 9;
+    repeated AvatarInfo avatar_list = 1;
+    repeated uint64 temp_avatar_guid_list = 11;
+    uint32 cur_avatar_team_id = 14;
+    map<uint32, AvatarTeam> avatar_team_map = 7;
+    repeated uint32 owned_costume_list = 2;
+    uint64 choose_avatar_guid = 6;
+    repeated uint32 backup_avatar_team_order_list = 12;
+    repeated uint32 owned_flycloak_list = 10;
 }
+

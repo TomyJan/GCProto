@@ -1,15 +1,13 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message QuestTransmitRsp {
-	enum OOCCCNBNFDE {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 450;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
 
-	uint32 pointId = 8;
-	int32 retcode = 7;
-	uint32 questId = 5;
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: AFHDNLJELMP
+// CmdId: 416
+message QuestTransmitRsp {
+    int32 retcode = 5;
+    uint32 point_id = 4;
+    uint32 quest_id = 3;
 }
+

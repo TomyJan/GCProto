@@ -1,13 +1,10 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message HomeEnterEditModeFinishReq {
-	enum IOFBOIDPEGD {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 4703;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-		EAJIABGAOCI = 1;
-	}
 
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: MDNNIGFAHEO
+// CmdId: 4676
+message HomeEnterEditModeFinishReq {
 }
+

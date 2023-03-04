@@ -1,6 +1,11 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: AFPNKHJMJLE
 message GachaUpInfo {
-	repeated uint32 itemIdList = 11;
-	uint32 itemParentType = 15;
+    uint32 item_parent_type = 9;
+    repeated uint32 item_id_list = 7;
 }
+

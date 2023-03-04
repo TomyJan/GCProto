@@ -1,15 +1,12 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message SetEquipLockStateReq {
-	enum OHOCDDBFFKA {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 684;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-		EAJIABGAOCI = 1;
-	}
 
-	uint64 targetEquipGuid = 10;
-	bool isLocked = 3;
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: CPBMGDOBJCG
+// CmdId: 645
+message SetEquipLockStateReq {
+    bool is_locked = 10;
+    uint64 target_equip_guid = 13;
 }
+

@@ -1,8 +1,9 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
 
-
+// Name: APHMIMMPMDI
 enum ProtEntityType {
 	PROT_ENTITY_TYPE_NONE = 0;
 	PROT_ENTITY_TYPE_AVATAR = 1;
@@ -20,3 +21,4 @@ enum ProtEntityType {
 	PROT_ENTITY_TYPE_EYE_POINT = 13;
 	PROT_ENTITY_TYPE_MAX = 14;
 }
+

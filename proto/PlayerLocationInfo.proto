@@ -1,11 +1,13 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
-
-
 import "Vector.proto";
+
+// Name: OLACJIOMDIO
 message PlayerLocationInfo {
-	Vector rot = 7;
-	Vector pos = 4;
-	uint32 uid = 9;
+    uint32 uid = 5;
+    Vector rot = 3;
+    Vector pos = 7;
 }
+

@@ -1,15 +1,13 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message GetQuestTalkHistoryRsp {
-	enum BEHDBAADCFF {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 462;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
 
-	int32 retcode = 8;
-	uint32 parentQuestId = 13;
-	repeated uint32 talkIdList = 7;
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: MMOIOJJOHGJ
+// CmdId: 465
+message GetQuestTalkHistoryRsp {
+    int32 retcode = 14;
+    uint32 parent_quest_id = 9;
+    repeated uint32 talk_id_list = 5;
 }
+

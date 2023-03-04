@@ -1,14 +1,11 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message SetPlayerHeadImageReq {
-	enum CFPMHBLKGJM {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 4006;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-		EAJIABGAOCI = 1;
-	}
 
-	uint32 avatarId = 10;
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: DLEEFNGPKBF
+// CmdId: 4066
+message SetPlayerHeadImageReq {
+    uint32 avatar_id = 1;
 }
+

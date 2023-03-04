@@ -1,16 +1,13 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message PullPrivateChatReq {
-	enum NIJLIODNKPO {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 5024;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-		EAJIABGAOCI = 1;
-	}
 
-	uint32 targetUid = 1;
-	uint32 fromSequence = 4;
-	uint32 pullNum = 6;
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: PDOKMDBACPA
+// CmdId: 4984
+message PullPrivateChatReq {
+    uint32 target_uid = 9;
+    uint32 JBKDCKFOAGH = 11;
+    uint32 JJDCBKLFOGK = 7;
 }
+

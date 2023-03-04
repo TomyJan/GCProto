@@ -1,18 +1,15 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message UseItemReq {
-	enum KKOIGEBPCBE {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 670;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-		EAJIABGAOCI = 1;
-	}
 
-	uint64 guid = 8;
-	uint32 optionIdx = 14;
-	uint32 count = 12;
-	bool isEnterMpDungeonTeam = 13;
-	uint64 targetGuid = 6;
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: CDFGKIOPMIM
+// CmdId: 682
+message UseItemReq {
+    uint32 option_idx = 12;
+    bool is_enter_mp_dungeon_team = 9;
+    uint32 count = 13;
+    uint64 guid = 14;
+    uint64 target_guid = 7;
 }
+

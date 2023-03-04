@@ -1,22 +1,17 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
-
-
 import "PlayerDieType.proto";
-message WorldPlayerDieNotify {
-	enum PHIDAGMPKOH {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 202;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
 
-	PlayerDieType dieType = 10;
-	uint32 murdererEntityId = 8;
-	oneof entity {
-		uint32 monster_id = 1;
-		uint32 gadget_id = 4;
-	}
+// Name: MCCKOEOAICJ
+// CmdId: 277
+message WorldPlayerDieNotify {
+    PlayerDieType die_type = 4;
+    uint32 murderer_entity_id = 14;
+    oneof entity {
+        uint32 monster_id = 15;
+        uint32 gadget_id = 3;
+    }
 }
+

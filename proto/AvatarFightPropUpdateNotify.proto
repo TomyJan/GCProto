@@ -1,19 +1,12 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
 
-
-
-
+// Name: DBDANALHILN
+// CmdId: 1234
 message AvatarFightPropUpdateNotify {
-	enum HMBDFKEJKAN {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 1274;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
-
-	uint64 avatarGuid = 8;
-	map<uint32, float> fightPropMap = 10;
+    map<uint32, float> fight_prop_map = 6;
+    uint64 avatar_guid = 13;
 }
+

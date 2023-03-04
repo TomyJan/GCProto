@@ -1,14 +1,12 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message MarkNewNotify {
-	enum PLJJEEODALH {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 1229;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
 
-	repeated uint32 idList = 1;
-	uint32 markNewType = 15;
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: NGIAHNHBFNJ
+// CmdId: 1207
+message MarkNewNotify {
+    uint32 mark_new_type = 13;
+    repeated uint32 id_list = 2;
 }
+

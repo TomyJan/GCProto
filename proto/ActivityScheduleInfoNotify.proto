@@ -1,21 +1,13 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
-
-
 
 import "ActivityScheduleInfo.proto";
 
-
+// Name: KEDKIAAFGKO
+// CmdId: 2068
 message ActivityScheduleInfoNotify {
-	enum GMLKEAPFFKO {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 2047;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-		EAJIABGAOCI = 1;
-	}
-
-	repeated ActivityScheduleInfo activityScheduleList = 5;
-	uint32 remainFlySeaLampNum = 11;
+    uint32 remain_fly_sea_lamp_num = 12;
+    repeated ActivityScheduleInfo activity_schedule_list = 11;
 }
+

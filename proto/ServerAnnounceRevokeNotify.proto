@@ -1,13 +1,11 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message ServerAnnounceRevokeNotify {
-	enum JAAICAGMEPA {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 2140;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
 
-	repeated uint32 configIdList = 12;
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: BPDFEOJAHNK
+// CmdId: 2103
+message ServerAnnounceRevokeNotify {
+    repeated uint32 config_id_list = 6;
 }
+

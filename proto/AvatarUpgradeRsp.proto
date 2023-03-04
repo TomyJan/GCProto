@@ -1,23 +1,16 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
 
-
-
-
+// Name: FDBHCBMNCAI
+// CmdId: 1741
 message AvatarUpgradeRsp {
-	enum NFHCCCOLLBL {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 1788;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
-
-	map<uint32, float> curFightPropMap = 11;
-	uint64 avatarGuid = 8;
-	map<uint32, float> oldFightPropMap = 14;
-	uint32 oldLevel = 15;
-	int32 retcode = 13;
-	uint32 curLevel = 6;
+    uint32 oldLevel = 3;
+    uint32 curLevel = 15;
+    int32 retcode = 1;
+    uint64 avatar_guid = 13;
+    map<uint32, float> oldFightPropMap = 7;
+    map<uint32, float> curFightPropMap = 12;
 }
+

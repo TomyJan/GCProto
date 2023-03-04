@@ -1,13 +1,11 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message DeleteFriendNotify {
-	enum LNEAOFJLJFJ {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 4100;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
 
-	uint32 targetUid = 8;
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: LFIGMGNCIDK
+// CmdId: 4023
+message DeleteFriendNotify {
+    uint32 target_uid = 10;
 }
+

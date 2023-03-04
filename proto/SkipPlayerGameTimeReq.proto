@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message SkipPlayerGameTimeReq {
+	bool isForceSet = 3;
+	uint32 clientGameTime = 1;
+	uint32 gameTime = 15;
+}

@@ -1,7 +1,12 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: NLBMAKMGHOE
 message CustomCommonNodeInfo {
-	int32 parentIndex = 1;
-	uint32 configId = 2;
-	string slotIdentifier = 3;
+    int32 parent_index = 1;
+    uint32 config_id = 2;
+    string slot_identifier = 3;
 }
+

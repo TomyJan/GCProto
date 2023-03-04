@@ -1,8 +1,9 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
 
-
+// Name: EILHMHEJAPN
 enum PlatformType {
 	PLATFORM_TYPE_EDITOR = 0;
 	PLATFORM_TYPE_IOS = 1;
@@ -20,3 +21,4 @@ enum PlatformType {
 	PLATFORM_TYPE_CLOUD_THIRD_PARTY_MOBILE = 13;
 	PLATFORM_TYPE_CLOUD_THIRD_PARTY_PC = 14;
 }
+

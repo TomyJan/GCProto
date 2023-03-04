@@ -1,19 +1,13 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
-
-
 import "TowerTeam.proto";
-message TowerTeamSelectReq {
-	enum BMBNANNNFLH {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 2474;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-		EAJIABGAOCI = 1;
-	}
 
-	repeated TowerTeam towerTeamList = 1;
-	uint32 floorId = 11;
+// Name: KPDIMECADLO
+// CmdId: 2434
+message TowerTeamSelectReq {
+    uint32 floor_id = 2;
+    repeated TowerTeam tower_team_list = 8;
 }
+

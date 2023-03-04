@@ -6,7 +6,7 @@ const readline = require("readline");
 // cmdid current version
 const read_cmdid = "cmdid.csv";
 const read_cmdid_output = "cmdid.json";
-const read_cmdid_ht_output = "cmdid_ht_34.json";
+const read_cmdid_ht_output = "cmdid_ht_35.json";
 const read_cmdid_output_gc = "cmdid_gc.json";
 const read_cmdid_output_gc_update = "cmdid_gc_update.json";
 const read_cmdid_output_gc_nofound = "cmdid_gc_nofound.json";
@@ -83,15 +83,14 @@ function read_cmdid_ht_json() {
   const k = read_json(read_cmdid_ht_output);
   // console.log(k);
   for (const key in k) {
-    if (k.hasOwnProperty(key)) {
-      //console.log(key + ": " + k[key]);
-
-      var subdata = new Object();
-      subdata["name"] = key;
-      subdata["id"] = parseInt(k[key]);
-      data_gen.push(subdata);
-      index_file_cmdid_gen++;
-    }
+    var name = k[key];
+    var id = parseInt(key);
+    //console.log(id);
+    var subdata = new Object();
+    subdata["name"] = name;
+    subdata["id"] = id;
+    data_gen.push(subdata);
+    index_file_cmdid_gen++;
   }
 
   console.log("found cmd id " + index_file_cmdid_gen);
@@ -495,9 +494,15 @@ function find_import(file) {
     //console.log("fff");
   }
 
+  var rd;
+
   // read file
-  const read = fs.readFileSync(file);
-  var rd = read.toString();
+  try {
+    const read = fs.readFileSync(file);
+    rd = read.toString();
+  } catch (error) {
+    return;
+  }
 
   while ((m = regex_import.exec(rd)) !== null) {
     // This is necessary to avoid infinite loops with zero-width matches
@@ -684,6 +689,35 @@ function clean_proto_gen() {
   );
 }
 
+function clean_proto_gen_v2() {
+  const files = getAllFiles("./proto");
+
+  console.log("File proto: " + files.length);
+
+  // find all file import
+  files.forEach(function (file) {
+    // Get the file name from the file path
+    const fileName = path.basename(file);
+
+    // Use regular expressions to extract the desired part
+    const match = fileName.match(/^(.*)\.proto$/);
+    const messageName = match[1];
+
+    // Check if the string is all uppercase
+    if (messageName === messageName.toUpperCase()) {
+      console.log("Remove: " + file);
+      try {
+        fs.unlinkSync(file);
+        //file removed
+      } catch (err) {
+        console.error(err);
+      }
+    } else {
+      // console.log("String contains non-uppercase letters");
+    }
+  });
+}
+
 var g_todump = [];
 function scan_gc() {
   const files = getAllFiles(folder_gc_scan);
@@ -732,14 +766,106 @@ function scan_gc() {
   //console.log(g_todump);
 }
 
+function clean_proto_event() {
+  var torequire = [
+    "ActivityPushTipsData",
+    "ActivityWatcherInfo",
+    "MusicGameActivityDetailInfo",
+  ];
+
+  var filedonotdelete = [];
+
+  let dir = "./proto";
+  let file = "./proto/ActivityInfo.proto";
+
+  var rd;
+
+  const files = getAllFiles(dir);
+
+  // read file
+  try {
+    const read = fs.readFileSync(file);
+    rd = read.toString();
+  } catch (error) {
+    console.log(error);
+    return;
+  }
+
+  //console.log(rd);
+
+  while ((m = regex_import.exec(rd)) !== null) {
+
+    // This is necessary to avoid infinite loops with zero-width matches
+    if (m.index === regex_import.lastIndex) {
+      regex_import.lastIndex++;
+    }
+
+    // The result can be accessed through the `m`-variable.
+    m.forEach((match, groupIndex) => {
+      // only index 1 grup
+      if (groupIndex == 1) {
+        //console.log(`t: ${match}`);
+
+        var found_rt = torequire.find((j) => j === match);
+        if (found_rt) {
+          //console.log(`Skip ${match}`);
+        } else {
+          //console.log(`add ${match}`);
+          var sub = find_import(dir + "/" + match + ".proto");
+          //console.log(sub);
+          if (sub) {
+            sub.forEach(function (k) {
+              var v = torequire.find((j) => j === k);
+              if (!v) {
+                torequire.push(k);
+              }
+            });
+          }
+          filedonotdelete.push(match);
+          torequire.push(match);
+        }
+      }
+    });
+  }
+
+  // last
+  files.forEach(function (file) {
+    var name_file = path.parse(file).name;
+    var toskip = filedonotdelete.find((j) => name_file === j);
+    if (toskip) {
+      found_needclean++;
+      //console.log(name_file);
+      try {
+        fs.unlinkSync(file);
+        console.log("Remove file: " + file);
+        //file removed
+      } catch (err) {
+        //console.error(err);
+      }
+    } else {
+      found_noclean++;
+    }
+  });
+
+  console.log(
+    "No clean: " +
+      found_noclean +
+      " | Need to clean: " +
+      found_needclean +
+      " | Related " +
+      found_maybe_related
+  );
+}
+
 // Update GC Proto
 // get_cmdid_gc(); // 1. get cmd old gc
+// read_cmdid_ht_json(); // 2 or
 // get_cmdid_json();  // 2. get last cmdid.csv to json
 // now we have cmdid_gc.json and cmdid.json
 // update_cmdid_gc(); // 3. update gc cmdid (mode by id)
 // cmdid_to_op(); // 4. update op
 // npx prettier --write PacketOpcodes.java
 // scan_gc(); // 5. scan gc
-clean_proto_gen(); // 6. clean proto
-
-//read_cmdid_ht_json();
+// clean_proto_gen(); // 6. clean proto
+// clean_proto_gen_v2();
+// clean_proto_event();

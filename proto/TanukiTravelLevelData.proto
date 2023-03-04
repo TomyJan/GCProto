@@ -1,7 +1,12 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: CCIIHPEKIPM
 message TanukiTravelLevelData {
-	bool isFinish = 2;
-	uint32 routeId = 1;
-	bool isOpen = 8;
+    bool is_open = 7;
+    uint32 route_id = 5;
+    bool is_finish = 9;
 }
+

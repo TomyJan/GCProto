@@ -1,13 +1,11 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message TowerTeamSelectRsp {
-	enum PBICDAPPBOM {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 2480;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
 
-	int32 retcode = 6;
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: OIBBOHDENCG
+// CmdId: 2472
+message TowerTeamSelectRsp {
+    int32 retcode = 8;
 }
+

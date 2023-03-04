@@ -1,13 +1,11 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message UnlockTransPointRsp {
-	enum KKBODGHFJLF {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 3057;
-		DCDNILFDFLB = 1;
-		NNBKOLMPOEA = 1;
-	}
 
-	int32 retcode = 3;
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: NEKAJEGPNFH
+// CmdId: 3311
+message UnlockTransPointRsp {
+    int32 retcode = 14;
 }
+

@@ -1,14 +1,12 @@
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message PlayerPropChangeNotify {
-	enum NHOMLNBEJIC {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 146;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
 
-	uint32 propDelta = 8;
-	uint32 propType = 12;
+option java_package = "emu.grasscutter.net.proto";
+
+
+// Name: CKDGLFFGEAA
+// CmdId: 156
+message PlayerPropChangeNotify {
+    uint32 prop_delta = 9;
+    uint32 prop_type = 4;
 }
+

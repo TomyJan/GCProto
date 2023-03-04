@@ -1,22 +1,14 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
 
-
-import "CompoundBoostTakeStatusType.proto";
-import "CompoundQueueData.proto";
-import "ItemParam.proto";
+// Name: KOOLAIHEKNG
+// CmdId: 177
 message PlayerCompoundMaterialBoostReq {
-	enum HAJAHDPJKBC {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 119;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
-
-	repeated CompoundQueueData compoundQueueDataList = 6;
-	int32 retcode = 15;
-	repeated ItemParam ikceidbkdla = 14;
-	CompoundBoostTakeStatusType obkcgkalonf = 8;
+    uint32 COBBLPOPDMO = 7;
+    uint32 OMJHLAHAKJN = 1;
+    uint32 NCHDGFJEELA = 13;
+    bool is_boost_all = 4;
 }
+

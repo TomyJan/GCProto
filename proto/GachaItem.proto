@@ -1,14 +1,16 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
-
-
-import "ItemParam.proto";
 import "GachaTransferItem.proto";
+import "ItemParam.proto";
+
+// Name: PBALBDCFHEM
 message GachaItem {
-	repeated GachaTransferItem transferItems = 10;
-	bool isGachaItemNew = 9;
-	repeated ItemParam tokenItemList = 12;
-	ItemParam gachaItem = 4;
-	bool isFlashCard = 11;
+    repeated ItemParam token_item_list = 13;
+    ItemParam gacha_item = 15;
+    bool isGachaItemNew = 4;
+    repeated GachaTransferItem transfer_items = 7;
+    bool isFlashCard = 10;
 }
+
