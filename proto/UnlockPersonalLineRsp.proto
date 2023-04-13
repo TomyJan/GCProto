@@ -3,14 +3,14 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: IFBACLBBNBH
-// CmdId: 471
+// CmdId: 428
+// Name: NAMKFIIDGHA
 message UnlockPersonalLineRsp {
-    uint32 personal_line_id = 5;
-    int32 retcode = 2;
+    uint32 personal_line_id = 8;
+    int32 retcode = 13;
     oneof param {
-        uint32 level = 1;
-        uint32 chapter_id = 6;
+        uint32 level = 3;
+        uint32 chapter_id = 2;
     }
 }
 

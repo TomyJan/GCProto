@@ -4,7 +4,7 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "FoundationStatus.proto";
 
-// Name: BHEIJJMBINN
+// Name: AMABAPDIMGK
 message FoundationInfo {
     FoundationStatus status = 1;
     repeated uint32 uid_list = 2;

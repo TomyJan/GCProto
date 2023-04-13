@@ -3,8 +3,8 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: PPGOICBCPFP
-// CmdId: 4817
+// CmdId: 4858
+// Name: GPLCKBLHPND
 message HomeGetBasicInfoReq {
 }
 

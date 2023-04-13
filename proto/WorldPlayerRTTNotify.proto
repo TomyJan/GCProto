@@ -4,8 +4,8 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "PlayerRTTInfo.proto";
 
-// Name: DIGOHGCDENF
-// CmdId: 19
+// CmdId: 77
+// Name: NDMJPBGJMPF
 message WorldPlayerRTTNotify {
     repeated PlayerRTTInfo player_rtt_list = 14;
 }

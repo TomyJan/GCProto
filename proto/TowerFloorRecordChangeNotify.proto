@@ -4,10 +4,10 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "TowerFloorRecord.proto";
 
-// Name: GMBOOECENCF
-// CmdId: 2475
+// CmdId: 2496
+// Name: ONJNAGDHCDM
 message TowerFloorRecordChangeNotify {
-    bool is_finished_entrance_floor = 7;
-    repeated TowerFloorRecord tower_floor_record_list = 6;
+    bool is_finished_entrance_floor = 4;
+    repeated TowerFloorRecord tower_floor_record_list = 13;
 }
 

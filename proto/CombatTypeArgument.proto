@@ -3,7 +3,7 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: BPJGLKPJAPE
+// Name: DHGBKMMCECM
 enum CombatTypeArgument {
 	COMBAT_TYPE_ARGUMENT_NONE = 0;
 	COMBAT_TYPE_ARGUMENT_EVT_BEING_HIT = 1;

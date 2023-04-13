@@ -4,9 +4,9 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "AiSkillCdInfo.proto";
 
-// Name: FMKKKFIOHKJ
-// CmdId: 325
+// CmdId: 304
+// Name: MLOBPCAHFAJ
 message EvtAiSyncSkillCdNotify {
-    map<uint32, AiSkillCdInfo> ai_cd_map = 2;
+    map<uint32, AiSkillCdInfo> ai_cd_map = 9;
 }
 

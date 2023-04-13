@@ -3,14 +3,14 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-
-
+// Name: JFMBGGFOPJO
 message ShopMcoinProduct {
-	string productId = 1;
-	string priceTier = 2;
-	uint32 mcoinBase = 3;
-	uint32 mcoinNonFirst = 4;
-	uint32 mcoinFirst = 5;
-	uint32 boughtNum = 6;
-	bool isAudit = 7;
+    string product_id = 1;
+    string price_tier = 2;
+    uint32 mcoin_base = 3;
+    uint32 mcoin_non_first = 4;
+    uint32 mcoin_first = 5;
+    uint32 bought_num = 6;
+    bool is_audit = 7;
 }
+

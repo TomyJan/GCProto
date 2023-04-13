@@ -3,10 +3,10 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: EAACBMFACOK
-// CmdId: 1660
+// CmdId: 1698
+// Name: HCJFKLALPGP
 message ChangeMpTeamAvatarReq {
-    uint64 cur_avatar_guid = 8;
+    uint64 cur_avatar_guid = 12;
     repeated uint64 avatar_guid_list = 9;
 }
 

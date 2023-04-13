@@ -3,8 +3,8 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: MADAEPIEHKN
-// CmdId: 4589
+// CmdId: 4873
+// Name: LBMOFLDAOOG
 message HomeGetOnlineStatusReq {
 }
 

@@ -3,12 +3,12 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: DICIOCNEPCL
-// CmdId: 388
+// CmdId: 373
+// Name: HKNJGMEMBOD
 message EvtAvatarStandUpNotify {
-    uint64 chair_id = 5;
-    uint32 entity_id = 4;
-    int32 performId = 7;
-    int32 direction = 1;
+    uint64 chair_id = 15;
+    int32 performId = 13; // GFBDIAMIIJD
+    int32 direction = 14; // NEAMEEDBKHM
+    uint32 entity_id = 11;
 }
 

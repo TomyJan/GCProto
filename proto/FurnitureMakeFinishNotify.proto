@@ -3,8 +3,8 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: MLDLJMCEPGD
-// CmdId: 4658
+// CmdId: 4753
+// Name: CAAEENHGNLG
 message FurnitureMakeFinishNotify {
 }
 

@@ -4,9 +4,9 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "AbilityInvokeEntry.proto";
 
-// Name: KPHEJCEMNIM
-// CmdId: 1175
+// CmdId: 1196
+// Name: NHHOLCBCDGJ
 message AbilityInvocationsNotify {
-    repeated AbilityInvokeEntry invokes = 12;
+    repeated AbilityInvokeEntry invokes = 15;
 }
 

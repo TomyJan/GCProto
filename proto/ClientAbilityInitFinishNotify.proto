@@ -4,10 +4,10 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "AbilityInvokeEntry.proto";
 
-// Name: KDKNIIHLEKH
-// CmdId: 1164
+// CmdId: 1176
+// Name: BKDFGPLGGGB
 message ClientAbilityInitFinishNotify {
-    uint32 entity_id = 8;
-    repeated AbilityInvokeEntry invokes = 3;
+    repeated AbilityInvokeEntry invokes = 6;
+    uint32 entity_id = 4;
 }
 

@@ -3,7 +3,7 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: BAOPAIMJBJG
+// Name: HIPHDMMKJFG
 enum GetUgcType {
     GET_UGC_NONE = 0;
     GET_UGC_TYPE_MINE = 1;

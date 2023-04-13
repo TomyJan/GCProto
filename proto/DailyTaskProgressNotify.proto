@@ -4,9 +4,9 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "DailyTaskInfo.proto";
 
-// Name: CAMFJNGDAOP
-// CmdId: 160
+// CmdId: 115
+// Name: EGKFGNGJHKO
 message DailyTaskProgressNotify {
-    DailyTaskInfo info = 15;
+    DailyTaskInfo info = 8;
 }
 

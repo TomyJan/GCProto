@@ -3,10 +3,10 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-
-
+// Name: PHALMEICHMB
 message LanternRiteFireworksChallengeInfo {
-	bool isFullScore = 11;
-	uint32 bestScore = 14;
-	uint32 challengeId = 15;
+    uint32 challenge_id = 5;
+    uint32 best_score = 14;
+    bool is_full_score = 13;
 }
+

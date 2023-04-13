@@ -4,13 +4,13 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "Route.proto";
 
-// Name: DOFGJNOPAOG
-// CmdId: 3300
+// CmdId: 3343
+// Name: CDBHOOGAMEL
 message AvatarFollowRouteNotify {
-    uint32 start_scene_time_ms = 13;
-    string client_params = 1;
-    uint32 entity_id = 8;
-    uint32 template_id = 10;
-    Route route = 3;
+    string client_params = 12;
+    uint32 start_scene_time_ms = 3;
+    uint32 template_id = 7;
+    Route route = 5;
+    uint32 entity_id = 4;
 }
 

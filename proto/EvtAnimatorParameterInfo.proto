@@ -4,11 +4,11 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "AnimatorParameterValueInfo.proto";
 
-// Name: GDAMHLMPFCM
+// Name: KPADLGJMKOH
 message EvtAnimatorParameterInfo {
-    bool is_server_cache = 7;
-    AnimatorParameterValueInfo value = 6;
-    uint32 entity_id = 2;
-    int32 name_id = 15;
+    uint32 entity_id = 10;
+    bool is_server_cache = 11;
+    int32 name_id = 13;
+    AnimatorParameterValueInfo value = 15;
 }
 

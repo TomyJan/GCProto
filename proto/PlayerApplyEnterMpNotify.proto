@@ -4,11 +4,11 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "OnlinePlayerInfo.proto";
 
-// Name: PKHNOEDAGBD
-// CmdId: 1848
+// CmdId: 1809
+// Name: GKDKFFFMCEH
 message PlayerApplyEnterMpNotify {
-    OnlinePlayerInfo src_player_info = 5;
-    uint32 src_thread_index = 7;
-    uint32 src_app_id = 8;
+    uint32 src_app_id = 9;
+    uint32 src_thread_index = 8;
+    OnlinePlayerInfo src_player_info = 7;
 }
 

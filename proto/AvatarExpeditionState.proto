@@ -3,7 +3,7 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: ALJEMELPDLN
+// Name: PHCFOHLGLJN
 enum AvatarExpeditionState {
     AVATAR_EXPEDITION_NONE = 0;
     AVATAR_EXPEDITION_DOING = 1;

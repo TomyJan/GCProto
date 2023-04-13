@@ -3,7 +3,7 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: LLJAMLLPIIF
+// Name: HFPGMAKDKLF
 enum GalleryStopReason {
     GALLERY_STOP_NONE = 0;
     GALLERY_STOP_TIMEUP = 1;
@@ -17,6 +17,7 @@ enum GalleryStopReason {
     GALLERY_STOP_FINISHED = 9;
     GALLERY_STOP_FUNGUS_ALL_DIE = 10;
     GALLERY_STOP_LIFE_COUNT_ZERO = 11;
-    GALLERY_STOP_REASON_PALOHPNAIMF = 12;
+    GALLERY_STOP_ACTIVITY_CLOSED = 12;
+    GALLERY_STOP_LEAVE_REGION_FAIL = 13;
 }
 

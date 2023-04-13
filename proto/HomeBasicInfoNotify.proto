@@ -4,9 +4,9 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "HomeBasicInfo.proto";
 
-// Name: NKPAHOBCJKD
-// CmdId: 4501
+// CmdId: 4727
+// Name: IIHAAPIDLAD
 message HomeBasicInfoNotify {
-    HomeBasicInfo basic_info = 15;
+    HomeBasicInfo basic_info = 14;
 }
 

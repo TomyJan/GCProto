@@ -3,9 +3,9 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: NEKAJEGPNFH
-// CmdId: 3311
+// CmdId: 3090
+// Name: FPKLJFJFMPI
 message UnlockTransPointRsp {
-    int32 retcode = 14;
+    int32 retcode = 2;
 }
 

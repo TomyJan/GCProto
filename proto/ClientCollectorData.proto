@@ -3,10 +3,10 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: GBLLGEFNPCP
+// Name: IPICMDDHCHD
 message ClientCollectorData {
-    uint32 MOHICPCPAFK = 9;
-    uint32 material_id = 5;
-    uint32 GEDKAGMKGAA = 15;
+    uint32 BJAOMANHLNM = 9;
+    uint32 material_id = 10;
+    uint32 JCGPKAGJIOF = 11;
 }
 

@@ -3,13 +3,13 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-
-
+// Name: ABOLAALABPG
 message AttackHitEffectResult {
-	uint32 Unk3300_KLNGDAMMFIF = 3;
-	float airStrength = 6;
-	uint32 Unk3300_LCKECJCKKJK = 13;
-	float hitHaltTime = 15;
-	float retreatStrength = 4;
-	float hitHaltTimeScale = 7;
+    uint32 FAAKOHDGPFM = 13;
+    uint32 FMEGOOPBEJB = 11;
+    float OIJINAAFNAC = 9;
+    float JHNFFJDKJJJ = 2;
+    float GMFMEIEIEPB = 3;
+    float JOOLHFLPAOE = 10;
 }
+

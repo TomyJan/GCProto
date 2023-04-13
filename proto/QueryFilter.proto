@@ -3,9 +3,9 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-
-
+// Name: BIAIAGAANOL
 message QueryFilter {
-	int32 areaMask = 9;
-	int32 typeId = 3;
+    int32 AOLDDCCIAHH = 2;
+    int32 KMKDOPOMCNG = 9;
 }
+

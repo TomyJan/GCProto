@@ -3,9 +3,9 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: PMEKJCILJAH
-// CmdId: 102
+// CmdId: 174
+// Name: DEJJJOMGGIC
 message PlayerSetPauseReq {
-    bool is_paused = 4;
+    bool is_paused = 14;
 }
 

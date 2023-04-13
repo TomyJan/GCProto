@@ -5,13 +5,13 @@ option java_package = "emu.grasscutter.net.proto";
 import "ForgeQueueManipulateType.proto";
 import "ItemParam.proto";
 
-// Name: FMIPFCFINIC
-// CmdId: 688
+// CmdId: 673
+// Name: MJAFJIOFNFE
 message ForgeQueueManipulateRsp {
-    int32 retcode = 4;
-    repeated ItemParam extraOutputItemList = 13;
-    ForgeQueueManipulateType manipulate_type = 8;
-    repeated ItemParam returnItemList = 3;
-    repeated ItemParam outputItemList = 11;
+    int32 retcode = 2;
+    repeated ItemParam output_item_list = 1; // MDJJBOAANKF
+    repeated ItemParam extra_output_item_list = 15; // BNCLNGJLJIA
+    ForgeQueueManipulateType manipulate_type = 6;
+    repeated ItemParam return_item_list = 8; // LEANPAODEGK
 }
 

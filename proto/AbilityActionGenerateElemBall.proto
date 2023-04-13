@@ -1,11 +1,13 @@
 syntax = "proto3";
 
-import "Vector.proto";
-
 option java_package = "emu.grasscutter.net.proto";
 
+import "Vector.proto";
+
+// Name: ANCKCFFOAID
 message AbilityActionGenerateElemBall {
-	uint32 roomId = 3;
-	Vector rot = 12;
-	Vector pos = 1;	
+    uint32 room_id = 2;
+    Vector rot = 9;
+    Vector pos = 14;
 }
+

@@ -3,9 +3,9 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: CPHKFHIHEBD
+// Name: HNLOLPHFANA
 message FurnitureMakeMakeInfo {
-    uint32 make_count = 5;
+    uint32 make_count = 14;
     uint32 furniture_id = 6;
 }
 

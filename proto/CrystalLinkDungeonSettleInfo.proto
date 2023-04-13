@@ -3,14 +3,14 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: IPCPFADOJFH
+// Name: OHIOLBMFKNH
 message CrystalLinkDungeonSettleInfo {
-    bool IIKHHOCDJDK = 5;
-    uint32 DNCGDPEOCHL = 1;
-    uint32 final_score = 11;
-    bool is_new_record = 6;
+    bool JPNNPIBPIIP = 3;
     uint32 difficulty_id = 13;
-    uint32 ACLMNJDOGKP = 9;
-    uint32 level_id = 15;
+    bool is_new_record = 10;
+    uint32 final_score = 14;
+    uint32 EEPIFMDOOHM = 12;
+    uint32 level_id = 11;
+    uint32 KFACNCAIMAM = 2;
 }
 

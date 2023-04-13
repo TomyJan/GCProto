@@ -3,19 +3,19 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: FCFKAAGEDPK
+// Name: HHBEOGDHPOE
 message LockedPersonallineData {
-    // Name: HIKGMNEMNOH
+    // Name: KMFLDPIJABG
     enum LockReason {
         LEVEL = 0;
         QUEST = 1;
     }
 
-    LockReason lock_reason = 1;
-    uint32 personal_line_id = 12;
+    uint32 personal_line_id = 7;
+    LockReason lock_reason = 4;
     oneof param {
-        uint32 chapter_id = 14;
-        uint32 level = 2;
+        uint32 chapter_id = 8;
+        uint32 level = 12;
     }
 }
 

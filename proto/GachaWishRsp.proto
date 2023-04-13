@@ -3,14 +3,14 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: KCCCENPGEHL
-// CmdId: 1534
+// CmdId: 1556
+// Name: AEEFJKOLIKC (3.5, help)
 message GachaWishRsp {
-    uint32 wishMaxProgress = 3; // DNGKJJJHNEN
-    uint32 wishProgress = 10; // DGIFMDIADJF
-    uint32 gachaType = 8; // KJHBJPGBOFP
-    uint32 gachaScheduleId = 5; // NMKGGDOKHLF
-    int32 retcode = 13;
-    uint32 wishItemId = 9; // LJJKNKCHHFM
+    uint32 wishMaxProgress = 4; // KKDFKKEMEBA
+    uint32 wishProgress = 15; // KJPOJHMDBNE
+    uint32 gachaType = 14; // FBILBJNNIKE
+    uint32 gachaScheduleId = 6; // KDFPKENAIOJ
+    int32 retcode = 1;
+    uint32 wishItemId = 5; // AOLMBNPLFEO
 }
 

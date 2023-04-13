@@ -4,10 +4,10 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "WidgetCoolDownData.proto";
 
-// Name: ILBKGJILLKB
-// CmdId: 4271
+// CmdId: 4286
+// Name: ABEOGNPCKPI
 message WidgetCoolDownNotify {
-    repeated WidgetCoolDownData groupCoolDownDataList = 2;
-    repeated WidgetCoolDownData normalCoolDownDataList = 6;
+    repeated WidgetCoolDownData group_cool_down_data_list = 15; // PJIEGBPGGGA
+    repeated WidgetCoolDownData normal_cool_down_data_list = 2; // PDHMECJOMAB
 }
 

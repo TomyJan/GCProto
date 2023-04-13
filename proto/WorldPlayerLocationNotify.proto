@@ -5,10 +5,10 @@ option java_package = "emu.grasscutter.net.proto";
 import "PlayerLocationInfo.proto";
 import "PlayerWorldLocationInfo.proto";
 
-// Name: MMEJGJDKLEK
-// CmdId: 211
+// CmdId: 258
+// Name: ALNJKBLPCHH
 message WorldPlayerLocationNotify {
-    repeated PlayerLocationInfo player_loc_list = 8;
-    repeated PlayerWorldLocationInfo player_world_loc_list = 1;
+    repeated PlayerWorldLocationInfo player_world_loc_list = 15;
+    repeated PlayerLocationInfo player_loc_list = 12;
 }
 

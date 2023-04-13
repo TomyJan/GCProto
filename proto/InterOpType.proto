@@ -3,7 +3,7 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: JHPFIBBFMME
+// Name: DGDNJFDLBNB
 enum InterOpType {
 	INTER_OP_TYPE_FINISH = 0;
 	INTER_OP_TYPE_START = 1;

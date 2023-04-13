@@ -4,10 +4,10 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "HomeLimitedShopInfo.proto";
 
-// Name: PMAGBEFIIEL
-// CmdId: 4791
+// CmdId: 4731
+// Name: DOFAGDOJLAN
 message HomeLimitedShopInfoRsp {
-    int32 retcode = 6;
-    HomeLimitedShopInfo shopInfo = 10;
+    HomeLimitedShopInfo shop_info = 9;
+    int32 retcode = 1;
 }
 

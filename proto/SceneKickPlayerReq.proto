@@ -3,9 +3,9 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: FEOJAMDKCKH
-// CmdId: 232
+// CmdId: 238
+// Name: DCEEEDODLHB
 message SceneKickPlayerReq {
-    uint32 target_uid = 15;
+    uint32 target_uid = 9;
 }
 

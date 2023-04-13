@@ -4,9 +4,9 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "Uint32Pair.proto";
 
-// Name: ANKHKEFFFEC
-// CmdId: 4864
+// CmdId: 4746
+// Name: MILAOMEDEKI
 message FurnitureCurModuleArrangeCountNotify {
-    repeated Uint32Pair furniture_arrange_count_list = 11;
+    repeated Uint32Pair furniture_arrange_count_list = 9;
 }
 

@@ -8,7 +8,7 @@ import "FriendOnlineState.proto";
 import "ProfilePicture.proto";
 import "SocialShowAvatarInfo.proto";
 
-// Name: BNOIABMAJCB
+// Name: HKLLEGCFOKN
 message SocialDetail {
     uint32 uid = 1;
     string nickname = 2;

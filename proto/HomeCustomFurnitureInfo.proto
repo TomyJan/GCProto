@@ -4,9 +4,9 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "CustomCommonNodeInfo.proto";
 
-// Name: HLBPPPNGNJF
+// Name: GMECAGNDCNE
 message HomeCustomFurnitureInfo {
-    uint32 guid = 7;
-    repeated CustomCommonNodeInfo sub_furniture_list = 1;
+    uint32 guid = 11;
+    repeated CustomCommonNodeInfo sub_furniture_list = 12;
 }
 

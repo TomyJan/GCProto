@@ -4,9 +4,9 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "HomeLimitedShopInfo.proto";
 
-// Name: ELMECFHEBMD
-// CmdId: 4584
+// CmdId: 4825
+// Name: JCKDHCAPEIA
 message HomeLimitedShopInfoNotify {
-    HomeLimitedShopInfo shopInfo = 11;
+    HomeLimitedShopInfo shop_info = 9;
 }
 

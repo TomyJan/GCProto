@@ -4,10 +4,10 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "CompoundQueueData.proto";
 
-// Name: IDHHJMJOKKD
-// CmdId: 118
+// CmdId: 154
+// Name: JBKJMBEKPBB
 message CompoundDataNotify {
-    repeated uint32 unlockCompoundList = 5;
-    repeated CompoundQueueData compoundQueueDataList = 3;
+    repeated CompoundQueueData compoundQueueDataList = 8;
+    repeated uint32 unlockCompoundList = 13;
 }
 

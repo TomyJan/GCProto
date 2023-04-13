@@ -4,11 +4,11 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "DealAddFriendResultType.proto";
 
-// Name: CNHEFALIEFK
-// CmdId: 4082
+// CmdId: 4072
+// Name: KOFDKPBCFJE
 message DealAddFriendRsp {
-    DealAddFriendResultType deal_add_friend_result = 8;
-    uint32 target_uid = 2;
-    int32 retcode = 12;
+    DealAddFriendResultType deal_add_friend_result = 7;
+    int32 retcode = 8;
+    uint32 target_uid = 1;
 }
 

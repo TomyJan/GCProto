@@ -3,8 +3,8 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: KJDGGCGBDCK
-// CmdId: 158
+// CmdId: 143
+// Name: DHCFHMOGOHP
 message GetCompoundDataReq {
 }
 

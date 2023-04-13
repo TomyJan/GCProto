@@ -4,12 +4,12 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "AvatarExpeditionInfo.proto";
 
-// Name: OJPKEJLHHMN
-// CmdId: 1671
+// CmdId: 1683
+// Name: BFEGBKILMIB
 message AvatarExpeditionAllDataRsp {
-    map<uint64, AvatarExpeditionInfo> expedition_info_map = 7;
-    uint32 expedition_count_limit = 2;
-    int32 retcode = 15;
-    repeated uint32 open_expedition_list = 12;
+    map<uint64, AvatarExpeditionInfo> expedition_info_map = 11;
+    uint32 expedition_count_limit = 12;
+    repeated uint32 open_expedition_list = 9;
+    int32 retcode = 5;
 }
 

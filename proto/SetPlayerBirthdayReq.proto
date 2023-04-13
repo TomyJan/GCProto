@@ -4,9 +4,9 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "Birthday.proto";
 
-// Name: POLNCBKMBPC
-// CmdId: 4091
+// CmdId: 4012
+// Name: IEMEICMDIIM
 message SetPlayerBirthdayReq {
-    Birthday birthday = 10;
+    Birthday birthday = 7;
 }
 

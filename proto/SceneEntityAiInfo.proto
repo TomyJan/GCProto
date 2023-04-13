@@ -5,7 +5,7 @@ option java_package = "emu.grasscutter.net.proto";
 import "ServantInfo.proto";
 import "Vector.proto";
 
-// Name: NELPLEPDNED
+// Name: MCNFHNMIDGK
 message SceneEntityAiInfo {
     bool is_ai_open = 1;
     Vector born_pos = 2;
@@ -14,5 +14,6 @@ message SceneEntityAiInfo {
     map<uint32, uint32> ai_threat_map = 5;
     map<uint32, uint32> skill_group_cd_map = 6;
     uint32 cur_tactic = 7;
+    bool IGINBLKLKCF = 8;
 }
 

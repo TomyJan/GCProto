@@ -4,12 +4,12 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "MailData.proto";
 
-// Name: LLAGIAGEIKA
-// CmdId: 1407
+// CmdId: 1478
+// Name: LBGKJBDFGKP
 message GetAllMailRsp {
-    int32 retcode = 15;
+    bool is_collected = 4;
+    repeated MailData mail_list = 6;
     bool is_truncated = 10;
-    repeated MailData mail_list = 11;
-    bool is_collected = 13;
+    int32 retcode = 7;
 }
 

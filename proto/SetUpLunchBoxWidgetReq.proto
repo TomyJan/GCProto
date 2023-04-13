@@ -4,9 +4,9 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "LunchBoxData.proto";
 
-// Name: ELGNFEMBKHH
-// CmdId: 4282
+// CmdId: 4272
+// Name: NEEIJAKMAFF
 message SetUpLunchBoxWidgetReq {
-    LunchBoxData lunch_box_data = 3;
+    LunchBoxData lunch_box_data = 4;
 }
 

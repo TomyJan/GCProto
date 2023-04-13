@@ -3,13 +3,13 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: CDFGKIOPMIM
-// CmdId: 682
+// CmdId: 672
+// Name: BDMPGIOBPKD
 message UseItemReq {
-    uint32 option_idx = 12;
-    bool is_enter_mp_dungeon_team = 9;
-    uint32 count = 13;
-    uint64 guid = 14;
-    uint64 target_guid = 7;
+    uint64 target_guid = 12;
+    uint64 guid = 11;
+    bool is_enter_mp_dungeon_team = 2;
+    uint32 option_idx = 14;
+    uint32 count = 8;
 }
 

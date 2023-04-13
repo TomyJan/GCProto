@@ -3,8 +3,8 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: MMFHNMIAGAC
-// CmdId: 4899
+// CmdId: 4845
+// Name: MLAGPADBHDI
 message GetFurnitureCurModuleArrangeCountReq {
 }
 

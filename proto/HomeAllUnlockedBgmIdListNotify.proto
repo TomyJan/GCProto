@@ -3,9 +3,9 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: CKMGNHJBJBA
-// CmdId: 4544
+// CmdId: 4820
+// Name: KCKLCFKEGLC
 message HomeAllUnlockedBgmIdListNotify {
-    repeated uint32 all_unlocked_bgm_id_list = 6;
+    repeated uint32 all_unlocked_bgm_id_list = 9;
 }
 

@@ -3,10 +3,10 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: GAAFLDIHAAF
-// CmdId: 692
+// CmdId: 622
+// Name: BKJBIOIIJNB
 message CombineFormulaDataNotify {
-    bool is_locked = 9;
-    uint32 combine_id = 5;
+    bool is_locked = 7;
+    uint32 combine_id = 9;
 }
 

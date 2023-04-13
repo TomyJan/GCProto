@@ -4,11 +4,11 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "ActivityShopSheetInfo.proto";
 
-// Name: LKFJGOICFNO
-// CmdId: 782
+// CmdId: 772
+// Name: EPKOFNPJGBC
 message GetActivityShopSheetInfoRsp {
-    repeated ActivityShopSheetInfo sheet_info_list = 13;
-    uint32 shop_type = 8;
-    int32 retcode = 10;
+    uint32 shop_type = 9;
+    int32 retcode = 8;
+    repeated ActivityShopSheetInfo sheet_info_list = 1;
 }
 

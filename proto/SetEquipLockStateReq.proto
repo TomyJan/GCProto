@@ -3,10 +3,10 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: CPBMGDOBJCG
-// CmdId: 645
+// CmdId: 632
+// Name: EFAIJMEIALJ
 message SetEquipLockStateReq {
-    bool is_locked = 10;
-    uint64 target_equip_guid = 13;
+    bool is_locked = 2;
+    uint64 target_equip_guid = 11;
 }
 

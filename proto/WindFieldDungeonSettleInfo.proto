@@ -4,10 +4,10 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "WindFieldDungeonFailReason.proto";
 
-// Name: DKPIGJECCHK
+// Name: NMMOKIPHLHN
 message WindFieldDungeonSettleInfo {
-    WindFieldDungeonFailReason fail_reason = 3;
-    repeated uint32 OCAANIJGLBH = 6;
-    repeated uint32 MFIDCJGMDKF = 4;
+    repeated uint32 BLIJCEPMNMA = 1;
+    repeated uint32 DMJAIIOOGDA = 15;
+    WindFieldDungeonFailReason fail_reason = 8;
 }
 

@@ -4,10 +4,10 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "FriendBrief.proto";
 
-// Name: PJCGFIOICJF
-// CmdId: 4045
+// CmdId: 4032
+// Name: ELFBKLJGGFD
 message GetPlayerAskFriendListRsp {
-    int32 retcode = 6;
-    repeated FriendBrief ask_friend_list = 14;
+    int32 retcode = 9;
+    repeated FriendBrief ask_friend_list = 11;
 }
 

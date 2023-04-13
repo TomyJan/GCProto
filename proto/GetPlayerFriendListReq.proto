@@ -3,8 +3,8 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: OAPHAOLKACP
-// CmdId: 4067
+// CmdId: 4090
+// Name: FBCEBBAFBDJ
 message GetPlayerFriendListReq {
 }
 

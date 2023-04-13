@@ -3,10 +3,10 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: FKDDKBKAMBO
-// CmdId: 1790
+// CmdId: 1717
+// Name: KMCIHDKBABI
 message AvatarChangeElementTypeReq {
-    uint32 area_id = 4;
-    uint32 scene_id = 2;
+    uint32 scene_id = 13;
+    uint32 area_id = 6;
 }
 

@@ -5,51 +5,51 @@ option java_package = "emu.grasscutter.net.proto";
 import "AdjustTrackingInfo.proto";
 import "TrackingIOInfo.proto";
 
-// Name: ONBBEDCMCED
-// CmdId: 154
+// CmdId: 189
+// Name: CLFNBHKDFFH
 message PlayerLoginReq {
-    uint32 channel_id = 329;
-    string FCHAHGLMGPL = 250;
-    bytes extra_bin_data = 675;
-    string device_info = 7;
-    uint32 language_type = 3;
-    string psn_id = 1478;
-    uint64 login_rand = 14;
-    string device_uuid = 11;
-    uint32 gm_uid = 1305;
-    uint32 platform_type = 15;
-    bytes security_cmd_reply = 780;
-    uint32 target_uid = 9;
-    string client_version = 13;
+    uint32 KDIHPMJOCPG = 909;
+    uint32 PNJNCCNPILL = 2033;
     string token = 8;
-    uint32 sub_channel_id = 1;
-    string birthday = 1310;
-    AdjustTrackingInfo adjust_tracking_info = 1944;
-    string PMCOHILDDJC = 423;
-    uint32 reg_platform = 1000;
-    bool is_editor = 6;
-    string DFBEFPFOAHM = 901;
-    string client_verison_hash = 1581;
-    uint32 DEEIPOHKIAP = 1279;
-    uint32 GHBLLEHOHNP = 1069;
-    string GKEAOMKOAGB = 1560;
-    string country_code = 1937;
-    uint32 GPCEPHAIGHN = 163;
-    bool is_transfer = 563;
-    uint32 tag = 1345;
-    string account_uid = 10;
-    bool is_guest = 5;
-    string platform = 2;
-    bytes environment_error_code = 669;
-    uint32 target_home_owner_uid = 1511;
-    uint32 HEODPLCDIPJ = 1490;
-    string checksum = 341;
-    TrackingIOInfo tracking_io_info = 1947;
-    string online_id = 567;
-    string checksum_client_version = 368;
-    uint32 client_data_version = 1176;
-    string system_version = 4;
-    uint32 account_type = 697;
-    string device_name = 12;
+    bool is_guest = 6;
+    string JKPKMFPELKK = 778;
+    string online_id = 1781;
+    AdjustTrackingInfo adjust_tracking_info = 2010;
+    uint64 login_rand = 12;
+    TrackingIOInfo tracking_io_info = 498;
+    uint32 language_type = 7;
+    uint32 CJHEEAGCFJG = 2015;
+    uint32 FGAKKMHIKHF = 829;
+    string FIALIJNFLDH = 2;
+    string DOAPGNNFLBJ = 1352;
+    string account_uid = 4;
+    uint32 target_uid = 14;
+    string KCODJEPOJPE = 254;
+    string AAEIDEMEKFF = 936;
+    uint32 FIDMBJJPBEH = 832;
+    string ADMEMLCIHBA = 1953;
+    string PKCPAMFKKPC = 11;
+    bytes JLOPICGGPBP = 978;
+    string IOBMOHHHGNB = 823;
+    uint32 ECJMGOCEABB = 1650;
+    string ENNPHCJEFFC = 3;
+    string psn_id = 1125;
+    bool is_editor = 10;
+    bytes JDKDCMJLHHM = 922;
+    string platform = 1;
+    uint32 channel_id = 913;
+    bool is_transfer = 1382;
+    string PAGIGLAOJIC = 1519;
+    string GEKKFJHGJFB = 9;
+    uint32 FMOKLFNAOOK = 1173;
+    uint32 tag = 1897;
+    uint32 CIJNPHDIOND = 5;
+    uint32 client_data_version = 1098;
+    string DABNCDNACJK = 587;
+    string client_version = 13; //EMACJCPNKAB ???
+    uint32 platform_type = 15;
+    bytes GHKJJPJKKBI = 1959;
+    uint32 LFPHHMGKIIP = 1187;
+    string birthday = 1256;
 }
 

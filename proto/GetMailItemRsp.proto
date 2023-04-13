@@ -4,11 +4,11 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "EquipParam.proto";
 
-// Name: GLPILOPDPPE
-// CmdId: 1414
+// CmdId: 1416
+// Name: HJJCDLCPACH
 message GetMailItemRsp {
-    repeated EquipParam item_list = 15;
-    repeated uint32 mail_id_list = 11;
-    int32 retcode = 8;
+    repeated EquipParam item_list = 5;
+    repeated uint32 mail_id_list = 2;
+    int32 retcode = 3;
 }
 

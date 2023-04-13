@@ -3,9 +3,9 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: HHNOKNHCINE
+// Name: JMAGIHDGPPP
 message InstableSprayAvatarInfo {
-    bool is_trial = 1;
+    bool is_trial = 7;
     uint64 avatar_id = 5;
 }
 

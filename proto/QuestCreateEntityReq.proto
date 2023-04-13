@@ -4,12 +4,12 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "CreateEntityInfo.proto";
 
-// Name: DFNGNPLMEKN
-// CmdId: 450
+// CmdId: 463
+// Name: PAADNAFBNIB
 message QuestCreateEntityReq {
-    bool is_rewind = 3;
-    CreateEntityInfo entity = 1;
-    uint32 quest_id = 15;
-    uint32 parent_quest_id = 7;
+    CreateEntityInfo entity = 2;
+    uint32 quest_id = 5;
+    uint32 parent_quest_id = 11;
+    bool is_rewind = 1;
 }
 

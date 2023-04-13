@@ -3,9 +3,9 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: KIEJGNOINFO
-// CmdId: 4562
+// CmdId: 4769
+// Name: MFGDMJPMPBD
 message HomeEnterEditModeFinishRsp {
-    int32 retcode = 9;
+    int32 retcode = 3;
 }
 

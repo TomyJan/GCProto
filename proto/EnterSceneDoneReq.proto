@@ -3,9 +3,9 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: PDLCFFDJLOL
-// CmdId: 269
+// CmdId: 225
+// Name: HOKKMGGHCFD
 message EnterSceneDoneReq {
-    uint32 enter_scene_token = 11;
+    uint32 enter_scene_token = 4;
 }
 

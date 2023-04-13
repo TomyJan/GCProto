@@ -3,10 +3,10 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: MIJKOINDGFC
-// CmdId: 1700
+// CmdId: 1641
+// Name: GJABBIPEEMJ
 message AvatarWearFlycloakReq {
-    uint64 avatar_guid = 2;
-    uint32 flycloak_id = 1;
+    uint64 avatar_guid = 7;
+    uint32 flycloak_id = 10;
 }
 

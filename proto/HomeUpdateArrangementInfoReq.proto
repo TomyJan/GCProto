@@ -4,9 +4,9 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "HomeSceneArrangementInfo.proto";
 
-// Name: NDKIGENOPAA
-// CmdId: 4840
+// CmdId: 4461
+// Name: OIACCGHPIPD
 message HomeUpdateArrangementInfoReq {
-    HomeSceneArrangementInfo scene_arrangement_info = 5;
+    HomeSceneArrangementInfo scene_arrangement_info = 15;
 }
 

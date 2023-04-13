@@ -3,10 +3,10 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: BKBJJNKOPGB
-// CmdId: 1129
+// CmdId: 1199
+// Name: FNCKPACOKHE
 message ClientAIStateNotify {
-    uint32 entity_id = 3;
-    uint32 cur_tactic = 12;
+    uint32 entity_id = 12;
+    uint32 cur_tactic = 1;
 }
 

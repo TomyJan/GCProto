@@ -4,9 +4,9 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "WidgetSlotData.proto";
 
-// Name: PEBGLHDFPHB
+// Name: LFEBJABCAOL
 message PlayerWidgetInfo {
-    uint32 uid = 4;
-    repeated WidgetSlotData slot_list = 9;
+    repeated WidgetSlotData slot_list = 15;
+    uint32 uid = 12;
 }
 

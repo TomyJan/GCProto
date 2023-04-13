@@ -2,17 +2,23 @@ syntax = "proto3";
 
 option java_package = "emu.grasscutter.net.proto";
 
-import "PathStatusType.proto";
 import "Vector.proto";
 
-// Name: FFFLALIGOHD
-// CmdId: 6175
+// CmdId: 6196
+// Name: BLMEIMMKNIG
 message ToTheMoonQueryPathRsp {
-    PathStatusType query_status = 6;
-    int32 retcode = 13;
-    repeated int64 index = 5;
-    int32 query_id = 9;
-    repeated Vector corners = 3;
+    // Name: OICDHCHDIAF
+    enum PathStatusType {
+        STATUS_FAIL = 0;
+        STATUS_SUCC = 1;
+        STATUS_PARTIAL = 2;
+    }
+
+    PathStatusType query_status = 12;
     repeated int32 level = 7;
+    int32 query_id = 15;
+    repeated Vector corners = 9;
+    repeated int64 index = 10;
+    int32 retcode = 5;
 }
 

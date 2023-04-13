@@ -3,7 +3,7 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: GIKPGAHPHOM
+// Name: PHKDBEICLGJ
 enum CodexType {
     CODEX_NONE = 0;
     CODEX_QUEST = 1;

@@ -3,14 +3,14 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: DBDNABMNFAO
+// Name: NFBBOLGMJHK
 message ForgeQueueData {
-    uint32 queueId = 11;
+    uint32 queue_id = 5; // LFKLAHBIMHG
+    uint32 finish_count = 12; // ANEHHKAEKNL
     uint32 avatar_id = 13;
-    uint32 forge_id = 3;
-    uint32 unfinishCount = 6;
-    uint32 finishCount = 5;
-    uint32 nextFinishTimestamp = 2;
-    uint32 totalFinishTimestamp = 10;
+    uint32 forge_id = 14;
+    uint32 total_finish_timestamp = 11; // HANICBEMMJM
+    uint32 unfinish_count = 1; // EBFDNIFEKBN
+    uint32 next_finish_timestamp = 15; // JHCELCAALGH
 }
 

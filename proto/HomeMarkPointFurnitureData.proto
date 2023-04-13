@@ -6,7 +6,7 @@ import "HomeMarkPointNPCData.proto";
 import "HomeMarkPointSuiteData.proto";
 import "Vector.proto";
 
-// Name: BEAHFDOKHFA
+// Name: HNCPFKLDBIF
 message HomeMarkPointFurnitureData {
     uint32 guid = 1;
     uint32 furniture_id = 2;

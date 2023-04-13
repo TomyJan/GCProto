@@ -3,8 +3,8 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: CLCLGFMLOOG
+// Name: JGPAGHCFBOP
 message SalvageBundleChallengeInfo {
-    repeated uint32 finished_bundle_list = 13;
+    repeated uint32 finished_bundle_list = 10;
 }
 

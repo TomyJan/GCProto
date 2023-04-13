@@ -3,9 +3,9 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: EFIPINMIDDK
-// CmdId: 460
+// CmdId: 415
+// Name: GFCGMHBPLHC
 message GetParentQuestVideoKeyReq {
-    uint32 parent_quest_id = 11;
+    uint32 parent_quest_id = 4;
 }
 

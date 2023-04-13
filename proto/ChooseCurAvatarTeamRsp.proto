@@ -3,10 +3,10 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: HJOODMDEAGF
-// CmdId: 1625
+// CmdId: 1791
+// Name: FKFJKOEDCHL
 message ChooseCurAvatarTeamRsp {
-    uint32 cur_team_id = 13;
-    int32 retcode = 1;
+    uint32 cur_team_id = 3;
+    int32 retcode = 15;
 }
 

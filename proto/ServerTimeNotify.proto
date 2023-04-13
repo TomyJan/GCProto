@@ -3,9 +3,9 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: OJGHKIIHLIG
-// CmdId: 50
+// CmdId: 63
+// Name: FDLANFBPBIO
 message ServerTimeNotify {
-    uint64 server_time = 8;
+    uint64 server_time = 10;
 }
 

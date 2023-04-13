@@ -4,10 +4,10 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "BuyGoodsParam.proto";
 
-// Name: DCEKNGGFLJN
-// CmdId: 765
+// CmdId: 792
+// Name: HFFEKJIIFDG
 message BatchBuyGoodsReq {
     uint32 shop_type = 12;
-    repeated BuyGoodsParam buy_goods_list = 2;
+    repeated BuyGoodsParam buy_goods_list = 13;
 }
 

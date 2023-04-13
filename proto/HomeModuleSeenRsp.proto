@@ -3,10 +3,10 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: DKAKDEOOBBA
-// CmdId: 4507
+// CmdId: 4605
+// Name: ELBAMHIEJLG
 message HomeModuleSeenRsp {
-    int32 retcode = 11;
-    repeated uint32 seen_module_id_list = 1;
+    repeated uint32 seen_module_id_list = 11;
+    int32 retcode = 8;
 }
 

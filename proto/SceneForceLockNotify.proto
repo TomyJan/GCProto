@@ -3,9 +3,9 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: ABCBKINNGNF
-// CmdId: 226
+// CmdId: 235
+// Name: AHMGLHBPOGH
 message SceneForceLockNotify {
-    repeated uint32 force_id_list = 3;
+    repeated uint32 force_id_list = 11;
 }
 

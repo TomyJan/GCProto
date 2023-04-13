@@ -4,11 +4,11 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "Vector.proto";
 
-// Name: OFLAJDNOKBM
-// CmdId: 302
+// CmdId: 374
+// Name: LJELJMOKMEJ
 message EvtAvatarSitDownNotify {
-    uint32 entity_id = 12;
-    uint64 chair_id = 11;
-    Vector position = 5;
+    uint32 entity_id = 9;
+    uint64 chair_id = 1;
+    Vector position = 15;
 }
 

@@ -3,11 +3,11 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: IHAMDEJMOKK
-// CmdId: 444
+// CmdId: 486
+// Name: LNJDHHKEHBB
 message QuestDestroyNpcRsp {
-    uint32 parent_quest_id = 5;
-    uint32 npc_id = 3;
-    int32 retcode = 1;
+    int32 retcode = 8;
+    uint32 parent_quest_id = 14;
+    uint32 npc_id = 15;
 }
 

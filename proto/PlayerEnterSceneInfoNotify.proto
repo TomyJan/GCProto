@@ -6,13 +6,13 @@ import "AvatarEnterSceneInfo.proto";
 import "MPLevelEntityInfo.proto";
 import "TeamEnterSceneInfo.proto";
 
-// Name: JDKFMLDEKMO
-// CmdId: 289
+// CmdId: 291
+// Name: PDMODFFJAGA
 message PlayerEnterSceneInfoNotify {
-    repeated AvatarEnterSceneInfo avatar_enter_info = 10;
-    uint32 enter_scene_token = 9;
-    TeamEnterSceneInfo team_enter_info = 15;
-    uint32 cur_avatar_entity_id = 6;
-    MPLevelEntityInfo mp_level_entity_info = 4;
+    repeated AvatarEnterSceneInfo avatar_enter_info = 12;
+    uint32 cur_avatar_entity_id = 4;
+    MPLevelEntityInfo mp_level_entity_info = 9;
+    TeamEnterSceneInfo team_enter_info = 7;
+    uint32 enter_scene_token = 8;
 }
 

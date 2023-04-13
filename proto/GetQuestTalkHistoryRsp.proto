@@ -3,11 +3,11 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: MMOIOJJOHGJ
-// CmdId: 465
+// CmdId: 492
+// Name: DNJJKDAHJEL
 message GetQuestTalkHistoryRsp {
-    int32 retcode = 14;
-    uint32 parent_quest_id = 9;
-    repeated uint32 talk_id_list = 5;
+    repeated uint32 talk_id_list = 3;
+    uint32 parent_quest_id = 5;
+    int32 retcode = 13;
 }
 

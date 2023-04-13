@@ -4,9 +4,9 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "PlayerLocationInfo.proto";
 
-// Name: ICLKJAFLECK
+// Name: OGOGMKJEFGO
 message PlayerWorldLocationInfo {
-    uint32 scene_id = 3;
-    PlayerLocationInfo player_loc = 2;
+    uint32 scene_id = 14;
+    PlayerLocationInfo player_loc = 3;
 }
 

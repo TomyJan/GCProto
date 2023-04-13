@@ -3,8 +3,8 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: ODFEGOJADOK
-// CmdId: 2116
+// CmdId: 2044
+// Name: FAJCGNIBCDO
 message GetActivityInfoReq {
     repeated uint32 activity_id_list = 3;
 }

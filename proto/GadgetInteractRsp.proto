@@ -5,13 +5,13 @@ option java_package = "emu.grasscutter.net.proto";
 import "InteractType.proto";
 import "InterOpType.proto";
 
-// Name: OHCKMKAKEHO
-// CmdId: 875
+// CmdId: 896
+// Name: NMBFBOFBOHD
 message GadgetInteractRsp {
-    int32 retcode = 14;
-    uint32 gadget_id = 13;
-    InterOpType op_type = 10;
+    InterOpType op_type = 2;
+    int32 retcode = 7;
+    uint32 gadget_id = 8;
+    InteractType interact_type = 4;
     uint32 gadget_entity_id = 15;
-    InteractType interact_type = 6;
 }
 

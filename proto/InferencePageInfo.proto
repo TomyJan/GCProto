@@ -4,8 +4,9 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "InfernceWordInfo.proto";
 
-// Name: FNKNODGIEOH
+// Name: FNFOEMFBKFF
 message InferencePageInfo {
-    repeated InfernceWordInfo unlock_word_list = 8;
-    uint32 page_id = 5;
+    uint32 page_id = 2;
+    repeated InfernceWordInfo unlock_word_list = 15;
 }
+

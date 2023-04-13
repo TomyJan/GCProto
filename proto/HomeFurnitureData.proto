@@ -4,11 +4,13 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "Vector.proto";
 
+// Name: HCCCNFFCBGN
 message HomeFurnitureData {
-	uint32 version = 1;
-    int32 parentFurnitureIndex = 4;
-    Vector spawnRot = 6;
-    uint32 furniture_id = 7;
-    uint32 guid = 8;
-    Vector spawn_pos = 13;
+    uint32 furniture_id = 10;
+    Vector spawn_rot = 15;
+    int32 parent_furniture_index = 11;
+    Vector spawn_pos = 6;
+    uint32 version = 13;
+    uint32 guid = 3;
 }
+

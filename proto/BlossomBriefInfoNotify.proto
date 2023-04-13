@@ -4,9 +4,9 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "BlossomBriefInfo.proto";
 
-// Name: NJPBNLDFKIJ
-// CmdId: 2754
+// CmdId: 2789
+// Name: PIGNHADKHPI
 message BlossomBriefInfoNotify {
-    repeated BlossomBriefInfo brief_info_list = 8;
+    repeated BlossomBriefInfo brief_info_list = 6;
 }
 

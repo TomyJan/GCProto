@@ -3,8 +3,8 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: MPOCFLCPFGO
-// CmdId: 82
+// CmdId: 72
+// Name: DHENDNHBLNA
 message GetOnlinePlayerListReq {
 }
 

@@ -7,10 +7,11 @@ import "AvatarExcelInfo.proto";
 import "AvatarExpeditionState.proto";
 import "AvatarFetterInfo.proto";
 import "AvatarSkillInfo.proto";
+import "PGHIDDKHGAL.proto";
 import "PropValue.proto";
 import "TrialAvatarInfo.proto";
 
-// Name: FBDKBKEHACB
+// Name: PKDOAJEGHLP
 message AvatarInfo {
     uint32 avatar_id = 1;
     uint64 guid = 2;
@@ -30,7 +31,7 @@ message AvatarInfo {
     map<uint32, uint32> proud_skill_extra_level_map = 17;
     bool is_focus = 18;
     uint32 avatar_type = 19;
-    repeated uint32 team_resonance_list = 20;
+    repeated uint32 equip_id_list = 20;
     uint32 wearing_flycloak_id = 21;
     repeated AvatarEquipAffixInfo equip_affix_list = 22;
     uint32 born_time = 23;
@@ -38,5 +39,6 @@ message AvatarInfo {
     uint32 costume_id = 25;
     AvatarExcelInfo excel_info = 26;
     uint32 anim_hash = 27;
+    PGHIDDKHGAL NLNIALFHOBH = 28;
 }
 

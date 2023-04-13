@@ -3,7 +3,7 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: HILFJKMBAOA
+// Name: CNCIMIAOHLE
 enum SalesmanStatusType {
     SALESMAN_STATUS_NONE = 0;
     SALESMAN_STATUS_UNSTARTED = 1;

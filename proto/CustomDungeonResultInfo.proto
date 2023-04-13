@@ -5,15 +5,15 @@ option java_package = "emu.grasscutter.net.proto";
 import "ChallengeBrief.proto";
 import "CustomDungeonFinishType.proto";
 
-// Name: KFPODEKAIIB
+// Name: KFHEKHMOBEC
 message CustomDungeonResultInfo {
-    bool EBDMFAMBJNG = 9;
-    CustomDungeonFinishType finish_type = 1;
-    uint32 got_coin_num = 2;
-    bool is_arrive_finish = 12;
-    bool JNDPMPEBPIK = 8;
-    uint32 time_cost = 13;
+    bool OBLLPOAMFKN = 1;
+    uint32 got_coin_num = 11;
+    CustomDungeonFinishType finish_type = 5;
+    uint32 time_cost = 8;
+    repeated ChallengeBrief child_challenge_list = 12;
+    bool OONBJGKALAO = 6;
     uint64 dungeon_guid = 14;
-    repeated ChallengeBrief child_challenge_list = 15;
+    bool DEAPGFHKJIJ = 4;
 }
 

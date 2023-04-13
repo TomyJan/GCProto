@@ -3,9 +3,9 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: EFPKBNLHIBC
-// CmdId: 2482
+// CmdId: 2472
+// Name: BHBFGMDJLLI
 message TowerAllDataReq {
-    bool is_interact = 1;
+    bool is_interact = 7;
 }
 

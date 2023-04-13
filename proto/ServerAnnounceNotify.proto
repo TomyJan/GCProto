@@ -4,9 +4,9 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "AnnounceData.proto";
 
-// Name: CPNKOEAMHKE
-// CmdId: 2073
+// CmdId: 2097
+// Name: EIEMLGGBNAI
 message ServerAnnounceNotify {
-    repeated AnnounceData announce_data_list = 9;
+    repeated AnnounceData announce_data_list = 2;
 }
 

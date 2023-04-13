@@ -3,10 +3,10 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: GHBBGOLDLCL
+// Name: FOOAJGJJBKP
 message ActivityShopSheetInfo {
-    uint32 end_time = 8;
-    uint32 sheet_id = 10;
-    uint32 begin_time = 7;
+    uint32 end_time = 10;
+    uint32 sheet_id = 3;
+    uint32 begin_time = 8;
 }
 

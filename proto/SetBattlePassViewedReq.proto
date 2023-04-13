@@ -3,9 +3,9 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: OCKLLDMFEME
-// CmdId: 2601
+// CmdId: 2631
+// Name: KJKIDBGCDHH
 message SetBattlePassViewedReq {
-    uint32 schedule_id = 14;
+    uint32 schedule_id = 12;
 }
 

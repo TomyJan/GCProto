@@ -3,10 +3,10 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: FABJDIPEMDE
-// CmdId: 685
+// CmdId: 647
+// Name: GGFMFJKHFOP
 message CheckAddItemExceedLimitNotify {
-    // Name: ONKIMGOMOEL
+    // Name: EIBIGOBHMLH
     enum ItemExceedLimitMsgType {
         ITEM_EXCEED_LIMIT_MSG_DEFAULT = 0;
         ITEM_EXCEED_LIMIT_MSG_TEXT = 1;
@@ -14,10 +14,10 @@ message CheckAddItemExceedLimitNotify {
         ITEM_EXCEED_LIMIT_MSG_DIALOG_NONBLOCK = 3;
     }
 
-    uint32 reason = 6;
-    repeated uint32 NPLFIOFPAKH = 2;
-    ItemExceedLimitMsgType msg_type = 10;
-    bool is_drop = 15;
-    repeated uint32 DNJDACFOEJA = 1;
+    ItemExceedLimitMsgType msg_type = 8;
+    repeated uint32 IEKDCIFFABE = 7;
+    bool is_drop = 14;
+    uint32 reason = 4;
+    repeated uint32 DKMOFJKMINH = 15;
 }
 

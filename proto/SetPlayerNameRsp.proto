@@ -3,10 +3,10 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: APBIIDALOBA
-// CmdId: 119
+// CmdId: 177
+// Name: LGJJFJBCBIE
 message SetPlayerNameRsp {
-    int32 retcode = 15;
-    string nick_name = 14;
+    string nick_name = 8;
+    int32 retcode = 13;
 }
 

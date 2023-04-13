@@ -3,9 +3,9 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: FEPIDEJLGBA
-// CmdId: 129
+// CmdId: 199
+// Name: BGHONDPPLBN
 message SetPlayerPropRsp {
-    int32 retcode = 3;
+    int32 retcode = 6;
 }
 

@@ -3,7 +3,7 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: MNNNCKCAGLP
+// Name: ONINAMINFAL
 message Uint32Pair {
     uint32 key = 1;
     uint32 value = 2;

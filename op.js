@@ -4,9 +4,10 @@ const fs = require("fs");
 const readline = require("readline");
 
 // cmdid current version
+const read_cmdid_last = "cmdid_last.csv";
 const read_cmdid = "cmdid.csv";
 const read_cmdid_output = "cmdid.json";
-const read_cmdid_ht_output = "cmdid_ht_35.json";
+const read_cmdid_ht_output = "cmdid_ht_36.json";
 const read_cmdid_output_gc = "cmdid_gc.json";
 const read_cmdid_output_gc_update = "cmdid_gc_update.json";
 const read_cmdid_output_gc_nofound = "cmdid_gc_nofound.json";
@@ -140,6 +141,7 @@ var data_gc_cmdid_nofound = [];
 
 var check_dunp_id = [];
 function update_cmdid_gc() {
+  let melon = "";
   // cmdid_gc.json (read_cmdid_output_gc) and cmdid.json (read_cmdid_output)
 
   const json_cmdid_last = read_json(read_cmdid_output);
@@ -169,6 +171,8 @@ function update_cmdid_gc() {
       data_gc_cmdid_nofound.push(s);
       nofound_cmdid_new++;
     }
+
+    melon += `${name},${id}\n`;
 
     // find dump by id
     /*
@@ -239,6 +243,14 @@ function update_cmdid_gc() {
       " | noneed rename " +
       noneed_rename_name_cmdid
   );
+
+ // const csvRows = Object.entries(read_cmdid_output_gc_update).map(([name, id]) => `${name},${id}`);
+
+
+
+//  const csvData = csvRows.join("\n");
+
+  fs.writeFileSync(read_cmdid_last, melon);
 
   save_json(json_cmdid_old, read_cmdid_output_gc_update);
   save_json(data_gc_cmdid_nofound, read_cmdid_output_gc_nofound);
@@ -701,6 +713,9 @@ function clean_proto_gen_v2() {
 
     // Use regular expressions to extract the desired part
     const match = fileName.match(/^(.*)\.proto$/);
+    if (match == null) {
+      return;
+    }
     const messageName = match[1];
 
     // Check if the string is all uppercase
@@ -794,7 +809,6 @@ function clean_proto_event() {
   //console.log(rd);
 
   while ((m = regex_import.exec(rd)) !== null) {
-
     // This is necessary to avoid infinite loops with zero-width matches
     if (m.index === regex_import.lastIndex) {
       regex_import.lastIndex++;
@@ -857,6 +871,117 @@ function clean_proto_event() {
   );
 }
 
+function clean_proto_event_v2() {
+  var torequire = [
+    "ParamList",
+    "StrengthenPointData",
+    "TowerLevelEndNotify",
+    "TrialAvatarFirstPassDungeonNotify",
+  ];
+
+  var filedonotdelete = [];
+
+  let dir = "./proto";
+  let file = "./proto/DungeonSettleNotify.proto";
+
+  var rd;
+
+  const files = getAllFiles(dir);
+
+  // read file
+  try {
+    const read = fs.readFileSync(file);
+    rd = read.toString();
+  } catch (error) {
+    console.log(error);
+    return;
+  }
+
+  //console.log(rd);
+
+  while ((m = regex_import.exec(rd)) !== null) {
+    // This is necessary to avoid infinite loops with zero-width matches
+    if (m.index === regex_import.lastIndex) {
+      regex_import.lastIndex++;
+    }
+
+    // The result can be accessed through the `m`-variable.
+    m.forEach((match, groupIndex) => {
+      // only index 1 grup
+      if (groupIndex == 1) {
+        //console.log(`t: ${match}`);
+
+        var found_rt = torequire.find((j) => j === match);
+        if (found_rt) {
+          //console.log(`Skip ${match}`);
+        } else {
+          //console.log(`add ${match}`);
+          var sub = find_import(dir + "/" + match + ".proto");
+          //console.log(sub);
+          if (sub) {
+            sub.forEach(function (k) {
+              var v = torequire.find((j) => j === k);
+              if (!v) {
+                torequire.push(k);
+              }
+            });
+          }
+          filedonotdelete.push(match);
+          torequire.push(match);
+        }
+      }
+    });
+  }
+
+  console.log(filedonotdelete);
+
+  // last
+  files.forEach(function (file) {
+    var name_file = path.parse(file).name;
+    var toskip = filedonotdelete.find((j) => name_file === j);
+    if (toskip) {
+      found_needclean++;
+      console.log(name_file);
+      try {
+        fs.unlinkSync(file);
+        console.log("Remove file: " + file);
+        //file removed
+      } catch (err) {
+        //console.error(err);
+      }
+    } else {
+      found_noclean++;
+      //console.log("skip "+name_file);
+    }
+  });
+
+  console.log(
+    "No clean: " +
+      found_noclean +
+      " | Need to clean: " +
+      found_needclean +
+      " | Related " +
+      found_maybe_related
+  );
+}
+
+function cmdid_json_to_csv() {
+  // read_cmdid_last
+  const k = read_json(read_cmdid_ht_output);
+  //console.log(k);
+
+  const csvHeaders = "ID,Name\n";
+
+  const csvRows = Object.entries(k).map(([name, id]) => `${name},${id}`);
+
+  const csvData = csvRows.join("\n");
+
+  fs.writeFileSync(read_cmdid_last, csvData);
+
+  console.log("CSV file written successfully");
+}
+
+//cmdid_json_to_csv();
 // Update GC Proto
 // get_cmdid_gc(); // 1. get cmd old gc
 // read_cmdid_ht_json(); // 2 or
@@ -866,6 +991,9 @@ function clean_proto_event() {
 // cmdid_to_op(); // 4. update op
 // npx prettier --write PacketOpcodes.java
 // scan_gc(); // 5. scan gc
+// clean_proto_event(); // 6. clean event, need manual
 // clean_proto_gen(); // 6. clean proto
 // clean_proto_gen_v2();
-// clean_proto_event();
+
+// TODO: clean DungeonSettleNotify
+// clean_proto_event_v2();

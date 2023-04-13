@@ -5,7 +5,7 @@ option java_package = "emu.grasscutter.net.proto";
 import "MpSettingType.proto";
 import "ProfilePicture.proto";
 
-// Name: DFNGPIGNBJJ
+// Name: GEKCCHCJMPC
 message OnlinePlayerInfo {
     uint32 uid = 1;
     string nickname = 2;

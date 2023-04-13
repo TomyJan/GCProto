@@ -4,11 +4,11 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "FriendEnterHomeOption.proto";
 
-// Name: EBFJBGCKDKC
+// Name: MBGAMHAPMHK
 message PlayerHomeCompInfo {
-    FriendEnterHomeOption friend_enter_home_option = 9;
-    repeated uint32 seen_module_id_list = 5;
-    repeated uint32 levelupRewardGotLevelList = 15;
-    repeated uint32 unlockedModuleIdList = 11;
+    repeated uint32 seen_module_id_list = 4;
+    repeated uint32 unlocked_module_id_list = 5; // BPAOEFJJFPI
+    repeated uint32 levelup_reward_got_level_list = 2; // CKMGNKPLJPI
+    FriendEnterHomeOption friend_enter_home_option = 11;
 }
 

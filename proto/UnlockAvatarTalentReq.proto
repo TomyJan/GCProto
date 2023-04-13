@@ -3,10 +3,10 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: AODGPLLILEL
-// CmdId: 1067
+// CmdId: 1090
+// Name: EIIEBEFANNG
 message UnlockAvatarTalentReq {
-    uint32 talent_id = 10;
+    uint32 talent_id = 4;
     uint64 avatar_guid = 3;
 }
 

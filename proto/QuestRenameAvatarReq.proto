@@ -3,11 +3,11 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: GOOCOODBHLP
-// CmdId: 436
+// CmdId: 424
+// Name: OAOLFJEABPH
 message QuestRenameAvatarReq {
-    uint32 rename_id = 12;
-    bool is_check = 2;
-    string avatar_name = 14;
+    uint32 rename_id = 1;
+    string avatar_name = 11;
+    bool is_check = 14;
 }
 

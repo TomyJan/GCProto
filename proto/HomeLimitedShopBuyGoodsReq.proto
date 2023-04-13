@@ -4,10 +4,10 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "HomeLimitedShopGoods.proto";
 
-// Name: KIJPELEMEPN
-// CmdId: 4471
+// CmdId: 4867
+// Name: AMGABHMJHCA
 message HomeLimitedShopBuyGoodsReq {
-    uint32 buy_count = 14;
+    uint32 buy_count = 1;
     HomeLimitedShopGoods goods = 13;
 }
 

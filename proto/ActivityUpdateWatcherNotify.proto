@@ -4,10 +4,10 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "ActivityWatcherInfo.proto";
 
-// Name: PPOLCIAJKGN
-// CmdId: 2183
+// CmdId: 2108
+// Name: MMDEIBDCLBL
 message ActivityUpdateWatcherNotify {
-    uint32 activity_id = 15;
-    ActivityWatcherInfo watcher_info = 3;
+    ActivityWatcherInfo watcher_info = 7;
+    uint32 activity_id = 11;
 }
 

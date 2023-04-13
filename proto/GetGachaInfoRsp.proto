@@ -4,14 +4,14 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "GachaInfo.proto";
 
-// Name: JAKIOIAMJIJ
-// CmdId: 1575
+// CmdId: 1596
+// Name: BIKLLFLGCCA
 message GetGachaInfoRsp {
-    repeated GachaInfo gacha_info_list = 6;
-    int32 retcode = 13;
-    bool Unk3300_OHFMHIHJHPJ = 11;
-    bool Unk3300_HBILIAEIHNK = 1;
-    uint32 gachaRandom = 14;
-    uint32 dailyGachaTimes = 8;
+    repeated GachaInfo gacha_info_list = 9;
+    int32 retcode = 7;
+    uint32 dailyGachaTimes = 4; // PAHELCJNHAH
+    bool HFEKPDOKLDK = 15;
+    bool PKOIBFIOLAO = 6;
+    uint32 gachaRandom = 2; // PKPENDLDPKI
 }
 

@@ -6,7 +6,7 @@ import "Equip.proto";
 import "Furniture.proto";
 import "Material.proto";
 
-// Name: FOPGOIJCICK
+// Name: FKONGMBBBAN
 message Item {
     uint32 item_id = 1;
     uint64 guid = 2;

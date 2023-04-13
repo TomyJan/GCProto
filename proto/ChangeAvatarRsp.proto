@@ -3,11 +3,11 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: LMMCPAOPFJH
-// CmdId: 1689
+// CmdId: 1678
+// Name: LOGCABMLHCM
 message ChangeAvatarRsp {
-    uint64 cur_guid = 10;
-    int32 retcode = 2;
-    uint32 skill_id = 15;
+    int32 retcode = 8;
+    uint32 skill_id = 6;
+    uint64 cur_guid = 7;
 }
 

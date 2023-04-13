@@ -3,7 +3,7 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: KOMONGMKKND
+// Name: FAOKBIKHFGB
 message FightPropPair {
     uint32 prop_type = 1;
     float prop_value = 2;

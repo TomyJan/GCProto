@@ -3,8 +3,8 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: ILFGJLJBACE
-// CmdId: 161
+// CmdId: 182
+// Name: CECEPKGBFMG
 message DoSetPlayerBornDataNotify {
 }
 

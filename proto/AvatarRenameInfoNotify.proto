@@ -4,9 +4,9 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "AvatarRenameInfo.proto";
 
-// Name: KGEPLPDHBGI
-// CmdId: 1758
+// CmdId: 1783
+// Name: AGIMMGIIAEO
 message AvatarRenameInfoNotify {
-    repeated AvatarRenameInfo avatar_rename_list = 12;
+    repeated AvatarRenameInfo avatar_rename_list = 14;
 }
 

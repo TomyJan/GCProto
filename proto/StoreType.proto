@@ -3,7 +3,7 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: GGCMGFLFFPB
+// Name: MPBJOANOMOJ
 enum StoreType {
 	STORE_TYPE_NONE = 0;
 	STORE_TYPE_PACK = 1;

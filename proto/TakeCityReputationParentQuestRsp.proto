@@ -4,12 +4,12 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "ItemParam.proto";
 
-// Name: FOOGLNHHBCK
-// CmdId: 2872
+// CmdId: 2841
+// Name: LEIJECOECHD
 message TakeCityReputationParentQuestRsp {
-    repeated uint32 parent_quest_list = 4;
-    uint32 city_id = 9;
-    int32 retcode = 5;
-    repeated ItemParam item_list = 13;
+    repeated uint32 parent_quest_list = 14;
+    int32 retcode = 12;
+    repeated ItemParam item_list = 7;
+    uint32 city_id = 11;
 }
 

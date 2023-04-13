@@ -3,11 +3,11 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: HDNOGHLJFHJ
-// CmdId: 1007
+// CmdId: 1078
+// Name: PPGGAIJGNKM
 message AvatarSkillUpgradeReq {
-    uint32 avatarSkillId = 8;
-    uint32 avatar_guid = 4;
-    uint64 oldLevel = 9;
+    uint64 avatar_guid = 14;
+    uint32 avatar_skill_id = 7;
+    uint32 old_level = 15;
 }
 

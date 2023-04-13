@@ -3,11 +3,11 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: BPIDHOFHENA
-// CmdId: 631
+// CmdId: 660
+// Name: BJEJIEHPOPH
 message ReliquaryDecomposeReq {
-    uint32 target_count = 10;
-    repeated uint64 guid_list = 12;
-    uint32 config_id = 14;
+    repeated uint64 guid_list = 13;
+    uint32 config_id = 15;
+    uint32 target_count = 6;
 }
 

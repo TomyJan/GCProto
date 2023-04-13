@@ -3,10 +3,10 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: AEKPFNHFFJE
-// CmdId: 2174
+// CmdId: 2144
+// Name: HPBMFFNJHOC
 message FleurFairMusicGameStartRsp {
-    uint32 music_basic_id = 9;
-    int32 retcode = 1;
+    int32 retcode = 12;
+    uint32 music_basic_id = 1;
 }
 

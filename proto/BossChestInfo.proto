@@ -4,7 +4,7 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "WeeklyBossResinDiscountInfo.proto";
 
-// Name: CFMDIIMKKFP
+// Name: COGBGNFGPGI
 message BossChestInfo {
     uint32 monster_config_id = 1;
     uint32 resin = 2;

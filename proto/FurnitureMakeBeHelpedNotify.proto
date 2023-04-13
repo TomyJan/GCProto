@@ -5,10 +5,10 @@ option java_package = "emu.grasscutter.net.proto";
 import "FurnitureMakeBeHelpedData.proto";
 import "FurnitureMakeSlot.proto";
 
-// Name: KEFOLFJKDAG
-// CmdId: 4694
+// CmdId: 4881
+// Name: GCEOMBOEIEP
 message FurnitureMakeBeHelpedNotify {
-    FurnitureMakeBeHelpedData furniture_make_helped_data = 5;
-    FurnitureMakeSlot furniture_make_slot = 11;
+    FurnitureMakeBeHelpedData furniture_make_helped_data = 3;
+    FurnitureMakeSlot furniture_make_slot = 8;
 }
 

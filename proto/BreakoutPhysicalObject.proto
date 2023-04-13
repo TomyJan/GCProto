@@ -6,7 +6,7 @@ import "BreakoutBrickInfo.proto";
 import "BreakoutPhysicalObjectModifier.proto";
 import "BreakoutVector2.proto";
 
-// Name: GNMIBJGAHKL
+// Name: EAPLJCEIHNA
 message BreakoutPhysicalObject {
     uint32 id = 1;
     uint32 index = 2;

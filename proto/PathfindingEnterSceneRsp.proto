@@ -3,9 +3,9 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: CFMBMBBDLDE
-// CmdId: 2334
+// CmdId: 2356
+// Name: MHKMFCNKEJI
 message PathfindingEnterSceneRsp {
-    int32 retcode = 11;
+    int32 retcode = 6;
 }
 

@@ -3,9 +3,9 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: FGMDHBOGAHG
+// Name: BMCLBPGLLAJ
 message StrengthenPointData {
-    uint32 OBOMOEJEDHL = 6;
-    uint32 NHOPNOMIDEF = 2;
+    uint32 LGCKEPNPDJK = 15;
+    uint32 ILBMGBIEENL = 8;
 }
 

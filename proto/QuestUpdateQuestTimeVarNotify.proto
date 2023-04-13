@@ -3,10 +3,10 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: ENINJHFDLCC
-// CmdId: 488
+// CmdId: 473
+// Name: NAONNMAPDMD
 message QuestUpdateQuestTimeVarNotify {
-    map<uint32, uint32> time_var_map = 14;
-    uint32 parent_quest_id = 12;
+    uint32 parent_quest_id = 8;
+    map<uint32, uint32> time_var_map = 2;
 }
 

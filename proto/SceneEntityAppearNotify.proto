@@ -5,11 +5,11 @@ option java_package = "emu.grasscutter.net.proto";
 import "SceneEntityInfo.proto";
 import "VisionType.proto";
 
-// Name: GKMPEPIEDNK
-// CmdId: 234
+// CmdId: 256
+// Name: GIGOIBLMDHA
 message SceneEntityAppearNotify {
-    repeated SceneEntityInfo entity_list = 14;
-    uint32 param = 9;
-    VisionType appear_type = 5;
+    VisionType appear_type = 13;
+    repeated SceneEntityInfo entity_list = 6;
+    uint32 param = 15;
 }
 

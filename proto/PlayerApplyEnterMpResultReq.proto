@@ -3,10 +3,10 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: JHOENGLMPEF
-// CmdId: 1836
+// CmdId: 1815
+// Name: BAFPJDIIFJN
 message PlayerApplyEnterMpResultReq {
-    uint32 apply_uid = 2;
-    bool is_agreed = 4;
+    bool is_agreed = 14;
+    uint32 apply_uid = 9;
 }
 

@@ -4,8 +4,10 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "LanternRiteFireworksChallengeInfo.proto";
 
+// Name: AHGKMMHDLNC
 message LanternRiteFireworksStageInfo {
-	bool isOpen = 7;
-	repeated LanternRiteFireworksChallengeInfo exceededItemTypeList = 9;
-	uint32 stageId = 15;
+    repeated LanternRiteFireworksChallengeInfo challenge_info_list = 3;
+    uint32 stage_id = 5;
+    bool is_open = 7;
 }
+

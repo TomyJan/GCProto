@@ -4,10 +4,10 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "Vector.proto";
 
-// Name: PAKLNEDHMBL
 // CmdId: 633
+// Name: EFOOFNIDNMC
 message DropHintNotify {
-    Vector position = 14;
-    repeated uint32 item_id_list = 5;
+    Vector position = 6;
+    repeated uint32 item_id_list = 12;
 }
 

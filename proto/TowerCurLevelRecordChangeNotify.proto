@@ -4,9 +4,9 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "TowerCurLevelRecord.proto";
 
-// Name: PDBLNOEODKK
-// CmdId: 2454
+// CmdId: 2489
+// Name: DNLLHGCKDOC
 message TowerCurLevelRecordChangeNotify {
-    TowerCurLevelRecord cur_level_record = 9;
+    TowerCurLevelRecord cur_level_record = 7;
 }
 

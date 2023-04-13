@@ -4,15 +4,15 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "BonusOpActivityInfo.proto";
 
-// Name: POGIPAEBEHM
+// Name: EOOKEMINBGN
 message OpActivityInfo {
-    uint32 schedule_id = 6;
-    uint32 activity_id = 8;
-    uint32 begin_time = 7;
-    uint32 end_time = 10;
-    bool is_has_change = 15;
+    uint32 end_time = 2;
+    bool is_has_change = 6;
+    uint32 begin_time = 12;
+    uint32 schedule_id = 9;
+    uint32 activity_id = 11;
     oneof detail {
-        BonusOpActivityInfo bonus_info = 9;
+        BonusOpActivityInfo bonus_info = 5;
     }
 }
 

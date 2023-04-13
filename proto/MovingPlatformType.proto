@@ -3,7 +3,7 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: IILHKHMLOIA
+// Name: OKNINCMBNLI
 enum MovingPlatformType {
 	MOVING_PLATFORM_TYPE_NONE = 0;
 	MOVING_PLATFORM_TYPE_USE_CONFIG = 1;

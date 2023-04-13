@@ -4,9 +4,9 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "AvatarFetterInfo.proto";
 
-// Name: KKADAHCNCNG
-// CmdId: 1648
+// CmdId: 1695
+// Name: EJLLFPAADDN
 message AvatarFetterDataNotify {
-    map<uint64, AvatarFetterInfo> fetter_info_map = 8;
+    map<uint64, AvatarFetterInfo> fetter_info_map = 4;
 }
 

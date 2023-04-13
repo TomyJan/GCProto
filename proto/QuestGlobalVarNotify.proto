@@ -4,8 +4,8 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "QuestGlobalVar.proto";
 
-// Name: ABJNGHFNOGP
-// CmdId: 426
+// CmdId: 435
+// Name: OKMLFKDCPMD
 message QuestGlobalVarNotify {
     repeated QuestGlobalVar var_list = 4;
 }

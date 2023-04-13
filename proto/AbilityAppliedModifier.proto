@@ -6,7 +6,7 @@ import "AbilityAttachedModifier.proto";
 import "AbilityString.proto";
 import "ModifierDurability.proto";
 
-// Name: PAECICKHAKH
+// Name: IMAGPOMIMAG
 message AbilityAppliedModifier {
     int32 modifier_local_id = 1;
     uint32 parent_ability_entity_id = 2;

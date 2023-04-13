@@ -4,9 +4,9 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "HomeLimitedShopGoods.proto";
 
-// Name: EKNBJFLCGCH
-// CmdId: 4722
+// CmdId: 4751
+// Name: GJGLKOMDLJP
 message HomeLimitedShopInfoChangeNotify {
-    repeated HomeLimitedShopGoods goods_list = 3;
+    repeated HomeLimitedShopGoods goods_list = 2;
 }
 

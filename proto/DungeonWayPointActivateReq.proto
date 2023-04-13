@@ -3,9 +3,9 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: BEMKEMNHKGB
-// CmdId: 982
+// CmdId: 972
+// Name: MJBBKGDBNJF
 message DungeonWayPointActivateReq {
-    uint32 way_point_id = 1;
+    uint32 way_point_id = 14;
 }
 

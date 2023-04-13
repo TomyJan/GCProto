@@ -4,11 +4,11 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "CutSceneExtraParam.proto";
 
-// Name: OPILHNEICML
-// CmdId: 295
+// CmdId: 261
+// Name: CBPCIBPLELE
 message CutSceneBeginNotify {
-    bool is_wait_others = 12;
-    uint32 cutscene_id = 10;
-    repeated CutSceneExtraParam extra_param_list = 7;
+    uint32 cutscene_id = 6;
+    bool is_wait_others = 7;
+    repeated CutSceneExtraParam extra_param_list = 3;
 }
 

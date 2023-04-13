@@ -3,11 +3,11 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: AALPIPNOICA
-// CmdId: 493
+// CmdId: 426
+// Name: KMIHBBDHIFF
 message GetParentQuestVideoKeyRsp {
-    uint32 parent_quest_id = 11;
-    uint64 video_key = 9;
-    int32 retcode = 1;
+    uint64 video_key = 3;
+    uint32 parent_quest_id = 8;
+    int32 retcode = 10;
 }
 

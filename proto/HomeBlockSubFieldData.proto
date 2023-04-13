@@ -2,11 +2,11 @@ syntax = "proto3";
 
 option java_package = "emu.grasscutter.net.proto";
 
-
-
 import "Vector.proto";
 
+// Name: INCOBHPDNFA
 message HomeBlockSubFieldData {
-	Vector rot = 6;
-	Vector pos = 11;
+    Vector pos = 7;
+    Vector rot = 5;
 }
+

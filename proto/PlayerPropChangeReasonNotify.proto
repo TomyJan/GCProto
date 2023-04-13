@@ -4,12 +4,12 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "PropChangeReason.proto";
 
-// Name: LDGFMPDHJMI
-// CmdId: 1250
+// CmdId: 1263
+// Name: ECKONOENIGF
 message PlayerPropChangeReasonNotify {
-    float cur_value = 15;
-    uint32 prop_type = 5;
-    float old_value = 13;
-    PropChangeReason reason = 4;
+    float cur_value = 13;
+    float old_value = 6;
+    uint32 prop_type = 7;
+    PropChangeReason reason = 3;
 }
 

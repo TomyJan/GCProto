@@ -4,11 +4,11 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "PlatformInfo.proto";
 
-// Name: EPGBBKFKDDP
-// CmdId: 245
+// CmdId: 232
+// Name: COHGDKEIGAM
 message PlatformStopRouteNotify {
-    PlatformInfo platform = 13;
-    uint32 entity_id = 6;
-    uint32 scene_time = 12;
+    uint32 scene_time = 6;
+    uint32 entity_id = 5;
+    PlatformInfo platform = 14;
 }
 

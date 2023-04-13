@@ -4,7 +4,7 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "RoutePoint.proto";
 
-// Name: LHFDFKFLLDA
+// Name: IHCFDBEPNMD
 message MonsterRoute {
     repeated RoutePoint route_points = 1;
     uint32 speed_level = 2;

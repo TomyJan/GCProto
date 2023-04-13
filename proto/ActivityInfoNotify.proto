@@ -4,9 +4,9 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "ActivityInfo.proto";
 
-// Name: BKCOKLBOIIF
-// CmdId: 2134
+// CmdId: 2186
+// Name: DMOCPEKHGHA
 message ActivityInfoNotify {
-    ActivityInfo activity_info = 9;
+    ActivityInfo activity_info = 12;
 }
 

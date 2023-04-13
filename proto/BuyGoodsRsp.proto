@@ -4,13 +4,13 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "ShopGoods.proto";
 
-// Name: ENKEADDAPDB
-// CmdId: 764
+// CmdId: 776
+// Name: OLNLFCGNJMH
 message BuyGoodsRsp {
+    ShopGoods goods = 9;
+    repeated ShopGoods goods_list = 15;
+    int32 retcode = 4;
     uint32 buy_count = 11;
-    uint32 shop_type = 9;
-    repeated ShopGoods goods_list = 5;
-    int32 retcode = 3;
-    ShopGoods goods = 2;
+    uint32 shop_type = 10;
 }
 

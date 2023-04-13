@@ -4,9 +4,9 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "BattlePassMission.proto";
 
-// Name: MBEPHADCLEE
-// CmdId: 2643
+// CmdId: 2616
+// Name: KOOPEIGFOEN
 message BattlePassMissionUpdateNotify {
-    repeated BattlePassMission mission_list = 13;
+    repeated BattlePassMission mission_list = 1;
 }
 

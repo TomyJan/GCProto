@@ -4,6 +4,6 @@ option java_package = "emu.grasscutter.net.proto";
 
 // Name: KBJIEJFLEPA
 message MaterialInfo {
-    uint32 count = 5;
-    uint64 guid = 7;
+    uint32 count = 3;
+    uint64 guid = 14;
 }

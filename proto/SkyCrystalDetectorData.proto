@@ -4,11 +4,11 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "Vector.proto";
 
-// Name: NEOMIACADNF
+// Name: MEDHAFCLIHB
 message SkyCrystalDetectorData {
-    Vector hint_center_pos = 12;
-    uint32 group_id = 7;
-    uint32 config_id = 14;
-    bool is_hint_valid = 6;
+    uint32 group_id = 9;
+    uint32 config_id = 13;
+    bool is_hint_valid = 5;
+    Vector hint_center_pos = 4;
 }
 

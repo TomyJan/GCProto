@@ -4,10 +4,10 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "HomeResource.proto";
 
-// Name: PEPNHFLKBLG
-// CmdId: 4753
+// CmdId: 4687
+// Name: KOKKGGFLIGL
 message HomeResourceNotify {
-    HomeResource homeCoin = 5;
-    HomeResource fetterExp = 14;
+    HomeResource fetter_exp = 11;
+    HomeResource home_coin = 15;
 }
 

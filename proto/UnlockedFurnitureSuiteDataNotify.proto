@@ -3,10 +3,10 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: KLFABDIKOCB
-// CmdId: 4684
+// CmdId: 4857
+// Name: ECPIDCALIPC
 message UnlockedFurnitureSuiteDataNotify {
-    repeated uint32 furniture_suite_id_list = 15;
-    bool is_all = 1;
+    repeated uint32 furniture_suite_id_list = 14;
+    bool is_all = 13;
 }
 

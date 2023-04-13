@@ -3,13 +3,13 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: IFLPKKOCJCM
-// CmdId: 1091
+// CmdId: 1012
+// Name: NFAINKJCGNM
 message AvatarSkillUpgradeRsp {
-    uint32 avatarSkillId = 12;
-    uint64 avatar_guid = 3;
-    uint32 oldLevel = 7;
-    uint32 curLevel = 5;
-    int32 retcode = 15;
+    uint32 avatar_skill_id = 7;
+    uint64 avatar_guid = 13;
+    uint32 old_level = 1;
+    int32 retcode = 6;
+    uint32 cur_level = 11;
 }
 

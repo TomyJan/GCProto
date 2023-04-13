@@ -4,10 +4,10 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "WinterCampAcceptItemResultInfo.proto";
 
-// Name: KIOEDAAHHFP
-// CmdId: 8374
+// CmdId: 8018
+// Name: JPIOJPILOCF
 message WinterCampAcceptGiveItemRsp {
-    WinterCampAcceptItemResultInfo accept_item_result_info = 10;
-    int32 retcode = 12;
+    int32 retcode = 3;
+    WinterCampAcceptItemResultInfo accept_item_result_info = 11;
 }
 

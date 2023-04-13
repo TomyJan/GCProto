@@ -3,10 +3,10 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: LDNEKLCGAIE
-// CmdId: 1491
+// CmdId: 1412
+// Name: GODOJLFLCGL
 message ChangeMailStarNotify {
-    repeated uint32 mail_id_list = 6;
-    bool is_star = 10;
+    repeated uint32 mail_id_list = 9;
+    bool is_star = 14;
 }
 

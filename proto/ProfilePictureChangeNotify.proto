@@ -4,9 +4,9 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "ProfilePicture.proto";
 
-// Name: PJBKOMCLMJJ
-// CmdId: 4043
+// CmdId: 4037
+// Name: HOJEGAPGGNE
 message ProfilePictureChangeNotify {
-    ProfilePicture profile_picture = 10;
+    ProfilePicture profile_picture = 9;
 }
 

@@ -4,15 +4,15 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "AddNoGachaAvatarCardTransferItem.proto";
 
-// Name: OKJGBFHLEIK
-// CmdId: 1787
+// CmdId: 1764
+// Name: EJAJCEIMPGO
 message AddNoGachaAvatarCardNotify {
-    uint32 reason = 3;
+    uint32 reason = 15;
+    repeated AddNoGachaAvatarCardTransferItem transfer_item_list = 12;
+    uint32 initial_promote_level = 5;
+    uint32 item_id = 2;
+    uint32 avatar_id = 4;
     uint32 initial_level = 14;
-    uint32 item_id = 15;
-    uint32 avatar_id = 1;
-    uint32 initial_promote_level = 4;
-    bool is_transfer_to_item = 9;
-    repeated AddNoGachaAvatarCardTransferItem transfer_item_list = 6;
+    bool is_transfer_to_item = 3;
 }
 

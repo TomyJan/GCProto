@@ -3,9 +3,9 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: FJDFAKJALPE
+// Name: PGIJOMGHNEA
 message GameplayRecommendationReliquaryMainPropData {
-    uint32 permillage = 10;
-    uint32 main_prop_id = 7;
+    uint32 main_prop_id = 11;
+    uint32 permillage = 12;
 }
 

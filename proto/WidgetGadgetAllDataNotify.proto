@@ -4,9 +4,9 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "WidgetGadgetData.proto";
 
-// Name: EDHIDALBDJA
-// CmdId: 4280
+// CmdId: 4288
+// Name: EBEGNJPHGMG
 message WidgetGadgetAllDataNotify {
-    repeated WidgetGadgetData widget_gadget_data = 5;
+    repeated WidgetGadgetData widget_gadget_data = 10;
 }
 

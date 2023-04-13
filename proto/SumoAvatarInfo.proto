@@ -3,9 +3,9 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: KBJAJFKCKGI
+// Name: LGLPAMOMGHI
 message SumoAvatarInfo {
-    bool is_trial = 13;
-    uint64 avatar_id = 10;
+    bool is_trial = 5;
+    uint64 avatar_id = 1;
 }
 

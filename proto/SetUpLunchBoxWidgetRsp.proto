@@ -4,10 +4,10 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "LunchBoxData.proto";
 
-// Name: BHEMFHAADAI
-// CmdId: 4289
+// CmdId: 4270
+// Name: KGFNKABPJMB
 message SetUpLunchBoxWidgetRsp {
-    int32 retcode = 13;
-    LunchBoxData lunch_box_data = 7;
+    int32 retcode = 14;
+    LunchBoxData lunch_box_data = 10;
 }
 

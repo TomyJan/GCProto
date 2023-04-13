@@ -5,7 +5,7 @@ option java_package = "emu.grasscutter.net.proto";
 import "MathQuaternion.proto";
 import "Vector.proto";
 
-// Name: BFLAAJGIKBG
+// Name: KMEPMNFPJFH
 message RoutePoint {
     Vector position = 1;
     float arrive_range = 2;

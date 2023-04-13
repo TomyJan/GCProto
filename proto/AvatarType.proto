@@ -3,7 +3,7 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: ECMNOHNCFLI
+// Name: FDOECABHIEL
 enum AvatarType {
     AVATAR_TYPE_NONE = 0;
     AVATAR_TYPE_FORMAL = 1;

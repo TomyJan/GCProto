@@ -3,9 +3,9 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: FPEHEANBFDJ
-// CmdId: 632
+// CmdId: 638
+// Name: JDPJOAOAIMC
 message SetIsAutoUnlockSpecificEquipRsp {
-    int32 retcode = 7;
+    int32 retcode = 8;
 }
 

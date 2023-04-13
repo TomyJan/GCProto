@@ -3,7 +3,7 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: NCCFFEPPCHN
+// Name: DPDLJODAKKL
 enum ChallengeFinishType {
     CHALLENGE_FINISH_TYPE_NONE = 0;
     CHALLENGE_FINISH_TYPE_FAIL = 1;

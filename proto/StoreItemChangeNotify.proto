@@ -5,10 +5,10 @@ option java_package = "emu.grasscutter.net.proto";
 import "Item.proto";
 import "StoreType.proto";
 
-// Name: JLFKGLMLFHC
-// CmdId: 654
+// CmdId: 689
+// Name: KAMNCMHFHKA
 message StoreItemChangeNotify {
-    StoreType store_type = 1;
-    repeated Item item_list = 3;
+    repeated Item item_list = 4;
+    StoreType store_type = 3;
 }
 

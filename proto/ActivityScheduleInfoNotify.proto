@@ -4,10 +4,10 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "ActivityScheduleInfo.proto";
 
-// Name: KEDKIAAFGKO
-// CmdId: 2068
+// CmdId: 2020
+// Name: OIIEMAPPMNO
 message ActivityScheduleInfoNotify {
-    uint32 remain_fly_sea_lamp_num = 12;
-    repeated ActivityScheduleInfo activity_schedule_list = 11;
+    uint32 remain_fly_sea_lamp_num = 7;
+    repeated ActivityScheduleInfo activity_schedule_list = 3;
 }
 

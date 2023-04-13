@@ -5,7 +5,7 @@ option java_package = "emu.grasscutter.net.proto";
 import "AbilitySyncStateInfo.proto";
 import "EntityRendererChangedInfo.proto";
 
-// Name: NCCBAHIEMNM
+// Name: JEOEDBOGIAG
 message SceneWeaponInfo {
     uint32 entity_id = 1;
     uint32 gadget_id = 2;

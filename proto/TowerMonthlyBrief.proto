@@ -3,11 +3,11 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-
-
+// Name: PFEKDHGCBPP
 message TowerMonthlyBrief {
-	uint32 bestLevelIndex = 11;
-	uint32 towerScheduleId = 7;
-	uint32 totalStarCount = 14;
-	uint32 bestFloorIndex = 8;
+    uint32 DPKOCIDIHEI = 12;
+    uint32 PLMIFICPLGM = 2;
+    uint32 HNOGBBLDHMH = 9;
+    uint32 IJHGFNOICOH = 1;
 }
+

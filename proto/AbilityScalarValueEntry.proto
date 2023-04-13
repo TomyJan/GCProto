@@ -5,7 +5,7 @@ option java_package = "emu.grasscutter.net.proto";
 import "AbilityScalarType.proto";
 import "AbilityString.proto";
 
-// Name: JHJPOIJGPEB
+// Name: JLEGECKKDKB
 message AbilityScalarValueEntry {
     AbilityString key = 1;
     AbilityScalarType value_type = 2;

@@ -3,11 +3,11 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: LKOBNFEHAFB
-// CmdId: 179
+// CmdId: 169
+// Name: IOFEFMEPAFP
 message ItemGivingRsp {
-    uint32 giving_group_id = 12;
+    uint32 giving_group_id = 9;
     int32 retcode = 6;
-    uint32 giving_id = 7;
+    uint32 giving_id = 2;
 }
 

@@ -2,13 +2,13 @@ syntax = "proto3";
 
 option java_package = "emu.grasscutter.net.proto";
 
-
-
 import "Vector.proto";
 
+// Name: CGKNAOGEEKA
 message HomeNpcData {
-	Vector spawnPos = 4;
-	uint32 costumeId = 13;
-	uint32 avatarId = 5;
-	Vector spawnRot = 6;
+    uint32 avatar_id = 8;
+    Vector spawn_pos = 13;
+    uint32 costume_id = 2;
+    Vector spawn_rot = 12;
 }
+

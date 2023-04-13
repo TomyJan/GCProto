@@ -4,9 +4,9 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "Item.proto";
 
-// Name: PBGEBLODBDC
-// CmdId: 842
+// CmdId: 865
+// Name: GDJHBFGHBOK
 message GadgetAutoPickDropInfoNotify {
-    repeated Item item_list = 14;
+    repeated Item item_list = 7;
 }
 

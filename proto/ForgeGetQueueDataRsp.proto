@@ -4,11 +4,11 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "ForgeQueueData.proto";
 
-// Name: BBHOPHBCLAE
-// CmdId: 658
+// CmdId: 643
+// Name: NDJNIINPNCE
 message ForgeGetQueueDataRsp {
-    uint32 max_queue_num = 2;
-    int32 retcode = 1;
-    map<uint32, ForgeQueueData> forge_queue_map = 9;
+    uint32 max_queue_num = 14;
+    int32 retcode = 5;
+    map<uint32, ForgeQueueData> forge_queue_map = 8;
 }
 

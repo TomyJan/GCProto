@@ -4,11 +4,11 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "ItemParam.proto";
 
-// Name: LNFPECLLAJF
-// CmdId: 2696
+// CmdId: 2699
+// Name: HKJFMELKBDM
 message TakeAchievementRewardRsp {
-    repeated ItemParam item_list = 5;
-    int32 retcode = 6;
-    repeated uint32 id_list = 1;
+    repeated ItemParam item_list = 10;
+    int32 retcode = 5;
+    repeated uint32 id_list = 14;
 }
 

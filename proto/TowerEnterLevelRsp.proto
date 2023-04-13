@@ -3,12 +3,12 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: DPAKEHNNNMI
-// CmdId: 2407
+// CmdId: 2478
+// Name: PDANKGGIHNG
 message TowerEnterLevelRsp {
-    uint32 level_index = 9;
-    uint32 floor_id = 8;
-    int32 retcode = 2;
-    repeated uint32 tower_buff_id_list = 11;
+    repeated uint32 tower_buff_id_list = 7;
+    uint32 level_index = 5;
+    uint32 floor_id = 9;
+    int32 retcode = 1;
 }
 

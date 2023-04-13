@@ -7,7 +7,7 @@ import "AbilityAppliedModifier.proto";
 import "AbilityMixinRecoverInfo.proto";
 import "AbilityScalarValueEntry.proto";
 
-// Name: ONHDINIKADE
+// Name: OIEKIGIJIFH
 message AbilitySyncStateInfo {
     bool is_inited = 1;
     repeated AbilityScalarValueEntry dynamic_value_map = 2;

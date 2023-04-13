@@ -3,7 +3,7 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: EACNABDMBBF
+// Name: PAPLIDJPGCN
 message PropValue {
     uint32 type = 1;
     int64 val = 4;

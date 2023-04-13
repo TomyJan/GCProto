@@ -3,8 +3,8 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: HLACDMPPOAP
+// Name: LPNDMALNLNP
 message WeatherWizardData {
-    uint32 shield_value = 9;
+    uint32 shield_value = 7;
 }
 

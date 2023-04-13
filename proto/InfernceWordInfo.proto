@@ -2,11 +2,13 @@ syntax = "proto3";
 
 option java_package = "emu.grasscutter.net.proto";
 
-// Name: DPMDACEDALK
+
+// Name: FKGOBJOHHBL
 message InfernceWordInfo {
-    bool DFAGDIBEHOG = 3;
-    bool FNDNLMLPFAJ = 15;
-    uint32 unlock_by_word_id = 8;
+    bool MDPDECFIPAN = 11;
+    uint32 unlock_by_word_id = 1;
     uint32 word_id = 10;
-    bool GEHOIBMCJED = 9;
+    bool DJFAOPBHEAL = 4;
+    bool OPBALHEMOEE = 3;
 }
+

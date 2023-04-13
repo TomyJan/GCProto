@@ -3,8 +3,8 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: HNEDOEEAMMI
-// CmdId: 1567
+// CmdId: 1590
+// Name: AMHKOMFJCKN
 message GetGachaInfoReq {
 }
 

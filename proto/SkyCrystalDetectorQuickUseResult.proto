@@ -4,9 +4,9 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "SkyCrystalDetectorData.proto";
 
-// Name: JFMBHEPEIKA
+// Name: FNDNBGMCLDN
 message SkyCrystalDetectorQuickUseResult {
-    SkyCrystalDetectorData sky_crystal_detector_data = 14;
-    int32 retcode = 11;
+    int32 retcode = 5;
+    SkyCrystalDetectorData sky_crystal_detector_data = 6;
 }
 

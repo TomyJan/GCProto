@@ -3,11 +3,11 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: LOPIKENDPIA
+// Name: GFDMALDLDJM
 message SceneGalleryHomeSeekFurnitureInfo {
-    uint32 NEIJHFHFLDN = 9;
-    uint32 OPOHIONGHJE = 15;
-    uint32 KEFHNLLCANO = 4;
-    map<uint32, uint32> player_score_map = 14;
+    uint32 NJHPFPPGMHP = 4;
+    map<uint32, uint32> player_score_map = 15;
+    uint32 FOLBDGFAJHK = 14;
+    uint32 GPJDOAEHFGN = 8;
 }
 

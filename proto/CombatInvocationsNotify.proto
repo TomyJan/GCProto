@@ -4,9 +4,9 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "CombatInvokeEntry.proto";
 
-// Name: AGBJEGIMDLE
-// CmdId: 387
+// CmdId: 345
+// Name: CPPOJNOOJKB
 message CombatInvocationsNotify {
-    repeated CombatInvokeEntry invoke_list = 3;
+    repeated CombatInvokeEntry invoke_list = 13;
 }
 

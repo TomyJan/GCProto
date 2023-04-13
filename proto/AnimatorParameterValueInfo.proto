@@ -3,7 +3,7 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: NNHECDNAAAO
+// Name: GGDPCAPPPNF
 message AnimatorParameterValueInfo {
     uint32 para_type = 1;
     oneof paraVal {

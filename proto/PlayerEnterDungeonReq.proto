@@ -4,11 +4,11 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "DungeonEnterPosInfo.proto";
 
-// Name: GDNFLHKNFHC
-// CmdId: 954
+// CmdId: 989
+// Name: CJLIPEPDAHP
 message PlayerEnterDungeonReq {
-    uint32 point_id = 15;
-    DungeonEnterPosInfo enter_pos_info = 12;
-    uint32 dungeon_id = 4;
+    uint32 point_id = 12;
+    uint32 dungeon_id = 14;
+    DungeonEnterPosInfo enter_pos_info = 6;
 }
 

@@ -4,10 +4,10 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "AvatarEquipAffixInfo.proto";
 
-// Name: GDBEDIEBFFL
-// CmdId: 1666
+// CmdId: 1645
+// Name: ICFBBMJLJLA
 message AvatarEquipAffixStartNotify {
-    uint64 avatar_guid = 5;
-    AvatarEquipAffixInfo equip_affix_info = 10;
+    AvatarEquipAffixInfo equip_affix_info = 6;
+    uint64 avatar_guid = 7;
 }
 

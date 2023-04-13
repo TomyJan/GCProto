@@ -4,10 +4,10 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "MapMarkPoint.proto";
 
-// Name: CAFDCOCIHGK
-// CmdId: 3193
+// CmdId: 3050
+// Name: NACCCJOAAGP
 message MarkMapRsp {
-    int32 retcode = 15;
-    repeated MapMarkPoint mark_list = 13;
+    int32 retcode = 2;
+    repeated MapMarkPoint mark_list = 3;
 }
 

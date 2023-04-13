@@ -4,9 +4,9 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "UgcMusicTrack.proto";
 
-// Name: AMAEJCFDLLP
+// Name: GINOBGBGIGO
 message UgcMusicRecord {
-    uint32 music_id = 6;
-    repeated UgcMusicTrack music_track_list = 2;
+    repeated UgcMusicTrack music_track_list = 4;
+    uint32 music_id = 9;
 }
 

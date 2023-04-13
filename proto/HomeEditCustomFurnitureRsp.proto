@@ -4,10 +4,10 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "HomeCustomFurnitureInfo.proto";
 
-// Name: DHMEFOBCANK
-// CmdId: 4749
+// CmdId: 4755
+// Name: ECKDBAFOHGM
 message HomeEditCustomFurnitureRsp {
-    HomeCustomFurnitureInfo custom_furniture_info = 7;
-    int32 retcode = 10;
+    int32 retcode = 7;
+    HomeCustomFurnitureInfo custom_furniture_info = 9;
 }
 

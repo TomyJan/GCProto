@@ -3,10 +3,10 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: BKAPIOCCGGM
-// CmdId: 1611
+// CmdId: 1663
+// Name: FNGICMEGFEL
 message AvatarChangeCostumeReq {
-    uint32 costume_id = 7;
-    uint64 avatar_guid = 9;
+    uint32 costume_id = 12;
+    uint64 avatar_guid = 10;
 }
 

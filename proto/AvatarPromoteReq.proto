@@ -3,9 +3,9 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: GLAFOKOICGN
-// CmdId: 1799
+// CmdId: 1609
+// Name: BMOIDOOEEFB
 message AvatarPromoteReq {
-    uint64 guid = 8;
+    uint64 guid = 6;
 }
 

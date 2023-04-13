@@ -3,12 +3,12 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: DAMGJDHFMCA
-// CmdId: 1916
+// CmdId: 1924
+// Name: OHBGMLPFMDD
 message MarkTargetInvestigationMonsterNotify {
-    uint32 scene_id = 7;
-    uint32 monster_id = 5;
-    uint32 investigation_monster_id = 9;
-    uint32 group_id = 3;
+    uint32 group_id = 13;
+    uint32 scene_id = 15;
+    uint32 investigation_monster_id = 4;
+    uint32 monster_id = 8;
 }
 

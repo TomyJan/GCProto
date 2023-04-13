@@ -4,9 +4,9 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "ChatInfo.proto";
 
-// Name: BAIPCMEIMJF
-// CmdId: 5004
+// CmdId: 5039
+// Name: OLMKKFNGGEK
 message PrivateChatNotify {
-    ChatInfo chat_info = 4;
+    ChatInfo chat_info = 2;
 }
 

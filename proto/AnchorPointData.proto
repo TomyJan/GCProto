@@ -4,12 +4,12 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "Vector.proto";
 
-// Name: GBGELAPCNII
+// Name: DOHNFLCDCJP
 message AnchorPointData {
-    Vector pos = 1;
-    uint32 end_time = 9;
-    Vector rot = 6;
-    uint32 anchor_point_id = 5;
+    Vector rot = 1;
+    uint32 anchor_point_id = 9;
+    uint32 end_time = 10;
+    Vector pos = 2;
     uint32 scene_id = 15;
 }
 

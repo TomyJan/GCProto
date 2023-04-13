@@ -4,12 +4,12 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "Vector.proto";
 
-// Name: GPEJFGAELLO
-// CmdId: 874
+// CmdId: 839
+// Name: EMIMBIBNOKI
 message CreateVehicleReq {
-    Vector pos = 1;
-    uint32 scene_point_id = 9;
-    uint32 vehicle_id = 15;
-    Vector rot = 3;
+    Vector rot = 6;
+    uint32 scene_point_id = 12;
+    uint32 vehicle_id = 8;
+    Vector pos = 14;
 }
 

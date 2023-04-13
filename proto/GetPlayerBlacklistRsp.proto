@@ -4,10 +4,10 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "FriendBrief.proto";
 
-// Name: LKNDAKGIBIA
-// CmdId: 4071
+// CmdId: 4028
+// Name: FCACOLLBEIL
 message GetPlayerBlacklistRsp {
-    int32 retcode = 13;
-    repeated FriendBrief blacklist = 6;
+    repeated FriendBrief blacklist = 11;
+    int32 retcode = 5;
 }
 

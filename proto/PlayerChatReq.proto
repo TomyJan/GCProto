@@ -4,10 +4,10 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "ChatInfo.proto";
 
-// Name: NFIKNDINCMM
-// CmdId: 3125
+// CmdId: 3065
+// Name: EBEELCKAIEG
 message PlayerChatReq {
-    ChatInfo chat_info = 5;
-    uint32 channel_id = 15;
+    uint32 channel_id = 3;
+    ChatInfo chat_info = 7;
 }
 

@@ -2,15 +2,17 @@ syntax = "proto3";
 
 option java_package = "emu.grasscutter.net.proto";
 
-import "Vector.proto";
 import "PathStatusType.proto";
+import "Vector.proto";
 
-// Name: FKMNFJNKLOG
-// CmdId: 2375
+// CmdId: 2396
+// Name: HHMLOCBABMC
 message QueryPathRsp {
-    repeated Vector corners = 2;
-    PathStatusType query_status = 12;
-    int32 query_id = 7;
-    int32 retcode = 5;
+    // Name: AMHEPLPEHOG > PathStatusType
+
+    PathStatusType query_status = 5;
+    int32 query_id = 3;
+    repeated Vector corners = 1;
+    int32 retcode = 10;
 }
 

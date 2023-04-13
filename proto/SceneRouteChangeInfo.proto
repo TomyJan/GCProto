@@ -4,11 +4,11 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "RoutePointChangeInfo.proto";
 
-// Name: NFBAMPAFEIG
+// Name: KKDALGHGFLA
 message SceneRouteChangeInfo {
-    uint32 type = 12;
-    bool is_forward = 5;
-    uint32 route_id = 2;
-    repeated RoutePointChangeInfo point_list = 1;
+    uint32 route_id = 3;
+    repeated RoutePointChangeInfo point_list = 6;
+    uint32 type = 2;
+    bool is_forward = 14;
 }
 

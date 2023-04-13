@@ -4,11 +4,11 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "ProfilePicture.proto";
 
-// Name: FKFHNKPJGND
-// CmdId: 4061
+// CmdId: 4082
+// Name: MBKMBEIOGGC
 message SetPlayerHeadImageRsp {
-    ProfilePicture profile_picture = 10;
-    int32 retcode = 15;
-    uint32 avatar_id = 2;
+    ProfilePicture profile_picture = 6;
+    int32 retcode = 13;
+    uint32 avatar_id = 1;
 }
 

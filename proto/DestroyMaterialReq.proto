@@ -4,9 +4,9 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "MaterialInfo.proto";
 
-// Name: NNCOOJDHINJ
-// CmdId: 608
+// CmdId: 601
+// Name: FEGEABDMGFO
 message DestroyMaterialReq {
-    repeated MaterialInfo material_list = 12;
+    repeated MaterialInfo material_list = 8;
 }
 

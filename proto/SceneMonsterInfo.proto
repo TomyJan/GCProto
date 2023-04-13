@@ -8,7 +8,7 @@ import "MonsterRoute.proto";
 import "SceneFishInfo.proto";
 import "SceneWeaponInfo.proto";
 
-// Name: AJPMIFGBPCH
+// Name: CIBJHBFKKAN
 message SceneMonsterInfo {
     uint32 monster_id = 1;
     uint32 group_id = 2;

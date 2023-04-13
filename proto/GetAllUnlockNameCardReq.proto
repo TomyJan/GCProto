@@ -3,8 +3,8 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: LENJFAJPJBB
-// CmdId: 4046
+// CmdId: 4095
+// Name: LNGOAPEFMHH
 message GetAllUnlockNameCardReq {
 }
 

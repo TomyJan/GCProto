@@ -4,14 +4,14 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "PlayerDieType.proto";
 
-// Name: MCCKOEOAICJ
-// CmdId: 277
+// CmdId: 279
+// Name: GKOJHPIPBHO
 message WorldPlayerDieNotify {
-    PlayerDieType die_type = 4;
-    uint32 murderer_entity_id = 14;
+    PlayerDieType die_type = 15;
+    uint32 murderer_entity_id = 10;
     oneof entity {
-        uint32 monster_id = 15;
-        uint32 gadget_id = 3;
+        uint32 monster_id = 2;
+        uint32 gadget_id = 7;
     }
 }
 

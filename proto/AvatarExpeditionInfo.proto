@@ -4,7 +4,7 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "AvatarExpeditionState.proto";
 
-// Name: ANJOMJAFKNK
+// Name: FHMCMLOIGJB
 message AvatarExpeditionInfo {
     AvatarExpeditionState state = 1;
     uint32 exp_id = 2;

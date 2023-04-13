@@ -4,10 +4,10 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "WidgetSlotData.proto";
 
-// Name: AHNDODKDGHO
-// CmdId: 4266
+// CmdId: 4291
+// Name: FHLAOOICHDH
 message GetWidgetSlotRsp {
-    repeated WidgetSlotData slot_list = 11;
-    int32 retcode = 12;
+    repeated WidgetSlotData slot_list = 12;
+    int32 retcode = 8;
 }
 

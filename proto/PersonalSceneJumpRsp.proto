@@ -4,11 +4,11 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "Vector.proto";
 
-// Name: BNEDOJNHOBO
-// CmdId: 203
+// CmdId: 293
+// Name: IGBFEJEONIE
 message PersonalSceneJumpRsp {
-    uint32 dest_scene_id = 10;
-    Vector dest_pos = 2;
-    int32 retcode = 7;
+    uint32 dest_scene_id = 13;
+    Vector dest_pos = 4;
+    int32 retcode = 10;
 }
 

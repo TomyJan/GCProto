@@ -3,7 +3,7 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: EILHMHEJAPN
+// Name: IIINMHIAOCN
 enum PlatformType {
 	PLATFORM_TYPE_EDITOR = 0;
 	PLATFORM_TYPE_IOS = 1;

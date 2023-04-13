@@ -3,10 +3,10 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: NGIAHNHBFNJ
-// CmdId: 1207
+// CmdId: 1278
+// Name: MNBCEJBCJEH
 message MarkNewNotify {
-    uint32 mark_new_type = 13;
-    repeated uint32 id_list = 2;
+    uint32 mark_new_type = 2;
+    repeated uint32 id_list = 7;
 }
 

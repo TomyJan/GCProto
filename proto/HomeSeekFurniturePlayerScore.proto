@@ -4,9 +4,9 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "HomeGroupPlayerInfo.proto";
 
-// Name: OCCPCJJPICK
+// Name: PJIPFEBDAFF
 message HomeSeekFurniturePlayerScore {
-    HomeGroupPlayerInfo player_info = 14;
-    uint32 score = 13;
+    HomeGroupPlayerInfo player_info = 6;
+    uint32 score = 10;
 }
 

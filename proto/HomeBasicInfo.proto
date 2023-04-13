@@ -4,15 +4,15 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "HomeLimitedShopInfo.proto";
 
-// Name: KHJDJONHPEI
+// Name: NJAMABMAGCC
 message HomeBasicInfo {
-    uint32 level = 14;
-    uint64 exp = 8;
-    uint32 curRoomSceneId = 3;
-    string owner_nick_name = 7;
-    uint32 curModuleId = 2;
-    HomeLimitedShopInfo limitedShopInfo = 5;
-    uint32 homeOwnerUid = 6;
-    bool is_in_edit_mode = 9;
+    HomeLimitedShopInfo limited_shop_info = 2;
+    uint64 exp = 11;
+    string owner_nick_name = 9;
+    uint32 home_owner_uid = 5; // OCBCKIIJNFD
+    uint32 cur_module_id = 3; // KJEBPOOEKJG
+    uint32 level = 15;
+    bool is_in_edit_mode = 12;
+    uint32 cur_room_scene_id = 1; // DHJNNKOAPEA
 }
 

@@ -3,10 +3,10 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: OFDKCMBFMBP
-// CmdId: 4619
+// CmdId: 4826
+// Name: GHCLAJCOLDE
 message FurnitureMakeCancelReq {
-    uint32 index = 11;
-    uint32 make_id = 8;
+    uint32 make_id = 5;
+    uint32 index = 10;
 }
 

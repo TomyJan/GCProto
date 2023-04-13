@@ -2,8 +2,11 @@ syntax = "proto3";
 
 option java_package = "emu.grasscutter.net.proto";
 
+
+// Name: ENLKHNPEPCL
 message BattlePassProduct {
-	string normalProductId = 4;
-	string extraProductId = 14;
-	string upgradeProductId = 7;
+    string LCLGNDMDBPG = 13;
+    string DEFBKEGPICP = 10;
+    string GLEBBINJLCC = 7;
 }
+

@@ -3,10 +3,10 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: FCOCJOMDEDM
-// CmdId: 3070
+// CmdId: 3425
+// Name: LHGABNCEJMG
 message PlayerChatRsp {
-    int32 retcode = 1;
-    uint32 chat_forbidden_endtime = 10;
+    uint32 chat_forbidden_endtime = 2;
+    int32 retcode = 9;
 }
 

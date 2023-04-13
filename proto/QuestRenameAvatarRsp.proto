@@ -3,12 +3,12 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: CCANMHNJPMF
-// CmdId: 408
+// CmdId: 401
+// Name: DHBGNGAMFCK
 message QuestRenameAvatarRsp {
-    bool is_check = 11;
-    uint32 rename_id = 14;
-    string avatar_name = 12;
-    int32 retcode = 13;
+    uint32 rename_id = 10;
+    bool is_check = 8;
+    string avatar_name = 5;
+    int32 retcode = 14;
 }
 

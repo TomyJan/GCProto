@@ -3,8 +3,8 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: FDEBMOEJKIM
-// CmdId: 8866
+// CmdId: 8446
+// Name: GLAIMPCKKHB
 message WinterCampGetCanGiveFriendItemReq {
 }
 

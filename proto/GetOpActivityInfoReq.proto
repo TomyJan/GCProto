@@ -3,8 +3,8 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: LDOGPMKMIGL
-// CmdId: 5167
+// CmdId: 5190
+// Name: NBAOGEHPIAM
 message GetOpActivityInfoReq {
 }
 

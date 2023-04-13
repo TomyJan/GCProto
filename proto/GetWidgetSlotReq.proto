@@ -3,8 +3,8 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: OLHAOKGGNIC
-// CmdId: 4255
+// CmdId: 4258
+// Name: HCMHNCMNKIN
 message GetWidgetSlotReq {
 }
 

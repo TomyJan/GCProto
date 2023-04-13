@@ -4,9 +4,9 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "PlayerHomeCompInfo.proto";
 
-// Name: FAFABIGFAMI
-// CmdId: 4886
+// CmdId: 4617
+// Name: BFAIAEEOADP
 message PlayerHomeCompInfoNotify {
-    PlayerHomeCompInfo comp_info = 14;
+    PlayerHomeCompInfo comp_info = 2;
 }
 

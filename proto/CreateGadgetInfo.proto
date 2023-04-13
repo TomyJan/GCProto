@@ -4,9 +4,9 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "GadgetBornType.proto";
 
-// Name: GICHAGEMNME
+// Name: DMLOGFGNFCA
 message CreateGadgetInfo {
-    // Name: FHHMGJOLDLM
+    // Name: ACFOEFOCAOB
     message Chest {
         uint32 chest_drop_id = 1;
         bool is_show_cutscene = 2;

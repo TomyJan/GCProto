@@ -3,9 +3,9 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: KKCMIOGDBNF
-// CmdId: 255
+// CmdId: 221
+// Name: FBJNIGOFFBL
 message SeeMonsterReq {
-    uint32 monster_id = 3;
+    uint32 monster_id = 9;
 }
 

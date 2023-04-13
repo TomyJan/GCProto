@@ -4,9 +4,9 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "MaterialDeleteReturnType.proto";
 
-// Name: IDAIPDMLAOP
-// CmdId: 638
+// CmdId: 664
+// Name: BOFCLLGHIDM
 message TakeMaterialDeleteReturnReq {
-    MaterialDeleteReturnType type = 12;
+    MaterialDeleteReturnType type = 10;
 }
 

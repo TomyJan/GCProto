@@ -3,11 +3,11 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: ODNDKPCIPME
-// CmdId: 3118
+// CmdId: 3353
+// Name: LAMDJJOGEDA
 message GetWorldMpInfoRsp {
-    uint32 quit_mp_valid_time = 4;
-    int32 retcode = 15;
-    bool is_in_mp_mode = 7;
+    int32 retcode = 13;
+    bool is_in_mp_mode = 9;
+    uint32 quit_mp_valid_time = 11;
 }
 

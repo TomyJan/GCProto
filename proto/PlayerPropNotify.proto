@@ -4,9 +4,9 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "PropValue.proto";
 
-// Name: MLANEGFDFME
-// CmdId: 107
+// CmdId: 178
+// Name: PNDKKEIJPPN
 message PlayerPropNotify {
-    map<uint32, PropValue> prop_map = 6;
+    map<uint32, PropValue> prop_map = 3;
 }
 

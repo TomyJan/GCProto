@@ -3,10 +3,10 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: OPFCDCANIBF
-// CmdId: 144
+// CmdId: 186
+// Name: GBJPMDHMOGG
 message SetOpenStateReq {
+    uint32 key = 3;
     uint32 value = 14;
-    uint32 key = 6;
 }
 

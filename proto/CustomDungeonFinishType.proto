@@ -3,7 +3,7 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: IKPIMJPJJNH
+// Name: MNOIKAEJGOK
 enum CustomDungeonFinishType {
     CUSTOM_DUNGEON_FINISH_PLAY_NORMAL = 0;
     CUSTOM_DUNGEON_FINISH_PLAY_TRY = 1;

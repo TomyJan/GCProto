@@ -3,10 +3,10 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: ADNPDOPLOGG
-// CmdId: 4084
+// CmdId: 4050
+// Name: PGPJPNEGENN
 message GetAllUnlockNameCardRsp {
-    int32 retcode = 7;
-    repeated uint32 name_card_list = 13;
+    repeated uint32 name_card_list = 15;
+    int32 retcode = 3;
 }
 

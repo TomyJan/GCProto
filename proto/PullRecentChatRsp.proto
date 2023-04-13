@@ -4,10 +4,10 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "ChatInfo.proto";
 
-// Name: OHFNDIHBDEN
-// CmdId: 5015
+// CmdId: 5042
+// Name: IGDEALHCKMC
 message PullRecentChatRsp {
-    int32 retcode = 2;
-    repeated ChatInfo chat_info = 11;
+    int32 retcode = 13;
+    repeated ChatInfo chat_info = 5;
 }
 

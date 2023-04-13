@@ -2,11 +2,14 @@ syntax = "proto3";
 
 option java_package = "emu.grasscutter.net.proto";
 
+
+// Name: GADICHLBHOI
 message FurnitureMakeData {
-    uint32 avatar_id = 5;
-    uint32 begin_time = 3;
-    uint32 durTime = 15;
-    uint32 accelerateTime = 6;
-    uint32 index = 12;
-    uint32 make_id = 4;
+    fixed32 begin_time = 9;
+    uint32 dur_time = 7;
+    fixed32 accelerate_time = 14;
+    uint32 avatar_id = 11;
+    uint32 make_id = 5;
+    uint32 index = 13;
 }
+

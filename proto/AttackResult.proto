@@ -7,37 +7,37 @@ import "AttackHitEffectResult.proto";
 import "HitCollision.proto";
 import "Vector.proto";
 
-// Name: PKHKLDLFMBJ
+// Name: NGGFPHHAEOH
 message AttackResult {
-    uint32 LLFAEOGLJEG = 877;
-    AbilityIdentifier ability_identifier = 8;
-    uint32 MHBBBOPJCAJ = 620;
-    uint32 NNPPKMOBCJI = 1911;
-    uint32 AOOKFAELLCG = 384;
-    uint32 EOGBECEEHIB = 789;
-    uint32 DMPFJNNHEEL = 955;
-    bool NMANJCHGKNF = 1298;
-    float damage = 3;
-    bool CDKMJDNAOAC = 14;
-    float GCKKIKJLCKG = 1030;
-    uint32 GFAODFMIIIB = 278;
-    float AEIPHPGEFAN = 474;
-    HitCollision hitCollision = 10;
-    uint32 IPPPOLACNMI = 13;
-    bool ANNLKCIDPEC = 1534;
-    uint32 attacker_id = 2;
-    float EINPFAMBCJM = 1966;
-    bool JKJBOKBIIBI = 196;
-    string anim_event_id = 5;
-    Vector resolved_dir = 15;
-    AttackHitEffectResult hitEffResult = 7;
-    uint32 BIHIHLDIPOK = 6;
-    uint32 element_type = 4;
-    uint32 OOLJHPBLPDL = 352;
-    uint32 defense_id = 9;
-    float AMBEMOIPJNN = 602;
-    uint32 NGGMGNLMHFO = 1853;
-    int32 hit_retreat_angle_compat = 12;
-    uint32 GAPNFLFDBJK = 570;
+    uint32 IJIGBCCJJGJ = 573;
+    float KJKJMFMCDMN = 378;
+    uint32 attacker_id = 10;
+    bool DGDADCNJKEG = 581;
+    uint32 defense_id = 15;
+    float PCFPGMKFHCL = 644;
+    uint32 KIBMNMFJBJG = 13;
+    HitCollision hit_collision = 6;
+    int32 hit_retreat_angle_compat = 1;
+    uint32 LKNDFCAIKNC = 296;
+    string anim_event_id = 12;
+    Vector resolved_dir = 3;
+    bool CBECHFPCNFM = 1542;
+    uint32 AOKJNHANEON = 1647;
+    float element_durability_attenuation = 310;
+    uint32 amplify_reaction_type = 679;
+    bool BLKGGPMOEMA = 580;
+    uint32 JLDHPNKIBEN = 1557;
+    bool is_crit = 11;
+    uint32 attack_count = 1749;
+    uint32 element_type = 9;
+    float element_amplify_rate = 770;
+    uint32 HOGDLBMOJDA = 1442;
+    uint32 JFBKJAKIHFN = 675;
+    float damage = 2;
+    AttackHitEffectResult hit_eff_result = 7;
+    uint32 BJCEANCHCPO = 898;
+    uint32 KLPMHHIMCBC = 399;
+    AbilityIdentifier ability_identifier = 14;
+    uint32 IIMFELDOOJE = 4;
 }
 

@@ -4,11 +4,11 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "InvestigationMonster.proto";
 
-// Name: CNPABHAODOI
-// CmdId: 1923
+// CmdId: 1922
+// Name: ACFFIBPINDH
 message GetInvestigationMonsterRsp {
-    bool is_for_mark = 14;
-    repeated InvestigationMonster monster_list = 10;
-    int32 retcode = 4;
+    bool is_for_mark = 8;
+    int32 retcode = 9;
+    repeated InvestigationMonster monster_list = 2;
 }
 

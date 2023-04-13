@@ -4,9 +4,9 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "AiThreatInfo.proto";
 
-// Name: MBJEENGOMAN
-// CmdId: 338
+// CmdId: 364
+// Name: NICHDLMHIME
 message EvtAiSyncCombatThreatInfoNotify {
-    map<uint32, AiThreatInfo> combat_threat_info_map = 9;
+    map<uint32, AiThreatInfo> combat_threat_info_map = 5;
 }
 

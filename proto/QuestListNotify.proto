@@ -4,9 +4,9 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "Quest.proto";
 
-// Name: CEPEPMLNMEF
-// CmdId: 467
+// CmdId: 490
+// Name: EEHKLPMFHGC
 message QuestListNotify {
-    repeated Quest quest_list = 3;
+    repeated Quest quest_list = 4;
 }
 

@@ -4,10 +4,10 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "MapAreaInfo.proto";
 
-// Name: FDMHPADJFJP
-// CmdId: 3458
+// CmdId: 3286
+// Name: FDHEDLFKPHI
 message GetMapAreaRsp {
-    int32 retcode = 2;
-    repeated MapAreaInfo map_area_info_list = 1;
+    int32 retcode = 1;
+    repeated MapAreaInfo map_area_info_list = 12;
 }
 

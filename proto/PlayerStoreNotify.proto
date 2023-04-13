@@ -5,11 +5,11 @@ option java_package = "emu.grasscutter.net.proto";
 import "Item.proto";
 import "StoreType.proto";
 
-// Name: HCEKCKEOOLM
-// CmdId: 667
+// CmdId: 690
+// Name: NFFEDBEJOIE
 message PlayerStoreNotify {
-    uint32 weight_limit = 3;
-    repeated Item item_list = 6;
+    repeated Item item_list = 9;
+    uint32 weight_limit = 11;
     StoreType store_type = 5;
 }
 

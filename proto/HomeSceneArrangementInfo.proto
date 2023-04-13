@@ -6,19 +6,19 @@ import "HomeBlockArrangementInfo.proto";
 import "HomeFurnitureData.proto";
 import "Vector.proto";
 
-// Name: FNABEPABCNG
+// Name: FCINIPEMLPE
 message HomeSceneArrangementInfo {
-    uint32 comfortValue = 4;
-    Vector djinnPos = 12;
-    bool is_set_born_pos = 10;
-    repeated HomeFurnitureData Unk3400_CMBCIBBCMOK = 14;
-    repeated HomeFurnitureData Unk3400_EOHAHHFDAPI = 8;
-    uint32 bgm_id = 11;
-    Vector born_pos = 1;
-    repeated HomeBlockArrangementInfo blockArrangementInfoList = 9;
-    uint32 tmpVersion = 3;
-    HomeFurnitureData mainHouse = 15;
-    uint32 scene_id = 2;
-    Vector bornRot = 7;
+    repeated HomeFurnitureData DMALLBPIKFC = 12;
+    uint32 tmp_version = 7;
+    uint32 comfort_value = 5;
+    repeated HomeBlockArrangementInfo block_arrangement_info_list = 15;
+    uint32 scene_id = 9;
+    Vector djinn_pos = 13; // FGMCFDMLGEB
+    bool is_set_born_pos = 11;
+    HomeFurnitureData main_house = 4;
+    uint32 bgm_id = 6;
+    Vector born_rot = 3; // PCIJFOPGEDO
+    Vector born_pos = 2;
+    repeated HomeFurnitureData NIHPFMMOMDA = 8;
 }
 

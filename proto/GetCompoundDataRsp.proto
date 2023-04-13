@@ -4,11 +4,11 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "CompoundQueueData.proto";
 
-// Name: KFNFMKJEDPG
-// CmdId: 105
+// CmdId: 129
+// Name: DNLABMJAOMI
 message GetCompoundDataRsp {
     repeated CompoundQueueData compoundQueueDataList = 14;
-    repeated uint32 unlockCompoundList = 13;
-    int32 retcode = 2;
+    repeated uint32 unlockCompoundList = 2;
+    int32 retcode = 1;
 }
 

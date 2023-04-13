@@ -4,13 +4,13 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "PropChangeReason.proto";
 
-// Name: NPJACCMOFOE
-// CmdId: 1265
+// CmdId: 1292
+// Name: BCGHJPEKLLD
 message AvatarPropChangeReasonNotify {
+    PropChangeReason reason = 14;
+    float cur_value = 7;
+    uint64 avatar_guid = 8;
     float old_value = 12;
-    uint64 avatar_guid = 14;
-    PropChangeReason reason = 5;
-    float cur_value = 6;
-    uint32 prop_type = 15;
+    uint32 prop_type = 2;
 }
 

@@ -3,13 +3,13 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: KBMLDGNEKHA
-// CmdId: 1554
+// CmdId: 1589
+// Name: PCNKFCOOMOH
 message DoGachaReq {
-    uint32 gachaScheduleId = 3;
-    uint32 gachaTimes = 6;
-    uint32 gachaRandom = 12;
-    uint32 gachaType = 5;
-    string gacha_tag = 14;
+    uint32 gachaType = 5; // PAHELCJNHAH
+    uint32 gachaRandom = 6; // AOLMBNPLFEO
+    string gacha_tag = 1;
+    uint32 gachaScheduleId = 12; // KJPOJHMDBNE
+    uint32 gachaTimes = 2; // EJKJHLLCHMC
 }
 

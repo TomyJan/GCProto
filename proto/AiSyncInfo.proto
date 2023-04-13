@@ -2,10 +2,11 @@ syntax = "proto3";
 
 option java_package = "emu.grasscutter.net.proto";
 
-// Name: FCJLAGHOIFC
+
+// Name: AMLFADMPJED
 message AiSyncInfo {
-    uint32 entity_id = 10;
-    bool is_self_killing = 6;
-    bool has_path_to_target = 8;
+    bool has_path_to_target = 12;
+    uint32 entity_id = 4;
+    bool is_self_killing = 8;
 }
 

@@ -3,11 +3,11 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: NFPHMNBGONL
-// CmdId: 1482
+// CmdId: 1472
+// Name: LGMOLHBKPBD
 message GetAuthkeyReq {
-    string auth_appid = 8;
-    uint32 BILPDHGPPPO = 6;
-    uint32 FHPGCOBFIOE = 3;
+    string auth_appid = 9;
+    uint32 EAFDADOGNIF = 10;
+    uint32 OBPIIAHOMOE = 5;
 }
 

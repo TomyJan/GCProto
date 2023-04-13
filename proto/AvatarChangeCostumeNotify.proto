@@ -4,9 +4,9 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "SceneEntityInfo.proto";
 
-// Name: DDPDLNJBKAP
-// CmdId: 1759
+// CmdId: 1703
+// Name: BBALEACLEJE
 message AvatarChangeCostumeNotify {
-    SceneEntityInfo entity_info = 3;
+    SceneEntityInfo entity_info = 13;
 }
 

@@ -4,7 +4,7 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "CustomCommonNodeInfo.proto";
 
-// Name: IKCAPLALLPO
+// Name: BJGMHMHDCGE
 message CustomGadgetTreeInfo {
     repeated CustomCommonNodeInfo node_list = 1;
 }

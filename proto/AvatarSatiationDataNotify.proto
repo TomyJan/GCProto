@@ -4,9 +4,9 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "AvatarSatiationData.proto";
 
-// Name: GILFMIFBHII
-// CmdId: 1655
+// CmdId: 1635
+// Name: CBILECHOPDD
 message AvatarSatiationDataNotify {
-    repeated AvatarSatiationData satiation_data_list = 3;
+    repeated AvatarSatiationData satiation_data_list = 8;
 }
 

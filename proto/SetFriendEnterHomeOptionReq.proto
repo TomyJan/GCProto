@@ -4,9 +4,9 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "FriendEnterHomeOption.proto";
 
-// Name: LOOEFEKKMPC
-// CmdId: 4732
+// CmdId: 4621
+// Name: JNOPMAOIKHJ
 message SetFriendEnterHomeOptionReq {
-    FriendEnterHomeOption option = 5;
+    FriendEnterHomeOption option = 4;
 }
 

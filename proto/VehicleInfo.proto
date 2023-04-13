@@ -4,7 +4,7 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "VehicleMember.proto";
 
-// Name: CDPOOGDCAEF
+// Name: AAIPFEKBIGD
 message VehicleInfo {
     repeated VehicleMember member_list = 1;
     uint32 owner_uid = 2;

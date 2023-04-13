@@ -4,12 +4,12 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "QuestVarOp.proto";
 
-// Name: NLKBKCONOPK
-// CmdId: 461
+// CmdId: 482
+// Name: OPNIFNNKOAI
 message QuestUpdateQuestVarReq {
-    uint32 quest_id = 10;
-    uint32 parent_quest_var_seq = 11;
-    repeated QuestVarOp quest_var_op_list = 7;
-    uint32 parent_quest_id = 1;
+    repeated QuestVarOp quest_var_op_list = 10;
+    uint32 quest_id = 15;
+    uint32 parent_quest_id = 8;
+    uint32 parent_quest_var_seq = 9;
 }
 

@@ -183,6 +183,9 @@
         "name": "GadgetInteractReq"
     },
     {
+        "name": "PlatformInfo"
+    },
+    {
         "name": "GadgetBornType"
     },
     {
@@ -220,6 +223,12 @@
     },
     {
         "name": "WorktopInfo"
+    },
+    {
+        "name": "MathQuaternion"
+    },
+    {
+        "name": "MovingPlatformType"
     },
     {
         "name": "FightPropPair"
@@ -304,6 +313,15 @@
     },
     {
         "name": "Weapon"
+    },
+    {
+        "name": "EquipParam"
+    },
+    {
+        "name": "MailCollectState"
+    },
+    {
+        "name": "MailTextContent"
     },
     {
         "name": "BlossomBriefInfo"
@@ -627,7 +645,7 @@
         "name": "GetActivityShopSheetInfoReq"
     },
     {
-        "name": "GetAllMailReq"
+        "name": "GetAllMailNotify"
     },
     {
         "name": "GetDailyDungeonEntryInfoReq"
@@ -979,6 +997,9 @@
     },
     {
         "name": "WidgetSlotTag"
+    },
+    {
+        "name": "AntiAddictNotify"
     },
     {
         "name": "AskAddFriendNotify"
@@ -1344,19 +1365,7 @@
         "name": "GetActivityShopSheetInfoRsp"
     },
     {
-        "name": "EquipParam"
-    },
-    {
-        "name": "GetAllMailRsp"
-    },
-    {
-        "name": "MailData"
-    },
-    {
-        "name": "MailItem"
-    },
-    {
-        "name": "MailTextContent"
+        "name": "GetAllMailResultNotify"
     },
     {
         "name": "GetAllUnlockNameCardRsp"
@@ -1518,6 +1527,12 @@
         "name": "MailChangeNotify"
     },
     {
+        "name": "MailData"
+    },
+    {
+        "name": "MailItem"
+    },
+    {
         "name": "MarkNewNotify"
     },
     {
@@ -1561,6 +1576,9 @@
     },
     {
         "name": "PingRsp"
+    },
+    {
+        "name": "PlatformChangeRouteNotify"
     },
     {
         "name": "PlatformStartRouteNotify"
@@ -1677,10 +1695,10 @@
         "name": "QueryCodexMonsterBeKilledNumRsp"
     },
     {
-        "name": "QueryPathRsp"
+        "name": "PathStatusType"
     },
     {
-        "name": "PathStatusType"
+        "name": "QueryPathRsp"
     },
     {
         "name": "QuestCreateEntityRsp"

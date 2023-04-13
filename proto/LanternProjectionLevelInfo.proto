@@ -3,12 +3,12 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-
-
+// Name: CGOBFABMIJI
 message LanternProjectionLevelInfo {
-	bool isCanStart = 4;
-	uint32 id = 7;
-	uint32 minFinishTime = 1;
-	bool isFinished = 14;
-	bool isShowTips = 2;
+    uint32 id = 5;
+    bool is_finished = 1;
+    bool is_show_tips = 15;
+    uint32 min_finish_time = 8;
+    bool is_can_start = 6;
 }
+

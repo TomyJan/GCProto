@@ -3,8 +3,8 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: KKPBLFHGLFP
-// CmdId: 620
+// CmdId: 657
+// Name: DJEPBIENMFA
 message MaterialDeleteUpdateNotify {
 }
 

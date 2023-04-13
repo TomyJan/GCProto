@@ -5,11 +5,11 @@ option java_package = "emu.grasscutter.net.proto";
 import "ItemParam.proto";
 import "ProfilePicture.proto";
 
-// Name: OAEDPFAIDHB
+// Name: EILBMBFDLDF
 message WinterCampRecvItemData {
-    ProfilePicture profile_picture = 5;
-    uint32 uid = 10;
-    repeated ItemParam item_list = 14;
-    string nickname = 9;
+    ProfilePicture profile_picture = 12;
+    uint32 uid = 1;
+    repeated ItemParam item_list = 4;
+    string nickname = 14;
 }
 

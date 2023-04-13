@@ -3,8 +3,8 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: BPNGAHKAPLH
-// CmdId: 4167
+// CmdId: 4200
+// Name: OPDAOPFFNFE
 message PlayerGetForceQuitBanInfoReq {
 }
 

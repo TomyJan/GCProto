@@ -4,9 +4,9 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "TreasureMapRegionInfo.proto";
 
-// Name: KKBGBOJPPEN
-// CmdId: 2190
+// CmdId: 2117
+// Name: IBCJOBLIEGP
 message TreasureMapRegionInfoNotify {
-    TreasureMapRegionInfo region_info = 6;
+    TreasureMapRegionInfo region_info = 1;
 }
 

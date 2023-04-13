@@ -3,7 +3,7 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: DCKPBCPNIDC
+// Name: GNBJGEJCCJN
 message FishtankFishInfo {
     float fish_distance_from_water = 1;
     float fish_scale = 2;

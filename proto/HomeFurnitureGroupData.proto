@@ -2,11 +2,11 @@ syntax = "proto3";
 
 option java_package = "emu.grasscutter.net.proto";
 
-
-
 import "HomeFurnitureData.proto";
 
+// Name: LONHLJHJKOJ
 message HomeFurnitureGroupData {
-	repeated HomeFurnitureData virtualFurnitureList = 12;
-	uint32 groupFurnitureIndex = 4;
+    repeated HomeFurnitureData virtual_furniure_list = 15;
+    uint32 group_furniture_index = 12;
 }
+

@@ -5,12 +5,12 @@ option java_package = "emu.grasscutter.net.proto";
 import "GachaTransferItem.proto";
 import "ItemParam.proto";
 
-// Name: PBALBDCFHEM
+// Name: IPHELIAGHGJ
 message GachaItem {
-    repeated ItemParam token_item_list = 13;
-    ItemParam gacha_item = 15;
-    bool isGachaItemNew = 4;
-    repeated GachaTransferItem transfer_items = 7;
-    bool isFlashCard = 10;
+    ItemParam gacha_item = 13;
+    repeated GachaTransferItem transfer_items = 3;
+    repeated ItemParam token_item_list = 9;
+    bool is_gacha_item_new = 1; // DKPCGKMJNMC
+    bool is_flash_card = 11; // HBJJJDGGBCN
 }
 

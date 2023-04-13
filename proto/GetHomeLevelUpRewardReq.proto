@@ -3,9 +3,9 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: CPKFHLMGLON
-// CmdId: 4821
+// CmdId: 4503
+// Name: KNFIIIHNHHK
 message GetHomeLevelUpRewardReq {
-    uint32 level = 4;
+    uint32 level = 6;
 }
 

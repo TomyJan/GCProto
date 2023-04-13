@@ -3,8 +3,8 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: EAHPHHBOJHB
-// CmdId: 5636
+// CmdId: 5615
+// Name: ENHECGKJAHP
 message GetRegionSearchReq {
 }
 

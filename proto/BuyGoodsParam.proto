@@ -4,9 +4,9 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "ShopGoods.proto";
 
-// Name: CFNFHECAPPI
+// Name: HIDBGEPIKMB
 message BuyGoodsParam {
-    ShopGoods goods = 15;
-    uint32 buy_count = 14;
+    ShopGoods goods = 12;
+    uint32 buy_count = 13;
 }
 

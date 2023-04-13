@@ -3,10 +3,10 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: FFEIDHMLFHM
-// CmdId: 137
+// CmdId: 106
+// Name: KILNDKJNGBJ
 message TakeCompoundOutputReq {
-    uint32 compound_group_id = 6;
-    uint32 compound_id = 3;
+    uint32 compound_group_id = 1;
+    uint32 compound_id = 13;
 }
 

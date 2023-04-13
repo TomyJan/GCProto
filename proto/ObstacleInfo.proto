@@ -6,18 +6,18 @@ import "MathQuaternion.proto";
 import "Vector.proto";
 import "Vector3Int.proto";
 
-// Name: CDDKKKCFJAI
+// Name: LAGPLFLFOEF
 message ObstacleInfo {
-    // Name: KOGMBFEKPBM
+    // Name: CFHDBJENNAP
     enum ShapeType {
         OBSTACLE_SHAPE_CAPSULE = 0;
         OBSTACLE_SHAPE_BOX = 1;
     }
 
-    ShapeType shape = 1;
-    MathQuaternion rotation = 13;
-    Vector3Int extents = 11;
-    int32 obstacle_id = 2;
-    Vector center = 9;
+    int32 obstacle_id = 15;
+    MathQuaternion rotation = 1;
+    ShapeType shape = 12;
+    Vector3Int extents = 10;
+    Vector center = 3;
 }
 

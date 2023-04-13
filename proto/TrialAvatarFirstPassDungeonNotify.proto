@@ -3,9 +3,9 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: JDOFGAKDDPA
-// CmdId: 2105
+// CmdId: 2089
+// Name: LJGHKOONHHG
 message TrialAvatarFirstPassDungeonNotify {
-    uint32 trial_avatar_index_id = 10;
+    uint32 trial_avatar_index_id = 5;
 }
 

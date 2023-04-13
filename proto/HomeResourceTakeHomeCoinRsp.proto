@@ -4,10 +4,10 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "HomeResource.proto";
 
-// Name: KHPGKFLMLEE
-// CmdId: 4554
+// CmdId: 4672
+// Name: JBMNKOKPABK
 message HomeResourceTakeHomeCoinRsp {
-    int32 retcode = 3;
-    HomeResource homeCoin = 9;
+    HomeResource home_coin = 11;
+    int32 retcode = 2;
 }
 

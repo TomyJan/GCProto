@@ -4,8 +4,8 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "HomeLimitedShopGoods.proto";
 
-// Name: MNNLKHNFEJK
+// Name: KGGBKEKLNDP
 message HomeLimitedShop {
-    repeated HomeLimitedShopGoods goods_list = 2;
+    repeated HomeLimitedShopGoods goods_list = 5;
 }
 

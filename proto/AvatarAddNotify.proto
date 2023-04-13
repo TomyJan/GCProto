@@ -4,10 +4,10 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "AvatarInfo.proto";
 
-// Name: JKFHGKAMAHH
-// CmdId: 1756
+// CmdId: 1688
+// Name: JEPIBBDBODC
 message AvatarAddNotify {
-    bool is_in_team = 1;
-    AvatarInfo avatar = 6;
+    bool is_in_team = 14;
+    AvatarInfo avatar = 5;
 }
 

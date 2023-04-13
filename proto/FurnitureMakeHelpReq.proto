@@ -3,8 +3,8 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: HPKEBGLLLAG
-// CmdId: 4851
+// CmdId: 4690
+// Name: OMHKOHKMPMJ
 message FurnitureMakeHelpReq {
 }
 

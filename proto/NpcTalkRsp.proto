@@ -3,12 +3,12 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: GHMPDOBCADL
-// CmdId: 575
+// CmdId: 596
+// Name: BFJDBEKGICD
 message NpcTalkRsp {
-    uint32 cur_talk_id = 5;
-    int32 retcode = 2;
-    uint32 entity_id = 4;
-    uint32 npc_entity_id = 11;
+    uint32 entity_id = 5;
+    uint32 cur_talk_id = 3;
+    int32 retcode = 12;
+    uint32 npc_entity_id = 8;
 }
 

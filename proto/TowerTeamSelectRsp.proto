@@ -3,9 +3,9 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: OIBBOHDENCG
-// CmdId: 2472
+// CmdId: 2441
+// Name: EBBOIDCGABB
 message TowerTeamSelectRsp {
-    int32 retcode = 8;
+    int32 retcode = 14;
 }
 

@@ -4,9 +4,9 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "CookRecipeData.proto";
 
-// Name: GAKFBBPCPHD
-// CmdId: 186
+// CmdId: 170
+// Name: PEAPDEAMHHM
 message CookRecipeDataNotify {
-    CookRecipeData recipe_data = 6;
+    CookRecipeData recipe_data = 12;
 }
 

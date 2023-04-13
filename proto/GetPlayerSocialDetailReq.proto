@@ -3,9 +3,9 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: HLFIAFHOBAD
-// CmdId: 4065
+// CmdId: 4092
+// Name: DKBIHCALLNK
 message GetPlayerSocialDetailReq {
-    uint32 uid = 2;
+    uint32 uid = 3;
 }
 

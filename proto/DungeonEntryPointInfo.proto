@@ -4,11 +4,11 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "DungeonEntryInfo.proto";
 
-// Name: MPFFOAAAOKO
+// Name: JALNEBPGBAJ
 message DungeonEntryPointInfo {
-    uint32 scene_id = 10;
-    repeated DungeonEntryInfo dungeon_entry_list = 13;
-    uint32 point_id = 3;
-    uint32 recommend_dungeon_id = 2;
+    uint32 recommend_dungeon_id = 11;
+    uint32 point_id = 12;
+    uint32 scene_id = 8;
+    repeated DungeonEntryInfo dungeon_entry_list = 4;
 }
 

@@ -4,11 +4,11 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "StoreType.proto";
 
-// Name: FJNLPMLBGBA
 // CmdId: 659
+// Name: HHKNLLGKPOO
 message DropItemRsp {
-    StoreType store_type = 1;
-    int32 retcode = 3;
-    uint64 guid = 12;
+    StoreType store_type = 3;
+    uint64 guid = 4;
+    int32 retcode = 5;
 }
 

@@ -3,9 +3,9 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: PAOIENMGCAB
-// CmdId: 1791
+// CmdId: 1736
+// Name: LIPKPFIMKEG
 message AvatarExpeditionCallBackReq {
-    repeated uint64 avatar_guid = 2;
+    repeated uint64 avatar_guid = 1;
 }
 

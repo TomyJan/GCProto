@@ -4,10 +4,10 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "EntityClientData.proto";
 
-// Name: HBLOJLPHJCD
-// CmdId: 3457
+// CmdId: 3424
+// Name: GMCOAPLLLOG
 message SetEntityClientDataNotify {
-    EntityClientData entity_client_data = 14;
     uint32 entity_id = 7;
+    EntityClientData entity_client_data = 6;
 }
 

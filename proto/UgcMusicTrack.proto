@@ -4,8 +4,8 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "UgcMusicNote.proto";
 
-// Name: PNNCHCKBNDL
+// Name: CJOAFEMFMBF
 message UgcMusicTrack {
-    repeated UgcMusicNote music_note_list = 2;
+    repeated UgcMusicNote music_note_list = 15;
 }
 

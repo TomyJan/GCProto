@@ -3,10 +3,10 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: ALPPJOBNODK
-// CmdId: 4007
+// CmdId: 4078
+// Name: KDJMJHKMJJM
 message DeleteFriendRsp {
-    int32 retcode = 15;
-    uint32 target_uid = 7;
+    int32 retcode = 10;
+    uint32 target_uid = 9;
 }
 

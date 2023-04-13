@@ -3,7 +3,7 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: OJDHIEBPOKL
+// Name: BJACKBJGDPJ
 enum LunaRiteHintStatusType {
     LUNA_RITE_HINT_STATUS_DEFAULT = 0;
     LUNA_RITE_HINT_STATUS_NO_COUNT = 1;

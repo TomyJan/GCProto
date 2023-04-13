@@ -2,8 +2,12 @@ syntax = "proto3";
 
 option java_package = "emu.grasscutter.net.proto";
 
+
+// Name: BHNBOAEFEGL
+// CmdId: 163
 message SkipPlayerGameTimeRsp {
-	uint32 clientGameTime = 14;
-	uint32 gameTime = 15;
-	int32 retcode = 12;
+    uint32 client_game_time = 9;
+    uint32 game_time = 2;
+    int32 retcode = 7;
 }
+

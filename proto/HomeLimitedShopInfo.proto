@@ -4,11 +4,13 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "Vector.proto";
 
+// Name: ALCABPLHONH
 message HomeLimitedShopInfo {
-	uint32 nextGuestOpenTime = 12;
-    uint32 nextOpenTime = 11;
-    Vector djinnPos = 1;
-    uint32 nextCloseTime = 6;
-    uint32 uid = 14;
-    Vector djinnRot = 9;
+    fixed32 KILKJHNKDJB = 15;
+    uint32 uid = 2;
+    Vector PCIJFOPGEDO = 14;
+    fixed32 HEEGDABINMD = 8;
+    Vector NPFLGEPMDHD = 6;
+    fixed32 MBAMOPJCAHC = 13;
 }
+

@@ -4,14 +4,14 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "Vector.proto";
 
-// Name: KMBIKGFKGNP
+// Name: JEFLHCMKIFB
 message OneoffGatherPointDetectorData {
-    bool is_all_collected = 13;
-    uint32 material_id = 15;
-    uint32 group_id = 1;
-    bool is_hint_valid = 3;
-    uint32 hint_radius = 14;
-    Vector hint_center_pos = 9;
-    uint32 config_id = 8;
+    Vector hint_center_pos = 4;
+    bool is_hint_valid = 11;
+    uint32 config_id = 10;
+    bool is_all_collected = 5;
+    uint32 hint_radius = 1;
+    uint32 group_id = 7;
+    uint32 material_id = 14;
 }
 

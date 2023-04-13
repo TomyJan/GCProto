@@ -4,9 +4,9 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "Vector.proto";
 
-// Name: MAAHGJJPDKG
+// Name: HPEAEINKHOM
 message WidgetCreateLocationInfo {
-    Vector rot = 10;
-    Vector pos = 2;
+    Vector pos = 4;
+    Vector rot = 1;
 }
 

@@ -4,9 +4,9 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "UnionCmd.proto";
 
-// Name: JHIIPBFFOAN
-// CmdId: 27
+// CmdId: 75
+// Name: HOFJCCFFMBO
 message UnionCmdNotify {
-    repeated UnionCmd cmd_list = 15;
+    repeated UnionCmd cmd_list = 2;
 }
 

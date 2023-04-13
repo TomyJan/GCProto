@@ -4,7 +4,7 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "BreakoutPhysicalObject.proto";
 
-// Name: LIGEEIJEIOB
+// Name: BPDEGPENGBL
 message BreakoutSpawnPoint {
     uint32 id = 1;
     uint32 brick_suite_id = 2;

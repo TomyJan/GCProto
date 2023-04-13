@@ -5,7 +5,7 @@ option java_package = "emu.grasscutter.net.proto";
 import "CreateGadgetInfo.proto";
 import "Vector.proto";
 
-// Name: PDPKPDBANCA
+// Name: KKJAKFLICEJ
 message CreateEntityInfo {
     uint32 level = 5;
     Vector pos = 6;
@@ -19,7 +19,7 @@ message CreateEntityInfo {
         uint32 gadget_id = 3;
         uint32 item_id = 4;
     }
-    oneof MGPBKHBAPPH {
+    oneof entity_create_info {
         CreateGadgetInfo gadget = 13;
     }
 }

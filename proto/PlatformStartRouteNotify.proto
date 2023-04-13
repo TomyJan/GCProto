@@ -4,11 +4,11 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "PlatformInfo.proto";
 
-// Name: MKHFANGKEBH
-// CmdId: 279
+// CmdId: 269
+// Name: MNDPKCGJAFF
 message PlatformStartRouteNotify {
-    uint32 scene_time = 13;
-    PlatformInfo platform = 5;
-    uint32 entity_id = 3;
+    uint32 entity_id = 8;
+    PlatformInfo platform = 4;
+    uint32 scene_time = 3;
 }
 

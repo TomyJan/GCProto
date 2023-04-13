@@ -4,10 +4,10 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "CompoundQueueData.proto";
 
-// Name: FLGCALNDKFE
-// CmdId: 116
+// CmdId: 183
+// Name: NPAHEOCCAHH
 message PlayerCompoundMaterialRsp {
     CompoundQueueData compoundQueueData = 4;
-    int32 retcode = 1;
+    int32 retcode = 13;
 }
 

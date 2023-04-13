@@ -1,10 +1,12 @@
 syntax = "proto3";
 
-import "AbilityString.proto";
-
 option java_package = "emu.grasscutter.net.proto";
 
+import "AbilityString.proto";
+
+// Name: MHKLKDOLLLF
 message ModifierProperty {
-  AbilityString key = 8;
-  float value = 14;
+    AbilityString key = 12;
+    float value = 14;
 }
+

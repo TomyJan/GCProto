@@ -3,9 +3,9 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: KELICPOLEGO
+// Name: LALFJCCDPOB
 message UgcMusicNote {
+    uint32 end_time = 10;
     uint32 start_time = 15;
-    uint32 end_time = 8;
 }
 

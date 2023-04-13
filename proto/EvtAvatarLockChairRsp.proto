@@ -4,12 +4,12 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "Vector.proto";
 
-// Name: NEEHKIBGIKA
-// CmdId: 345
+// CmdId: 332
+// Name: HMMIAOJNLAE
 message EvtAvatarLockChairRsp {
-    uint64 chair_id = 2;
+    int32 retcode = 10;
+    uint64 chair_id = 11;
+    Vector position = 5;
     uint32 entity_id = 8;
-    int32 retcode = 6;
-    Vector position = 12;
 }
 

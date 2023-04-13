@@ -2,19 +2,11 @@ syntax = "proto3";
 
 option java_package = "emu.grasscutter.net.proto";
 
+import "GCGTCTavernChallengeData.proto";
 
-
-
+// CmdId: 7414
+// Name: DIAAKFMAGEI
 message GCGTCTavernChallengeDataNotify {
-	//enum JHBAGBEDCLP {
-	//	option allow_alias= true;
-	//	NONE = 0;
-	//	PEPPOHPHJOJ = 7579;
-	//	DCDNILFDFLB = 0;
-	//	NNBKOLMPOEA = 1;
-	//	EAJIABGAOCI = 1;
-	//}
-
-	uint32 levelId = 2;
-	uint32 caaaccpgkff = 3;
+    repeated GCGTCTavernChallengeData tavern_challenge_list = 7;
 }
+

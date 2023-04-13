@@ -4,11 +4,11 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "FurnitureMakeSlot.proto";
 
-// Name: DKOOCDJGEMJ
-// CmdId: 4825
+// CmdId: 4853
+// Name: BEJNPDHEGDO
 message FurnitureMakeCancelRsp {
-    FurnitureMakeSlot furniture_make_slot = 11;
-    int32 retcode = 13;
-    uint32 make_id = 1;
+    int32 retcode = 3;
+    uint32 make_id = 5;
+    FurnitureMakeSlot furniture_make_slot = 1;
 }
 

@@ -5,7 +5,7 @@ option java_package = "emu.grasscutter.net.proto";
 import "Reliquary.proto";
 import "Weapon.proto";
 
-// Name: PJPGEBLCDHG
+// Name: PDGCLANHIJP
 message Equip {
     bool is_locked = 3;
     oneof detail {

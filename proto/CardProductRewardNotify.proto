@@ -3,11 +3,11 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: PKOMPHLMLED
-// CmdId: 4146
+// CmdId: 4149
+// Name: FGEMJEBIEBF
 message CardProductRewardNotify {
-    uint32 hcoin = 2;
-    uint32 remainDays = 6;
-    string product_id = 15;
+    uint32 remain_days = 8; // MLKHDJPCJLG
+    uint32 hcoin = 1; // OKKCPKEGAJF
+    string product_id = 12;
 }
 

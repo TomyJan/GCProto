@@ -3,8 +3,8 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: MHBLMMJDAIF
+// Name: IKECAOJEKPH
 message BonusOpActivityInfo {
-    uint32 left_bonus_count = 4;
+    uint32 left_bonus_count = 12;
 }
 

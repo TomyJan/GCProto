@@ -3,9 +3,9 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: MMHNNIDKFBL
-// CmdId: 1801
+// CmdId: 1831
+// Name: CCBPPMJBDGE
 message PSPlayerApplyEnterMpReq {
-    string target_psn_id = 8;
+    string target_psn_id = 3;
 }
 

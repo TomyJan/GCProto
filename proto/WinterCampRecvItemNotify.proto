@@ -4,9 +4,9 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "WinterCampRecvItemData.proto";
 
-// Name: OAGALFMPOHL
-// CmdId: 8740
+// CmdId: 8869
+// Name: BFFJAMBLFHI
 message WinterCampRecvItemNotify {
-    WinterCampRecvItemData recv_item_data = 9;
+    WinterCampRecvItemData recv_item_data = 7;
 }
 

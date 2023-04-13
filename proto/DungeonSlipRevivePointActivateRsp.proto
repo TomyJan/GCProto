@@ -3,10 +3,10 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: OBALIOMGPBI
-// CmdId: 960
+// CmdId: 915
+// Name: GIJPAOFHLHB
 message DungeonSlipRevivePointActivateRsp {
-    int32 retcode = 9;
-    uint32 slip_revive_point_id = 11;
+    int32 retcode = 10;
+    uint32 slip_revive_point_id = 3;
 }
 

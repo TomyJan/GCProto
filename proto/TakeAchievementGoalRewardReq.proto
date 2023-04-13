@@ -3,9 +3,9 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: CMFHEBMCELG
-// CmdId: 2686
+// CmdId: 2665
+// Name: MEAKOLJPEIM
 message TakeAchievementGoalRewardReq {
-    repeated uint32 id_list = 10;
+    repeated uint32 id_list = 9;
 }
 

@@ -2,15 +2,20 @@ syntax = "proto3";
 
 option java_package = "emu.grasscutter.net.proto";
 
+import "Vector.proto";
 import "VehicleInteractType.proto";
 import "VehicleMember.proto";
 
-// Name: GPOEFPAIHOE
-// CmdId: 894
+// CmdId: 851
+// Name: MLIFJHEHJIC
 message VehicleInteractRsp {
-    uint32 entity_id = 8;
-    int32 retcode = 14;
-    VehicleInteractType interact_type = 3;
-    VehicleMember member = 4;
+    int32 retcode = 13;
+    uint32 entity_id = 10;
+    Vector MAKPDIBNPAP = 2;
+    VehicleInteractType interact_type = 8;
+    Vector DNJIMMEONNI = 5;
+    VehicleMember member = 1;
+    uint32 PDEPBDNGIAB = 4;
+    uint32 gadget_id = 15;
 }
 

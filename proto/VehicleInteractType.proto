@@ -3,7 +3,7 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: CGOOHEEBLLK
+// Name: PCBLIOLCMAE
 enum VehicleInteractType {
 	VEHICLE_INTERACT_TYPE_NONE = 0;
 	VEHICLE_INTERACT_TYPE_IN = 1;

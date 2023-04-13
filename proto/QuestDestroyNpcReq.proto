@@ -3,10 +3,10 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: CFMICKHAGNK
-// CmdId: 419
+// CmdId: 477
+// Name: PIINBBBJFHG
 message QuestDestroyNpcReq {
+    uint32 npc_id = 9;
     uint32 parent_quest_id = 15;
-    uint32 npc_id = 3;
 }
 

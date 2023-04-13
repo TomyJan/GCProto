@@ -3,9 +3,9 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: JFJAPNLJNNC
-// CmdId: 4780
+// CmdId: 4536
+// Name: IGHDJPCKECO
 message HomeSceneInitFinishRsp {
-    int32 retcode = 10;
+    int32 retcode = 14;
 }
 

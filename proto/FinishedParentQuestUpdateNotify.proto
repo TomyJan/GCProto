@@ -4,9 +4,9 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "ParentQuest.proto";
 
-// Name: GJFEGDKEGBM
-// CmdId: 414
+// CmdId: 416
+// Name: LJCDAMNBHJL
 message FinishedParentQuestUpdateNotify {
-    repeated ParentQuest parent_quest_list = 15;
+    repeated ParentQuest parent_quest_list = 5;
 }
 

@@ -3,10 +3,10 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: PGBGBIDLFDL
-// CmdId: 3030
+// CmdId: 3417
+// Name: AHIJMECELNE
 message PostEnterSceneRsp {
-    uint32 enter_scene_token = 13;
-    int32 retcode = 11;
+    uint32 enter_scene_token = 5;
+    int32 retcode = 13;
 }
 

@@ -3,12 +3,12 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: JBKOBACLLKE
-// CmdId: 4729
+// CmdId: 4504
+// Name: MBLNFDMHCMM
 message TryEnterHomeReq {
-    uint32 target_point = 15;
-    bool MPAJHMEOAPK = 1;
-    uint32 target_uid = 8;
-    bool NBNNPNAGOEA = 7;
+    uint32 target_point = 7;
+    bool EIEPKFHNILM = 2;
+    bool OJAFECKPAJE = 14;
+    uint32 target_uid = 13;
 }
 

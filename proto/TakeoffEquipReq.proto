@@ -3,10 +3,10 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: MIKGIPNDOHP
-// CmdId: 627
+// CmdId: 675
+// Name: OEBALMOAHFM
 message TakeoffEquipReq {
-    uint64 avatar_guid = 1;
-    uint32 slot = 6;
+    uint64 avatar_guid = 12;
+    uint32 slot = 4;
 }
 

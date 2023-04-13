@@ -3,9 +3,9 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: LFCFFHIAGBN
+// Name: LGGNFLPNPII
 message ShortAbilityHashPair {
-    int32 ability_config_hash = 15;
-    int32 ability_name_hash = 7;
+    sfixed32 ability_name_hash = 4;
+    sfixed32 ability_config_hash = 5;
 }
 

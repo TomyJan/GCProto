@@ -3,13 +3,13 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: ANDLNOABFII
-// CmdId: 8542
+// CmdId: 8156
+// Name: DIFCABEKCFF
 message MusicGameSettleRsp {
-    uint64 ugc_guid = 9;
-    bool is_unlock_next_level = 5;
-    uint32 music_basic_id = 14;
-    bool is_new_record = 7;
-    int32 retcode = 15;
+    bool is_unlock_next_level = 6;
+    int32 retcode = 14;
+    uint32 music_basic_id = 13;
+    bool is_new_record = 4;
+    uint64 ugc_guid = 2;
 }
 

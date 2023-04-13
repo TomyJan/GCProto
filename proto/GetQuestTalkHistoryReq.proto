@@ -3,9 +3,9 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: PADPINHOGCI
-// CmdId: 482
+// CmdId: 472
+// Name: ADBBIBDMOOB
 message GetQuestTalkHistoryReq {
-    uint32 parent_quest_id = 7;
+    uint32 parent_quest_id = 11;
 }
 

@@ -3,8 +3,8 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: DNOKOCEBFIG
-// CmdId: 2591
+// CmdId: 2512
+// Name: JOFOPLGFKEJ
 message BonusActivityInfoReq {
 }
 

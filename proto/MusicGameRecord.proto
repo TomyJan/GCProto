@@ -3,10 +3,10 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: MPJJDJEINNM
+// Name: OHBLLAGJHLI
 message MusicGameRecord {
-    bool is_unlock = 12;
-    uint32 max_score = 4;
-    uint32 max_combo = 7;
+    bool is_unlock = 9;
+    uint32 max_score = 6;
+    uint32 max_combo = 5;
 }
 

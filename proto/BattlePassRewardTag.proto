@@ -4,10 +4,10 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "BattlePassUnlockStatus.proto";
 
-// Name: IEMOLLDEMBH
+// Name: IHONIMHMIGN
 message BattlePassRewardTag {
-    uint32 reward_id = 6;
-    uint32 level = 15;
-    BattlePassUnlockStatus unlock_status = 9;
+    BattlePassUnlockStatus unlock_status = 5;
+    uint32 reward_id = 10;
+    uint32 level = 2;
 }
 

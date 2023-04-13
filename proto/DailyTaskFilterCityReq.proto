@@ -3,9 +3,9 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: NMHFKMALINE
-// CmdId: 199
+// CmdId: 180
+// Name: OPHFKHGDMBK
 message DailyTaskFilterCityReq {
-    uint32 city_id = 7;
+    uint32 city_id = 1;
 }
 

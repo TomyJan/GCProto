@@ -4,10 +4,10 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "AvatarSkillInfo.proto";
 
-// Name: AJAPPFJJHMF
-// CmdId: 1082
+// CmdId: 1072
+// Name: IMODKAICNHM
 message AvatarSkillInfoNotify {
-    uint64 guid = 9;
-    map<uint32, AvatarSkillInfo> skill_map = 14;
+    map<uint32, AvatarSkillInfo> skill_map = 1;
+    uint64 guid = 12;
 }
 

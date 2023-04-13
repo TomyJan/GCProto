@@ -4,9 +4,9 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "HomeModuleComfortInfo.proto";
 
-// Name: KOFKAPENCLO
-// CmdId: 4816
+// CmdId: 4631
+// Name: CHPBONNJCNN
 message HomeComfortInfoNotify {
-    repeated HomeModuleComfortInfo module_info_list = 2;
+    repeated HomeModuleComfortInfo module_info_list = 12;
 }
 

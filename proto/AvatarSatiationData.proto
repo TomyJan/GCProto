@@ -3,10 +3,10 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: IPIDLJAAEGM
+// Name: JCDFMFJACEH
 message AvatarSatiationData {
-    uint64 avatar_guid = 3;
-    float penalty_finish_time = 13;
-    float finish_time = 5;
+    float finish_time = 12;
+    float penalty_finish_time = 8;
+    uint64 avatar_guid = 5;
 }
 

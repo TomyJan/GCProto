@@ -157,10 +157,10 @@
     },
     {
         "name": "SkipPlayerGameTimeReq",
-        "id": 108
+        "id": 163
     },
     {
         "name": "SkipPlayerGameTimeRsp",
-        "id": 166
+        "id": 196
     }
 ]

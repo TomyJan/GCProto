@@ -3,9 +3,9 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: LKBGOHAPNME
-// CmdId: 188
+// CmdId: 173
+// Name: NCIMFDHIJIO
 message PlayerSetPauseRsp {
-    int32 retcode = 4;
+    int32 retcode = 1;
 }
 

@@ -3,11 +3,11 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: NAHPGADLEJH
+// Name: LGCPMALEONL
 message ChallengeBrief {
-    bool is_success = 4;
-    uint32 challenge_id = 6;
-    uint32 challenge_index = 2;
-    uint32 cur_progress = 1;
+    uint32 challenge_index = 3;
+    uint32 cur_progress = 5;
+    bool is_success = 7;
+    uint32 challenge_id = 1;
 }
 

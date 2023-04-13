@@ -3,9 +3,9 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: JPOMNGOBDIO
+// Name: AJMBBHKJNFH
 message AvatarEquipAffixInfo {
-    uint32 equip_affix_id = 1;
-    uint32 left_cd_time = 2;
+    uint32 HADFPPBMPBC = 1;
+    uint32 HLEKEGIICBH = 2;
 }
 

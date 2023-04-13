@@ -3,9 +3,9 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: JMJFPPIJEGA
-// CmdId: 689
+// CmdId: 691
+// Name: GLJHANJIAPK
 message ClosedItemNotify {
-    repeated uint32 item_id_list = 10;
+    repeated uint32 item_id_list = 14;
 }
 

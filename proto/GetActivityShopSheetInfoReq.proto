@@ -3,9 +3,9 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: FDPHAHHAKNI
-// CmdId: 772
+// CmdId: 741
+// Name: BCGBHBAHONN
 message GetActivityShopSheetInfoReq {
-    uint32 shop_type = 7;
+    uint32 shop_type = 11;
 }
 

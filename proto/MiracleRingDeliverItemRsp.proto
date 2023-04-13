@@ -5,13 +5,13 @@ option java_package = "emu.grasscutter.net.proto";
 import "InteractType.proto";
 import "InterOpType.proto";
 
-// Name: PDCEJKGIPPA
-// CmdId: 5232
+// CmdId: 5222
+// Name: LFFBMNEPNBG
 message MiracleRingDeliverItemRsp {
-    uint32 gadget_entity_id = 2;
-    uint32 gadget_id = 6;
-    InterOpType op_type = 8;
-    InteractType interact_type = 7;
-    int32 retcode = 13;
+    uint32 gadget_id = 13;
+    InterOpType op_type = 7;
+    uint32 gadget_entity_id = 12;
+    InteractType interact_type = 11;
+    int32 retcode = 6;
 }
 

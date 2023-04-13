@@ -8,7 +8,7 @@ import "BreakoutPhysicalObject.proto";
 import "BreakoutSpawnPoint.proto";
 import "BreakoutSyncConnectUidInfo.proto";
 
-// Name: HNPNHGMKOGO
+// Name: GMKOGAABHBL
 message BreakoutSnapShot {
     uint64 client_game_time = 1;
     uint64 server_game_time = 2;

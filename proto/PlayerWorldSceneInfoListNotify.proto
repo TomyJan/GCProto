@@ -4,9 +4,9 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "PlayerWorldSceneInfo.proto";
 
-// Name: EPEIJILLNJM
-// CmdId: 3152
+// CmdId: 3205
+// Name: LEHGOANEDOH
 message PlayerWorldSceneInfoListNotify {
-    repeated PlayerWorldSceneInfo info_list = 3;
+    repeated PlayerWorldSceneInfo info_list = 10;
 }
 

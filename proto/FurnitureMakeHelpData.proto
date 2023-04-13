@@ -3,9 +3,9 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: DLNFNGEEJLG
+// Name: CGBMNFJOEMP
 message FurnitureMakeHelpData {
-    uint32 times = 3;
-    uint32 uid = 2;
+    uint32 uid = 1;
+    uint32 times = 15;
 }
 

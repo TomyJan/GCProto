@@ -5,16 +5,16 @@ option java_package = "emu.grasscutter.net.proto";
 import "ItemHint.proto";
 import "Vector.proto";
 
-// Name: MPGBFOKMGFO
-// CmdId: 614
+// CmdId: 616
+// Name: IBLPBENLBJI
 message ItemAddHintNotify {
-    repeated ItemHint item_list = 11;
-    uint32 quest_id = 5;
-    bool GALFDOGLCNI = 4;
-    bool IIFOCJEDKDG = 8;
-    bool KHGDOCNILIJ = 2;
-    Vector position = 7;
-    uint32 reason = 3;
-    repeated ItemHint overflow_transformed_item_list = 12;
+    repeated ItemHint item_list = 12;
+    Vector position = 9;
+    repeated ItemHint overflow_transformed_item_list = 15;
+    uint32 quest_id = 6;
+    bool OCIEEDOLGDB = 3;
+    bool ENCLFHLBLLA = 8;
+    bool JPDJLIPKABJ = 13;
+    uint32 reason = 11;
 }
 

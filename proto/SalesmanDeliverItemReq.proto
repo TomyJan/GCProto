@@ -3,8 +3,8 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: GJHJNLKNKDI
-// CmdId: 2167
+// CmdId: 2120
+// Name: PMAAFMAEHHG
 message SalesmanDeliverItemReq {
     uint32 schedule_id = 13;
 }

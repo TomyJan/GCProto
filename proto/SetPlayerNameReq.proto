@@ -3,9 +3,9 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 
-// Name: CPIDFBGHCEJ
-// CmdId: 123
+// CmdId: 194
+// Name: LADACODDNGA
 message SetPlayerNameReq {
-    string nick_name = 6;
+    string nick_name = 3;
 }
 
