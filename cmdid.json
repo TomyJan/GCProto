@@ -180,7 +180,7 @@
         "id": 122
     },
     {
-        "name": "GHMNCNNHLAI",
+        "name": "SkipPlayerGameTimeReq",
         "id": 123
     },
     {
@@ -208,7 +208,7 @@
         "id": 129
     },
     {
-        "name": "DFPBHODHPKM",
+        "name": "SkipPlayerGameTimeRsp",
         "id": 130
     },
     {

@@ -154,13 +154,5 @@
     {
         "name": "Unk2700_NGPMINKIOPK",
         "id": 8956
-    },
-    {
-        "name": "SkipPlayerGameTimeReq",
-        "id": 163
-    },
-    {
-        "name": "SkipPlayerGameTimeRsp",
-        "id": 196
     }
 ]

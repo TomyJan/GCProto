@@ -882,6 +882,12 @@
         "name": "TakeFurnitureMakeReq"
     },
     {
+        "name": "TakeInvestigationRewardReq"
+    },
+    {
+        "name": "TakeInvestigationTargetRewardReq"
+    },
+    {
         "name": "TakeoffEquipReq"
     },
     {
@@ -1644,6 +1650,21 @@
         "name": "PlayerHomeCompInfo"
     },
     {
+        "name": "Investigation"
+    },
+    {
+        "name": "InvestigationTarget"
+    },
+    {
+        "name": "PlayerInvestigationAllInfoNotify"
+    },
+    {
+        "name": "PlayerInvestigationNotify"
+    },
+    {
+        "name": "PlayerInvestigationTargetNotify"
+    },
+    {
         "name": "PlayerLevelRewardUpdateNotify"
     },
     {
@@ -1875,6 +1896,12 @@
         "name": "TakeFurnitureMakeRsp"
     },
     {
+        "name": "TakeInvestigationRewardRsp"
+    },
+    {
+        "name": "TakeInvestigationTargetRewardRsp"
+    },
+    {
         "name": "TakeoffEquipRsp"
     },
     {
@@ -1989,7 +2016,7 @@
         "name": "WidgetSlotChangeNotify"
     },
     {
-        "name": "WindSeedClientNotify"
+        "name": "WindSeedType1Notify"
     },
     {
         "name": "WorktopOptionNotify"
