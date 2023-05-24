@@ -1,30 +1,42 @@
+// https://github.com/SlushinPS/beach-simulator
+// Copyright (C) 2023 Slushy Team
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Affero General Public License as
+// published by the Free Software Foundation, either version 3 of the
+// License, or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
 syntax = "proto3";
-
 option java_package = "emu.grasscutter.net.proto";
-
 import "ItemParam.proto";
-
-// Name: NMLPHHIHIOK
+// Obf: PIILCEEKMMC
 message ShopGoods {
-    uint32 goodsId = 1; //ok
-    uint32 EOMGIGFFCLI = 736; // EOMGIGFFCLI not work
-    ItemParam goodsItem = 7; //ok
-    uint32 maxLevel = 9; //ok
-    uint32 buyLimit = 1201; // JGCLNJKOALJ  maybe for boughtNum
-    uint32 scoin = 11; //LAKDFDKCMKC
-    uint32 secondary_sheet_id = 1493; // ONDHAANEFIK ???
-    uint32 beginTime = 14; //ok
-    repeated uint32 preGoodsIdList = 6; //ok
-    uint32 IAKCJHEJHOG = 15;
-    uint32 mcoin = 2; //ok
-    uint32 boughtNum = 3; //ok
-    uint32 GNENHCFPFCP = 688;
-    uint32 BKONLAFGBFC = 10; //ok? was BKONLAFGBFC // broke
-    uint32 endTime = 4; //ok
-    uint32 hcoin = 12; //ok
-    repeated ItemParam costItemList = 13; //ok
-    uint32 disableType = 617; // HLDEGIEBMBI
-    uint32 minLevel = 8; //ok
-    uint32 nextRefreshTime = 5; //ok
+	uint32 begin_time = 14;
+	uint32 APOECIACFPK = 1474;
+	repeated ItemParam cost_item_list = 10;
+	uint32 max_level = 8;
+	uint32 AEBBIJALJCB = 1508;
+	uint32 scoin = 12;
+	uint32 hcoin = 11;
+	uint32 min_level = 13;
+	uint32 bought_num = 7;
+	uint32 KINAPHHFNPA = 256;
+	uint32 next_refresh_time = 1;
+	uint32 buy_limit = 3;
+	ItemParam goods_item = 6;
+	uint32 secondary_sheet_id = 1819;
+	uint32 KAPLOLJDEON = 15;
+	uint32 goods_id = 9;
+	uint32 end_time = 4;
+	repeated uint32 preGoodsIdList = 5;
+	uint32 IAEPIAMFCPF = 772;
+	uint32 mcoin = 2;
 }
-

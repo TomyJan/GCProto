@@ -1,1 +1,1 @@
-forked from https://gitlab.com/YuukiPS/GC-Proto/
+forked from https://github.com/SlushinPS/beach-simulator/
