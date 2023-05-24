@@ -7,7 +7,7 @@ const readline = require("readline");
 const read_cmdid_last = "cmdid_last.csv";
 const read_cmdid = "cmdid.csv";
 const read_cmdid_output = "cmdid.json";
-const read_cmdid_ht_output = "cmdid_ht_36.json";
+const read_cmdid_ht_output = "cmdid_ht_37.json";
 const read_cmdid_output_gc = "cmdid_gc.json";
 const read_cmdid_output_gc_update = "cmdid_gc_update.json";
 const read_cmdid_output_gc_nofound = "cmdid_gc_nofound.json";
@@ -992,7 +992,7 @@ function cmdid_json_to_csv() {
 // npx prettier --write PacketOpcodes.java
 // scan_gc(); // 5. scan gc
 // clean_proto_event(); // 6. clean event, need manual
-// clean_proto_gen(); // 6. clean proto
+ clean_proto_gen(); // 6. clean proto
 // clean_proto_gen_v2();
 
 // TODO: clean DungeonSettleNotify

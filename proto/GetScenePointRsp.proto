@@ -1,23 +1,38 @@
+// https://github.com/SlushinPS/beach-simulator
+// Copyright (C) 2023 Slushy Team
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Affero General Public License as
+// published by the Free Software Foundation, either version 3 of the
+// License, or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
 syntax = "proto3";
 
 option java_package = "emu.grasscutter.net.proto";
 
 
-// CmdId: 299
-// Name: GKBGCPGCPAE (3.5, help)
+// CmdId: 294
+// Obf: OKEJNDKCNKG
 message GetScenePointRsp {
-    uint32 scene_id = 3;
-    repeated uint32 notInteractDungeonEntryList = 9; // JECOFNNDAJP
-    repeated uint32 toBeExploreDungeonEntryList = 14; // ELNACLNNKIO
-    uint32 belong_uid = 4;
-    repeated uint32 hide_point_list = 11; // GNNBFLNNODN
-    repeated uint32 locked_point_list = 2; // OLIIBIKADBB
-    repeated uint32 notExploredDungeonEntryList = 1; // CBNONONIPKH
-    repeated uint32 unlockAreaList = 7; // MLBGHEBJAOH
-    bool BJLCFHHIGJD = 10;
-    repeated uint32 unhide_point_list = 13; // BHLFAJLFEGC
-    repeated uint32 groupUnlimitPointList = 8; // MNOLEGHOAOB
-    int32 retcode = 6;
-    repeated uint32 unlocked_point_list = 12;
+	repeated uint32 unhide_point_list = 12;
+	bool GPMHJGJLAFH = 2;
+	repeated uint32 unlocked_point_list = 3;
+	repeated uint32 toBeExploreDungeonEntryList = 10;
+	uint32 scene_id = 5;
+	repeated uint32 hide_point_list = 4;
+	repeated uint32 locked_point_list = 8;
+	repeated uint32 groupUnlimitPointList = 15;
+	uint32 belong_uid = 11;
+	repeated uint32 notInteractDungeonEntryList = 1;
+	int32 retcode = 7;
+	repeated uint32 notExploredDungeonEntryList = 6;
+	repeated uint32 unlockAreaList = 14;
 }
-

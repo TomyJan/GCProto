@@ -112,6 +112,14 @@
         "id": 5969
     },
     {
+        "name": "GetQuestTalkHistoryReq",
+        "id": 472
+    },
+    {
+        "name": "GetQuestTalkHistoryRsp",
+        "id": 492
+    },
+    {
         "name": "InBattleMechanicusEscapeMonsterNotify",
         "id": 5320
     },

@@ -795,6 +795,9 @@
         "name": "DelBackupAvatarTeamReq"
     },
     {
+        "name": "SceneAudioNotify"
+    },
+    {
         "name": "SceneAvatarStaminaStepReq"
     },
     {
@@ -1138,6 +1141,9 @@
     },
     {
         "name": "ShopGoods"
+    },
+    {
+        "name": "BuyResinRsp"
     },
     {
         "name": "CalcWeaponUpgradeReturnItemsRsp"
