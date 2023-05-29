@@ -1,16 +1,28 @@
-syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message FleurFairMusicGameSettleRsp {
-	enum LNFEHJBPLMB {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 2200;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
+// Sorapointa - A server software re-implementation for a certain anime game, and avoid sorapointa.
+// Copyright (C) 2023  Sorapointa Team
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Affero General Public License as
+// published by the Free Software Foundation, either version 3 of the
+// License, or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-	uint32 musicBasicId = 4;
-	bool isNewRecord = 5;
-	bool isUnlockNextLevel = 7;
-	int32 retcode = 3;
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message FleurFairMusicGameSettleRsp {
+  // CMD_ID = 2200
+
+  uint32 music_basic_id = 4;
+  bool is_new_record = 5;
+  bool is_unlock_next_level = 7;
+  int32 retcode = 3;
 }

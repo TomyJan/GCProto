@@ -1,15 +1,29 @@
+// Sorapointa - A server software re-implementation for a certain anime game, and avoid sorapointa.
+// Copyright (C) 2023  Sorapointa Team
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Affero General Public License as
+// published by the Free Software Foundation, either version 3 of the
+// License, or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-
-
 
 import "AsterLittleStageState.proto";
 
+option java_package = "org.sorapointa.proto";
 
 message AsterLittleDetailInfo {
-	uint32 stageBeginTime = 13;
-	AsterLittleStageState stageState = 9;
-	uint32 stageId = 6;
-	uint32 beginTime = 11;
-	bool isOpen = 12;
+  uint32 stage_begin_time = 13;
+  AsterLittleStageState stage_state = 9;
+  uint32 stage_id = 6;
+  uint32 begin_time = 11;
+  bool is_open = 12;
 }

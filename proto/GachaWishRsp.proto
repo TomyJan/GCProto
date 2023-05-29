@@ -1,18 +1,30 @@
-syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message GachaWishRsp {
-	enum COIIDDMDPIL {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 1574;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
+// Sorapointa - A server software re-implementation for a certain anime game, and avoid sorapointa.
+// Copyright (C) 2023  Sorapointa Team
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Affero General Public License as
+// published by the Free Software Foundation, either version 3 of the
+// License, or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-	uint32 wishProgress = 3;
-	uint32 wishMaxProgress = 7;
-	uint32 gachaType = 6;
-	uint32 gachaScheduleId = 11;
-	int32 retcode = 9;
-	uint32 wishItemId = 5;
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GachaWishRsp {
+  // CMD_ID = 1574
+
+  uint32 wish_progress = 3;
+  uint32 wish_max_progress = 7;
+  uint32 gacha_type = 6;
+  uint32 gacha_schedule_id = 11;
+  int32 retcode = 9;
+  uint32 wish_item_id = 5;
 }

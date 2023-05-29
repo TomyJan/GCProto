@@ -1,6 +1,5 @@
-// Proto has been converted from Sorapointa to Grasscutter format
 // Sorapointa - A server software re-implementation for a certain anime game, and avoid sorapointa.
-// Copyright (C) 2022  Sorapointa Team
+// Copyright (C) 2023  Sorapointa Team
 //
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU Affero General Public License as
@@ -16,12 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
 
-
-
+option java_package = "org.sorapointa.proto";
 
 message AttackResultCreateCount {
-  repeated uint32 Unk3300_PFFFFJBPKGN = 8;
-  repeated uint32 Unk3300_MDGFBFBAHPB = 10;
+  repeated uint32 create_count_no_cost_list = 4;
+  repeated uint32 create_count_list = 12;
 }

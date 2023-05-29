@@ -1,25 +1,32 @@
+// Sorapointa - A server software re-implementation for a certain anime game, and avoid sorapointa.
+// Copyright (C) 2023  Sorapointa Team
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Affero General Public License as
+// published by the Free Software Foundation, either version 3 of the
+// License, or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
 
-
-
-
+option java_package = "org.sorapointa.proto";
 
 message AvatarSkillDepotChangeNotify {
-	enum DCNKKEIFKEO {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 1098;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
+  // CMD_ID = 1098
 
-	repeated uint32 talentIdList = 14;
-	repeated uint32 proudSkillList = 11;
-	uint32 skillDepotId = 8;
-	uint32 entityId = 3;
-	map<uint32, uint32> proudSkillExtraLevelMap = 4;
-	uint32 coreProudSkillLevel = 10;
-	map<uint32, uint32> skillLevelMap = 13;
-	uint64 avatarGuid = 12;
+  repeated uint32 talent_id_list = 14;
+  repeated uint32 proud_skill_list = 11;
+  uint32 skill_depot_id = 8;
+  uint32 entity_id = 3;
+  map<uint32, uint32> proud_skill_extra_level_map = 4;
+  uint32 core_proud_skill_level = 10;
+  map<uint32, uint32> skill_level_map = 13;
+  uint64 avatar_guid = 12;
 }

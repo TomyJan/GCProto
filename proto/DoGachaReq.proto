@@ -1,18 +1,29 @@
-syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message DoGachaReq {
-	enum PCEMGEJGMDI {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 1587;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-		EAJIABGAOCI = 1;
-	}
+// Sorapointa - A server software re-implementation for a certain anime game, and avoid sorapointa.
+// Copyright (C) 2023  Sorapointa Team
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Affero General Public License as
+// published by the Free Software Foundation, either version 3 of the
+// License, or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-	uint32 gachaRandom = 12;
-	uint32 gachaType = 2;
-	uint32 gachaScheduleId = 3;
-	string gachaTag = 15;
-	uint32 gachaTimes = 10;
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message DoGachaReq {
+  // CMD_ID = 1587
+
+  uint32 gacha_random = 12;
+  uint32 gacha_type = 2;
+  uint32 gacha_schedule_id = 3;
+  string gacha_tag = 15;
+  uint32 gacha_times = 10;
 }

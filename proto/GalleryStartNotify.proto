@@ -1,0 +1,36 @@
+// Sorapointa - A server software re-implementation for a certain anime game, and avoid sorapointa.
+// Copyright (C) 2023  Sorapointa Team
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Affero General Public License as
+// published by the Free Software Foundation, either version 3 of the
+// License, or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+syntax = "proto3";
+
+import "GalleryElectroherculesBattleStartParam.proto";
+import "GalleryFlowerStartParam.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message GalleryStartNotify {
+  // CMD_ID = 5505
+
+  uint32 start_time = 3;
+  uint32 owner_uid = 14;
+  uint32 player_count = 4;
+  uint32 gallery_id = 12;
+  uint32 end_time = 1;
+  oneof detail {
+    GalleryFlowerStartParam flower_start_param = 10;
+    GalleryElectroherculesBattleStartParam electrohercules_start_param = 7;
+  }
+}

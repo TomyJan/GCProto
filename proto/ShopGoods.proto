@@ -1,28 +1,44 @@
+// Sorapointa - A server software re-implementation for a certain anime game, and avoid sorapointa.
+// Copyright (C) 2023  Sorapointa Team
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Affero General Public License as
+// published by the Free Software Foundation, either version 3 of the
+// License, or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-
-
 
 import "ItemParam.proto";
+
+option java_package = "org.sorapointa.proto";
+
 message ShopGoods {
-	uint32 Unk3300_MBGOMHNBHMG = 655;
-	uint32 maxLevel = 3;
-	uint32 hcoin = 13;
-	uint32 secondarySheetId = 363;
-	uint32 scoin = 11;
-	uint32 goodsId = 2;
-	uint32 buyLimit = 10;
-	repeated uint32 preGoodsIdList = 12;
-	ItemParam goodsItem = 6;
-	repeated ItemParam costItemList = 7;
-	uint32 singleLimit = 424;
-	uint32 nextRefreshTime = 1;
-	uint32 Unk3300_NJCPAJBCEPH = 182;
-	uint32 boughtNum = 4;
-	uint32 Unk3300_OMKIFIMDGDN = 636;
-	uint32 minLevel = 14;
-	uint32 endTime = 15;
-	uint32 beginTime = 8;
-	uint32 disableType = 9;
-	uint32 mcoin = 5;
+  uint32 discount_end_time = 655;
+  uint32 max_level = 3;
+  uint32 hcoin = 13;
+  uint32 secondary_sheet_id = 363;
+  uint32 scoin = 11;
+  uint32 goods_id = 2;
+  uint32 buy_limit = 10;
+  repeated uint32 pre_goods_id_list = 12;
+  ItemParam goods_item = 6;
+  repeated ItemParam cost_item_list = 7;
+  uint32 single_limit = 424;
+  uint32 next_refresh_time = 1;
+  uint32 discount_id = 182;
+  uint32 bought_num = 4;
+  uint32 discount_begin_time = 636;
+  uint32 min_level = 14;
+  uint32 end_time = 15;
+  uint32 begin_time = 8;
+  uint32 disable_type = 9;
+  uint32 mcoin = 5;
 }

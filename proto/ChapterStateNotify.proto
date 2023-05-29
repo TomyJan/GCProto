@@ -1,29 +1,40 @@
+// Sorapointa - A server software re-implementation for a certain anime game, and avoid sorapointa.
+// Copyright (C) 2023  Sorapointa Team
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Affero General Public License as
+// published by the Free Software Foundation, either version 3 of the
+// License, or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-
-
 
 import "ChapterState.proto";
+
+option java_package = "org.sorapointa.proto";
+
 message ChapterStateNotify {
-	enum FCANPLPPJEL {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 469;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
+  // CMD_ID = 469
 
-	message NeedPlayerLevel {
-		uint32 configNeedPlayerLevel = 4;
-		bool isLimit = 14;
-	}
-	message NeedBeginTime {
-		uint32 configNeedBeginTime = 5;
-		bool isLimit = 4;
-	}
+  message NeedPlayerLevel {
+    uint32 config_need_player_level = 4;
+    bool is_limit = 14;
+  }
 
-	NeedPlayerLevel needPlayerLevel = 2;
-	NeedBeginTime needBeginTime = 9;
-	ChapterState chapterState = 13;
-	uint32 chapterId = 15;
+  message NeedBeginTime {
+    uint32 config_need_begin_time = 5;
+    bool is_limit = 4;
+  }
+
+  NeedPlayerLevel need_player_level = 2;
+  NeedBeginTime need_begin_time = 9;
+  ChapterState chapter_state = 13;
+  uint32 chapter_id = 15;
 }

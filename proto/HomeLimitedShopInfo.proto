@@ -1,14 +1,30 @@
+// Sorapointa - A server software re-implementation for a certain anime game, and avoid sorapointa.
+// Copyright (C) 2023  Sorapointa Team
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Affero General Public License as
+// published by the Free Software Foundation, either version 3 of the
+// License, or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-
-
 
 import "Vector.proto";
+
+option java_package = "org.sorapointa.proto";
+
 message HomeLimitedShopInfo {
-	uint32 nextGuestOpenTime = 14;
-	uint32 uid = 4;
-	Vector djinnRot = 12;
-	uint32 nextCloseTime = 2;
-	Vector djinnPos = 6;
-	uint32 nextOpenTime = 15;
+  fixed32 next_guest_open_time = 14;
+  uint32 uid = 4;
+  Vector djinn_rot = 12;
+  fixed32 next_close_time = 2;
+  Vector djinn_pos = 6;
+  fixed32 next_open_time = 15;
 }

@@ -1,22 +1,32 @@
+// Sorapointa - A server software re-implementation for a certain anime game, and avoid sorapointa.
+// Copyright (C) 2023  Sorapointa Team
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Affero General Public License as
+// published by the Free Software Foundation, either version 3 of the
+// License, or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-
-
 
 import "GachaInfo.proto";
-message GetGachaInfoRsp {
-	enum DDLAEDKIDPC {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 1555;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
 
-	int32 retcode = 14;
-	bool Unk3300_OHFMHIHJHPJ = 11;
-	uint32 dailyGachaTimes = 1;
-	uint32 gachaRandom = 6;
-	bool Unk3300_HBILIAEIHNK = 13;
-	repeated GachaInfo gachaInfoList = 3;
+option java_package = "org.sorapointa.proto";
+
+message GetGachaInfoRsp {
+  // CMD_ID = 1555
+
+  int32 retcode = 14;
+  bool is_under_general_restrict = 11;
+  uint32 daily_gacha_times = 1;
+  uint32 gacha_random = 6;
+  bool is_under_minors_restrict = 13;
+  repeated GachaInfo gacha_info_list = 3;
 }

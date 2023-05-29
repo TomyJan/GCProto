@@ -1,12 +1,30 @@
+// Sorapointa - A server software re-implementation for a certain anime game, and avoid sorapointa.
+// Copyright (C) 2023  Sorapointa Team
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Affero General Public License as
+// published by the Free Software Foundation, either version 3 of the
+// License, or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
+
+option java_package = "org.sorapointa.proto";
+
 message H5ActivityInfo {
-	string prefabPath = 13;
-	uint32 contentCloseTime = 1;
-	bool isEntranceOpen = 6;
-	uint32 endTime = 11;
-	uint32 Unk3300_DMBNFECAKBH = 4;
-	uint32 beginTime = 8;
-	string url = 3;
-	uint32 Unk3300_OBKEBDCKHJF = 9;
+  string prefab_path = 13;
+  uint32 content_close_time = 1;
+  bool is_entrance_open = 6;
+  uint32 end_time = 11;
+  uint32 h5_activity_id = 4;
+  uint32 begin_time = 8;
+  string url = 3;
+  uint32 h5_schedule_id = 9;
 }

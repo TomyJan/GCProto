@@ -1,13 +1,29 @@
+// Sorapointa - A server software re-implementation for a certain anime game, and avoid sorapointa.
+// Copyright (C) 2023  Sorapointa Team
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Affero General Public License as
+// published by the Free Software Foundation, either version 3 of the
+// License, or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-
-
 
 import "LunaRiteHintStatusType.proto";
+
+option java_package = "org.sorapointa.proto";
+
 message LunaRiteAreaInfo {
-	uint32 challengeIndex = 9;
-	repeated uint32 sacrificeRewardList = 13;
-	repeated uint32 sacrificeList = 2;
-	LunaRiteHintStatusType hintStatus = 3;
-	uint32 areaId = 12;
+  uint32 challenge_index = 9;
+  repeated uint32 sacrifice_reward_list = 13;
+  repeated uint32 sacrifice_list = 2;
+  LunaRiteHintStatusType hint_status = 3;
+  uint32 area_id = 12;
 }

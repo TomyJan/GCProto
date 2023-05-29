@@ -1,28 +1,42 @@
+// Sorapointa - A server software re-implementation for a certain anime game, and avoid sorapointa.
+// Copyright (C) 2023  Sorapointa Team
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Affero General Public License as
+// published by the Free Software Foundation, either version 3 of the
+// License, or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
 
-
-
-import "Vector3Int.proto";
-import "OptionType.proto";
 import "QueryFilter.proto";
 import "Vector.proto";
-message QueryPathReq {
-	enum OIOAGLJGAJP {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 2305;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-		EAJIABGAOCI = 1;
-	}
+import "Vector3Int.proto";
 
-	int32 queryId = 13;
-	repeated Vector destinationPos = 4;
-	Vector3Int Unk3300_LHNGPJFOMIK = 5;
-	OptionType queryType = 12;
-	QueryFilter filter = 2;
-	Vector3Int Unk3300_CLGJBBJDOLN = 15;
-	uint32 sceneId = 7;
-	Vector sourcePos = 10;
+option java_package = "org.sorapointa.proto";
+
+message QueryPathReq {
+  // CMD_ID = 2305
+
+  enum OptionType {
+    OPTION_TYPE_NONE = 0;
+    OPTION_TYPE_NORMAL = 1;
+    OPTION_TYPE_FIRST_CAN_GO = 2;
+  }
+
+  int32 query_id = 13;
+  repeated Vector destination_pos = 4;
+  Vector3Int destination_extend = 5;
+  OptionType query_type = 12;
+  QueryFilter filter = 2;
+  Vector3Int source_extend = 15;
+  uint32 scene_id = 7;
+  Vector source_pos = 10;
 }

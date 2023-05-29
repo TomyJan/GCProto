@@ -1,21 +1,37 @@
+// Sorapointa - A server software re-implementation for a certain anime game, and avoid sorapointa.
+// Copyright (C) 2023  Sorapointa Team
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Affero General Public License as
+// published by the Free Software Foundation, either version 3 of the
+// License, or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
 
-
-
-import "ParentQuestRandomInfo.proto";
 import "ChildQuest.proto";
 import "InferencePageInfo.proto";
+import "ParentQuestRandomInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
 message ParentQuest {
-	ParentQuestRandomInfo randomInfo = 7;
-	repeated int32 questVar = 8;
-	repeated ChildQuest childQuestList = 10;
-	bool isFinished = 9;
-	bool isRandom = 11;
-	uint32 parentQuestId = 1;
-	map<uint32, uint32> timeVarMap = 12;
-	uint32 parentQuestState = 15;
-	uint64 videoKey = 2;
-	repeated InferencePageInfo inferencePageList = 5;
-	uint32 questVarSeq = 4;
+  ParentQuestRandomInfo random_info = 7;
+  repeated int32 quest_var = 8;
+  repeated ChildQuest child_quest_list = 10;
+  bool is_finished = 9;
+  bool is_random = 11;
+  uint32 parent_quest_id = 1;
+  map<uint32, uint32> time_var_map = 12;
+  uint32 parent_quest_state = 15;
+  uint64 video_key = 2;
+  repeated InferencePageInfo inference_page_list = 5;
+  uint32 quest_var_seq = 4;
 }

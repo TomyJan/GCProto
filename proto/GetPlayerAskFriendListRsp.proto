@@ -1,18 +1,28 @@
+// Sorapointa - A server software re-implementation for a certain anime game, and avoid sorapointa.
+// Copyright (C) 2023  Sorapointa Team
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Affero General Public License as
+// published by the Free Software Foundation, either version 3 of the
+// License, or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-
-
 
 import "FriendBrief.proto";
-message GetPlayerAskFriendListRsp {
-	enum GNKBDBAJJCK {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 4084;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
 
-	int32 retcode = 5;
-	repeated FriendBrief askFriendList = 6;
+option java_package = "org.sorapointa.proto";
+
+message GetPlayerAskFriendListRsp {
+  // CMD_ID = 4084
+
+  int32 retcode = 5;
+  repeated FriendBrief ask_friend_list = 6;
 }

@@ -1,19 +1,29 @@
+// Sorapointa - A server software re-implementation for a certain anime game, and avoid sorapointa.
+// Copyright (C) 2023  Sorapointa Team
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Affero General Public License as
+// published by the Free Software Foundation, either version 3 of the
+// License, or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-
-
 
 import "MaterialDeleteReturnType.proto";
-message MaterialDeleteReturnNotify {
-	enum AMMCMEKCDML {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 615;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
 
-	map<uint32, uint32> Unk3300_OFOKFKBALJD = 7;
-	map<uint32, uint32> Unk3300_LAIHDKJAHAF = 10;
-	MaterialDeleteReturnType type = 11;
+option java_package = "org.sorapointa.proto";
+
+message MaterialDeleteReturnNotify {
+  // CMD_ID = 615
+
+  map<uint32, uint32> return_item_map = 7;
+  map<uint32, uint32> delete_material_map = 10;
+  MaterialDeleteReturnType type = 11;
 }

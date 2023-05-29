@@ -1,6 +1,5 @@
-// Proto has been converted from Sorapointa to Grasscutter format
 // Sorapointa - A server software re-implementation for a certain anime game, and avoid sorapointa.
-// Copyright (C) 2022  Sorapointa Team
+// Copyright (C) 2023  Sorapointa Team
 //
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU Affero General Public License as
@@ -16,13 +15,14 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
 
 import "Vector.proto";
 
+option java_package = "org.sorapointa.proto";
+
 message EvtCombatSteerMotionInfo {
-  Vector face_dir = 5;
-  Vector pos = 1;
-  Vector velocity = 8;
-  uint32 entity_id = 11;
+  Vector face_dir = 3;
+  Vector velocity = 7;
+  uint32 entity_id = 6;
+  Vector pos = 4;
 }

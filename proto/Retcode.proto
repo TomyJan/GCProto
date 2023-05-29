@@ -1,6 +1,5 @@
-// Proto has been converted from Sorapointa to Grasscutter format
 // Sorapointa - A server software re-implementation for a certain anime game, and avoid sorapointa.
-// Copyright (C) 2022  Sorapointa Team
+// Copyright (C) 2023  Sorapointa Team
 //
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU Affero General Public License as
@@ -16,7 +15,8 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
+
+option java_package = "org.sorapointa.proto";
 
 enum Retcode {
   RET_SUCC = 0;
@@ -185,6 +185,7 @@ enum Retcode {
   RET_LEVEL_TAG_SWITCH_IN_CD = 563;
   RET_LEVEL_TAG_ALREADY_EXIST = 564;
   RET_INVALID_AREA_ID = 565;
+  RET_GALLERY_ONGOING_FORBID = 566;
   RET_ITEM_NOT_EXIST = 601;
   RET_PACK_EXCEED_MAX_WEIGHT = 602;
   RET_ITEM_NOT_DROPABLE = 603;
@@ -1037,6 +1038,10 @@ enum Retcode {
   RET_BRICK_BREAKER_DUNGEON_LEVEL_NOT_UNLOCK = 10462;
   RET_BRICK_BREAKER_COIN_NOT_ENOUGH = 10463;
   RET_BRICK_BREAKER_COIN_EXCEED_LIMIT = 10464;
+  RET_TEAMCHAIN_WORLD_IN_MP_MODE = 10466;
+  RET_LAN_V3_BOAT_PLAYER_NUM_NOT_VALID = 10481;
+  RET_LAN_V3_BOAT_PLAY_NOT_OPEN = 10482;
+  RET_LAN_V3_BOAT_NOT_IN_WORLD_SCENE = 10483;
   RET_ACTIVITY_CONTENT_CLOSED = 10901;
   RET_NOT_IN_FISHING = 11001;
   RET_FISH_STATE_ERROR = 11002;
@@ -1178,6 +1183,8 @@ enum Retcode {
   RET_GCG_BAN_INVITE = 12148;
   RET_GCG_TARGET_BAN_INVITE = 12149;
   RET_GCG_INVITE_ALREADY_INVITE = 12150;
+  RET_GCG_FESTIVAL_MODE_NOT_OPEN = 12151;
+  RET_GCG_TARGET_FESTIVAL_MODE_NOT_OPEN = 12152;
   RET_GCG_BACK_DUEL_PS_TO_OTHER = 12153;
   RET_GCG_BACK_DUEL_OTHER_TO_PS = 12154;
   RET_GCG_DS_DECK_LOCKED = 12201;

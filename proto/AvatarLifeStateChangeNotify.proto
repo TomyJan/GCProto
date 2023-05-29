@@ -1,26 +1,34 @@
+// Sorapointa - A server software re-implementation for a certain anime game, and avoid sorapointa.
+// Copyright (C) 2023  Sorapointa Team
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Affero General Public License as
+// published by the Free Software Foundation, either version 3 of the
+// License, or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-
-
 
 import "PlayerDieType.proto";
 import "ServerBuff.proto";
 
+option java_package = "org.sorapointa.proto";
 
 message AvatarLifeStateChangeNotify {
-	enum MCNNCBGGDAI {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 1270;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-	}
+  // CMD_ID = 1270
 
-	uint32 lifeState = 8;
-	uint32 moveReliableSeq = 10;
-	PlayerDieType dieType = 1;
-	string attackTag = 6;
-	uint64 avatarGuid = 3;
-	uint32 sourceEntityId = 5;
-	repeated ServerBuff serverBuffList = 4;
+  uint32 life_state = 8;
+  uint32 move_reliable_seq = 10;
+  PlayerDieType die_type = 1;
+  string attack_tag = 6;
+  uint64 avatar_guid = 3;
+  uint32 source_entity_id = 5;
+  repeated ServerBuff server_buff_list = 4;
 }

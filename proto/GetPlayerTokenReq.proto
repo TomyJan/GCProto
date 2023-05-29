@@ -1,33 +1,44 @@
-syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
-message GetPlayerTokenReq {
-	enum HOJPANHOIDB {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 105;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-		EAJIABGAOCI = 1;
-	}
+// Sorapointa - A server software re-implementation for a certain anime game, and avoid sorapointa.
+// Copyright (C) 2023  Sorapointa Team
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Affero General Public License as
+// published by the Free Software Foundation, either version 3 of the
+// License, or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-	uint32 platformType = 10;
-	string Unk3300_PHNOHCKIHIA = 6;
-	string countryCode = 1;
-	string clientIpStr = 8;
-	uint32 Unk3300_PMGFBMJNNCL = 13;
-	uint32 keyId = 294;
-	string Unk3300_PKONAOIDNFK = 9;
-	uint32 accountType = 5;
-	bool isGuest = 14;
-	uint32 cloudClientIp = 1399;
-	string birthday = 65;
-	string onlineId = 12;
-	uint32 uid = 11;
-	string clientRandKey = 776;
-	uint32 subChannelId = 7;
-	string accountUid = 4;
-	string accountToken = 2;
-	string psnId = 15;
-	uint32 channelId = 3;
-	uint32 lang = 904;
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GetPlayerTokenReq {
+  // CMD_ID = 105
+
+  uint32 platform_type = 10;
+  string account_ext = 6;
+  string country_code = 1;
+  string client_ip_str = 8;
+  uint32 cloud_client_ip = 13;
+  uint32 key_id = 294;
+  string psn_region = 9;
+  uint32 account_type = 5;
+  bool is_guest = 14;
+  uint32 minors_reg_min_age = 1399;
+  string birthday = 65;
+  string online_id = 12;
+  uint32 uid = 11;
+  string client_rand_key = 776;
+  uint32 sub_channel_id = 7;
+  string account_uid = 4;
+  string account_token = 2;
+  string psn_id = 15;
+  uint32 channel_id = 3;
+  uint32 lang = 904;
 }

@@ -1,58 +1,69 @@
+// Sorapointa - A server software re-implementation for a certain anime game, and avoid sorapointa.
+// Copyright (C) 2023  Sorapointa Team
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Affero General Public License as
+// published by the Free Software Foundation, either version 3 of the
+// License, or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
 syntax = "proto3";
-option java_package = "emu.grasscutter.net.proto";
 
-import "TrackingIOInfo.proto";
 import "AdjustTrackingInfo.proto";
-message PlayerLoginReq {
-	enum EBCJABNOFCB {
-		option allow_alias = true;
-		NONE = 0;
-		PEPPOHPHJOJ = 187;
-		DCDNILFDFLB = 0;
-		NNBKOLMPOEA = 1;
-		EAJIABGAOCI = 1;
-	}
+import "TrackingIOInfo.proto";
 
-	string token = 6;
-	uint32 Unk3300_NDLANBEIGEG = 323;
-	uint32 targetUid = 4;
-	string checksumClientVersion = 1738;
-	string accountUid = 9;
-	bool isEditor = 13;
-	string birthday = 1280;
-	bytes extraBinData = 78;
-	uint32 regPlatform = 119;
-	uint32 gmUid = 246;
-	string checksum = 1715;
-	uint32 platformType = 12;
-	TrackingIOInfo trackingIoInfo = 710;
-	uint32 Unk3300_OFFHPAFIFGD = 1762;
-	string deviceInfo = 14;
-	uint32 targetHomeOwnerUid = 216;
-	string platform = 2;
-	uint32 channelId = 324;
-	string countryCode = 1616;
-	uint64 loginRand = 8;
-	string onlineId = 54;
-	uint32 subChannelId = 1709;
-	string deviceUuid = 15;
-	uint32 Unk3300_OOBHAIIIPHH = 2024;
-	string clientVerisonHash = 1765;
-	AdjustTrackingInfo adjustTrackingInfo = 442;
-	uint32 accountType = 7;
-	string psnId = 1568;
-	uint32 tag = 1223;
-	uint32 Unk3300_PMGFBMJNNCL = 1394;
-	string systemVersion = 3;
-	bool isGuest = 10;
-	string clientVersion = 11;
-	bool isTransfer = 2037;
-	bytes environmentErrorCode = 1015;
-	string deviceName = 1;
-	string securityLibraryMd5 = 378;
-	uint32 languageType = 5;
-	bytes securityCmdReply = 907;
-	string securityLibraryVersion = 684;
-	uint32 clientDataVersion = 426;
-	string cps = 821;
+option java_package = "org.sorapointa.proto";
+
+message PlayerLoginReq {
+  // CMD_ID = 187
+
+  string token = 6;
+  uint32 target_home_param = 323;
+  uint32 target_uid = 4;
+  string checksum_client_version = 1738;
+  string account_uid = 9;
+  bool is_editor = 13;
+  string birthday = 1280;
+  bytes extra_bin_data = 78;
+  uint32 reg_platform = 119;
+  uint32 gm_uid = 246;
+  string checksum = 1715;
+  uint32 platform_type = 12;
+  TrackingIOInfo tracking_io_info = 710;
+  uint32 client_token = 1762;
+  string device_info = 14;
+  uint32 target_home_owner_uid = 216;
+  string platform = 2;
+  uint32 channel_id = 324;
+  string country_code = 1616;
+  uint64 login_rand = 8;
+  string online_id = 54;
+  uint32 sub_channel_id = 1709;
+  string device_uuid = 15;
+  uint32 client_port = 2024;
+  string client_verison_hash = 1765;
+  AdjustTrackingInfo adjust_tracking_info = 442;
+  uint32 account_type = 7;
+  string psn_id = 1568;
+  uint32 tag = 1223;
+  uint32 cloud_client_ip = 1394;
+  string system_version = 3;
+  bool is_guest = 10;
+  string client_version = 11;
+  bool is_transfer = 2037;
+  bytes environment_error_code = 1015;
+  string device_name = 1;
+  string security_library_md5 = 378;
+  uint32 language_type = 5;
+  bytes security_cmd_reply = 907;
+  string security_library_version = 684;
+  uint32 client_data_version = 426;
+  string cps = 821;
 }
