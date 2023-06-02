@@ -20,6 +20,7 @@ option java_package = "emu.grasscutter.net.proto";
 
 
 // CmdId: 8828
+// Obf: LNJBNJPOIOP
 message MusicGameSettleRsp {
 	int32 retcode = 7;
 	bool is_new_record = 14;
