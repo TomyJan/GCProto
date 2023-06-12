@@ -21,8 +21,8 @@ option java_package = "emu.grasscutter.net.proto";
 
 // Obf: LEJKLPGFMIG
 message TrialAvatarActivityRewardDetailInfo {
-	bool received_reward = 9;
-	bool passed_dungeon = 12;
+	bool received_reward = 12;
+	bool passed_dungeon = 9;
 	uint32 reward_id = 14;
 	uint32 trial_avatar_index_id = 5;
 }
