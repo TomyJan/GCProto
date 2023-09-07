@@ -15,12 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-
 option java_package = "emu.grasscutter.net.proto";
-
-
-// Obf: FOFMOHPPKPO
+// Obf: JGKDEPOMBFP
 message QueryFilter {
-	int32 DHGFHBFCGOL = 10;
-	int32 HFJNAAGCKFJ = 3;
+	int32 JKLHOJOCLJD = 10;
+	int32 JOJGNGIGNDB = 6;
 }

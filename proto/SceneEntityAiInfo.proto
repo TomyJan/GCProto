@@ -15,13 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-
 option java_package = "emu.grasscutter.net.proto";
-
-
 import "Vector.proto";
 import "ServantInfo.proto";
-// Obf: DLDEGHAICPF
+// Obf: NGIAJBBLFGD
 message SceneEntityAiInfo {
 	bool is_ai_open = 1;
 	Vector born_pos = 2;
@@ -30,5 +27,5 @@ message SceneEntityAiInfo {
 	map<uint32, uint32> ai_threat_map = 5;
 	map<uint32, uint32> skill_group_cd_map = 6;
 	uint32 cur_tactic = 7;
-	bool LHPKKKJLJHK = 8;
+	bool NMECJFPHFGH = 8;
 }

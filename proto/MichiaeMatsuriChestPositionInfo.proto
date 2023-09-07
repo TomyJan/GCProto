@@ -15,14 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-
 option java_package = "emu.grasscutter.net.proto";
-
-
 import "Vector.proto";
-// Obf: NGFDAJNNCKL
+// Obf: GOCKMKGPEEH
 message MichiaeMatsuriChestPositionInfo {
-	uint32 group_id = 2;
-	Vector pos = 11;
-	uint32 config_id = 5;
+	uint32 group_id = 8;
+	Vector pos = 12;
+	uint32 config_id = 11;
 }

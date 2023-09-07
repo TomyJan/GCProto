@@ -15,15 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-
 option java_package = "emu.grasscutter.net.proto";
-
-
 import "DailyTaskInfo.proto";
-// CmdId: 169
-// Obf: MECIJHANDBI
+// CmdId: 9896
+// Obf: LBMMGFMIMND
 message WorldOwnerDailyTaskNotify {
-	uint32 finished_daily_task_num = 5;
-	uint32 filter_city_id = 6;
-	repeated DailyTaskInfo task_list = 15;
+	uint32 filter_city_id = 3;
+	uint32 finished_daily_task_num = 4;
+	repeated DailyTaskInfo task_list = 8;
 }

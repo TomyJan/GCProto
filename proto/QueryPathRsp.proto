@@ -15,16 +15,15 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-
 option java_package = "emu.grasscutter.net.proto";
-
 import "PathStatusType.proto";
 import "Vector.proto";
-// CmdId: 2396
-// Obf: MMGFDHKGJPM
-message QueryPathRsp {	
-	PathStatusType query_status = 2;
-	int32 retcode = 3;
-	repeated Vector corners = 10;
-	int32 query_id = 8;
+// CmdId: 2319
+// Obf: EDKMFDJCIHL
+message QueryPathRsp {
+	int32 query_id = 6;
+	repeated Vector corners = 1;
+	int32 retcode = 8;
+	// Obf: LFJGAFPHNNE
+	PathStatusType query_status = 15;
 }

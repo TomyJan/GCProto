@@ -15,12 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-
 option java_package = "emu.grasscutter.net.proto";
-
-
 import "WindFieldStageInfo.proto";
-// Obf: FNGDIKANJCP
+// Obf: MLNINJIDONO
 message WindFieldDetailInfo {
-	repeated WindFieldStageInfo stage_info_list = 11;
+	repeated WindFieldStageInfo stage_info_list = 14;
 }

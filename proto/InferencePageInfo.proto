@@ -15,13 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-
 option java_package = "emu.grasscutter.net.proto";
-
-
 import "InfernceWordInfo.proto";
-// Obf: IONBOCLLKIJ
+// Obf: BMEHNPACBEM
 message InferencePageInfo {
-	repeated InfernceWordInfo unlock_word_list = 15;
-	uint32 page_id = 7;
+	repeated InfernceWordInfo unlock_word_list = 7;
+	uint32 page_id = 13;
 }

@@ -15,12 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-
 option java_package = "emu.grasscutter.net.proto";
-
-
-// Obf: AIPCAGJJPKM
+// Obf: ICNBNJOGGOP
 message UnionCmd {
-	uint32 message_id = 1;
 	bytes body = 13;
+	uint32 message_id = 4;
 }

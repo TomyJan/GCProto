@@ -15,11 +15,8 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-
 option java_package = "emu.grasscutter.net.proto";
-
-
-// Obf: CBCCEMJAHPB
+// Obf: BLCNFAPGDKG
 message ParamList {
 	repeated uint32 param_list = 1;
 }

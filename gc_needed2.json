@@ -1,8 +1,5 @@
 [
     {
-        "name": "VisionType"
-    },
-    {
         "name": "Route"
     },
     {
@@ -12,10 +9,13 @@
         "name": "BattlePassMission"
     },
     {
-        "name": "AbilityInvokeEntryHead"
+        "name": "AbilityString"
     },
     {
         "name": "AbilityInvokeEntry"
+    },
+    {
+        "name": "AbilityMetaAddAbility"
     },
     {
         "name": "AbilityMetaModifierChange"
@@ -24,7 +24,10 @@
         "name": "AbilityMetaReInitOverrideMap"
     },
     {
-        "name": "AbilityMixinCostStamina"
+        "name": "AbilityMetaSetKilledState"
+    },
+    {
+        "name": "AbilityScalarType"
     },
     {
         "name": "AbilityScalarValueEntry"
@@ -33,31 +36,31 @@
         "name": "ModifierAction"
     },
     {
-        "name": "Achievement"
+        "name": "AbilityActionCreateGadget"
     },
     {
-        "name": "Status"
+        "name": "AbilityActionGenerateElemBall"
+    },
+    {
+        "name": "AbilityActionSetRandomOverrideMapValue"
+    },
+    {
+        "name": "Achievement"
     },
     {
         "name": "ActivityInfo"
     },
     {
-        "name": "MusicBeatmapList"
-    },
-    {
-        "name": "MusicBeatmapNote"
-    },
-    {
-        "name": "MusicBeatmap"
-    },
-    {
-        "name": "UgcMusicBriefInfo"
-    },
-    {
-        "name": "MusicGameRecord"
-    },
-    {
         "name": "ActivityWatcherInfo"
+    },
+    {
+        "name": "TrialAvatarGrantRecord"
+    },
+    {
+        "name": "TrialAvatarActivityDetailInfo"
+    },
+    {
+        "name": "TrialAvatarActivityRewardDetailInfo"
     },
     {
         "name": "AvatarFetterInfo"
@@ -78,6 +81,9 @@
         "name": "ShowEquip"
     },
     {
+        "name": "TrialAvatarInfo"
+    },
+    {
         "name": "BattlePassCycle"
     },
     {
@@ -96,19 +102,16 @@
         "name": "ChatInfo"
     },
     {
-        "name": "Retcode"
+        "name": "CityInfo"
     },
     {
-        "name": "DailyTaskInfo"
+        "name": "Retcode"
     },
     {
         "name": "DungeonSettleNotify"
     },
     {
         "name": "ParamList"
-    },
-    {
-        "name": "ItemParam"
     },
     {
         "name": "TowerLevelEndNotify"
@@ -183,13 +186,13 @@
         "name": "GadgetInteractReq"
     },
     {
-        "name": "PlatformInfo"
-    },
-    {
         "name": "GadgetBornType"
     },
     {
         "name": "InteractType"
+    },
+    {
+        "name": "TrifleGadget"
     },
     {
         "name": "MonsterBornType"
@@ -207,16 +210,19 @@
         "name": "VehicleMember"
     },
     {
+        "name": "AbilityGadgetInfo"
+    },
+    {
         "name": "BossChestInfo"
     },
     {
         "name": "InterOpType"
     },
     {
-        "name": "ResinCostType"
+        "name": "GatherGadgetInfo"
     },
     {
-        "name": "GatherGadgetInfo"
+        "name": "ResinCostType"
     },
     {
         "name": "SelectWorktopOptionReq"
@@ -228,7 +234,7 @@
         "name": "MathQuaternion"
     },
     {
-        "name": "MovingPlatformType"
+        "name": "PlatformInfo"
     },
     {
         "name": "FightPropPair"
@@ -255,6 +261,9 @@
         "name": "DealAddFriendResultType"
     },
     {
+        "name": "FriendEnterHomeOption"
+    },
+    {
         "name": "GachaInfo"
     },
     {
@@ -270,6 +279,9 @@
         "name": "GetGachaInfoRsp"
     },
     {
+        "name": "ItemParam"
+    },
+    {
         "name": "FurnitureMakeData"
     },
     {
@@ -279,13 +291,7 @@
         "name": "HomeBlockArrangementInfo"
     },
     {
-        "name": "HomeFurnitureData"
-    },
-    {
         "name": "HomeMarkPointFurnitureData"
-    },
-    {
-        "name": "HomeNpcData"
     },
     {
         "name": "HomeSceneArrangementInfo"
@@ -324,9 +330,6 @@
         "name": "MailTextContent"
     },
     {
-        "name": "BlossomBriefInfo"
-    },
-    {
         "name": "CompoundQueueData"
     },
     {
@@ -346,12 +349,6 @@
     },
     {
         "name": "PlayerCookReq"
-    },
-    {
-        "name": "HitTreeNotify"
-    },
-    {
-        "name": "AbilityActionGenerateElemBall"
     },
     {
         "name": "AbilityIdentifier"
@@ -405,19 +402,10 @@
         "name": "OnlinePlayerInfo"
     },
     {
-        "name": "PlayerApplyEnterMpResultNotify"
-    },
-    {
         "name": "PlayerLocationInfo"
     },
     {
-        "name": "PlayerWorldLocationInfo"
-    },
-    {
         "name": "SocialDetail"
-    },
-    {
-        "name": "SocialShowAvatarInfo"
     },
     {
         "name": "Birthday"
@@ -435,6 +423,12 @@
         "name": "EnterType"
     },
     {
+        "name": "BargainResultType"
+    },
+    {
+        "name": "BargainSnapshot"
+    },
+    {
         "name": "ChildQuest"
     },
     {
@@ -447,19 +441,25 @@
         "name": "Quest"
     },
     {
+        "name": "GivingRecord"
+    },
+    {
         "name": "AnnounceData"
     },
     {
         "name": "MaterialInfo"
     },
     {
+        "name": "PlayerApplyEnterMpResultNotify"
+    },
+    {
+        "name": "VisionType"
+    },
+    {
         "name": "InvestigationMonster"
     },
     {
         "name": "PacketHead"
-    },
-    {
-        "name": "ForceUpdateInfo"
     },
     {
         "name": "QueryCurrRegionHttpRsp"
@@ -472,6 +472,9 @@
     },
     {
         "name": "RegionSimpleInfo"
+    },
+    {
+        "name": "StopServerInfo"
     },
     {
         "name": "AbilityInvocationsNotify"
@@ -519,6 +522,9 @@
         "name": "AvatarWearFlycloakReq"
     },
     {
+        "name": "BargainOfferPriceReq"
+    },
+    {
         "name": "BuyBattlePassLevelReq"
     },
     {
@@ -534,7 +540,7 @@
         "name": "ChangeGameTimeReq"
     },
     {
-        "name": "HomeChangeBgmReq"
+        "name": "Unk2700BEDLIGJANCJClientReq"
     },
     {
         "name": "ChangeMailStarNotify"
@@ -546,19 +552,25 @@
         "name": "ChangeTeamNameReq"
     },
     {
+        "name": "CheckUgcStateReq"
+    },
+    {
+        "name": "CheckUgcUpdateReq"
+    },
+    {
         "name": "ChooseCurAvatarTeamReq"
+    },
+    {
+        "name": "ClientAbilitiesInitFinishCombineNotify"
+    },
+    {
+        "name": "EntityAbilityInvokeEntry"
     },
     {
         "name": "ClientAbilityChangeNotify"
     },
     {
         "name": "ClientAbilityInitFinishNotify"
-    },
-    {
-        "name": "ClientAIStateNotify"
-    },
-    {
-        "name": "ClientLoadingCostumeVerificationNotify"
     },
     {
         "name": "ClientLockGameTimeNotify"
@@ -570,16 +582,13 @@
         "name": "EvtAnimatorParameterInfo"
     },
     {
-        "name": "CombineReq"
-    },
-    {
         "name": "CreateVehicleReq"
     },
     {
-        "name": "DailyTaskFilterCityReq"
+        "name": "DealAddFriendReq"
     },
     {
-        "name": "DealAddFriendReq"
+        "name": "DelBackupAvatarTeamReq"
     },
     {
         "name": "DeleteFriendReq"
@@ -597,16 +606,28 @@
         "name": "DungeonEntryInfoReq"
     },
     {
+        "name": "DungeonPlayerDieReq"
+    },
+    {
         "name": "DungeonSlipRevivePointActivateReq"
     },
     {
         "name": "DungeonWayPointActivateReq"
     },
     {
+        "name": "EnterTrialAvatarActivityDungeonReq"
+    },
+    {
         "name": "EnterWorldAreaReq"
     },
     {
         "name": "EntityAiSyncNotify"
+    },
+    {
+        "name": "EvtAvatarEnterFocusNotify"
+    },
+    {
+        "name": "EvtAvatarExitFocusNotify"
     },
     {
         "name": "EvtAvatarLockChairReq"
@@ -618,6 +639,18 @@
         "name": "EvtAvatarStandUpNotify"
     },
     {
+        "name": "EvtAvatarUpdateFocusNotify"
+    },
+    {
+        "name": "EvtBulletDeactiveNotify"
+    },
+    {
+        "name": "EvtBulletHitNotify"
+    },
+    {
+        "name": "EvtBulletMoveNotify"
+    },
+    {
         "name": "EvtDestroyGadgetNotify"
     },
     {
@@ -627,10 +660,7 @@
         "name": "EvtEntityRenderersChangedNotify"
     },
     {
-        "name": "FireWorkReq"
-    },
-    {
-        "name": "FireworkSetReq"
+        "name": "ExecuteGadgetLuaReq"
     },
     {
         "name": "FurnitureMakeStartReq"
@@ -646,6 +676,9 @@
     },
     {
         "name": "GetAllMailNotify"
+    },
+    {
+        "name": "GetBargainDataReq"
     },
     {
         "name": "GetDailyDungeonEntryInfoReq"
@@ -681,7 +714,13 @@
         "name": "GetShopReq"
     },
     {
-        "name": "HomeChangeEditModeReq"
+        "name": "GetUgcReq"
+    },
+    {
+        "name": "HitTreeNotify"
+    },
+    {
+        "name": "HomeChangeBgmReq"
     },
     {
         "name": "HomeChangeModuleReq"
@@ -696,16 +735,34 @@
         "name": "HomeModuleSeenReq"
     },
     {
+        "name": "HomeSaveArrangementNoChangeReq"
+    },
+    {
+        "name": "OtherPlayerEnterHomeNotify"
+    },
+    {
         "name": "HomeSceneJumpReq"
+    },
+    {
+        "name": "HomeTransferReq"
     },
     {
         "name": "HomeUpdateArrangementInfoReq"
     },
     {
+        "name": "ItemGivingReq"
+    },
+    {
+        "name": "LaunchFireworksReq"
+    },
+    {
         "name": "LevelupCityReq"
     },
     {
-        "name": "McoinExchangeHcoinReq"
+        "name": "MassiveEntityElementOpBatchNotify"
+    },
+    {
+        "name": "MonsterAlertChangeNotify"
     },
     {
         "name": "MusicGameCreateBeatmapReq"
@@ -733,6 +790,9 @@
     },
     {
         "name": "PingReq"
+    },
+    {
+        "name": "PlayerApplyEnterHomeResultReq"
     },
     {
         "name": "PlayerApplyEnterMpReq"
@@ -771,13 +831,13 @@
         "name": "QuestDestroyEntityReq"
     },
     {
+        "name": "QuestDestroyNpcReq"
+    },
+    {
         "name": "QuestTransmitReq"
     },
     {
         "name": "QuestUpdateQuestVarReq"
-    },
-    {
-        "name": "QuestVarOp"
     },
     {
         "name": "QuickUseWidgetRsp"
@@ -786,19 +846,28 @@
         "name": "ReadMailNotify"
     },
     {
+        "name": "ReceivedTrialAvatarActivityRewardReq"
+    },
+    {
+        "name": "ReformFireworksReq"
+    },
+    {
         "name": "ReliquaryDecomposeReq"
     },
     {
         "name": "ReliquaryUpgradeReq"
     },
     {
-        "name": "DelBackupAvatarTeamReq"
+        "name": "RemoveCustomTeamReq"
+    },
+    {
+        "name": "SaveUgcReq"
+    },
+    {
+        "name": "UgcType"
     },
     {
         "name": "SceneAudioNotify"
-    },
-    {
-        "name": "SceneAvatarStaminaStepReq"
     },
     {
         "name": "SceneEntityDrownReq"
@@ -808,9 +877,6 @@
     },
     {
         "name": "SceneTransToPointReq"
-    },
-    {
-        "name": "SeeMonsterReq"
     },
     {
         "name": "SetBattlePassViewedReq"
@@ -846,9 +912,6 @@
         "name": "SetPlayerNameReq"
     },
     {
-        "name": "PropValue"
-    },
-    {
         "name": "SetPlayerPropReq"
     },
     {
@@ -859,12 +922,6 @@
     },
     {
         "name": "SetUpLunchBoxWidgetReq"
-    },
-    {
-        "name": "SetWidgetSlotReq"
-    },
-    {
-        "name": "WidgetSlotOp"
     },
     {
         "name": "SkipPlayerGameTimeReq"
@@ -885,19 +942,10 @@
         "name": "TakeFurnitureMakeReq"
     },
     {
-        "name": "TakeInvestigationRewardReq"
-    },
-    {
-        "name": "TakeInvestigationTargetRewardReq"
-    },
-    {
         "name": "TakeoffEquipReq"
     },
     {
         "name": "TakePlayerLevelRewardReq"
-    },
-    {
-        "name": "ToTheMoonEnterSceneReq"
     },
     {
         "name": "TowerEnterLevelReq"
@@ -907,12 +955,6 @@
     },
     {
         "name": "TowerTeamSelectReq"
-    },
-    {
-        "name": "FriendEnterHomeOption"
-    },
-    {
-        "name": "TryEnterHomeReq"
     },
     {
         "name": "UnionCmdNotify"
@@ -972,15 +1014,6 @@
         "name": "AchievementUpdateNotify"
     },
     {
-        "name": "ActivityInfoNotify"
-    },
-    {
-        "name": "ActivityScheduleInfoNotify"
-    },
-    {
-        "name": "ActivityScheduleInfo"
-    },
-    {
         "name": "ActivityTakeWatcherRewardRsp"
     },
     {
@@ -990,6 +1023,9 @@
         "name": "AddBackupAvatarTeamRsp"
     },
     {
+        "name": "AddCustomTeamRsp"
+    },
+    {
         "name": "AddNoGachaAvatarCardNotify"
     },
     {
@@ -997,18 +1033,6 @@
     },
     {
         "name": "AllWidgetDataNotify"
-    },
-    {
-        "name": "LunchBoxData"
-    },
-    {
-        "name": "WidgetSlotData"
-    },
-    {
-        "name": "WidgetSlotTag"
-    },
-    {
-        "name": "AntiAddictNotify"
     },
     {
         "name": "AskAddFriendNotify"
@@ -1032,7 +1056,7 @@
         "name": "AvatarDataNotify"
     },
     {
-        "name": "AvatarRenameInfo"
+        "name": "AvatarDelNotify"
     },
     {
         "name": "AvatarDieAnimationEndRsp"
@@ -1107,6 +1131,9 @@
         "name": "AvatarSkillUpgradeRsp"
     },
     {
+        "name": "AvatarTeamAllDataNotify"
+    },
+    {
         "name": "AvatarTeamUpdateNotify"
     },
     {
@@ -1122,6 +1149,15 @@
         "name": "BackMyWorldRsp"
     },
     {
+        "name": "BargainOfferPriceRsp"
+    },
+    {
+        "name": "BargainStartNotify"
+    },
+    {
+        "name": "BargainTerminateNotify"
+    },
+    {
         "name": "BattlePassAllDataNotify"
     },
     {
@@ -1131,16 +1167,7 @@
         "name": "BattlePassMissionUpdateNotify"
     },
     {
-        "name": "BlossomBriefInfoNotify"
-    },
-    {
         "name": "BuyBattlePassLevelRsp"
-    },
-    {
-        "name": "BuyGoodsRsp"
-    },
-    {
-        "name": "ShopGoods"
     },
     {
         "name": "BuyResinRsp"
@@ -1164,10 +1191,10 @@
         "name": "ChangeGameTimeRsp"
     },
     {
-        "name": "HomeChangeBgmNotify"
+        "name": "Unk2700FJEHHCPCBLGServerNotify"
     },
     {
-        "name": "HomeChangeBgmRsp"
+        "name": "Unk2700OGHMHELMBNNServerRsp"
     },
     {
         "name": "ChangeMpTeamAvatarRsp"
@@ -1176,10 +1203,16 @@
         "name": "ChangeTeamNameRsp"
     },
     {
-        "name": "ChapterStateNotify"
+        "name": "CheckUgcStateRsp"
+    },
+    {
+        "name": "CheckUgcUpdateRsp"
     },
     {
         "name": "ChooseCurAvatarTeamRsp"
+    },
+    {
+        "name": "CloseCommonTipsNotify"
     },
     {
         "name": "CodexDataFullNotify"
@@ -1197,9 +1230,6 @@
         "name": "CombineFormulaDataNotify"
     },
     {
-        "name": "CombineRsp"
-    },
-    {
         "name": "CompoundDataNotify"
     },
     {
@@ -1212,25 +1242,16 @@
         "name": "CreateVehicleRsp"
     },
     {
-        "name": "AvatarTeamAllDataNotify"
+        "name": "CustomTeamListNotify"
     },
     {
         "name": "CutSceneBeginNotify"
     },
     {
-        "name": "DailyTaskDataNotify"
-    },
-    {
-        "name": "DailyTaskFilterCityRsp"
-    },
-    {
-        "name": "DailyTaskProgressNotify"
-    },
-    {
-        "name": "DailyTaskUnlockedCitiesNotify"
-    },
-    {
         "name": "DealAddFriendRsp"
+    },
+    {
+        "name": "DelBackupAvatarTeamRsp"
     },
     {
         "name": "DeleteFriendNotify"
@@ -1269,13 +1290,16 @@
         "name": "DungeonEntryInfoRsp"
     },
     {
+        "name": "DungeonPlayerDieNotify"
+    },
+    {
+        "name": "DungeonPlayerDieRsp"
+    },
+    {
         "name": "DungeonShowReminderNotify"
     },
     {
         "name": "DungeonSlipRevivePointActivateRsp"
-    },
-    {
-        "name": "DungeonWayPointActivateRsp"
     },
     {
         "name": "DungeonWayPointNotify"
@@ -1293,6 +1317,9 @@
         "name": "EnterSceneReadyRsp"
     },
     {
+        "name": "EnterTrialAvatarActivityDungeonRsp"
+    },
+    {
         "name": "EnterWorldAreaRsp"
     },
     {
@@ -1308,22 +1335,28 @@
         "name": "EvtAvatarLockChairRsp"
     },
     {
+        "name": "ExecuteGadgetLuaRsp"
+    },
+    {
         "name": "FinishedParentQuestNotify"
     },
     {
         "name": "FinishedParentQuestUpdateNotify"
     },
     {
-        "name": "FireWorkData"
+        "name": "ReformFireworksRsp"
     },
     {
-        "name": "FireWorkNotify"
+        "name": "FireworksLaunchDataNotify"
     },
     {
-        "name": "FireworkSetData"
+        "name": "FireworksLaunchSchemeData"
     },
     {
-        "name": "FireworkSetNotify"
+        "name": "FireworksReformDataNotify"
+    },
+    {
+        "name": "FireworksReformData"
     },
     {
         "name": "ForgeDataNotify"
@@ -1347,15 +1380,6 @@
         "name": "FurnitureCurModuleArrangeCountNotify"
     },
     {
-        "name": "FurnitureMakeRsp"
-    },
-    {
-        "name": "FurnitureMakeSlot"
-    },
-    {
-        "name": "FurnitureMakeStartRsp"
-    },
-    {
         "name": "GachaWishRsp"
     },
     {
@@ -1377,6 +1401,9 @@
         "name": "GetActivityShopSheetInfoRsp"
     },
     {
+        "name": "GetAllActivatedBargainDataRsp"
+    },
+    {
         "name": "GetAllMailResultNotify"
     },
     {
@@ -1386,19 +1413,10 @@
         "name": "GetAuthkeyRsp"
     },
     {
-        "name": "ChatEmojiCollectionData"
-    },
-    {
-        "name": "GetChatEmojiCollectionRsp"
+        "name": "GetBargainDataRsp"
     },
     {
         "name": "GetCompoundDataRsp"
-    },
-    {
-        "name": "DailyDungeonEntryInfo"
-    },
-    {
-        "name": "GetDailyDungeonEntryInfoRsp"
     },
     {
         "name": "GetFriendShowAvatarInfoRsp"
@@ -1416,12 +1434,6 @@
         "name": "GetMailItemRsp"
     },
     {
-        "name": "GetMapAreaRsp"
-    },
-    {
-        "name": "MapAreaInfo"
-    },
-    {
         "name": "GetOnlinePlayerListRsp"
     },
     {
@@ -1437,9 +1449,6 @@
         "name": "GetPlayerTokenRsp"
     },
     {
-        "name": "CityInfo"
-    },
-    {
         "name": "GetSceneAreaRsp"
     },
     {
@@ -1449,16 +1458,28 @@
         "name": "GetShopmallDataRsp"
     },
     {
-        "name": "GetShopRsp"
+        "name": "ShopGoods"
     },
     {
         "name": "Shop"
     },
     {
-        "name": "GetWidgetSlotRsp"
+        "name": "GetUgcBriefInfoRsp"
+    },
+    {
+        "name": "UgcMusicBriefInfo"
+    },
+    {
+        "name": "GetUgcRsp"
+    },
+    {
+        "name": "UgcMusicRecord"
     },
     {
         "name": "GetWorldMpInfoRsp"
+    },
+    {
+        "name": "GivingRecordNotify"
     },
     {
         "name": "GroupSuiteNotify"
@@ -1470,10 +1491,13 @@
         "name": "H5ActivityIdsNotify"
     },
     {
-        "name": "HomeBasicInfoNotify"
+        "name": "HomeAllUnlockedBgmIdListNotify"
     },
     {
-        "name": "HomeBasicInfo"
+        "name": "HomeChangeBgmNotify"
+    },
+    {
+        "name": "HomeChangeBgmRsp"
     },
     {
         "name": "HomeChangeEditModeRsp"
@@ -1485,25 +1509,19 @@
         "name": "HomeChooseModuleRsp"
     },
     {
-        "name": "HomeComfortInfoNotify"
-    },
-    {
-        "name": "HomeModuleComfortInfo"
-    },
-    {
         "name": "HomeGetArrangementInfoRsp"
     },
     {
-        "name": "HomeMarkPointNotify"
-    },
-    {
-        "name": "HomeMarkPointSceneData"
+        "name": "HomeGetOnlineStatusRsp"
     },
     {
         "name": "HomeModuleSeenRsp"
     },
     {
         "name": "HomeModuleUnlockNotify"
+    },
+    {
+        "name": "HomeNewUnlockedBgmIdListNotify"
     },
     {
         "name": "HomePreChangeEditModeNotify"
@@ -1521,16 +1539,28 @@
         "name": "HomeResourceTakeHomeCoinRsp"
     },
     {
+        "name": "HomeSaveArrangementNoChangeRsp"
+    },
+    {
         "name": "HomeSceneInitFinishReq"
     },
     {
         "name": "HomeSceneJumpRsp"
     },
     {
+        "name": "HomeUnknown1Notify"
+    },
+    {
         "name": "HostPlayerNotify"
     },
     {
         "name": "ItemAddHintNotify"
+    },
+    {
+        "name": "ItemGivingRsp"
+    },
+    {
+        "name": "LevelupCityRsp"
     },
     {
         "name": "LifeStateChangeNotify"
@@ -1545,10 +1575,16 @@
         "name": "MailItem"
     },
     {
+        "name": "MarkMapRsp"
+    },
+    {
         "name": "MarkNewNotify"
     },
     {
         "name": "McoinExchangeHcoinRsp"
+    },
+    {
+        "name": "MonsterForceAlertNotify"
     },
     {
         "name": "MusicGameCreateBeatmapRsp"
@@ -1557,13 +1593,16 @@
         "name": "MusicGameUnknown1Enum"
     },
     {
+        "name": "MusicBeatmap"
+    },
+    {
+        "name": "MusicBriefInfo"
+    },
+    {
         "name": "MusicGameGetBeatmapRsp"
     },
     {
         "name": "MusicGameSearchBeatmapRsp"
-    },
-    {
-        "name": "MusicGameSettleRsp"
     },
     {
         "name": "MusicGameStartRsp"
@@ -1599,6 +1638,15 @@
         "name": "PlatformStopRouteNotify"
     },
     {
+        "name": "PlayerApplyEnterHomeNotify"
+    },
+    {
+        "name": "PlayerApplyEnterHomeResultNotify"
+    },
+    {
+        "name": "PlayerApplyEnterHomeResultRsp"
+    },
+    {
         "name": "PlayerApplyEnterMpNotify"
     },
     {
@@ -1626,6 +1674,9 @@
         "name": "PlayerDataNotify"
     },
     {
+        "name": "PropValue"
+    },
+    {
         "name": "PlayerEnterDungeonRsp"
     },
     {
@@ -1650,31 +1701,13 @@
         "name": "PlayerGetForceQuitBanInfoRsp"
     },
     {
-        "name": "PlayerHomeCompInfoNotify"
-    },
-    {
-        "name": "PlayerHomeCompInfo"
-    },
-    {
-        "name": "Investigation"
-    },
-    {
-        "name": "InvestigationTarget"
-    },
-    {
-        "name": "PlayerInvestigationAllInfoNotify"
-    },
-    {
-        "name": "PlayerInvestigationNotify"
-    },
-    {
-        "name": "PlayerInvestigationTargetNotify"
-    },
-    {
         "name": "PlayerLevelRewardUpdateNotify"
     },
     {
         "name": "PlayerLoginRsp"
+    },
+    {
+        "name": "PlayerPreEnterMpNotify"
     },
     {
         "name": "PlayerPropChangeNotify"
@@ -1686,6 +1719,9 @@
         "name": "PlayerPropNotify"
     },
     {
+        "name": "PlayerSetPauseRsp"
+    },
+    {
         "name": "PlayerStoreNotify"
     },
     {
@@ -1693,6 +1729,9 @@
     },
     {
         "name": "PlayerTimeNotify"
+    },
+    {
+        "name": "MapLayerInfo"
     },
     {
         "name": "PlayerWorldSceneInfoListNotify"
@@ -1722,16 +1761,19 @@
         "name": "QueryCodexMonsterBeKilledNumRsp"
     },
     {
-        "name": "PathStatusType"
-    },
-    {
-        "name": "QueryPathRsp"
-    },
-    {
         "name": "QuestCreateEntityRsp"
     },
     {
         "name": "QuestDestroyEntityRsp"
+    },
+    {
+        "name": "QuestDestroyNpcRsp"
+    },
+    {
+        "name": "QuestGlobalVarNotify"
+    },
+    {
+        "name": "QuestGlobalVar"
     },
     {
         "name": "QuestListNotify"
@@ -1746,7 +1788,13 @@
         "name": "QuestTransmitRsp"
     },
     {
+        "name": "QuestUpdateQuestVarNotify"
+    },
+    {
         "name": "QuestUpdateQuestVarRsp"
+    },
+    {
+        "name": "ReceivedTrialAvatarActivityRewardRsp"
     },
     {
         "name": "ReliquaryDecomposeRsp"
@@ -1755,7 +1803,7 @@
         "name": "ReliquaryUpgradeRsp"
     },
     {
-        "name": "DelBackupAvatarTeamRsp"
+        "name": "RemoveCustomTeamRsp"
     },
     {
         "name": "ResinChangeNotify"
@@ -1779,6 +1827,9 @@
         "name": "SceneEntityMoveNotify"
     },
     {
+        "name": "SceneEntityUpdateNotify"
+    },
+    {
         "name": "SceneForceLockNotify"
     },
     {
@@ -1800,6 +1851,9 @@
         "name": "ScenePlayerLocationNotify"
     },
     {
+        "name": "ScenePlayerSoundNotify"
+    },
+    {
         "name": "ScenePointUnlockNotify"
     },
     {
@@ -1816,9 +1870,6 @@
     },
     {
         "name": "SelectWorktopOptionRsp"
-    },
-    {
-        "name": "ServerAnnounceNotify"
     },
     {
         "name": "ServerAnnounceRevokeNotify"
@@ -1863,13 +1914,13 @@
         "name": "SetUpAvatarTeamRsp"
     },
     {
-        "name": "SetUpLunchBoxWidgetRsp"
-    },
-    {
         "name": "SetWidgetSlotRsp"
     },
     {
-        "name": "SkipPlayerGameTimeRsp"
+        "name": "ShowClientGuideNotify"
+    },
+    {
+        "name": "ShowCommonTipsNotify"
     },
     {
         "name": "StoreItemChangeNotify"
@@ -1890,22 +1941,7 @@
         "name": "TeamEntityInfo"
     },
     {
-        "name": "TakeAchievementGoalRewardRsp"
-    },
-    {
-        "name": "TakeAchievementRewardRsp"
-    },
-    {
         "name": "TakeBattlePassRewardRsp"
-    },
-    {
-        "name": "TakeFurnitureMakeRsp"
-    },
-    {
-        "name": "TakeInvestigationRewardRsp"
-    },
-    {
-        "name": "TakeInvestigationTargetRewardRsp"
     },
     {
         "name": "TakeoffEquipRsp"
@@ -1947,9 +1983,6 @@
         "name": "TowerTeamSelectRsp"
     },
     {
-        "name": "TryEnterHomeRsp"
-    },
-    {
         "name": "UnlockAvatarTalentRsp"
     },
     {
@@ -1959,10 +1992,10 @@
         "name": "UnlockedFurnitureSuiteDataNotify"
     },
     {
-        "name": "HomeAllUnlockedBgmIdListNotify"
+        "name": "Unk2700LOHBMOKOPLHServerNotify"
     },
     {
-        "name": "HomeNewUnlockedBgmIdListNotify"
+        "name": "Unk2700MEBFPBDNPGOServerNotify"
     },
     {
         "name": "UnlockNameCardNotify"
@@ -2001,25 +2034,10 @@
         "name": "WearEquipRsp"
     },
     {
-        "name": "WidgetCoolDownData"
-    },
-    {
-        "name": "WidgetCoolDownNotify"
-    },
-    {
         "name": "WidgetDoBagRsp"
     },
     {
         "name": "WidgetGadgetAllDataNotify"
-    },
-    {
-        "name": "WidgetGadgetDataNotify"
-    },
-    {
-        "name": "WidgetGadgetData"
-    },
-    {
-        "name": "WidgetSlotChangeNotify"
     },
     {
         "name": "WindSeedType1Notify"
@@ -2032,9 +2050,6 @@
     },
     {
         "name": "WorldDataNotify"
-    },
-    {
-        "name": "WorldOwnerDailyTaskNotify"
     },
     {
         "name": "WorldPlayerDieNotify"

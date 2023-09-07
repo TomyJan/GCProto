@@ -15,13 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-
 option java_package = "emu.grasscutter.net.proto";
-
-
-// Obf: IGFHEIKIJAO
+import "MapLayerInfo.proto";
+// Obf: FCGGGBEOFIJ
 message PlayerWorldSceneInfo {
-	uint32 scene_id = 2;
-	repeated uint32 scene_tag_id_list = 11;
-	bool is_locked = 8;
+	MapLayerInfo map_layer_info = 1;
+	uint32 scene_id = 12;
+	bool is_locked = 2;
+	repeated uint32 scene_tag_id_list = 7;
 }

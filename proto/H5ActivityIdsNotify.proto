@@ -15,13 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-
 option java_package = "emu.grasscutter.net.proto";
-
-
-// CmdId: 5687
-// Obf: GGHFPMEMPIE
+// CmdId: 28482
+// Obf: HJNIDODDMPH
 message H5ActivityIdsNotify {
-	map<uint32, uint32> h5_activity_map = 15;
-	uint32 client_red_dot_timestamp = 3;
+	uint32 client_red_dot_timestamp = 14;
+	map<uint32, uint32> h5_activity_map = 12;
 }

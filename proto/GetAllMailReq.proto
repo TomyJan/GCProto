@@ -15,12 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-
 option java_package = "emu.grasscutter.net.proto";
-
-
-// CmdId: 1484
-// Obf: LHMFOJBAOKM
+// CmdId: 29228
+// Obf: OCHDJHKDENA
 message GetAllMailReq {
-	bool is_collected = 7;
+	bool is_collected = 2;
 }

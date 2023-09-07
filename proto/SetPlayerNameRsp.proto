@@ -15,13 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-
 option java_package = "emu.grasscutter.net.proto";
-
-
-// CmdId: 106
-// Obf: DPMBIHGIAKA
+// CmdId: 25056
+// Obf: FEDOJGKOGLO
 message SetPlayerNameRsp {
-	int32 retcode = 14;
-	string nick_name = 15;
+	string nick_name = 12;
+	int32 retcode = 6;
 }

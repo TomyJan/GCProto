@@ -15,12 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-
 option java_package = "emu.grasscutter.net.proto";
-
-
-// CmdId: 4498
-// Obf: BAKOLHAPFMG
+// CmdId: 6476
+// Obf: NPEEIJGNCBG
 message HomeChangeBgmRsp {
-	int32 retcode = 11;
+	int32 retcode = 10;
 }

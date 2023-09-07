@@ -15,12 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-
 option java_package = "emu.grasscutter.net.proto";
-
-
-// Obf: DAOCMABCHOI
+// Obf: HHAHFPONOOI
 message FurnitureMakeMakeInfo {
+	uint32 furniture_id = 8;
 	uint32 make_count = 5;
-	uint32 furniture_id = 11;
 }

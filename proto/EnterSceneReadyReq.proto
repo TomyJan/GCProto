@@ -15,12 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-
 option java_package = "emu.grasscutter.net.proto";
-
-
-// CmdId: 251
-// Obf: IEJDFJHKAGE
+// CmdId: 5011
+// Obf: HDKGADMEFMP
 message EnterSceneReadyReq {
-	uint32 enter_scene_token = 14;
+	uint32 enter_scene_token = 15;
 }

@@ -15,12 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-
 option java_package = "emu.grasscutter.net.proto";
-
-
-import "ACKNNJIEGEK.proto";
-// Obf: OEKOABENGBG
+import "JGDMDPNJLCA.proto";
+// Obf: OPLKPKFMFNJ
 message SandwormCannonDetailInfo {
-	repeated ACKNNJIEGEK CEBANFGCAFM = 2;
+	repeated JGDMDPNJLCA HAKEHEFJDBD = 15;
 }

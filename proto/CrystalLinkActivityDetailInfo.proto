@@ -15,13 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-
 option java_package = "emu.grasscutter.net.proto";
-
-
 import "CrystalLinkLevelInfo.proto";
-// Obf: BOFIFGCOAAB
+// Obf: CMABEBHJACJ
 message CrystalLinkActivityDetailInfo {
-	repeated CrystalLinkLevelInfo level_info_list = 2;
-	uint32 difficulty_id = 15;
+	repeated CrystalLinkLevelInfo level_info_list = 13;
+	uint32 difficulty_id = 1;
 }

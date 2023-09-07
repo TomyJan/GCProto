@@ -7,7 +7,7 @@ const readline = require("readline");
 const read_cmdid_last = "cmdid_last.csv";
 const read_cmdid = "cmdid.csv";
 const read_cmdid_output = "cmdid.json";
-const read_cmdid_ht_output = "cmdid_ht_37.json";
+const read_cmdid_ht_output = "cmdid_ht_40.json";
 const read_cmdid_output_gc = "cmdid_gc.json";
 const read_cmdid_output_gc_update = "cmdid_gc_update.json";
 const read_cmdid_output_gc_nofound = "cmdid_gc_nofound.json";
@@ -31,7 +31,7 @@ const read_cmdid_gc =
 const folder_packet_gc =
   "../GSServer-GC/src/main/java/emu/grasscutter/server/packet/";
 
-const folder_gc_scan = "../GSServer-GC/src/main/java/emu/grasscutter/";
+const folder_gc_scan = "../GSServer-GCOriginal/src/main/java/emu/grasscutter/";
 
 //const read_cmdid = fs.readFileSync("cmdid.csv");
 //const read_packetopcodes = fs.readFileSync("PacketOpcodes.java");
@@ -972,7 +972,7 @@ function cmdid_json_to_csv() {
 
   const csvHeaders = "ID,Name\n";
 
-  const csvRows = Object.entries(k).map(([name, id]) => `${name},${id}`);
+  const csvRows = Object.entries(k).map(([name, id]) => `${id},${name}`);
 
   const csvData = csvRows.join("\n");
 
@@ -981,10 +981,10 @@ function cmdid_json_to_csv() {
   console.log("CSV file written successfully");
 }
 
-//cmdid_json_to_csv();
+// cmdid_json_to_csv();
 // Update GC Proto
 // get_cmdid_gc(); // 1. get cmd old gc
-// read_cmdid_ht_json(); // 2 or
+//read_cmdid_ht_json(); // 2 or
 // get_cmdid_json();  // 2. get last cmdid.csv to json
 // now we have cmdid_gc.json and cmdid.json
 // update_cmdid_gc(); // 3. update gc cmdid (mode by id)
@@ -992,7 +992,7 @@ function cmdid_json_to_csv() {
 // npx prettier --write PacketOpcodes.java
 // scan_gc(); // 5. scan gc
 // clean_proto_event(); // 6. clean event, need manual
- clean_proto_gen(); // 6. clean proto
+// clean_proto_gen(); // 6. clean proto
 // clean_proto_gen_v2();
 
 // TODO: clean DungeonSettleNotify

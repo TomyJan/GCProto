@@ -15,13 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-
 option java_package = "emu.grasscutter.net.proto";
-
-
-// CmdId: 282
-// Obf: NKPMELMPFMD
+// CmdId: 4744
+// Obf: DCBGKOFOANI
 message EnterSceneReadyRsp {
-	uint32 enter_scene_token = 3;
-	int32 retcode = 13;
+	uint32 enter_scene_token = 12;
+	int32 retcode = 2;
 }

@@ -15,13 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-
 option java_package = "emu.grasscutter.net.proto";
-
-
 import "GameplayRecommendationReliquaryMainPropData.proto";
-// Obf: DDGDNMGNCHP
+// Obf: LHNBFIGNBPF
 message GameplayRecommendationReliquaryResponse {
-	uint32 equip_type = 6;
-	repeated GameplayRecommendationReliquaryMainPropData main_prop_data_list = 5;
+	uint32 equip_type = 11;
+	repeated GameplayRecommendationReliquaryMainPropData main_prop_data_list = 14;
 }

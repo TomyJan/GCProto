@@ -15,11 +15,8 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-
 option java_package = "emu.grasscutter.net.proto";
-
-
-// Obf: GEHMDJHCOIE
+// Obf: OHNCBLIFLLB
 enum ChangeEnergyReason {
 	CHANGE_ENERGY_REASON_NONE = 0;
 	CHANGE_ENERGY_REASON_SKILL_START = 1;

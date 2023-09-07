@@ -15,14 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-
 option java_package = "emu.grasscutter.net.proto";
-
-
 import "AbilityString.proto";
 import "AbilityAttachedModifier.proto";
 import "ModifierDurability.proto";
-// Obf: DCPBFOKKPFJ
+// Obf: OAHPGFENJJK
 message AbilityAppliedModifier {
 	int32 modifier_local_id = 1;
 	uint32 parent_ability_entity_id = 2;

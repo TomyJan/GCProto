@@ -15,14 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-
 option java_package = "emu.grasscutter.net.proto";
-
-
 import "ItemParam.proto";
-// Obf: BBANKBFEFAA
+// Obf: LJJFPCDLGIJ
 message ShopCardProduct {
-	// Obf: NGEFDJMEEDL
+	// Obf: JIBALNEIBIK
 	message ResinCard {
 		repeated ItemParam base_item_list = 1;
 		repeated ItemParam per_day_item_list = 2;

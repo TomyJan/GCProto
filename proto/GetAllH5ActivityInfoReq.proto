@@ -15,11 +15,8 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-
 option java_package = "emu.grasscutter.net.proto";
-
-
-// CmdId: 5658
-// Obf: IFMGFGLPEJM
+// CmdId: 4793
+// Obf: CFMGENNHKOD
 message GetAllH5ActivityInfoReq {
 }

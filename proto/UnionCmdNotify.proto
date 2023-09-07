@@ -15,13 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-
 option java_package = "emu.grasscutter.net.proto";
-
-
 import "UnionCmd.proto";
-// CmdId: 16
-// Obf: DABEPBFAFLP
+// CmdId: 21088
+// Obf: GLEELPIOJHO
 message UnionCmdNotify {
-	repeated UnionCmd cmd_list = 8;
+	repeated UnionCmd cmd_list = 7;
 }

@@ -15,11 +15,8 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-
 option java_package = "emu.grasscutter.net.proto";
-
-
-// Obf: KKNGABPHNLP
+// Obf: EPENKOINLCG
 message SeaLampSectionInfo {
-	uint32 section_id = 13;
+	uint32 section_id = 10;
 }

@@ -15,16 +15,13 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-
 option java_package = "emu.grasscutter.net.proto";
-
-
 import "FriendOnlineState.proto";
 import "SocialShowAvatarInfo.proto";
 import "FriendEnterHomeOption.proto";
 import "ProfilePicture.proto";
 import "PlatformType.proto";
-// Obf: LOJEJNBFKEA
+// Obf: JIFKJKFNBFF
 message FriendBrief {
 	uint32 uid = 1;
 	string nickname = 2;
@@ -48,4 +45,6 @@ message FriendBrief {
 	bool is_game_source = 25;
 	bool is_psn_source = 26;
 	PlatformType platform_type = 27;
+	bool is_in_duel = 28;
+	bool is_duel_observable = 29;
 }

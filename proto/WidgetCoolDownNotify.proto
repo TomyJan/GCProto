@@ -15,14 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-
 option java_package = "emu.grasscutter.net.proto";
-
-
 import "WidgetCoolDownData.proto";
-// CmdId: 4298
-// Obf: APKIPCDAHLD
+// CmdId: 27222
+// Obf: ANFHONAFACH
 message WidgetCoolDownNotify {
-	repeated WidgetCoolDownData normal_cool_down_data_list = 5;
 	repeated WidgetCoolDownData group_cool_down_data_list = 7;
+	repeated WidgetCoolDownData normal_cool_down_data_list = 10;
 }

@@ -15,11 +15,8 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-
 option java_package = "emu.grasscutter.net.proto";
-
-
-// Obf: DPIHCPLMCID
+// Obf: EDOAABBJLID
 enum MailCollectState {
 	MAIL_COLLECT_STATE_COLLECTIBLE_UNKNOWN = 0;
 	MAIL_COLLECT_STATE_NOT_COLLECTIBLE = 1;

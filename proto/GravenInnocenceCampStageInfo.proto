@@ -15,14 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-
 option java_package = "emu.grasscutter.net.proto";
-
-
-// Obf: HEIPNOGBCPI
+// Obf: CDBDGMFBODA
 message GravenInnocenceCampStageInfo {
-	bool is_finished = 10;
-	bool is_open = 15;
-	uint32 stage_id = 13;
-	uint32 level_id = 12;
+	uint32 stage_id = 6;
+	bool is_open = 12;
+	bool is_finished = 11;
+	uint32 level_id = 14;
 }

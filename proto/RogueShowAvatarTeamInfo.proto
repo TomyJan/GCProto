@@ -15,12 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-
 option java_package = "emu.grasscutter.net.proto";
-
-
 import "RogueAvatarInfo.proto";
-// Obf: PAFAMIEEDHL
+// Obf: ILENPPFEOAP
 message RogueShowAvatarTeamInfo {
-	repeated RogueAvatarInfo avatar_list = 5;
+	repeated RogueAvatarInfo avatar_list = 3;
 }

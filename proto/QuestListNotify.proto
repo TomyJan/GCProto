@@ -15,13 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-
 option java_package = "emu.grasscutter.net.proto";
-
-
 import "Quest.proto";
-// CmdId: 475
-// Obf: PKOLNCFFINJ
+// CmdId: 29451
+// Obf: LNKCGCNLKDP
 message QuestListNotify {
-	repeated Quest quest_list = 11;
+	repeated Quest quest_list = 13;
 }

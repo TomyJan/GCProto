@@ -15,14 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-
 option java_package = "emu.grasscutter.net.proto";
-
-
 import "MailTextContent.proto";
 import "MailItem.proto";
 import "MailCollectState.proto";
-// Obf: OAGKLHBIAAF
+// Obf: NGGHHPIHNPM
 message MailData {
 	uint32 mailId = 1;
 	MailTextContent mail_text_content = 4;

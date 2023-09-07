@@ -15,13 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-
 option java_package = "emu.grasscutter.net.proto";
-
-
 import "ItemParam.proto";
-// Obf: CMGJPGHLANB
+// Obf: BJDPFHHIBKG
 message IrodoriFlowerData {
-	repeated ItemParam used_flower_list = 6;
-	repeated uint32 finished_theme_list = 5;
+	repeated uint32 finished_theme_list = 3;
+	repeated ItemParam used_flower_list = 2;
 }

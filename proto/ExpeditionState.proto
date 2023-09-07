@@ -15,11 +15,8 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-
 option java_package = "emu.grasscutter.net.proto";
-
-
-// Obf: GPPFNJKCLPD
+// Obf: OMJCJJGBBNI
 enum ExpeditionState {
 	EXPEDITION_NONE = 0;
 	EXPEDITION_STARTED = 1;

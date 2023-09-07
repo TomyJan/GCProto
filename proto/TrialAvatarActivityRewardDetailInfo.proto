@@ -15,14 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-
 option java_package = "emu.grasscutter.net.proto";
-
-
-// Obf: LEJKLPGFMIG
+// Obf: PPLODNCPDAI
 message TrialAvatarActivityRewardDetailInfo {
-	bool received_reward = 12;
-	bool passed_dungeon = 9;
-	uint32 reward_id = 14;
-	uint32 trial_avatar_index_id = 5;
+	bool passed_dungeon = 6;
+	uint32 reward_id = 15;
+	bool received_reward = 8;
+	uint32 trial_avatar_index_id = 4;
 }

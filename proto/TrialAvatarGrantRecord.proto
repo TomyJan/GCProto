@@ -15,10 +15,8 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-
 option java_package = "emu.grasscutter.net.proto";
-
-// Obf: GCFNFGACEOP
+// Obf: KBNIDGMCKMD
 message TrialAvatarGrantRecord {
 	enum GrantReason {
         GRANT_REASON_INVALID = 0;
@@ -38,7 +36,7 @@ message TrialAvatarGrantRecord {
         FJBKKFJNBHD_HMLDNDBKNFL = 14;
         FJBKKFJNBHD_PJDEJIHFCPP = 15;
     }
-
+	
 	uint32 grant_reason = 1;
 	uint32 from_parent_quest_id = 2;
 }

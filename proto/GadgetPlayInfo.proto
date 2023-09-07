@@ -15,12 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-
 option java_package = "emu.grasscutter.net.proto";
-
-
 import "GadgetCrucibleInfo.proto";
-// Obf: CMNFEFNBLLD
+// Obf: LJJODNPIMAI
 message GadgetPlayInfo {
 	uint32 play_type = 1;
 	uint32 duration = 2;
